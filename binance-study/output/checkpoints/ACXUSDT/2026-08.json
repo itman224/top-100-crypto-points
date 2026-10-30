@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 117,
+    "1d": 6,
+    "1h": 48,
+    "4h": 20,
+    "5m": 171
+  },
+  "event_file": "events/ACXUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 116388,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 116388,
+      "source_id": "ce4eaa0a9b21d47f22b0fd5614bdf148ca5f9b00f130754f820370fee13fe341",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ACXUSDT/5m/ACXUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "ACXUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

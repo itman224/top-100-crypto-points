@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 446,
+    "1d": 28,
+    "1h": 315,
+    "4h": 127,
+    "5m": 418
+  },
+  "event_file": "events/TRIAUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 349028,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 349028,
+      "source_id": "9d573707f1f40a99e0ae6c3259d641006cc2c2d77c1b4e8de2d1078aa477c1e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "TRIAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

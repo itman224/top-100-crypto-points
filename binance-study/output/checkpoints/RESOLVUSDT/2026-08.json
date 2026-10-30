@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 144,
+    "1d": 24,
+    "1h": 132,
+    "4h": 79,
+    "5m": 106
+  },
+  "event_file": "events/RESOLVUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 314250,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 314250,
+      "source_id": "94c42bf858a1449daed0a38cbe969dae16a3056e8ae088ff96d06029f59e741c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/RESOLVUSDT/5m/RESOLVUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "RESOLVUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 77,
+    "1d": 22,
+    "1h": 129,
+    "4h": 77,
+    "5m": 70
+  },
+  "event_file": "events/XPLUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 317363,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "8600b9b76d678d01550297a53a09cf7bd0f5c63e61426afe587bbf3180cf2d4a",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12544,
+      "source_id": "b58ede76ae5dc46c893f5afde0c8c6cacf7df13ebf8057654b4ab10256a64548",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12823,
+      "source_id": "a9e04fffc390ed4bccb08375a65237ba0901610683b284ed39f88af4fe9221b3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12112,
+      "source_id": "87fe2c334d24644c6187830ffb732e151a88cf0ad1f04b27c680c14bfcbb318b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11925,
+      "source_id": "e38ab88ef80d5ce0fe41f4fbb03ef4be91e72029a03c517c9d78bd07d40480f8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12363,
+      "source_id": "79ffb9f05f65134a7dfb472361823907063f3c8d444495e63da450369ecc6ac9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12298,
+      "source_id": "f38008293ae6f80a0d1ec1d16569903decf9d0845e7230132e6b17c3686b5f16",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12307,
+      "source_id": "67d45fc682945f51828dd52af47efe4245d22bd21ad9b6d0a3a1bb28889949a5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12470,
+      "source_id": "720fa967e549c628a28192dd4a06b9b85e1516136c1a9edf797e328e6c143270",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12047,
+      "source_id": "aba12509987f15cdbef1ff18d418088040f9481fb09bb8d74281c3a6b2fb6036",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11965,
+      "source_id": "11bdb16e0fe61e808c30cacf0026e7c979360fb85ee60f291e6b327076565d9e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12042,
+      "source_id": "ea0e764bc003d307bccaabde8663e2de797c408cf60b59aa15e8cc90a1f2873c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12324,
+      "source_id": "93c64d8e232e29668b410dc68c6324d7427054084b1794bc79fd26cc557ea556",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12309,
+      "source_id": "0b15906e407ac5a8d77a44b1678a4f0c7a9c79e3aee84de0058153fbb2b603be",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12172,
+      "source_id": "e745c353872951cf25c7914d2f699ba3379044ce1d0508f7c17eb4ea3ac73372",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12648,
+      "source_id": "30e86e40cdde528df1cd78af65fe4764f289e6eef1f5c1115e6685d1dc376949",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12286,
+      "source_id": "c8e94ce2e41349c2ac37fddac3952c59bbd0015ed58ff3c8cf8f3516527dec30",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11961,
+      "source_id": "2b014a174de6fd4abce7ab2b4256e0c6c7c8dad1de92dbdca9d56c5720eefc26",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12156,
+      "source_id": "7f166c962de7fbe2e911c48aa7fa96604970ccf7524461bc4f746966179b3714",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12048,
+      "source_id": "9c242430279071da2e9990a436347dd63fac6a400e369138763b3d34b8074d88",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12151,
+      "source_id": "5f12eb421fa3b92de193e3979bacf908e2c3f5bd87e24de4663baa80d65e231e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12266,
+      "source_id": "314be1a259d9340fcd10ddda061ba519a2076ffc3a062a492a6f25e8a147b73e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12181,
+      "source_id": "faebc1c17fd3329a70eb40adaa1c0979da8d069aa3af346732aa30a8857bfc5d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12075,
+      "source_id": "c9e9d4b85af1981d9c8a8022f03fb54af84e8da053cdb03a7d2142323fa4530d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11979,
+      "source_id": "c8826cea916ad8929ddb230bdcb93f93aae648100cd6481114bc8eac5eb7846f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11793,
+      "source_id": "c6ed35140cdd0b88d728862e1e1fea4c5bb32d3a798a95a951904c5819ff04c3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12118,
+      "source_id": "b22a5d363ef6aee80deefeeff3d1a4564602dcfaf1da972daede56f6b41f5dbc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XPLUSDT/5m/XPLUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "XPLUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

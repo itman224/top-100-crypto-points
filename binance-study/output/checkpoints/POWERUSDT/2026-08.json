@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 233,
+    "1d": 24,
+    "1h": 207,
+    "4h": 96,
+    "5m": 196
+  },
+  "event_file": "events/POWERUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 333535,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 333535,
+      "source_id": "576a99891306ab24f708430ab8557861f00555669fcac5b502b2274c55b53b11",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/POWERUSDT/5m/POWERUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "POWERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

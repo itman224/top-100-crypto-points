@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-04-30",
+  "event_counts": {
+    "15m": 1,
+    "1d": 12,
+    "1h": 3,
+    "4h": 8,
+    "5m": 0
+  },
+  "event_file": "events/PAXGUSDT/2026-04.jsonl.gz",
+  "month": "2026-04",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 355162,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 355162,
+      "source_id": "4aaacee126e2fa9e09d8559e0f03cbeb8d4ce2f1b230ded34276b7dbf382c027",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-04.zip"
+    }
+  ],
+  "start": "2026-04-01",
+  "symbol": "PAXGUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

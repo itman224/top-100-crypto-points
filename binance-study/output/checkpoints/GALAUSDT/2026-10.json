@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 132,
+    "1d": 22,
+    "1h": 138,
+    "4h": 82,
+    "5m": 101
+  },
+  "event_file": "events/GALAUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 316034,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "648fee1910b13eaf9721f34d6dabac11b5fb21af774d5f0283951f4d254f993e",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12184,
+      "source_id": "f96c170994e22aa0234d6f949e5afc10fbb6aa2cdfce057e41b8e5886f545c27",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13212,
+      "source_id": "f7cb4df24bae28247761978d8f833d0757e7c19dce6b287ae8a3c38c7d8f7f43",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12764,
+      "source_id": "5207ecf36125100d6f6137a74a7dbbc0dd4826638e72bd76e228d5e3493bc876",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12481,
+      "source_id": "db950ae1283e59e7e0c8260c467aff8e6c441461f54dc1c127d3ae10d7774f34",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12267,
+      "source_id": "f0bd1f14e3c38044670d6963c1c2eaf3c26671e01a62f48d3cc32190d52e4a05",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12154,
+      "source_id": "7e00e33c8a2e0f2ce74a6b9bf488bfe4f8de6a1aded48e351e3b3b0ac1a84b8c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12399,
+      "source_id": "a91d0e7b8a0b7ed7d5787ab0af83d948b2c0a314b02655ff804139464076338f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12463,
+      "source_id": "7ff54c18d15fb37555ef9512e7b39770922949b98da76e7491827bb2b4cd193c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12126,
+      "source_id": "513b5314c6aeef7a92ba07649638bb1e1b3142dc792ad82e70dfa7d914db64ba",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12323,
+      "source_id": "5bfef9af24f3cac936cd149d3854d5c7ef383ae1e5e5f97765d4d48f9a555a44",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11965,
+      "source_id": "13550451196a14ce2cbdfb2d85af9c9ef50add97fb679588b2c8db53f73d5d73",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12108,
+      "source_id": "536394d622780228d5b85884eeb1262922388c7d38d3b3307cc16e22a8e9c303",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12196,
+      "source_id": "0243769ea97a4c901fe014897346b413d7e64e63958c3d723b3d4a59742d115e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12021,
+      "source_id": "fe59494f150bc1c9978be838b49b0af061f139bb81fc91002ac79ca5d3c0dec8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12206,
+      "source_id": "cd77747c07b0bdcfae8584cbb895718f55754edab910b2f66ad06fc867ead03e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12045,
+      "source_id": "f2285a591ac5cc6386ae6163780bb7cf140c7d21d234102d285121654162718b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11797,
+      "source_id": "db1d1c472c1fcbe2fe81355fdaf252e01b24a0c4a4ba8d978106f81c80421533",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11998,
+      "source_id": "f172d622e5cc8e29397e61768973836bbdd720eaa85a63cf23697b8dd1e60613",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11970,
+      "source_id": "b0fdfdc33f6f4f1dbde43ac631dce1cd8ff3dcf904a5c8cda7681b31eda5d113",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12078,
+      "source_id": "a59dd39a7fbfe685ff3f4c41d823fdd79ddfef32ac45785d257a138609c3be6e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11933,
+      "source_id": "fa5d79244451437643a2b2d3e51b02e4e2fd9318763c1ebe029783a35fdfb237",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11946,
+      "source_id": "015d89059b71b8145e3e449f7dbfd7251d8e44aa7dc0723f63910618e4daba33",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11992,
+      "source_id": "0230e5fe3938cf3732afa9669b47fd2d954acbb108d4e8593b97893b28099788",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11786,
+      "source_id": "17ba796bed4b5f4bc96c07894cd274fe9086c26680a0fc6b974db2ec16f6d82c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11615,
+      "source_id": "59d3973a22445bd2991cfe2cc5359bfb26bb795c65797db791fdfdfea9491e97",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12005,
+      "source_id": "7d93af871ca5100e6e501e4d3dff406b5ba626b82f711fd979be2c0f8a64d813",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GALAUSDT/5m/GALAUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "GALAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

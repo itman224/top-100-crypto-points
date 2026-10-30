@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 354,
+    "1d": 27,
+    "1h": 269,
+    "4h": 111,
+    "5m": 254
+  },
+  "event_file": "events/ONDOUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 381598,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 381598,
+      "source_id": "d8062772de959d6596a6d4f7e069bdac9a59b88ad0bbe933d242c2beac53c339",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "ONDOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

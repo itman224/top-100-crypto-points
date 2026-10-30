@@ -1,0 +1,28 @@
+{
+  "symbol": "SOLUSDT",
+  "start_utc": "2026-04-01",
+  "end_inclusive_utc": "2026-04-03",
+  "expected_5m": 864,
+  "valid_5m": 864,
+  "missing_5m": 0,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "missing_ranges": [],
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SOLUSDT/5m/SOLUSDT-5m-2026-04.zip",
+      "source_id": "fe3dc03954ac3389d98eb7c7b584ef5ba074775f3529948c2655d446511b68ab",
+      "status": "available",
+      "bytes": 360345,
+      "error": null
+    }
+  ],
+  "downloaded_bytes": 360345,
+  "frame_counts": {
+    "5m": 864,
+    "15m": 288,
+    "1h": 72,
+    "4h": 18,
+    "1d": 3
+  }
+}

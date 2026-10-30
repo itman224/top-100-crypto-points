@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 141,
+    "1d": 23,
+    "1h": 159,
+    "4h": 90,
+    "5m": 93
+  },
+  "event_file": "events/ZECUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 358916,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "dd822ffe29894bc987f6248a444eef96743973cafa230b10ea82d71163d4d44e",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13939,
+      "source_id": "6ea120383d0f231ce081373e55bc3f52a4dbfad6409555735680e6da7f707f31",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13977,
+      "source_id": "64f1fd2b9eeba0908a356b0ef0ffe6bdb077f56687e23de2144775f3ae59808c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13450,
+      "source_id": "83f851e94bf6e58a44f97d6db3d5acd5f4fa0b4a1dd718ecc138b299cf6055a6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13480,
+      "source_id": "d81d366348061755941b437c97f18d344ba3af8327de30429c6aacc0f048fb77",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13899,
+      "source_id": "529d846d8fd95c5f7942ffed141166f0bee1eb1b476f365405dea684c0530379",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13788,
+      "source_id": "f2929afb2a88d465e45f2092488bb71a702e77a24cce3d8fe343f13533a984af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13799,
+      "source_id": "9dc749b91c3a0986564ddfeb88e9048c94a3c37c0577d8115280548257e89004",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 14061,
+      "source_id": "ff632c60660544a44375a48fdd926415996a93a10e0fa6a53cfb7a12caf63c13",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13655,
+      "source_id": "de9bdccb3ca017cc8dd2bacf125774f8498922c713f21af9236742af1edd988f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13119,
+      "source_id": "46833b0af632c07a8ea325a6402d8e6f23b83b742185c96a0a851420e0ec074d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13469,
+      "source_id": "a344ad75f96b822cfa0ab715980845e900d622c90110e23701d8fff5d9657714",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13956,
+      "source_id": "adf0285b63a09ce1277d963f41ba946362308c8fd02d6d1b2752b8f0772494ed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13913,
+      "source_id": "2eef94964cf40a1320b00ecc06cb88dd94bb05b722c7d339a0a992518f9f9731",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 13981,
+      "source_id": "67c1c53ebfea32bd46a47c9502033edfb3983cbb04e793ffdf87097cfc07182b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 14067,
+      "source_id": "a8bf7a462d936a6c88eda039a9925ae5486a8b1f6482973f258bb3c949bf38ed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13847,
+      "source_id": "17696c5e7b23540ef6bd69beb4f1228c41921ad1abbe4490107e373b1e3bafaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 13648,
+      "source_id": "81d54941f905341832bb861886bbb680594c25aebf2c139cdc2c0ca082738008",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13837,
+      "source_id": "859a714a42b0ed4ec9d527dd5562414e9aaf09898becfd536c9f7db2b9d00b5b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 13897,
+      "source_id": "8f0e29571fb1a3841f6779d7ae204c29d4fc0784ee137d766a37d0477f874050",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13976,
+      "source_id": "db27f44068968becc870d5cc819cf4e191ae44c37615e589e7cd3edd9595b426",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 13941,
+      "source_id": "d4eeba820dfb051a4da64cb6e2c206b547d6dfc400cbcffc4771a239d80a110a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 14035,
+      "source_id": "b68adc1f240ad6fb909fd73abfdcff85314e0ff1faee8e29d791fa7bbb17e747",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13824,
+      "source_id": "7480472ed31c7ba4d61aaee67f7f14c6a535927baa103ad63c065f1c1ea1e872",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13721,
+      "source_id": "874e8c9f9d8788b582f9e839c273e9f137ed48002f4291432986de3de88afb51",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 13719,
+      "source_id": "bbeaf21c0798f76ea15e9e899e20e28df7a7a094abd873362440186ca814fa1e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13918,
+      "source_id": "bbe4417721afebe566b437e6f860dc9e53e6e39a74396a64d04efec40bfc8d1f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZECUSDT/5m/ZECUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ZECUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

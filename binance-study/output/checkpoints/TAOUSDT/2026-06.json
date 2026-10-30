@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 234,
+    "1d": 23,
+    "1h": 218,
+    "4h": 101,
+    "5m": 157
+  },
+  "event_file": "events/TAOUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 359660,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 359660,
+      "source_id": "6260049bd522d79780457d0aec55218bf691c09408e39e628e0e96d3d177b873",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "TAOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

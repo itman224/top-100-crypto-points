@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 63,
+    "1d": 21,
+    "1h": 90,
+    "4h": 60,
+    "5m": 27
+  },
+  "event_file": "events/XRPUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 362488,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 362488,
+      "source_id": "970266dab98cd6650e96a1be3b2616d2e9533ca19885ddb18a37c64fff9deac7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "XRPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

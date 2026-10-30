@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 192,
+    "1d": 22,
+    "1h": 199,
+    "4h": 105,
+    "5m": 106
+  },
+  "event_file": "events/GALAUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 346636,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 346636,
+      "source_id": "b0ca5500e88d5bc0a0d757ea9e861fe98fa12a885e3e2077768ea1386f891de4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/GALAUSDT/5m/GALAUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "GALAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

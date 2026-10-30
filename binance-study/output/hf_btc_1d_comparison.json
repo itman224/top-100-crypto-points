@@ -1,0 +1,24 @@
+{
+  "dataset": "linxy/USDT-M_Perpetual_Futures",
+  "revision": "0fac89cbb949a9020c55520350d486ddc6c18cfa",
+  "symbol": "BTCUSDT",
+  "timeframe": "1d",
+  "comparison_period": "2026-03-01 through 2026-03-31",
+  "comparison_fields": [
+    "open_time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "close_time",
+    "quote_volume"
+  ],
+  "official_url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1d/BTCUSDT-1d-2026-03.zip",
+  "rows_compared": 31,
+  "field_mismatches": 0,
+  "observed_dataset_first_open": "2020-01-01T00:00:00Z",
+  "observed_dataset_last_open": "2026-09-17T00:00:00Z",
+  "precision": "Numeric values compared as Decimal; timestamp columns interpreted as UTC.",
+  "limitation": "This single-symbol 1d sample does not validate 5m data, other symbols, or later coverage."
+}

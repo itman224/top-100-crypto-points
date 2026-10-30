@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 47,
+    "1d": 1,
+    "1h": 14,
+    "4h": 4,
+    "5m": 56
+  },
+  "event_file": "events/BEATUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 12866,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 12866,
+      "source_id": "1adc17db69baf8b37577661e7e0f09fecb565e7c0afa8f70513afc1207f84da5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "BEATUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

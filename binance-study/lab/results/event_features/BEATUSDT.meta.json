@@ -1,0 +1,1050 @@
+{
+  "symbol": "BEATUSDT",
+  "event_count": 17883,
+  "quality_counts": {
+    "complete": 17883
+  },
+  "source_event_files": [
+    "output/events/BEATUSDT/2026-04.jsonl.gz",
+    "output/events/BEATUSDT/2026-05.jsonl.gz",
+    "output/events/BEATUSDT/2026-06.jsonl.gz",
+    "output/events/BEATUSDT/2026-07.jsonl.gz",
+    "output/events/BEATUSDT/2026-08.jsonl.gz",
+    "output/events/BEATUSDT/2026-09.jsonl.gz",
+    "output/events/BEATUSDT/2026-10-27.jsonl.gz",
+    "output/events/BEATUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/BEATUSDT/2026-04.jsonl.gz": "e7b3d04e3f3ab7f6325deaa067a17a00f37867773772a9b543bec3dfec01cb4e",
+    "output/events/BEATUSDT/2026-05.jsonl.gz": "daf79d59294993b18f060cd008c56d4f8107a8cbfdedc3b7470d475ff83184fc",
+    "output/events/BEATUSDT/2026-06.jsonl.gz": "93614fb0971d08f015410c715ff71265b61e104ce46844dc449ad26bb76ca2f5",
+    "output/events/BEATUSDT/2026-07.jsonl.gz": "8c59fee499a26d6847b65ee050851dd413c00e2858c9b1e84406fbcfb083814a",
+    "output/events/BEATUSDT/2026-08.jsonl.gz": "a67ec7e5962375ba8e032bdcf4a15167ff6188e899f33a89b030df598839a280",
+    "output/events/BEATUSDT/2026-09.jsonl.gz": "4862dbbf83bc1de2343fa63d1fb9a705bf29c60ab7f70beff2c45b1f7ba426d7",
+    "output/events/BEATUSDT/2026-10-27.jsonl.gz": "91e302bc4b61b87d5493af2ea462ce9ce862ed1e656329f75f3289692bb6d4e9",
+    "output/events/BEATUSDT/2026-10.jsonl.gz": "e58a5f98d0e9588afa018c08acf55c757db11b453f9fbc6a8816bfa3a59ee828"
+  },
+  "market_data_quality": {
+    "symbol": "BEATUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 100653,
+    "missing_5m": 31827,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2025-11-12T12:15:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07.zip",
+        "source_id": "c1f6b6f12625f943a100646422cdcd56f2efe3ea163d5892a080e9a6fc456c2f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-25.zip",
+        "source_id": "4e7aab69d3c41ff1783b32a98790a686ca15e7fd6c2ba69026494522e78bab89",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-26.zip",
+        "source_id": "d731ba2cc095f48a6a510f42abff46eeac5c3c81cc47015276d0f1a16588380d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-27.zip",
+        "source_id": "af82401c065e2551ca9752f01bad5258f40b913a98bcf19d3c82fe5f53292a68",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-28.zip",
+        "source_id": "210fdaaa6c64ff3ff0d98db68f6ca0625d640d7848414e04de3b231700688ef9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-29.zip",
+        "source_id": "0be6cfb92311b9e951e874a9402431ec9c075186952990b7bbe7c561f2f8d527",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-30.zip",
+        "source_id": "9e4f622bad2b2f2944a31042cee80ef7df993ad30cd9f12d246bd0a2580f8ce1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-07-31.zip",
+        "source_id": "4057fd886ddb5ac85ee63c171d1f1afd430185ae5330bf51527c8544ee243528",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08.zip",
+        "source_id": "32b1268f57667e9b37f947811c7ea6364a4c7713da2d3689a9bfa9d1c06bd5c7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-01.zip",
+        "source_id": "f563d4cc4b997003274d835e2658fbe443dae2d1031afe984ccc5904d5d6da26",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-02.zip",
+        "source_id": "f7b42d62beb9d31ae768fd0b048e4aae8585d3ed380600be839b0d98520cf6ae",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-03.zip",
+        "source_id": "a0f59c36a9505349fc94fec8910320b28d976831b90eb999f803a5eae0cd8657",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-04.zip",
+        "source_id": "c826b3c35cda96193bad095ae1d7ab80cba39da10e73a381a3373f2c1b66a275",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-05.zip",
+        "source_id": "129625e1a7ae8b7a22c1707fdabcc5e147d75d945bbbca188ed78a4e6873afa8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-06.zip",
+        "source_id": "1b3ca383c7048624396316df4b5ba975089694cf6ff64d0b91fb20c55c37ecde",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-07.zip",
+        "source_id": "89a50cc8c7971949a9b7d8c25e513c55f8a38e4be3ec718b26c5408970aeb86b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-08.zip",
+        "source_id": "7a2f248d41e91866b79dd6ba1bd08a92ba4905574c0a352e008ed390f73eda4b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-09.zip",
+        "source_id": "e83d9dbce1a40c9cb5f2c6055939a260d7fa74525717fe405c3e8a3155077d72",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-10.zip",
+        "source_id": "69b5cd2d8a093182228082367d87b7c383028a00ba72b46383400577e032842a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-11.zip",
+        "source_id": "c60c6697c3326cf4f747b4f86834cd671f41e59c2657d313b6a60775d540ea3a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-12.zip",
+        "source_id": "00c1280d7ca02c0f19d6008e5d02f16d4b277cb1cd323b06df5849f3e4f2d596",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-13.zip",
+        "source_id": "1518e342c49a23f3d92168030a74ff53ed395ba24e2c9ab6913bb5495f8173f8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-14.zip",
+        "source_id": "2b6539c0c5b2553d1ee0dc5aa8e979b21c66a407adae122101e6b61938f26901",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-15.zip",
+        "source_id": "c191ec16f92579203c02e74141914912e82cbf3b5635eb6f1b3f46ef1dcdc969",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-16.zip",
+        "source_id": "5b7878fdc2050e9b8fd3bbb8da9774d1f608e6a5c9f5446af7aed2cf350a41f3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-17.zip",
+        "source_id": "c13cb5ea8c841977e1c135cb4ff1a60f5097127e2e450982c2b97b506ea7b360",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-18.zip",
+        "source_id": "caa49506488b7f88af5725e21e0add816065937ab75906c08285920c58e93c5f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-19.zip",
+        "source_id": "225237aa143c45a4da26bcd5f8e2b9f588a470aea41514c6e173d121742132e0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-20.zip",
+        "source_id": "5e61b9ced1b322a0923dcf99028e13e33372f91e398a5b84efa2d2766aa243b0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-21.zip",
+        "source_id": "c47a3dad614f14088839b2600fdcdce737024de56e0f04613ae1d097ae382885",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-22.zip",
+        "source_id": "cf38142868cb6c12f2445aaaef40d93304890987e014e82848840729b45ea699",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-23.zip",
+        "source_id": "6204d0681a3e42d83ee17e734020bcba9d46fbd7585b95da5a5931cc1c208372",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-24.zip",
+        "source_id": "a773c95387459c9cf37c5c2c6714ca0635fc514f1159cd07644ea479e6315736",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-25.zip",
+        "source_id": "57806bc21be103d049bd614bbc675a2a8749d34a540293200eef77d49285880f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-26.zip",
+        "source_id": "fe0420e98577a4debbf0a3310890cc6f053bad20ef59abcb1410e990e6aa5640",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-27.zip",
+        "source_id": "bfeddab5244189ab70a8d3911a78758cab453e0fc80ac7db18f08e52a5334f65",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-28.zip",
+        "source_id": "21d91490004e1473b04b86d066df4faf4af437bb7de5e4d31d46416ebc5a1c5a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-29.zip",
+        "source_id": "6908d04350ae40451d0e728f55554a62495275703ddf2849027f45121f08b732",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-30.zip",
+        "source_id": "0001f624d9ac25e0a29e1fc82037ccabaf7fd6a59cfb175b95124d7368fd9455",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-08-31.zip",
+        "source_id": "fc2f9425bd95f14ef1ae0dce83c85e567800e953061222d7cf20914cfd5644b0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09.zip",
+        "source_id": "b64888579666a9e6fac16839ee2a1b75ea81a6c58efa1df45afd698416bbf35f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-01.zip",
+        "source_id": "fadf7718b998f453086707ea12e0fbbd13eecd568e860b3ee916ad19c1c678dc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-02.zip",
+        "source_id": "ba45960fc3e8cc05c1e365f966698dccde3cebd5c9be6289b496e81bed763769",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-03.zip",
+        "source_id": "97441273ecd37602f1a23f51c3f40a9284887c7bef43a8a87af54605ef2f5ebf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-04.zip",
+        "source_id": "a313662d70a49b69696e1c7ef42afcd1b334df23dc4791f304859d3d60f8e90e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-05.zip",
+        "source_id": "a78f0c3c201b45ef2ea407dc414bb22293663a64f9328dd4afa752602451c378",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-06.zip",
+        "source_id": "de9d1cf2f5423acbcb7ff38baae099bbbc32781727faed14f888e66e5b1b82c7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-07.zip",
+        "source_id": "39b67891af10951d6bf73dcdee5569f7087cfc632ff99f02ffb92953198d4c51",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-08.zip",
+        "source_id": "781bc719f1b67463c950b2f43ab0bea708559dcf2055a63ba1f4f4d3a31a8fc2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-09.zip",
+        "source_id": "00fc3923c1a4a40687c2e1d5013a788adc23b20603f476fecc1aab31c955ee04",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-10.zip",
+        "source_id": "b3d86769ff746c8d3c66a242f08a1c7740ad5cbd2509aec03ee5313d622120d1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-11.zip",
+        "source_id": "f5bafe0da0d8ec01678578ce73e5ce80595c2fc7223de7c9993027a48cb2a55d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-12.zip",
+        "source_id": "47468f4ae798db96a9a0c1823294cb43cab2244ac854076c58c54061a3825273",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-13.zip",
+        "source_id": "d8a9afa5fa9a7e2061a8e22b6e577ba51b37949a20e6ab9b54c2862431481aa4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-14.zip",
+        "source_id": "30f96cb4ff157aa56d3481df706d81406cf293aa19bc813631c496b365dc23c3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-15.zip",
+        "source_id": "f7e0589d3a1e52c9e782964880a581481cee04238ba1f29f61f6b9574a4ca1b7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-16.zip",
+        "source_id": "926735401623a7c1ee3c76f2a1da3a465691ad84b43e7849f35ffa89585263c6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-17.zip",
+        "source_id": "54711e16832c4c4b8469af03aa91503938482f02736f0056b96a82ca3f774688",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-18.zip",
+        "source_id": "3a1953d1ad0f4b56e38b189c7844f3aa01790ec96a5424aa5c6d416ba20a33d9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-19.zip",
+        "source_id": "ee7866c6dcbde2891de1777b53cdcface40b21b1ed5ab45ab0645b23587b2fff",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-20.zip",
+        "source_id": "c56bb7e42660c6419c95845411194677d913b6dd327e43ea08777ed03c52efe8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-21.zip",
+        "source_id": "7b69fdf1e4b0d552f0f3f0fec4ee2eacbfff7cfb0ce565c13b37d9fc4ed281d8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-22.zip",
+        "source_id": "ebe77e2bf14542ed450cdc9eb1b791e9770f85718ba69be3809a81172fda4007",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-23.zip",
+        "source_id": "8aa1cfed624b89d1376a1a88af6901c782798f6be0876723600d6f5961e9f4f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-24.zip",
+        "source_id": "3bfe86b5e4138442693c0d63c311e397db4cce446b301f26339717e341cee6f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-25.zip",
+        "source_id": "f3c5a98cbf924668e2028a14612192aed96fac7b6fd40f5c912c114c4d67c513",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-26.zip",
+        "source_id": "edc4818cb0bbc542fd393cb6ca07fb7105b564a8e6b6e5e38283a7c137ff4aa1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-27.zip",
+        "source_id": "5b062e875ea72bbf45b5d81ee475c00d2bfe3e16bc2e1a30e28f8fbe38818c5f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-28.zip",
+        "source_id": "b36bdb0d073de2183bcc4eb4d77ceea95ef7c025bd41bf95ae188501f10c7b4c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-29.zip",
+        "source_id": "d3a2ce59d87044c4ec1e2f28ad7173b914f5ae3bbfac5dace26b25a53dbc65bb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-09-30.zip",
+        "source_id": "68cbbfd7b86416eac2917982a194bf528741c17823bbd7af73dd8ac76726011b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10.zip",
+        "source_id": "8fc48148eb37f45767bf5b51e411be5f2ce3f1b6c86b6e272e865ad3f7511103",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-01.zip",
+        "source_id": "fa0d8b7b3f1b4cba0d561cb2f488fee5a260f2612e2f194943cd21c5cbcff4dd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-02.zip",
+        "source_id": "33caf3677eb465a83496f6241e90235ec435f9b8950da71a36ad766be8600941",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-03.zip",
+        "source_id": "119339e09990f9223bf2f21dba530e268acb603d26c8d1f47660c99f3a020e4e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-04.zip",
+        "source_id": "7efc9d679f0b92e5d993a22ef9110c826e0e65dfad5e170071b4e664826b97f4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-05.zip",
+        "source_id": "22b94fab4da406defa710d268744a3b7014da2c3c19b7621ac39edb9c5089e3d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-06.zip",
+        "source_id": "3e836390dbece1612c70c0f9897188dedca46bcb63ef31a31639f04e14029956",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-07.zip",
+        "source_id": "5494efdb2a98b1732656244c64d139da42dc8db38513cb04eac666da7ee3ce4e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-08.zip",
+        "source_id": "a7847b5f51bd35768e95c2d40ad8f447b81b6ecb0fafc02ca7557e24ec743c6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-09.zip",
+        "source_id": "93f36cb35712b8b441beef409146476aba3585a02c7667c89d79dc0729a0eee9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-10.zip",
+        "source_id": "e6514ed2e9999782bca225cc6e9adb33eb77439e6517db0bc7ec1d743d66efbf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-11.zip",
+        "source_id": "8d4fa331e1f506b9908bf46ab0ed5a7f1dbd443375d788998e2d2eca102ca265",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-12.zip",
+        "source_id": "bd84f66869afabddad9acbb29e7ec4541bd2245606fc78de76fff0ac809b93f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-13.zip",
+        "source_id": "30b4dfba9d7dd32e264e28940ff63f6ef43739c5785c6b47674e4b541a67d5cc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-14.zip",
+        "source_id": "225ddbd6a2da986fa9fc32e777447eadc4aea8d88984379bb3536049a689e026",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-15.zip",
+        "source_id": "b7af3fb11bc09cac2caea46dfc515af0116bf9056fbfd47a11e12d575f26078f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-16.zip",
+        "source_id": "62b2d0c81a130b3c434f234c13c760dec0ed1545707e70742ebe1c0327807f52",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-17.zip",
+        "source_id": "cac4d45d4dd54bd7d773997dc0f975f6a12ef00bcbcbade7bc8b53506df160bf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-18.zip",
+        "source_id": "f024cd1410f76b178536e377ed1d9317ef3e4ac0659f2b17d7bf3da83e56dcdd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-19.zip",
+        "source_id": "5143cd577dd2ef79b859270346adb031ff49ee9e33a443bc1a21f795ae07e111",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-20.zip",
+        "source_id": "633375e6cedf06aba53bca91d9383ae52fe659faa577869e36942f50d55e075d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-21.zip",
+        "source_id": "535168bb20feafef51dcf08a7d9b6767778f939317844725769d7d84f7187853",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-22.zip",
+        "source_id": "4e17c6893da1d10476ba3aa343d8169165b7df091c563c65e41b7b1ee7434c41",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-23.zip",
+        "source_id": "38b7145c564f5f4f4673caf9d8d086f6e368a689e76778409bccc9a6cb962019",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-24.zip",
+        "source_id": "080a4ec36d241f0a437e7144cc259c03d02a77caa7ea93b61f090362130db123",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-25.zip",
+        "source_id": "3be0fe0d8dd6351768f9e161765cf0146ba521a278a94f1ce49d1642e65cad72",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-26.zip",
+        "source_id": "b8aa537bc37a09fcec393b42d159b73a21966873c25d17bc18609f3a5b6505ef",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-27.zip",
+        "source_id": "f22274580c5e5981dae906fb6c98de2990f6d8d7683e5e8af4363691f6280717",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-28.zip",
+        "source_id": "04f5a6f7e3b7af3d47d11cac2fb3fc5d3c2b9a3b0ad2b4f38dda81c0b0fb742b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-29.zip",
+        "source_id": "1d6fe1e9580cff33588cf158e8c055c06885b6c29d71b3f6e4ed30165a5b5ebd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-30.zip",
+        "source_id": "8456cf45cd5d64f6a63867f6f686e5d8e8b509ca407ee862c8233286e935fe0a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2025-10-31.zip",
+        "source_id": "ccc4575d8cb812af45976c1c8c4471345d07edf861cab88991b632b60c52411a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-11.zip",
+        "source_id": "d397aa684b2a067a6623058281321d2fe8f859abec13899deb2f6e31a7c8f6d8",
+        "status": "available",
+        "bytes": 236430,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2025-12.zip",
+        "source_id": "a575a79d163deff72a0f97f0f489d86c819101f334f88988e89911978df45cbd",
+        "status": "available",
+        "bytes": 394755,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-01.zip",
+        "source_id": "7ab15e3be455fefc7eba7efe2eedef1aed15f36bce7b9c305a1c5e15dbfa8e25",
+        "status": "available",
+        "bytes": 355402,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-02.zip",
+        "source_id": "a76df58789cdb00e07ff9566141027f499e80ea509438f1ce4fe3c6d47397106",
+        "status": "available",
+        "bytes": 307325,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-03.zip",
+        "source_id": "3fd05b79b3fc39439fef34bf15b01be426c7a832437a6c2d7cc5fd3babeb34ec",
+        "status": "available",
+        "bytes": 351457,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-04.zip",
+        "source_id": "c3f041507c94b3a5f599cf4f0f220be38543cb61883c4fd12ef9d8f57661c4d3",
+        "status": "available",
+        "bytes": 336045,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-05.zip",
+        "source_id": "b58c3d729a1de215d6ebfe7998b434003bae92bfeb188416ee5a21696f0c43e3",
+        "status": "available",
+        "bytes": 348024,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-06.zip",
+        "source_id": "1ab75f757f365b932fcd1d044b605877f8f63101a47b5ea49f397c6db2e228c4",
+        "status": "available",
+        "bytes": 354099,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-07.zip",
+        "source_id": "d951956ef00824eeb77ce6b71b7b02f0112e1ba9615943c7085e77a57c457cc6",
+        "status": "available",
+        "bytes": 327044,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-08.zip",
+        "source_id": "42a70f71b3a3f55cdbd87da8519f83a1bdaf3a2fa83b5ca1a9fca0bfdb0faa0c",
+        "status": "available",
+        "bytes": 349998,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-09.zip",
+        "source_id": "a3361c236bdd90aaa204d6321d3963305639a3fdc7be842947e0e959b0b3de92",
+        "status": "available",
+        "bytes": 310735,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10.zip",
+        "source_id": "a9a09ff57f7f474fc13f953a5baafc0ff0dc77865e2ed13918a88c83be2c4bbc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-01.zip",
+        "source_id": "6d31b4009c2d04507049f51fe2625cd5b6d5ec8354802172a9e05da6a077a4ac",
+        "status": "available",
+        "bytes": 10149,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-02.zip",
+        "source_id": "63cecabef6741ed9fb60136b8059c9b9ce8dede1be03093224643b12b12a1f06",
+        "status": "available",
+        "bytes": 10247,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-03.zip",
+        "source_id": "5df307b67428e627ce8c8db009e9c25470cb825743de1b3d366b31b494361993",
+        "status": "available",
+        "bytes": 10082,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-04.zip",
+        "source_id": "dbebac778fc8fd3104face29e4aa80104d61d82961864d05fa0113fca4bff803",
+        "status": "available",
+        "bytes": 9822,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-05.zip",
+        "source_id": "c4e97a3b9f506304ca577cf16c61ef34dd664a44045ddf4c595abeb0c6d579ad",
+        "status": "available",
+        "bytes": 9818,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-06.zip",
+        "source_id": "22ca86762f5b1a5f74f24b4ffd6eacb7b4c7e27659c35cfadc7d70f27fde6dc1",
+        "status": "available",
+        "bytes": 10119,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-07.zip",
+        "source_id": "08afcbe6fbd2c43a7855ad67eca733e9eafa33dc94b5745bbf88c983e7aa391d",
+        "status": "available",
+        "bytes": 10492,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-08.zip",
+        "source_id": "7bec0e1d70848b3a10f565b5ee223291aa3c023bce9425d94554312a82f33a66",
+        "status": "available",
+        "bytes": 10626,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-09.zip",
+        "source_id": "ed65c14695b1aa1429a770b9137d40d4bebe8a280ba548bf4f8a19fb71f9b6fd",
+        "status": "available",
+        "bytes": 10169,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-10.zip",
+        "source_id": "5564980f3686062c4a65ed3b5d5c9c7e5cda65c74e60fd53881b9863e7052a79",
+        "status": "available",
+        "bytes": 9670,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-11.zip",
+        "source_id": "b2d5be4e946090d4e38d857fabe519d136fd8f2614963baaec78223212027926",
+        "status": "available",
+        "bytes": 9733,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-12.zip",
+        "source_id": "451c8405b7e066d948081ebfb7eacf064de8ccfbb95e4ad94c170915a334b178",
+        "status": "available",
+        "bytes": 10189,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-13.zip",
+        "source_id": "3076df7c5018e24f9f9cb4895d36ab06ab7c55c110f216509656445ad2c7b4b9",
+        "status": "available",
+        "bytes": 10492,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-14.zip",
+        "source_id": "2bf6f6deb3db54f9a051ecfaa3489b6ef625cbdf57374e57adf17e99b3cf34d7",
+        "status": "available",
+        "bytes": 10128,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-15.zip",
+        "source_id": "5bb4df059b3a4fcd90d24f92f7b67798da899e92de4024b685d046a753ff6ecf",
+        "status": "available",
+        "bytes": 11487,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-16.zip",
+        "source_id": "0b5cac8a19e6062508747a65fb8c87f78c2faebc1552f02727321e071ca9f0d5",
+        "status": "available",
+        "bytes": 11487,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-17.zip",
+        "source_id": "62dc04af575517aba28be215ccd213e18d413923e7d555146c3142c2a534c698",
+        "status": "available",
+        "bytes": 11362,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-18.zip",
+        "source_id": "3b5616a713e71d26fc94bfce3961ea271e9439854e4d7c3f6ca7b98608493c03",
+        "status": "available",
+        "bytes": 11482,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-19.zip",
+        "source_id": "4cf3f59625095044cca3a6fd134527a0cd3f1271b80bd0c0b168f4fafeae48c5",
+        "status": "available",
+        "bytes": 11494,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-20.zip",
+        "source_id": "5da0dcb779d566d2bc9235a182987f26f7294d71acf93a65c078c9240a362a6f",
+        "status": "available",
+        "bytes": 11459,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-21.zip",
+        "source_id": "ec360cb2dc1998110c969b7fc555a44a8d908553c2cd0f422093e30d52ea2b3c",
+        "status": "available",
+        "bytes": 11366,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-22.zip",
+        "source_id": "65762189c000a1e0549f0a47098154c846a12690bbee497b3e07cb1ca98c1a71",
+        "status": "available",
+        "bytes": 11768,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-23.zip",
+        "source_id": "caf5998df7563295b0d46346df3b7c343286a41955b1d3eb43aee230532950e3",
+        "status": "available",
+        "bytes": 11785,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-24.zip",
+        "source_id": "58783f01887e85941bf069ea4f8d0e53e0a9c2ec7e180b8a70cc741e66a46f6e",
+        "status": "available",
+        "bytes": 11288,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-25.zip",
+        "source_id": "fe9e24ba0df3a22a584a0763a059663341588bb994d73bed48c74b81d9485d89",
+        "status": "available",
+        "bytes": 11239,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-26.zip",
+        "source_id": "bdf31eaa2c9656b8a94cccdfae14253e0a4fd0f61725132fc9e067c3dcb1ca1e",
+        "status": "available",
+        "bytes": 12311,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BEATUSDT/5m/BEATUSDT-5m-2026-10-27.zip",
+        "source_id": "1adc17db69baf8b37577661e7e0f09fecb565e7c0afa8f70513afc1207f84da5",
+        "status": "available",
+        "bytes": 12866,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 3964444,
+    "frame_counts": {
+      "5m": 100653,
+      "15m": 33551,
+      "1h": 8387,
+      "4h": 2096,
+      "1d": 349
+    }
+  }
+}

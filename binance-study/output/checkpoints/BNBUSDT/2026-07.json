@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 2,
+    "1d": 12,
+    "1h": 13,
+    "4h": 20,
+    "5m": 0
+  },
+  "event_file": "events/BNBUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 352075,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 352075,
+      "source_id": "6b9646f8f2f212b66d775beff9a72441dfae688b9d1f13130c4e59c927ab8173",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "BNBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

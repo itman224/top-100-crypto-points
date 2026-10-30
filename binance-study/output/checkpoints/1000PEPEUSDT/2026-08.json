@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 173,
+    "1d": 17,
+    "1h": 117,
+    "4h": 71,
+    "5m": 122
+  },
+  "event_file": "events/1000PEPEUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 411205,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 411205,
+      "source_id": "c2270d92be82f45ea9243ec7d6737f7d3825c10347763e45be68245cfb53d8ec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "1000PEPEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 298,
+    "1d": 26,
+    "1h": 231,
+    "4h": 108,
+    "5m": 263
+  },
+  "event_file": "events/JELLYJELLYUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 340219,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 340219,
+      "source_id": "0fd27f68dab7308b3bee60e2f9aad6a0f9fbd0278a893403ae49b385d6277164",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "JELLYJELLYUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

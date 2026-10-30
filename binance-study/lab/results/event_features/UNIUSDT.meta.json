@@ -1,0 +1,352 @@
+{
+  "symbol": "UNIUSDT",
+  "event_count": 3388,
+  "quality_counts": {
+    "complete": 3388
+  },
+  "source_event_files": [
+    "output/events/UNIUSDT/2026-04.jsonl.gz",
+    "output/events/UNIUSDT/2026-05.jsonl.gz",
+    "output/events/UNIUSDT/2026-06.jsonl.gz",
+    "output/events/UNIUSDT/2026-07.jsonl.gz",
+    "output/events/UNIUSDT/2026-08.jsonl.gz",
+    "output/events/UNIUSDT/2026-09.jsonl.gz",
+    "output/events/UNIUSDT/2026-10-27.jsonl.gz",
+    "output/events/UNIUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/UNIUSDT/2026-04.jsonl.gz": "d3fde9a8b916fe62d50d1b2369aa9eb0d8992495ec5bd06da7104761fefbdb54",
+    "output/events/UNIUSDT/2026-05.jsonl.gz": "4148672220760946a4eabb28c42ab1edf4c996fa51d71ce76fb20c9c0bde32d0",
+    "output/events/UNIUSDT/2026-06.jsonl.gz": "530202b34bb3867af5e64d9b0611020cc1860e40233a627ed7f031a5a95d9966",
+    "output/events/UNIUSDT/2026-07.jsonl.gz": "f45d3814553be6d1936e74dce35564e0a8fb6eb178c1f2be8310a9559b239bc2",
+    "output/events/UNIUSDT/2026-08.jsonl.gz": "af522b3294a257f12f390467932eb95e7bb145de57b99f381af44b60829de864",
+    "output/events/UNIUSDT/2026-09.jsonl.gz": "1800fdc317c10cd49380054159922460d0ab2b004703c7aa63e5303b4633b9b3",
+    "output/events/UNIUSDT/2026-10-27.jsonl.gz": "89c963f3b90c9d6d7edd70787c8dd9196499dc264778377f5beab0bf79ff4144",
+    "output/events/UNIUSDT/2026-10.jsonl.gz": "34bd0ebc528a6b1dc176e768aacd44f82b5b45f9a513022b77a259c29c7fe1af"
+  },
+  "market_data_quality": {
+    "symbol": "UNIUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-07.zip",
+        "source_id": "a3d65cf8fe7ed8c81f5bdf5ecd054cd71ccdda5164e771f10d54d2cce1a57647",
+        "status": "available",
+        "bytes": 333413,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-08.zip",
+        "source_id": "4ddee41f2361d474fdaa017802c81380f4e44f21b2f68a9b8b3187e6feb4875d",
+        "status": "available",
+        "bytes": 329149,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-09.zip",
+        "source_id": "2d1011150e9f31a665e73f12fad378f85a79bea911f1ec2eb43524a2268bca25",
+        "status": "available",
+        "bytes": 307222,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-10.zip",
+        "source_id": "89995c1916ee71208378fe2f75abae4ef64f82439cd3475dcd953ead1786bd9e",
+        "status": "available",
+        "bytes": 317643,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-11.zip",
+        "source_id": "01e53badef8838ebb4d27a20d4c7be1c5febc2f4dec2f2f326e883a5909318ee",
+        "status": "available",
+        "bytes": 315855,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2025-12.zip",
+        "source_id": "8c2dcae2b5bbda86b872acc51002cd3a4d2e7ac7e1fec75863923f480c293ad9",
+        "status": "available",
+        "bytes": 315346,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-01.zip",
+        "source_id": "03dce6e1f1d00ce45c9d3eeeb19bdd2ce74ae39c7cb48ff6e916bfd28fb4b87a",
+        "status": "available",
+        "bytes": 310230,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-02.zip",
+        "source_id": "57e8746715fa10ef8551311738bd1c75e1cc1211f6f9f9e704c136490e134f38",
+        "status": "available",
+        "bytes": 282397,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-03.zip",
+        "source_id": "76520a9021d72db40ce153602433a328f1833d7cc148a24ce8a75d71ce983820",
+        "status": "available",
+        "bytes": 302330,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-04.zip",
+        "source_id": "bfd46fe5e3f17d7f0ce92af73defc758c5dc1de245d385cfe33627c4e382f03e",
+        "status": "available",
+        "bytes": 287843,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-05.zip",
+        "source_id": "79bbf347af7227805ab0ca972e61415d58cfc2eb3e2d97bfeaf6840371731f23",
+        "status": "available",
+        "bytes": 301800,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-06.zip",
+        "source_id": "798a5ff8df454ba7eabe586d45fc9f64e3be9739e269dde150459579adaa1ed4",
+        "status": "available",
+        "bytes": 296498,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-07.zip",
+        "source_id": "db18e278994722f9d5049626c335020e70359170c77767f80191fcad1ba8ec67",
+        "status": "available",
+        "bytes": 307683,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-08.zip",
+        "source_id": "cfdc9cbb4b930a39ec2079538c04c89152485a02e70765e0dd803be4c0bbffda",
+        "status": "available",
+        "bytes": 311866,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-09.zip",
+        "source_id": "2871218ffaa3989d71ac7a887df8edb5f0d22709884ddcbdd22d132e96a11545",
+        "status": "available",
+        "bytes": 325132,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10.zip",
+        "source_id": "dc128a020f9bed70fc368125f9bba3bf00cf9935987c7d28f213de6f306013df",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-01.zip",
+        "source_id": "b15c7aa1d696e905b1ac812fa40a43c2466966df8a01ce30c832ca2f81fa42c6",
+        "status": "available",
+        "bytes": 11236,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-02.zip",
+        "source_id": "08505fc067c0a8d03d70762a0f9d63c45071fb38d89da3de0c45a4ac5694c601",
+        "status": "available",
+        "bytes": 11285,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-03.zip",
+        "source_id": "5c5fce18c911a39f6ebedc66529b334a0aba7b24805eae7a32f315c0d47639cc",
+        "status": "available",
+        "bytes": 11010,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-04.zip",
+        "source_id": "5c61741bbed64212f8ad57c220dc460b9d396c4994b11d0f1ee3e3d790088eb6",
+        "status": "available",
+        "bytes": 10452,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-05.zip",
+        "source_id": "5353367a39b25af5fbc247ef3c2a5fe197a5906fe88fb53ffc7f8a0fc8067a98",
+        "status": "available",
+        "bytes": 11064,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-06.zip",
+        "source_id": "30024305985247c4354e0a172a9243adce6f4254a03735b74db4cfb42d3b6ee3",
+        "status": "available",
+        "bytes": 11056,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-07.zip",
+        "source_id": "4c10cce7cf028b140f7fbe520dd318f027bf201d75f127ad03fce04bf1bc6326",
+        "status": "available",
+        "bytes": 11306,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-08.zip",
+        "source_id": "dd6e2c11eda7fba138f6f09ef4a581f3569768a192eb79354aec6ccb44dba3c0",
+        "status": "available",
+        "bytes": 11425,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-09.zip",
+        "source_id": "582cd6f0c1df0987ff4e64bad977ad1d4ae2b7189a7b046005f068ee42d6e41c",
+        "status": "available",
+        "bytes": 10974,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-10.zip",
+        "source_id": "115387e1f84af513aac6e86cd3f207725378320de78737bfb844d0458cc83e99",
+        "status": "available",
+        "bytes": 10915,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-11.zip",
+        "source_id": "3645a8c6c94f2e6ccc443aa69d348f4b673824d2398237388a21b05d35712c28",
+        "status": "available",
+        "bytes": 10905,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-12.zip",
+        "source_id": "4c0c3ccc2055ae905168e84d2c2d4390ddd5391984727b2e4abd4ec3089189fe",
+        "status": "available",
+        "bytes": 11152,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-13.zip",
+        "source_id": "7891751a564fa500c87b3defe3be68944d829c3b7a006380f0f42e29b91de75a",
+        "status": "available",
+        "bytes": 11232,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-14.zip",
+        "source_id": "4f4e73d4fac0970431d19a8d73eb93058de23b1c7eb2cae8eca097d37f4cb777",
+        "status": "available",
+        "bytes": 11108,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-15.zip",
+        "source_id": "5f39f94ca0ad2667f02e143ecb981ef560cc29cd31fa7a42b755447f49ebd785",
+        "status": "available",
+        "bytes": 11213,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-16.zip",
+        "source_id": "5eed48b90a0bd98ce824c14b8fa4b36c013959c4e61debb7c33e18b124399cc1",
+        "status": "available",
+        "bytes": 11031,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-17.zip",
+        "source_id": "6a983bf59d279e90b03e625d73d7fe14114d26ebd5636fa68da94e9472069078",
+        "status": "available",
+        "bytes": 10612,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-18.zip",
+        "source_id": "ca01a1cca4cfb37e3c883c7747cee7e8186a503f13037f0031f4da8ce392859a",
+        "status": "available",
+        "bytes": 10938,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-19.zip",
+        "source_id": "828dcad77bb56001820363ec57b227fc84f373d00c22619945a12bdcbdf08434",
+        "status": "available",
+        "bytes": 10964,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-20.zip",
+        "source_id": "769363725d67bb59a694457a59b89fd4ce6bafb935cf3c05f91572f3ad4c87f5",
+        "status": "available",
+        "bytes": 11084,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-21.zip",
+        "source_id": "ca430a7090a68684912da5c0a3df86a5e6a4e94239e3dca2f4e5345625d63f5d",
+        "status": "available",
+        "bytes": 11159,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-22.zip",
+        "source_id": "bfe3c9a84aa3d3deaf6ce38807260833698fb956b1060083bb4a0e60215b2d00",
+        "status": "available",
+        "bytes": 10964,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-23.zip",
+        "source_id": "63fd21828661ee6253b45980afbb6405c61bc9660e6d9086363987269e879c32",
+        "status": "available",
+        "bytes": 10909,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-24.zip",
+        "source_id": "777e7ce37a25bf8e4a99d1929f9cda8482917bbc5171a3b083e2be5da28f6f7b",
+        "status": "available",
+        "bytes": 10834,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-25.zip",
+        "source_id": "1e19be74a29f2a526e44cdc67beff73bf2bc264cb1acca8070cefa8f53de4bcf",
+        "status": "available",
+        "bytes": 10699,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-26.zip",
+        "source_id": "84841e6f659fabbdbae47c7f31ebe4a1b80a208d06fe3ef2a10b1cd9c5f5cf60",
+        "status": "available",
+        "bytes": 10949,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/UNIUSDT/5m/UNIUSDT-5m-2026-10-27.zip",
+        "source_id": "2d4a8a20f43b1f709545d231de02cf39efdb4ac31c2e935d3ace2a316848fbe2",
+        "status": "available",
+        "bytes": 10745,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 4941628,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 47,
+    "1d": 22,
+    "1h": 80,
+    "4h": 64,
+    "5m": 28
+  },
+  "event_file": "events/STOUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 339648,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 339648,
+      "source_id": "10ca94f2455b3d1af10bfa79e3d4e7b23b1506e0898603c80db142cfb0f994c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/STOUSDT/5m/STOUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "STOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

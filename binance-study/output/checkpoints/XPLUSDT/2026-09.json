@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 384,
+    "1d": 27,
+    "1h": 286,
+    "4h": 118,
+    "5m": 313
+  },
+  "event_file": "events/XPLUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 362224,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 362224,
+      "source_id": "8b800950ebdf6d2bc4d65dde6e84ad9a390173cdc76de019d6eeac9c01e6220b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/XPLUSDT/5m/XPLUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "XPLUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

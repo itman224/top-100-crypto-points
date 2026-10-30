@@ -1,0 +1,352 @@
+{
+  "symbol": "APTUSDT",
+  "event_count": 3129,
+  "quality_counts": {
+    "complete": 3129
+  },
+  "source_event_files": [
+    "output/events/APTUSDT/2026-04.jsonl.gz",
+    "output/events/APTUSDT/2026-05.jsonl.gz",
+    "output/events/APTUSDT/2026-06.jsonl.gz",
+    "output/events/APTUSDT/2026-07.jsonl.gz",
+    "output/events/APTUSDT/2026-08.jsonl.gz",
+    "output/events/APTUSDT/2026-09.jsonl.gz",
+    "output/events/APTUSDT/2026-10-27.jsonl.gz",
+    "output/events/APTUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/APTUSDT/2026-04.jsonl.gz": "9b4d69519cd4aa4e7e868ebbbce7e4b626d0ff406b760583e4a48fd7a665f986",
+    "output/events/APTUSDT/2026-05.jsonl.gz": "3aa321d05d9b83239c169047e89ab25511f8ed20846ac86eb219714c9a3b1e20",
+    "output/events/APTUSDT/2026-06.jsonl.gz": "fcadde60b79f4bb847b8a42d7ebc5f8dc89482cf665d1215a09d4bda720fc650",
+    "output/events/APTUSDT/2026-07.jsonl.gz": "43596fe9583020e2853342810f0c0131315e756a6807abd0fe0f4902710b1382",
+    "output/events/APTUSDT/2026-08.jsonl.gz": "bc60c97113fa05b4f300679af947221f66738bc1f8b63c84eb78c36e2233ca65",
+    "output/events/APTUSDT/2026-09.jsonl.gz": "e43dad7ede78f2fc2d9861f71e8b9fba55cafb48096146811c0c6e99f894c0ec",
+    "output/events/APTUSDT/2026-10-27.jsonl.gz": "a498595229c5a95b7fb3604d6ec3c89885e3257f0a022fc11b402a455675e57b",
+    "output/events/APTUSDT/2026-10.jsonl.gz": "a256d1c49395b559d572ea45d30507d1d738501ac39e7cd4bf8ddfeaee5888be"
+  },
+  "market_data_quality": {
+    "symbol": "APTUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-07.zip",
+        "source_id": "33d8b4f6cf7da3a6517d5198235aa03ccf3016f8f3fe99e0779cc202ba733f98",
+        "status": "available",
+        "bytes": 379310,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-08.zip",
+        "source_id": "3284d583aba7107be309277ec876197362ef13fe5d2fd410407a3b313b82ad9f",
+        "status": "available",
+        "bytes": 374743,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-09.zip",
+        "source_id": "281b06112d433582d0b1a500c3291e2a30ce25022b8aea2fb7fa4badd3ffc9fb",
+        "status": "available",
+        "bytes": 357662,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-10.zip",
+        "source_id": "8a99967c040cf4fa486775f4beaa6ef2e2666c5772b6001dd281c7062f8201a5",
+        "status": "available",
+        "bytes": 381581,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-11.zip",
+        "source_id": "3a6eed2e716fa048fa9ddcc5448e129ec42e96399aff5ba6dbdd713a24f75500",
+        "status": "available",
+        "bytes": 364918,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2025-12.zip",
+        "source_id": "5c236a5dd19cf792f75483fc2087ffded3b0f70e4c894c21cd9f8c6d81cb3624",
+        "status": "available",
+        "bytes": 367052,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-01.zip",
+        "source_id": "1b0ac90c206c61ab8efdd279d6cff94867ac0861fd862521bf7368e912437cf1",
+        "status": "available",
+        "bytes": 362798,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-02.zip",
+        "source_id": "67a2b1b587d753c6f1271fd1dfe69df795d4e521fdc9b4f2f757276aee72a26f",
+        "status": "available",
+        "bytes": 328297,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-03.zip",
+        "source_id": "576e568aa3918fbf43953371edeaf9da151c0f4f318d8c38ca6e2579470c49b2",
+        "status": "available",
+        "bytes": 359484,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-04.zip",
+        "source_id": "8ed6cc27c7e6a2cef5f93d414cacd632acf47b87b916f3f5bcd8e0be6df1155e",
+        "status": "available",
+        "bytes": 342343,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-05.zip",
+        "source_id": "45227946a980772db296c5f123bcadf8b19836455960af2b6598dcefef20d9df",
+        "status": "available",
+        "bytes": 357071,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-06.zip",
+        "source_id": "0a13f9e357f8d3186fe80dde50e2c68f81b2922f38c7ae553425331f92f4c6be",
+        "status": "available",
+        "bytes": 344326,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-07.zip",
+        "source_id": "8cf088635edee3443eac5a015614625e5c3175076d638a0722354bd863e2e052",
+        "status": "available",
+        "bytes": 343068,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-08.zip",
+        "source_id": "9bd74f64e11f8e0b69e2849f27b7d1ba08f61e81cc7c16108412914c28cde59d",
+        "status": "available",
+        "bytes": 342934,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-09.zip",
+        "source_id": "aa56648cd1a67189784d5b681c49e95b6f7ae0ed8fa4ef944b874cd7c57e03b1",
+        "status": "available",
+        "bytes": 352287,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-10.zip",
+        "source_id": "10695c1bc14682c33aa5245cd512a7f489a638449a533f8cd1c5a4cc369ea27a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-01.zip",
+        "source_id": "65ba120b42475abf84ad703308d669607761785ef5d8d2a2b7398181ac470005",
+        "status": "available",
+        "bytes": 12180,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-02.zip",
+        "source_id": "870586685083e626efdba215f5ac1e694e7660a5db0dde12ae5c22971ee6f43d",
+        "status": "available",
+        "bytes": 12567,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-03.zip",
+        "source_id": "01d73ede39d8bb48e6b0b7ef5db4edddc7181110d952fb721765511961baa3a0",
+        "status": "available",
+        "bytes": 12058,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-04.zip",
+        "source_id": "234a8af1f1e806f2da4f9e92cedc86f3a095c8d57ed061e2d9914b184843a0e5",
+        "status": "available",
+        "bytes": 11858,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-05.zip",
+        "source_id": "fe0b32979e719c6352fcca4a290c9de363cab538195b9d81dce833e3461c4e93",
+        "status": "available",
+        "bytes": 12411,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-06.zip",
+        "source_id": "72b4960397bb9aaeac5ba2e07a4bb89c8f767140374d0d64fd5ee828c8c48ed4",
+        "status": "available",
+        "bytes": 12259,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-07.zip",
+        "source_id": "f924e46c3dc9d21e2b2996a45250b8d2fb906041bdd391c64e1b1fb029fbc96c",
+        "status": "available",
+        "bytes": 12405,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-08.zip",
+        "source_id": "d440f07c08a2af32ae536291e69354ae5e494b08911e66ac4e1170412d18066e",
+        "status": "available",
+        "bytes": 12615,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-09.zip",
+        "source_id": "6bf8b8295a6f6b4d63123f1f51b655161f2b74e7fde47066f93d80942041006e",
+        "status": "available",
+        "bytes": 12685,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-10.zip",
+        "source_id": "f6798b34214b63fbf360229c9394f6db9a7a6d95b9f3f97f1ca30658505f01a3",
+        "status": "available",
+        "bytes": 12428,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-11.zip",
+        "source_id": "ac706efa2e3af960e733b405bd2d1dc37563eff1bd1e9a7c5b518f4c0cedc232",
+        "status": "available",
+        "bytes": 12767,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-12.zip",
+        "source_id": "05376eb2539b1ff0aaf354f472f6c5e11a2256fe94503714d5d19aa58d28c6bb",
+        "status": "available",
+        "bytes": 12598,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-13.zip",
+        "source_id": "56d125bc61c25cfb2962616f6d34d9fbad54d4bdd05d7c1ebd2efa6b7bb3393a",
+        "status": "available",
+        "bytes": 12615,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-14.zip",
+        "source_id": "5746bcbea4d6c262bf5063d0cdbdb300379e17ad85f13358d18b033c8c9833ef",
+        "status": "available",
+        "bytes": 12265,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-15.zip",
+        "source_id": "59a2121d8bc34358ee3ef4eb96cf6c474ccb5c679708e9de76a209c23a79f9c7",
+        "status": "available",
+        "bytes": 12505,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-16.zip",
+        "source_id": "6933778281a0eb7cdc6a5c543b6b6cc27e05b953a585695264667478cf0ae4e9",
+        "status": "available",
+        "bytes": 12539,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-17.zip",
+        "source_id": "a0b9d68aefd6dcdacb4c939ba7fcb9149a7d6d5728a2934f61bc92ea441b92a4",
+        "status": "available",
+        "bytes": 12312,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-18.zip",
+        "source_id": "13b72c8900db48c47c4af27d52ab31d076666b4067a24abdd75a48263f68b013",
+        "status": "available",
+        "bytes": 12276,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-19.zip",
+        "source_id": "bc3397b379d9099eb4170adbaade82c16082a9770b6cc780f62ce5b286c4141f",
+        "status": "available",
+        "bytes": 12216,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-20.zip",
+        "source_id": "e44b28bf993f3df0c1badb1061acbc7cb2ebc0adfe243ea11901586c681b031f",
+        "status": "available",
+        "bytes": 12518,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-21.zip",
+        "source_id": "173da970b462fab6da78da6dfc82d12f71be1a35b5d947a2c94e840b083fb244",
+        "status": "available",
+        "bytes": 12201,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-22.zip",
+        "source_id": "6e58fa78d229f43560af3a9dd65d4467003c12ecc61d86486d85db0d1e405efe",
+        "status": "available",
+        "bytes": 12232,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-23.zip",
+        "source_id": "613a9960e64ab78d91efbd622ec06485a9f51a5688d94196b04638f54734123c",
+        "status": "available",
+        "bytes": 12253,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-24.zip",
+        "source_id": "ec125928ec4f596ed4e6cdfd337ceb36fc2c37badc01f2e8e8ff9c6f508b2d8b",
+        "status": "available",
+        "bytes": 12026,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-25.zip",
+        "source_id": "e9576dab9cac19a7ee8b2854cf1753bcf94e312155fc196ec4717bc149fcaeae",
+        "status": "available",
+        "bytes": 11822,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-26.zip",
+        "source_id": "5c8691b55b3eef7fbaa0fdd119370c8be9fd7374637b4a9dc99a6ec13d20a6c8",
+        "status": "available",
+        "bytes": 12028,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/APTUSDT/5m/APTUSDT-5m-2026-10-27.zip",
+        "source_id": "9d5dbe75d5f1596b4df68b91ad234f363a6cd2491144028f5b1cb663cb289b17",
+        "status": "available",
+        "bytes": 11943,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5690456,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 191,
+    "1d": 20,
+    "1h": 166,
+    "4h": 94,
+    "5m": 150
+  },
+  "event_file": "events/ARCUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 325565,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 325565,
+      "source_id": "c22bef3c6bd1de259db7d036a87ee64aac6c5a9e9b1d9b3a89e3fb463511da9e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARCUSDT/5m/ARCUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "ARCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

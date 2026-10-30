@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 318,
+    "1d": 23,
+    "1h": 197,
+    "4h": 99,
+    "5m": 297
+  },
+  "event_file": "events/NOMUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 334240,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 334240,
+      "source_id": "4e0be7996853a540497f928691a31d4e3455316afb9952e264404d6f95d24498",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NOMUSDT/5m/NOMUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "NOMUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,3 @@
+# Quant Research Lab UI
+
+Run `python3 lab/ui/server.py` from the project root, then open `http://127.0.0.1:8765`. The server is read-only and binds to localhost by default. It loads the preserved price-movement summary, per-symbol compressed event files, indicator catalog, and actual research output JSON. Research panels show explicit pending states until their data exists; symbol-level benchmark records are not presented as a pooled ranking. Reload or press Refresh after processing generates new results. `--host` and `--port` can override the defaults. Run `python3 -m unittest discover -s lab/ui -v` for API filtering checks.

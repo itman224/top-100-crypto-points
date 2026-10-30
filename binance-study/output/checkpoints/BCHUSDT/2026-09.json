@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 122,
+    "1d": 20,
+    "1h": 115,
+    "4h": 76,
+    "5m": 112
+  },
+  "event_file": "events/BCHUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 354633,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 354633,
+      "source_id": "df62644430bfcb93384ff77d1b42e45dfd633a7e80dc366e41785f52739cbe49",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BCHUSDT/5m/BCHUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "BCHUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

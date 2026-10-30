@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 761,
+    "1d": 28,
+    "1h": 372,
+    "4h": 122,
+    "5m": 946
+  },
+  "event_file": "events/WLDUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 364462,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 364462,
+      "source_id": "868d6ffbc4674f36d643f44b85d86d521470cdeab15cc5a1ec5123c10faf2ce4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/WLDUSDT/5m/WLDUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "WLDUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

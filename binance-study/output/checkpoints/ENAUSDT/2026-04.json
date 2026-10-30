@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-04-30",
+  "event_counts": {
+    "15m": 140,
+    "1d": 24,
+    "1h": 171,
+    "4h": 93,
+    "5m": 70
+  },
+  "event_file": "events/ENAUSDT/2026-04.jsonl.gz",
+  "month": "2026-04",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 346817,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 346817,
+      "source_id": "90a4a7452f408b5f748d5818c05eea32e492b211af3a788ca3f695cd10c69dbc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ENAUSDT/5m/ENAUSDT-5m-2026-04.zip"
+    }
+  ],
+  "start": "2026-04-01",
+  "symbol": "ENAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

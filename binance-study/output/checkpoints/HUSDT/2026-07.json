@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 405,
+    "1d": 20,
+    "1h": 247,
+    "4h": 109,
+    "5m": 475
+  },
+  "event_file": "events/HUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 347715,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 347715,
+      "source_id": "ca797f3ea62986356c5172a1aa5cee6304ef9c9193448fa1ecebcacde7e236cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HUSDT/5m/HUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "HUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

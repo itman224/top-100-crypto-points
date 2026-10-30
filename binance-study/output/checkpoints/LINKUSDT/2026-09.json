@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 89,
+    "1d": 25,
+    "1h": 109,
+    "4h": 70,
+    "5m": 39
+  },
+  "event_file": "events/LINKUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 356467,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 356467,
+      "source_id": "8ec60997e5d4d81dfe6cde9142c12ed951366c7f722ba97c1887274edca84539",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "LINKUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

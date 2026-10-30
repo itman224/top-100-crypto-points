@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 483,
+    "1d": 27,
+    "1h": 296,
+    "4h": 111,
+    "5m": 387
+  },
+  "event_file": "events/NEARUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 313089,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 313089,
+      "source_id": "5b303f9927d92bebd66e2efc80eed2080bb3dcfb6971fcb92fed9983bfd25e48",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NEARUSDT/5m/NEARUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "NEARUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

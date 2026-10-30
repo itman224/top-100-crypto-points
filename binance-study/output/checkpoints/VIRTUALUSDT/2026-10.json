@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 59,
+    "1d": 22,
+    "1h": 96,
+    "4h": 75,
+    "5m": 41
+  },
+  "event_file": "events/VIRTUALUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 316358,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "97190f9f6340ee1db3c095ee491a5cdadfe860f6d1d5b0b855b3c7f789ee6a81",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12454,
+      "source_id": "890c493e67f3dc02848471a7dfba070039bfb921d180846c7e10d18b5198d8cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12630,
+      "source_id": "cc66a31c432c3b876b879a92507b18cb819f21e5903df8bfeb1116199e8d38bb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12213,
+      "source_id": "ca8b6c9f6fee1ca9eb9ec5e7e4753eabddefa6c073659ac9a6b66f36ef88e42d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12347,
+      "source_id": "503ee08d6df57bb3991d7dff1d1dfe835b0be460bc36fbac40d16f7e87220b2e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12670,
+      "source_id": "a4a690fefbbc43eff6233f17c10492bced72b5591b389921d785d6100a33f67d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12369,
+      "source_id": "5339d8aa21623cecd4ecac1078c607b36be2f74812fb29a1fa3958fa4b124e60",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12382,
+      "source_id": "3a2061dd14450d0bb95fd8802d99752beb0bb0c97e5d76c48f02e195a17f1ced",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12560,
+      "source_id": "273eac9ffdc659f76b3f7fe4f0561f50b23b509cfb38804a2fb312747a83e8ee",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12140,
+      "source_id": "1eaa75089cc85c955f6a937349a514d5520d38937124d0876e1ea4377575489a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12060,
+      "source_id": "430653b9821d0465991393d7197c799cf6d32d83cba6843f56ab19e7c695d3a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12051,
+      "source_id": "45eab35c723d8eee5e57583527c7e05c510d90ab870f4d320c964ac3f1125400",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12318,
+      "source_id": "29b27853c586ad4fb44de451489083c2b78bef869d8d4285521eba8d4ad9b542",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12334,
+      "source_id": "4587ade59666d8c4e72fe9f2bd6d9fe7e77f17b67a6b5af53374fb64c4fac0bf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12149,
+      "source_id": "51343022fdc877d18c7fe93f5a3f35cfdf7c79dfeafd8b0e9605da81ce3c0f13",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12313,
+      "source_id": "e8ce15135d3b1831d3bf5a6ac73546ac88bea4489294e8159a944a3a3425a832",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12174,
+      "source_id": "3ee7acafcfced417f4e978ff8064b485f7dde63cd77723a25be15a687891308a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11842,
+      "source_id": "f23725cb9ac730cd6705856508925434e8729df8a70b4cfbcc0a042d00fcb915",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11926,
+      "source_id": "d5ee7a393b40f6487cfec080f5208e53c2b29934b34544180f3d51ad09a298ae",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11915,
+      "source_id": "b713772b167b2cc183a12410c72d53828ebc53b6430fae5ef0517ad94576e1c6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12010,
+      "source_id": "9e8c7bfaba628e1acb38f15fa014b93a04b1ccab2a69e2e2ca60b21a804706e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12014,
+      "source_id": "c1389dfc418a93c089203324fbe1c86ff4b0ae2e2a2b104e5d51717378caa53e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11994,
+      "source_id": "4eea212e7882c021cb39e1b6abd45ade49033196d14859fbbdab53d8fee5a556",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11927,
+      "source_id": "a903bef8882db429e7a59dfbcc13e2eb897895103d3f0b2cc098d235287403ab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11861,
+      "source_id": "919cb19b0efc25e556302c06280f9926da0932e62c5b5fcc520192b13b10b7ff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11759,
+      "source_id": "f18568416caa6a413aa38d51b7b264ebe5bc4397b5dd9e20a4d6837e1f7cf57c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11946,
+      "source_id": "3b49fe9fc6a37e0458cddc1bd73bb7a39ec4c7da0e94c94e493add8651732fd8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "VIRTUALUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

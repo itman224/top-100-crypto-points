@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 22,
+    "1d": 17,
+    "1h": 53,
+    "4h": 58,
+    "5m": 10
+  },
+  "event_file": "events/HYPEUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 349045,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "d1b74321152ddda1358d2e10635ccef95bc56afbb7136a855ff602406da034a4",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13665,
+      "source_id": "76ababf55e873fe159e335c5b6f942503dac4c013515d761c78bf6ae4701097a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13815,
+      "source_id": "df102badcc05110ea7830ad2015437b4b444e7f875c4c4787cda7655dfaec908",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13205,
+      "source_id": "86a01aaf9b08f076c67de43173d38bb4420945a26cb64ee185096622f9cbc3e9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13124,
+      "source_id": "fb44efde836224d42be0ce8c282cd5f5eacba4ac7b16d61b522cb67846bbf0b0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13685,
+      "source_id": "545353af95553dce987387ad8a93974159ef10a1c571417b9ba4e744dc9c0ade",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13422,
+      "source_id": "a218e2d4ea46ed504d56fa62e781c3ea13a2e71f7cc1287185295c6d6f77933d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13623,
+      "source_id": "aa8eddc3b2abd7925cee0bb450604633130e68d65a534fb3d5bf81fa61307d8a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13617,
+      "source_id": "d90c6ad916d650df9a56a38c4ad8bbc496762ecb7d559e098b8290bbf0e929fb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13365,
+      "source_id": "d34cdc506774f5890ac1f92ca9d662a7fe1fd0eed67b50f4b7e2e72f89e7190c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13024,
+      "source_id": "bc4197d30b42b9f297ed3091b1dfd3b6cd4d8955e7d11b4050fe26d964ff0d12",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13076,
+      "source_id": "1fa3343475bbd061db2510f13aa96ffdda68420464d286b7339bc803225f3072",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13566,
+      "source_id": "75c694e7441f63e85df892e8a116a7518d7a88beee97ec11af6afed7934825a1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13535,
+      "source_id": "c452d4a0e719a6936cce99025b81c92f18a76a21078281743a1a72a97c8ecf60",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 13539,
+      "source_id": "f7dac297dbf2dd3e90279e1f30b17eb8b3f11858504dcdc0570fe567138716c3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 13681,
+      "source_id": "dd29eb5a491b485b0cbd745995ffb101727dd48e3a26efeedd04ee0a06b1479f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13491,
+      "source_id": "7cf1e67a7c4672f1009c427abf526a99893ab59e72293531f948317e3fa085cf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 13111,
+      "source_id": "bdc90f385cf334ad7ae2f406e4f7e46a65b49796d70c0c9ea32e6ba1ba72b8d6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13345,
+      "source_id": "01d7028e79f91cff4816371072d300ed6bb483ed3e1a4d5cec3698bd01445cbe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 13427,
+      "source_id": "b4c0105eb86190867263808955bcfeb4ad1020a69f3f27cf0daff557b5902694",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13521,
+      "source_id": "12efbef0ea10c1c3a470250f8e717bea052922a30e63798a1cf91d872aee3a40",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 13534,
+      "source_id": "130f3dae628ad60d109755670eebc9cd93ea1bc904479d704e7aca53fbbfd22d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 13449,
+      "source_id": "5fffdf1d2ccaabf170d1c69d8287fe39fef90e90d90cd0ccd726ce9cb1f354ba",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13308,
+      "source_id": "14309c529c7489b3e7eadaf05cdba4f2fe331aa427d4dabca6a1488313c474fe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13359,
+      "source_id": "32cb8a7724045aa5a031390c40cacec16e63937102bd609cfe85a9bf605b07be",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12995,
+      "source_id": "64d4e7312d0838125b53a66af9314260705f2ced7a79c7119204c3ad9448b651",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13563,
+      "source_id": "e1195ab9ca075270fb58c3283dcd9c24309c9c3f59da817db2067cc618128fb5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "HYPEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

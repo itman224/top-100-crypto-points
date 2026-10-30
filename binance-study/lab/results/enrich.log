@@ -1,0 +1,319 @@
+BTCUSDT: 513 events; quality {'complete': 513}
+ETHUSDT: 946 events; quality {'complete': 946}
+ETHUSDT: 12 risk rows
+SOLUSDT: 1288 events; quality {'complete': 1288}
+SOLUSDT: 13 risk rows
+XRPUSDT: 1270 events; quality {'complete': 1270}
+XRPUSDT: 14 risk rows
+DOGEUSDT: 1381 events; quality {'complete': 1381}
+DOGEUSDT: 14 risk rows
+SIRENUSDT: 11700 events; quality {'complete': 11700}
+SIRENUSDT: 12 risk rows
+RIVERUSDT: 6409 events; quality {'complete': 6409}
+RIVERUSDT: 9 risk rows
+HYPEUSDT: 2665 events; quality {'complete': 2665}
+HYPEUSDT: 10 risk rows
+ZECUSDT: 5029 events; quality {'complete': 5029}
+ZECUSDT: 14 risk rows
+TAOUSDT: 2999 events; quality {'complete': 2999}
+TAOUSDT: 13 risk rows
+BNBUSDT: 600 events; quality {'complete': 600}
+BNBUSDT: 13 risk rows
+1000PEPEUSDT: 2715 events; quality {'complete': 2715}
+1000PEPEUSDT: 13 risk rows
+PAXGUSDT: 175 events; quality {'complete': 175}
+PAXGUSDT: 9 risk rows
+PIPPINUSDT: 6010 events; quality {'complete': 6010}
+PIPPINUSDT: 11 risk rows
+ADAUSDT: 2128 events; quality {'complete': 2128}
+ADAUSDT: 12 risk rows
+SUIUSDT: 2613 events; quality {'complete': 2613}
+SUIUSDT: 12 risk rows
+TRUMPUSDT: 3184 events; quality {'complete': 3184}
+TRUMPUSDT: 11 risk rows
+PIXELUSDT: 3788 events; quality {'complete': 3788}
+PIXELUSDT: 9 risk rows
+AVAXUSDT: 1900 events; quality {'complete': 1900}
+AVAXUSDT: 13 risk rows
+LINKUSDT: 1511 events; quality {'complete': 1511}
+LINKUSDT: 13 risk rows
+LYNUSDT: 6810 events; quality {'complete': 6810}
+LYNUSDT: 12 risk rows
+NEARUSDT: 5272 events; quality {'complete': 5272}
+NEARUSDT: 12 risk rows
+BCHUSDT: 1853 events; quality {'complete': 1853}
+BCHUSDT: 10 risk rows
+FILUSDT: 3248 events; quality {'complete': 3248}
+FILUSDT: 13 risk rows
+DOTUSDT: 2257 events; quality {'complete': 2257}
+DOTUSDT: 11 risk rows
+POWERUSDT: 6767 events; quality {'complete': 6767}
+POWERUSDT: 12 risk rows
+ENAUSDT: 5439 events; quality {'complete': 5439}
+ENAUSDT: 10 risk rows
+SIGNUSDT: 3142 events; quality {'complete': 3142}
+SIGNUSDT: 10 risk rows
+ASTERUSDT: 1530 events; quality {'complete': 1530}
+ASTERUSDT: 10 risk rows
+WLDUSDT: 6073 events; quality {'complete': 6073}
+WLDUSDT: 10 risk rows
+KITEUSDT: 4815 events; quality {'complete': 4815}
+KITEUSDT: 12 risk rows
+BARDUSDT: 2678 events; quality {'complete': 2678}
+BARDUSDT: 8 risk rows
+ROBOUSDT: 5587 events; quality {'warmup_incomplete': 15, 'complete': 5572}
+ROBOUSDT: 8 risk rows
+ONTUSDT: 3067 events; quality {'complete': 3067}
+ONTUSDT: 12 risk rows
+PUMPUSDT: 6132 events; quality {'complete': 6132}
+PUMPUSDT: 11 risk rows
+BTCUSDT: both checkpoints
+ETHUSDT: both checkpoints
+SOLUSDT: both checkpoints
+XRPUSDT: both checkpoints
+DOGEUSDT: both checkpoints
+SIRENUSDT: both checkpoints
+RIVERUSDT: both checkpoints
+HYPEUSDT: both checkpoints
+ZECUSDT: both checkpoints
+TAOUSDT: both checkpoints
+BNBUSDT: both checkpoints
+1000PEPEUSDT: both checkpoints
+PAXGUSDT: both checkpoints
+PIPPINUSDT: both checkpoints
+ADAUSDT: both checkpoints
+SUIUSDT: both checkpoints
+TRUMPUSDT: both checkpoints
+PIXELUSDT: both checkpoints
+AVAXUSDT: both checkpoints
+LINKUSDT: both checkpoints
+LYNUSDT: both checkpoints
+NEARUSDT: both checkpoints
+BCHUSDT: both checkpoints
+FILUSDT: both checkpoints
+DOTUSDT: both checkpoints
+POWERUSDT: both checkpoints
+ENAUSDT: both checkpoints
+SIGNUSDT: both checkpoints
+ASTERUSDT: both checkpoints
+WLDUSDT: both checkpoints
+KITEUSDT: both checkpoints
+BARDUSDT: both checkpoints
+ROBOUSDT: both checkpoints
+ONTUSDT: both checkpoints
+PUMPUSDT: both checkpoints
+LTCUSDT: 1095 events; quality {'complete': 1095}
+LTCUSDT: 13 risk rows
+AAVEUSDT: 2665 events; quality {'complete': 2665}
+AAVEUSDT: 13 risk rows
+BANANAS31USDT: 4526 events; quality {'complete': 4526}
+BANANAS31USDT: 10 risk rows
+SAHARAUSDT: 4172 events; quality {'complete': 4172}
+SAHARAUSDT: 11 risk rows
+FETUSDT: 3930 events; quality {'complete': 3930}
+FETUSDT: 12 risk rows
+VVVUSDT: 7877 events; quality {'complete': 7877}
+VVVUSDT: 12 risk rows
+WIFUSDT: 3377 events; quality {'complete': 3377}
+WIFUSDT: 11 risk rows
+FARTCOINUSDT: 5191 events; quality {'complete': 5191}
+FARTCOINUSDT: 14 risk rows
+TRXUSDT: 117 events; quality {'complete': 117}
+TRXUSDT: 11 risk rows
+UAIUSDT: 11717 events; quality {'complete': 11717}
+UAIUSDT: 12 risk rows
+UNIUSDT: 3388 events; quality {'complete': 3388}
+UNIUSDT: 13 risk rows
+OPNUSDT: 6676 events; quality {'complete': 6666, 'warmup_incomplete': 10}
+OPNUSDT: 14 risk rows
+BRUSDT: 13086 events; quality {'complete': 13086}
+BRUSDT: 13 risk rows
+PHAUSDT: 6371 events; quality {'complete': 6371}
+PHAUSDT: 8 risk rows
+ENSOUSDT: 3815 events; quality {'complete': 3815}
+ENSOUSDT: 9 risk rows
+HUMAUSDT: 5130 events; quality {'complete': 5130}
+HUMAUSDT: 13 risk rows
+CUSDT: 5272 events; quality {'complete': 5272}
+CUSDT: 8 risk rows
+1000SHIBUSDT: 1565 events; quality {'complete': 1565}
+1000SHIBUSDT: 13 risk rows
+XPLUSDT: 6230 events; quality {'complete': 6230}
+XPLUSDT: 11 risk rows
+WLFIUSDT: 1968 events; quality {'complete': 1968}
+WLFIUSDT: 5 risk rows
+MANTRAUSDT: 2978 events; quality {'warmup_incomplete': 15, 'complete': 2963}
+MANTRAUSDT: 11 risk rows
+BEATUSDT: 17883 events; quality {'complete': 17883}
+BEATUSDT: 10 risk rows
+APTUSDT: 3129 events; quality {'complete': 3129}
+APTUSDT: 14 risk rows
+RESOLVUSDT: 5285 events; quality {'complete': 5285}
+RESOLVUSDT: 7 risk rows
+PENGUUSDT: 3895 events; quality {'complete': 3895}
+PENGUUSDT: 11 risk rows
+NOMUSDT: 7380 events; quality {'complete': 7380}
+NOMUSDT: 9 risk rows
+ARBUSDT: 3958 events; quality {'complete': 3958}
+ARBUSDT: 11 risk rows
+VIRTUALUSDT: 3465 events; quality {'complete': 3465}
+VIRTUALUSDT: 12 risk rows
+ARIAUSDT: 10216 events; quality {'complete': 10216}
+ARIAUSDT: 13 risk rows
+CRVUSDT: 3435 events; quality {'complete': 3435}
+CRVUSDT: 12 risk rows
+XLMUSDT: 2885 events; quality {'complete': 2885}
+XLMUSDT: 11 risk rows
+ARCUSDT: 5779 events; quality {'complete': 5779}
+ARCUSDT: 11 risk rows
+FLOWUSDT: 2794 events; quality {'complete': 2794}
+FLOWUSDT: 12 risk rows
+GALAUSDT: 3229 events; quality {'complete': 3229}
+GALAUSDT: 12 risk rows
+GUSDT: 3769 events; quality {'complete': 3769}
+GUSDT: 11 risk rows
+ICPUSDT: 3112 events; quality {'complete': 3112}
+ICPUSDT: 12 risk rows
+XANUSDT: 7434 events; quality {'complete': 7434}
+XANUSDT: 12 risk rows
+1000BONKUSDT: 3423 events; quality {'complete': 3423}
+1000BONKUSDT: 12 risk rows
+RENDERUSDT: 3006 events; quality {'complete': 3006}
+RENDERUSDT: 13 risk rows
+NIGHTUSDT: 4137 events; quality {'complete': 4137}
+NIGHTUSDT: 11 risk rows
+HBARUSDT: 1658 events; quality {'complete': 1658}
+HBARUSDT: 11 risk rows
+ZROUSDT: 5642 events; quality {'complete': 5642}
+ZROUSDT: 10 risk rows
+OPUSDT: 3419 events; quality {'complete': 3419}
+OPUSDT: 13 risk rows
+STOUSDT: 4645 events; quality {'complete': 4645}
+STOUSDT: 9 risk rows
+TRIAUSDT: 9927 events; quality {'complete': 9927}
+TRIAUSDT: 10 risk rows
+KATUSDT: 4615 events; quality {'complete': 4597, 'warmup_incomplete': 18}
+KATUSDT: 11 risk rows
+ONUSDT: 11906 events; quality {'complete': 11906}
+ONUSDT: 9 risk rows
+XMRUSDT: 2638 events; quality {'complete': 2638}
+XMRUSDT: 11 risk rows
+PLAYUSDT: 11659 events; quality {'complete': 11659}
+PLAYUSDT: 11 risk rows
+ETCUSDT: 1597 events; quality {'complete': 1597}
+ETCUSDT: 14 risk rows
+BTCUSDT: both checkpoints
+ETHUSDT: both checkpoints
+SOLUSDT: both checkpoints
+XRPUSDT: both checkpoints
+DOGEUSDT: both checkpoints
+SIRENUSDT: both checkpoints
+RIVERUSDT: both checkpoints
+HYPEUSDT: both checkpoints
+ZECUSDT: both checkpoints
+TAOUSDT: both checkpoints
+BNBUSDT: both checkpoints
+1000PEPEUSDT: both checkpoints
+PAXGUSDT: both checkpoints
+PIPPINUSDT: both checkpoints
+ADAUSDT: both checkpoints
+SUIUSDT: both checkpoints
+TRUMPUSDT: both checkpoints
+PIXELUSDT: both checkpoints
+AVAXUSDT: both checkpoints
+LINKUSDT: both checkpoints
+LYNUSDT: both checkpoints
+NEARUSDT: both checkpoints
+BCHUSDT: both checkpoints
+FILUSDT: both checkpoints
+DOTUSDT: both checkpoints
+POWERUSDT: both checkpoints
+ENAUSDT: both checkpoints
+SIGNUSDT: both checkpoints
+ASTERUSDT: both checkpoints
+WLDUSDT: both checkpoints
+KITEUSDT: both checkpoints
+BARDUSDT: both checkpoints
+ROBOUSDT: both checkpoints
+ONTUSDT: both checkpoints
+PUMPUSDT: both checkpoints
+LTCUSDT: both checkpoints
+AAVEUSDT: both checkpoints
+BANANAS31USDT: both checkpoints
+SAHARAUSDT: both checkpoints
+FETUSDT: both checkpoints
+VVVUSDT: both checkpoints
+WIFUSDT: both checkpoints
+FARTCOINUSDT: both checkpoints
+TRXUSDT: both checkpoints
+UAIUSDT: both checkpoints
+UNIUSDT: both checkpoints
+OPNUSDT: both checkpoints
+BRUSDT: both checkpoints
+PHAUSDT: both checkpoints
+ENSOUSDT: both checkpoints
+HUMAUSDT: both checkpoints
+CUSDT: both checkpoints
+1000SHIBUSDT: both checkpoints
+XPLUSDT: both checkpoints
+WLFIUSDT: both checkpoints
+MANTRAUSDT: both checkpoints
+BEATUSDT: both checkpoints
+APTUSDT: both checkpoints
+RESOLVUSDT: both checkpoints
+PENGUUSDT: both checkpoints
+NOMUSDT: both checkpoints
+ARBUSDT: both checkpoints
+VIRTUALUSDT: both checkpoints
+ARIAUSDT: both checkpoints
+CRVUSDT: both checkpoints
+XLMUSDT: both checkpoints
+ARCUSDT: both checkpoints
+FLOWUSDT: both checkpoints
+GALAUSDT: both checkpoints
+GUSDT: both checkpoints
+ICPUSDT: both checkpoints
+XANUSDT: both checkpoints
+1000BONKUSDT: both checkpoints
+RENDERUSDT: both checkpoints
+NIGHTUSDT: both checkpoints
+HBARUSDT: both checkpoints
+ZROUSDT: both checkpoints
+OPUSDT: both checkpoints
+STOUSDT: both checkpoints
+TRIAUSDT: both checkpoints
+KATUSDT: both checkpoints
+ONUSDT: both checkpoints
+XMRUSDT: both checkpoints
+PLAYUSDT: both checkpoints
+ETCUSDT: both checkpoints
+JELLYJELLYUSDT: 3632 events; quality {'complete': 3632}
+JELLYJELLYUSDT: 9 risk rows
+ONDOUSDT: 3895 events; quality {'complete': 3895}
+ONDOUSDT: 11 risk rows
+AXSUSDT: 2535 events; quality {'complete': 2535}
+AXSUSDT: 12 risk rows
+ENJUSDT: 4682 events; quality {'complete': 4682}
+ENJUSDT: 9 risk rows
+NAORISUSDT: 9281 events; quality {'complete': 9281}
+NAORISUSDT: 10 risk rows
+TURBOUSDT: 3414 events; quality {'complete': 3414}
+TURBOUSDT: 12 risk rows
+DASHUSDT: 4316 events; quality {'complete': 4316}
+DASHUSDT: 11 risk rows
+ACXUSDT: 996 events; quality {'complete': 996}
+ACXUSDT: 6 risk rows
+CFGUSDT: 5707 events; quality {'warmup_incomplete': 32, 'complete': 5675}
+CFGUSDT: 9 risk rows
+ANKRUSDT: 1956 events; quality {'complete': 1956}
+ANKRUSDT: 10 risk rows
+BANUSDT: 4167 events; quality {'complete': 4167}
+BANUSDT: 9 risk rows
+MUSDT: 7831 events; quality {'complete': 7831}
+MUSDT: 10 risk rows
+HUSDT: 13611 events; quality {'complete': 13611}
+HUSDT: 11 risk rows
+JCTUSDT: 12683 events; quality {'complete': 12683}
+JCTUSDT: 13 risk rows
+SENTUSDT: 3954 events; quality {'complete': 3954}
+SENTUSDT: 10 risk rows

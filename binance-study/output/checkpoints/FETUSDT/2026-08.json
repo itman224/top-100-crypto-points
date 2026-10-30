@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 139,
+    "1d": 25,
+    "1h": 134,
+    "4h": 85,
+    "5m": 82
+  },
+  "event_file": "events/FETUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 321939,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 321939,
+      "source_id": "80e7296ac04dcf217c9e6a2c6aa684f94426dc4aeb3b08a69f90a77f3f25a016",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FETUSDT/5m/FETUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "FETUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,352 @@
+{
+  "symbol": "PUMPUSDT",
+  "event_count": 6132,
+  "quality_counts": {
+    "complete": 6132
+  },
+  "source_event_files": [
+    "output/events/PUMPUSDT/2026-04.jsonl.gz",
+    "output/events/PUMPUSDT/2026-05.jsonl.gz",
+    "output/events/PUMPUSDT/2026-06.jsonl.gz",
+    "output/events/PUMPUSDT/2026-07.jsonl.gz",
+    "output/events/PUMPUSDT/2026-08.jsonl.gz",
+    "output/events/PUMPUSDT/2026-09.jsonl.gz",
+    "output/events/PUMPUSDT/2026-10-27.jsonl.gz",
+    "output/events/PUMPUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/PUMPUSDT/2026-04.jsonl.gz": "bb984e952bbb66ff1e171ca5a2b0b48523b823231977cb3da232fa863db17512",
+    "output/events/PUMPUSDT/2026-05.jsonl.gz": "181de74d4802122f6541b82319e4027dd260cb0127bcfb60c8fec2958f5c68b4",
+    "output/events/PUMPUSDT/2026-06.jsonl.gz": "e3aeedc42e054b475f872c630f2f1d8347667b03478a994f27281c924a6afbc8",
+    "output/events/PUMPUSDT/2026-07.jsonl.gz": "cb87dde6ec99bf2167164ccb3336e833030b58e8f21c073b6a5c176b6e9c2ffc",
+    "output/events/PUMPUSDT/2026-08.jsonl.gz": "c6ef976c5a90191669235e3e406affb836647c8c40a8e3a642ecfbc1e63b499b",
+    "output/events/PUMPUSDT/2026-09.jsonl.gz": "be46bdfb5fe3653d3c297ebc13b33fca83639693919e26cff4c11dd80456b500",
+    "output/events/PUMPUSDT/2026-10-27.jsonl.gz": "b34dbb6ae9aa1821d95ff0b187a53b5646749e3c956116d11f4a7ab037bd5f8b",
+    "output/events/PUMPUSDT/2026-10.jsonl.gz": "0d4df3c11a30c69a343a5ed128828deeb91687e41499cf8af9df79e4ae571759"
+  },
+  "market_data_quality": {
+    "symbol": "PUMPUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-07.zip",
+        "source_id": "13e0931025c6959c7220554ea8e819b64c34ef766dfb07b0f9af13f56a646a9d",
+        "status": "available",
+        "bytes": 307857,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-08.zip",
+        "source_id": "ac52ad04a6a712e40cbdbb6a1abe43429ffd8729fa249a20b7ad9cd7dad8079b",
+        "status": "available",
+        "bytes": 400421,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-09.zip",
+        "source_id": "172ba3f1147035e12b709b52214b6e5a7e874eb32d3f1868cb573aee9e08448c",
+        "status": "available",
+        "bytes": 398651,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-10.zip",
+        "source_id": "c9f169b679af6151aebd3109fe55baa480606b75d9d3f90d084e662e14bc4714",
+        "status": "available",
+        "bytes": 406718,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-11.zip",
+        "source_id": "4c5b5969303d1f02de4b2c29504f22bf145192f247b02c36bfd814267bcaa10c",
+        "status": "available",
+        "bytes": 384802,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2025-12.zip",
+        "source_id": "faf5be7adf1e1b20b2ac0c5962ba60a0dbe4a25307e9d272f1a67b5461011b2a",
+        "status": "available",
+        "bytes": 377886,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-01.zip",
+        "source_id": "bb928e0bddc31f5284101dfa9bf0ac15c7af83b1be65e5cf278971067284ccc4",
+        "status": "available",
+        "bytes": 392489,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-02.zip",
+        "source_id": "08f4a76ed7b4c62a51ae9eb36f12718bf4e675933a2404a88229c9e40f88b646",
+        "status": "available",
+        "bytes": 344460,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-03.zip",
+        "source_id": "15347ae5c8def96b2f8e16b0317d511cd971a3c9435e88b7ddc7833cf682b8ac",
+        "status": "available",
+        "bytes": 371580,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-04.zip",
+        "source_id": "c135d28cb73a1c154cd0b63fb427dd06244fc682410f787a1b613308700d458e",
+        "status": "available",
+        "bytes": 352886,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-05.zip",
+        "source_id": "e2ee38137c2c1caa7dff53d31beb99d3927375eda4cb5b81bd9a00855b6d3297",
+        "status": "available",
+        "bytes": 365353,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-06.zip",
+        "source_id": "ab20ecdf2cecca41c5c9cd9df997b2f0009a0fc2091a32c34815ac83a70df414",
+        "status": "available",
+        "bytes": 361279,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-07.zip",
+        "source_id": "069a06a3b839b7c59e3e945a20006a4aa1b1f6d528e668734a1cd5790e3ce273",
+        "status": "available",
+        "bytes": 372098,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-08.zip",
+        "source_id": "eeb31e46c40e8cb79ddf47c605c0e1418b35931317d790fe562a487e09aa04f3",
+        "status": "available",
+        "bytes": 392347,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-09.zip",
+        "source_id": "88e237ede9dfb714c50cf312e861d11452611778ee9af60ff0fec510f0c421c1",
+        "status": "available",
+        "bytes": 384448,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10.zip",
+        "source_id": "5d74f8f31d7d408e1040c8051789368ac5553502d9b54e49f409dd31971951c8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-01.zip",
+        "source_id": "079c94b6e54feeeb4d1e27681226cdab69f914afb401f369c043cb2a6601f0ef",
+        "status": "available",
+        "bytes": 13767,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-02.zip",
+        "source_id": "30364077173626ca0c65474cb2357189d696f7d85cd8240fb04c3e20860008c1",
+        "status": "available",
+        "bytes": 13929,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-03.zip",
+        "source_id": "672173ce0312c01a90444abc3b2b0a36bde2e1fed4d44687ea34c72ad3ef040e",
+        "status": "available",
+        "bytes": 13744,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-04.zip",
+        "source_id": "d900a6a83eb9b90c62d28f724352f1b7d9ea46cafad7b0ff53b382a09e78c452",
+        "status": "available",
+        "bytes": 13706,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-05.zip",
+        "source_id": "130874fbfe95fb370878323e5aad3bbe652821f033eef5849dcded956689429a",
+        "status": "available",
+        "bytes": 13613,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-06.zip",
+        "source_id": "4f0f1db52f381e458235975fb90712f431f9219ddd5aa9521563708e8da87000",
+        "status": "available",
+        "bytes": 13431,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-07.zip",
+        "source_id": "cdd38ac9342718717d4da68e85ff25055a4a485061823b6dda3128801d197c6c",
+        "status": "available",
+        "bytes": 13906,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-08.zip",
+        "source_id": "64a4185a3e24f37d1a9c82803afe186c0f2975b077a772ef3949eac52185840b",
+        "status": "available",
+        "bytes": 14035,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-09.zip",
+        "source_id": "a40cb0febd061bb35f4209313cddcb4b08f68462b073474daa066c24a307b9e8",
+        "status": "available",
+        "bytes": 13605,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-10.zip",
+        "source_id": "ef2b69847b6624268c1fd0b71c091ef3e1ae668f564c20fb32a6100deed03ffd",
+        "status": "available",
+        "bytes": 13217,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-11.zip",
+        "source_id": "ac7de3da5e1925536d6eb4125361b297da2ad68e376818eab1205593034aa121",
+        "status": "available",
+        "bytes": 13348,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-12.zip",
+        "source_id": "d5bbf24f84cf710178e17e18dfce9cd6ea848aba7409b57eab048df8f697cf18",
+        "status": "available",
+        "bytes": 13751,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-13.zip",
+        "source_id": "40c30aba0375a5b2ac27a2e92f94cf865d87559bc422d3da8b5c8b47897d3751",
+        "status": "available",
+        "bytes": 13413,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-14.zip",
+        "source_id": "83b7bb66b3abdb93cd989dc57c2552c57f87e379ca46a2ede864867b4abcb532",
+        "status": "available",
+        "bytes": 13396,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-15.zip",
+        "source_id": "9d3341ac80cb99327eb41656912dd9bccae3c84bfd4d3c09cb62602421f75fe6",
+        "status": "available",
+        "bytes": 13510,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-16.zip",
+        "source_id": "e88daad53d34db84c696fbf7df343f574c60cfd07138c9f837d26bbe05742627",
+        "status": "available",
+        "bytes": 13409,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-17.zip",
+        "source_id": "ab3cbc275b27a4a597d50102ee8680d67a5655636a682b55290ec0a46f1beafc",
+        "status": "available",
+        "bytes": 13338,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-18.zip",
+        "source_id": "d977181be663298b531e63629fd8a56799ad69722ab21c524971aed50a6ebc8e",
+        "status": "available",
+        "bytes": 13284,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-19.zip",
+        "source_id": "a5250ba74e850042ae2108031ea898d50d6f389bf6a1240a5ce5bf17fcd3ce48",
+        "status": "available",
+        "bytes": 13457,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-20.zip",
+        "source_id": "30fa25def231331237b591425386ad8d2ca5fb918ce66e96e0ecfef1617ff05a",
+        "status": "available",
+        "bytes": 13470,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-21.zip",
+        "source_id": "4b516e34eb8e246b46eadc3b4fafb3ea570f638a91fe69e22fcc2a410d93fc6e",
+        "status": "available",
+        "bytes": 13602,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-22.zip",
+        "source_id": "9a6a791a0ef3222879b17f01ed3729ea65eca582dd631e2f1db4ea9199e04a1c",
+        "status": "available",
+        "bytes": 13529,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-23.zip",
+        "source_id": "c0b25456fc0593940aa91633482f1592d9e8182bfad940b88d38eb69575a6910",
+        "status": "available",
+        "bytes": 13314,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-24.zip",
+        "source_id": "981a92c741e9a070aec28d05cc1790fffb69af62c3eb2a4111721de2421edda2",
+        "status": "available",
+        "bytes": 13147,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-25.zip",
+        "source_id": "74c9c932db183604569775b24b2f7e6df3081db275bc43d4afb87896904ef80d",
+        "status": "available",
+        "bytes": 12979,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-26.zip",
+        "source_id": "a151a1a2f08c68f9350a4a7b2536937b0ddc4ebf69e5cd172db40a4a416d16d6",
+        "status": "available",
+        "bytes": 13157,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-10-27.zip",
+        "source_id": "80bbea931d943d54d21e8b2dcb71c0e7ab54b91fd6ee2dc7635ad559865de599",
+        "status": "available",
+        "bytes": 13177,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5977509,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

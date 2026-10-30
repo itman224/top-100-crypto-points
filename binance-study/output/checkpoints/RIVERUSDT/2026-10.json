@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 153,
+    "1d": 19,
+    "1h": 149,
+    "4h": 84,
+    "5m": 105
+  },
+  "event_file": "events/RIVERUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 276745,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "88bdd4d0b4bb8505778b161c7ffb150d47e0641e39e76e3c5020ea1434989c44",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10803,
+      "source_id": "49e5acd33470c2cd42304af53a3a31c446e2a71f1770303dd70c587905c0de95",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 10647,
+      "source_id": "0ba349edf81c7d4f3707fdec5574be7c24bcde0f73f86e87af8adabd50e98547",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10476,
+      "source_id": "308cbd4f49e1540c826a9616811f3ecafea2629059e6c7537359cc2cdc9fc3a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10508,
+      "source_id": "1fac846308e923bdf77a438fd05ae58915a5b03b4bcb76132b0b7e9301794308",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10254,
+      "source_id": "7e5aa9a52f2fc0ed07f1b0528dd033f0aefe8fbb7d36fa451f8fed2a8ba2c088",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10205,
+      "source_id": "1a15d32cb699112f601b2551b6c4b1cd52d3218302797901974341f41b89cc94",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10540,
+      "source_id": "c009dead1f9e41879bcc0e5410f0c2fa33690419d68e6a439a0bafeb30affb1f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10829,
+      "source_id": "fe48e4b5d573b424c8ab951f977fd2376da66c3352bd19414c2134aa7481c3ac",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10797,
+      "source_id": "8b8b6b7ebf68cb7a186dafc119da94425f3e6c60cecc2ad9c5b554afdf816a64",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 9981,
+      "source_id": "cec202e49eba374f33fb4322c3983d2d8180e8035373deafbf4d4db8bc46cb73",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10214,
+      "source_id": "db55b68732022fe0307a9cbd0cde647587ef70f01f5f816672b2e5b31e37ed51",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10843,
+      "source_id": "097bafc3a6c72d64fa506c013fd35a795a39ad1b58d33d0de27d0d0fe19ba28c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11162,
+      "source_id": "f8c9e39c9b60f7238b2ac7e32582918dd7d9aef02df8fd102a9e41cd7625dd8e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10798,
+      "source_id": "3d7951e3227e98940a05d3b8fc2a09653059341d0933af5a6a8ab2b891cbd616",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11359,
+      "source_id": "1bc0a1b1d40e351b463a2b8c98c5c8f0783f7c02b81c74a8312a14f9a30564af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11392,
+      "source_id": "a208dd635fb9fa1c85ce1d8123599c8f947ea2bd7634bd2e33dd12e562a10a81",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10606,
+      "source_id": "3eb825b9d908a948c233dfa92ae00132e6da0b6fe840b703455a1432170d4138",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10708,
+      "source_id": "32d8384ef2c3ce68c7c65f87eb678c6640b2816cf2834c7a4c340ded11aee924",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10489,
+      "source_id": "798286f99e734a05b4a9f61aff98c31776a7dcfbab0627aeb9b32c1b21f65e8d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 10584,
+      "source_id": "b92a154075017e920cec53cfff824e4a98ea7815525de49d1fb6324c0662cd73",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 10523,
+      "source_id": "9bad68947bf9347db3949c0b1c6c645a5a3ba8dfefdab1aa41b1ec92f524bed0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10829,
+      "source_id": "3eb4000ae52e6b7efefa9b3d90ad94826e15f62d03d375f10776628d3d98cd5e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 10653,
+      "source_id": "990cb116e99e80f2db6d75255aa2cc3fa1db483abe4cc4136a4c1d6776f8dffb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10644,
+      "source_id": "0626e5c61fef5984cb3b72d672f8438294ce9baf3f1bc7773a1ca17fa1a49639",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10352,
+      "source_id": "eccf14eb881712dc0db1436c73a36ba786f724a4cb4ea0bbfdbf0e1c55ca072d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 10549,
+      "source_id": "e0e8e21ffdeeb009660b09c7bfc7835118118cf182c7eb5133cbc0bff8ed66da",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "RIVERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

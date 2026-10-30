@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 151,
+    "1d": 26,
+    "1h": 141,
+    "4h": 79,
+    "5m": 74
+  },
+  "event_file": "events/VIRTUALUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 355722,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 355722,
+      "source_id": "bddee2bb430efdd7163f7b9403061fb62759be4d56a54b753614e961e6204db6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "VIRTUALUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

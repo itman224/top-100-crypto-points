@@ -1,0 +1,202 @@
+{
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 18,
+    "1d": 13,
+    "1h": 28,
+    "4h": 27,
+    "5m": 8
+  },
+  "event_file": "events/ETHUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 361940,
+    "expected_5m_bars": 7488,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "valid_5m_bars": 7488
+  },
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "cb7e398baaf584beee2f3ae646c4511a7b9b2b6eca5fada707c6ef2884e71be0",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 14047,
+      "source_id": "075147faa1d8c70b9c855efc12213479d95faafe2aa60f3c9068a5b2a5b26255",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 14230,
+      "source_id": "a094f7b00de864b0deee798c8d29706eb9e836ae5f470f3e23e78f5537748ba1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13192,
+      "source_id": "748b2f82e967276e33aa405eb6161bd89e56ff6fdfb45f31a06797e363291081",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13360,
+      "source_id": "8d19f54ea53f5e8a383fe598a26a4862e0e0d9ce7393c7476294c0f2aee04ce1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 14003,
+      "source_id": "8feb9e9a41251aa36413d5df1222b74eeb7f2ebaa046ce2b849b05a22f1ea058",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13745,
+      "source_id": "87a38eedc131167f9cddbad252d626ba0729c8c1e4b29939f3025319abe548a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 14078,
+      "source_id": "c087ae08e7b2838977b648ffd82cc1d3e1391c4ad8c28e03ba36af352682c47f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 14310,
+      "source_id": "c03cc6b2bcb5fe7b4b3aa42034696c1f2364337c2e9494989988787773f1c952",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13857,
+      "source_id": "ebddd5138de9b26653869e1344a23d9ffb8bb7e0c1da3d023dcdc265258dd4ef",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13236,
+      "source_id": "cedaf94a305082ffb9b1fd0f08b2bfcfb2e74c8affcb5c08e8b01010b8f56b34",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13428,
+      "source_id": "c022a607e8d6a17c15985484b0d11a1d006b6d57de7a4cf9babfe485e111c65c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 14133,
+      "source_id": "f0cd86973ad08dcf459f8f1a1854cf681040ef288b640b7446f5d8fd3059d783",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 14155,
+      "source_id": "5767e0d0ee36c58ff00737e66e4352ca6c1f87e611db0bc58848bc03f90218eb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 14170,
+      "source_id": "1dec1a46f3d3b2256c412831c319f25ede90c18f5a8d39f5fd6bb12fcce61c99",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 14365,
+      "source_id": "ddbb40baf0951bbb2c7a1eabaa6eaeb835d7eafbd2dd4b3b386cb6183e16f119",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 14140,
+      "source_id": "d961047ef47be7ec770bb62adf20674187a5dcb72791f26198fe6a50b8c194b9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 13629,
+      "source_id": "d4907665d939c6c53dd1de668fb5a0aff59004693d0dc3f2f80fddc1b20c8639",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13989,
+      "source_id": "5f10d54e5cb963a5d0c01db358b298cb8616297b4fc102e03a02b108805a08d6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 13993,
+      "source_id": "04b0a4daedcc606dab1702a1b4561f46d247c3a0fff76b8cba954d4fdb01819f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 14142,
+      "source_id": "31fd16343f697427b6c5b42f6294d39e5787837ee6a2ecd6900b15d25dab8540",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 14106,
+      "source_id": "ef7eca2d79dcb6bbdab06f7a3a45bd4bd8945f0c353786fff7cecde28c8b22c4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 14130,
+      "source_id": "b2518d44c1a0ae26ff3198a908b59150ad63edb237788ee035e168242b922546",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13763,
+      "source_id": "ef356003281984121f6d235e794bdba9db21ba9322a849fe5535a661000e9e0f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13859,
+      "source_id": "ecb6bbcc90a1acf0e77608510888c2e67d65d465e5f2222c306fd5866d1df893",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 13781,
+      "source_id": "dad25e795c60d9f52d88f4b96c686270ffb19d1da9976b9d05b74d129298ddb0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 14099,
+      "source_id": "7bd99b6e363a48e1136e662bfd158da79557cbc1245aed1c2265d8a00b820de1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ETHUSDT",
+  "version": 1
+}

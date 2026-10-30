@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 64,
+    "1d": 20,
+    "1h": 99,
+    "4h": 74,
+    "5m": 47
+  },
+  "event_file": "events/ANKRUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 290695,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "0b0ad9970f13256a082d6d7ae0a311b173f8fffc802ec61710a9aab977b53fe4",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11145,
+      "source_id": "911937a346854bea0d17cb3f15372ec234f421e913c53b9309f9ab6024ce0f03",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11293,
+      "source_id": "3eae7d20b3ecac290ad0ceb1ab3e311257bd69fab44ac47735dc3adb814a827a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10974,
+      "source_id": "05b2d446533087e9a59b1cb41ee4262319bfed7e3444b0aa85e2285140d394fc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10751,
+      "source_id": "51bef6aad9a3ef67adc374271e0a9a4b6205cd905536b47f3d880a2401b5cd69",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11163,
+      "source_id": "760ac926e9a75db4bd4206e7efd7a033212c494bb4a6ee0f26530c0e7891b1e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11129,
+      "source_id": "89783acafaa81c8c0248edabc37e962607c7ca17ac6dbe2b5b49e09c9fbbf79b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11301,
+      "source_id": "c1e93954a9de2fd197d5b57ccb6089a8c9b480e65a61f99f4383cae07a4b858b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11368,
+      "source_id": "966dad2845ee0ec91561e986c25f543dd51feecde811d6d0751b7fdbd5f532cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11460,
+      "source_id": "fe0f6cdd6bb5d3176960d062694aa503b2dbf023f88a006ea39f177c4eb20e6d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11049,
+      "source_id": "eec3594e6561ca0a4d5302c4eec7bdd284f296b4ca9cf2bad71cbf07edd85b60",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11014,
+      "source_id": "add773b69eeed7e31db5f72cc1d7b4f03586280bc14b2b8b9b748f3cd6b09f88",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11285,
+      "source_id": "284710a8185f73937f81895a0157918431e80d081983fb6cd8cb3005934cbbb9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11237,
+      "source_id": "b0574b6afcbcaeece3c6df4547625e968002be169d37b60786247f029ad5367e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11158,
+      "source_id": "4f62543b711fb43a226a7d2a6f243fcec0fc5a91166372338f59e3db5b0b4bc1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11310,
+      "source_id": "af75da68918a36616876768156a6331610e1066128789310419d2a995b47638b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 10986,
+      "source_id": "fa9f6dead0c716ad2e2a23931c65fbb086bcbc9f2eabfd3845c7cdba0278490a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11031,
+      "source_id": "2b0747ed0ba8c01a6061a81f851cae6420db80057edb7f762239e999f922679f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10929,
+      "source_id": "fd3babe07c4a9dc18763340680b6aac812b2e277c09ef207e71060eb92945e39",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10888,
+      "source_id": "25823dcfcccd11400f4a82a787b9d23c3fc1a7b53d0ec20a8265645898ab3622",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11043,
+      "source_id": "9d42b563d4b1b59eab5778dcde426afa091ef559636308ed788042e66d891dd2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11024,
+      "source_id": "70d1931e07ca2a8116133a9e3ff5da889d356813599f80d473facc96e5533035",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10907,
+      "source_id": "e9215514d44890e88ba41aab3988d4be68770f4e8641ed7d7cf1d1379a438e0f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11207,
+      "source_id": "a69f56e24d085f123f0897ca6a0ab572f7ae1183dfbb7e5aa7d41515467daf45",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11347,
+      "source_id": "7589a8107173f3a99bbb9b1139909bcd225706ac6277a78b87bdbb5957752384",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12176,
+      "source_id": "6816d32d2eeeb4136646a28574f67c7ffbc19ff1fda0d686645ef8ca808eef5d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11520,
+      "source_id": "8eb9b6375c40195eae8ff2521c47e545c63e0f90f4020f6e22b2c828a69907d7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ANKRUSDT/5m/ANKRUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ANKRUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

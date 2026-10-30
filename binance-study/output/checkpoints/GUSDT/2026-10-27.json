@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 1,
+    "1d": 1,
+    "1h": 1,
+    "4h": 3,
+    "5m": 1
+  },
+  "event_file": "events/GUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 11468,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 11468,
+      "source_id": "9006566b9da1809be075d8a725d8c6edbe09adde4baa6cfcec714fca1e8fd241",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/GUSDT/5m/GUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "GUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

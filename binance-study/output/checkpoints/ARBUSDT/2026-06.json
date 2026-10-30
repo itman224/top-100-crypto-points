@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 157,
+    "1d": 19,
+    "1h": 169,
+    "4h": 96,
+    "5m": 109
+  },
+  "event_file": "events/ARBUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 354875,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 354875,
+      "source_id": "25d8515d197b6b3575d1e50b2b72c45659d0ae8caef98c7cffb308ff4e7af2c7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARBUSDT/5m/ARBUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "ARBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

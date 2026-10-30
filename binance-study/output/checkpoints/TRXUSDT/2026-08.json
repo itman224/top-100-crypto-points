@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 1,
+    "1d": 6,
+    "1h": 1,
+    "4h": 5,
+    "5m": 0
+  },
+  "event_file": "events/TRXUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 331604,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 331604,
+      "source_id": "401d6f80ef7bb4eed15d323b1c175c7c49778f31fd5aba80cd1516b93fbe30fd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRXUSDT/5m/TRXUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "TRXUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

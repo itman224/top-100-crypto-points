@@ -1,0 +1,352 @@
+{
+  "symbol": "AAVEUSDT",
+  "event_count": 2665,
+  "quality_counts": {
+    "complete": 2665
+  },
+  "source_event_files": [
+    "output/events/AAVEUSDT/2026-04.jsonl.gz",
+    "output/events/AAVEUSDT/2026-05.jsonl.gz",
+    "output/events/AAVEUSDT/2026-06.jsonl.gz",
+    "output/events/AAVEUSDT/2026-07.jsonl.gz",
+    "output/events/AAVEUSDT/2026-08.jsonl.gz",
+    "output/events/AAVEUSDT/2026-09.jsonl.gz",
+    "output/events/AAVEUSDT/2026-10-27.jsonl.gz",
+    "output/events/AAVEUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/AAVEUSDT/2026-04.jsonl.gz": "b601177a46d5ceb4dd4ec149694364eaced43a4f17da9d382425aba8a46b317c",
+    "output/events/AAVEUSDT/2026-05.jsonl.gz": "a86bf9de3bd538a91fc087267d456ee38b12aed63d94c6870a7b4dc1332f53e4",
+    "output/events/AAVEUSDT/2026-06.jsonl.gz": "748b5fdabf0fd1f2d319697539b4deb1d90309852c77dea9e4d198285b2ddf0e",
+    "output/events/AAVEUSDT/2026-07.jsonl.gz": "edb7f3098b7c12c6c29227d6dfae0e470d7563325c345256ea08863e8d498587",
+    "output/events/AAVEUSDT/2026-08.jsonl.gz": "e89f21fed2bf43b7852eb2b2d20ea3d7158b30b4717ee1acfe42b504a9b40f74",
+    "output/events/AAVEUSDT/2026-09.jsonl.gz": "a596d2cbe4d1e0c5b5528894cb0df2b7db3e0403272ce2bdef3fc7f03ebb5b9a",
+    "output/events/AAVEUSDT/2026-10-27.jsonl.gz": "3c01f06bad7e4fbc99a0aee6b09c90dff30bdf2412fe41b4f95d5a1d7fcf2f40",
+    "output/events/AAVEUSDT/2026-10.jsonl.gz": "3edb5e53c44c1f804aa7667cd4c95489f73f0a680d1c8b1e186d34aa9e32bdbf"
+  },
+  "market_data_quality": {
+    "symbol": "AAVEUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-07.zip",
+        "source_id": "2e1121c9388e7f6e04dac39ea3646965ab6418411313c310a10f564858da2ecc",
+        "status": "available",
+        "bytes": 343259,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-08.zip",
+        "source_id": "199acf7daaa37fa736e90ef40a0f9f61b5149dd1ec41050371a2a79896fcccdc",
+        "status": "available",
+        "bytes": 339940,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-09.zip",
+        "source_id": "7cea8b12ad0fc86b07fb066202a033f520d77080439a255fa57adf5062902352",
+        "status": "available",
+        "bytes": 321734,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-10.zip",
+        "source_id": "fe72ff03e1a57c5ecb1add1c74391ae3638e26ed980e2ec0b1096c4865851141",
+        "status": "available",
+        "bytes": 335975,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-11.zip",
+        "source_id": "e2b0cadf1c920165922d78acab976a015e7cdc709397db5171ddd1572f52ff09",
+        "status": "available",
+        "bytes": 323331,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2025-12.zip",
+        "source_id": "0f97601311f5055a2466243630e0e98fecbed6643dc29607fde88b6eb065fce2",
+        "status": "available",
+        "bytes": 328219,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-01.zip",
+        "source_id": "2b9a7b42e85ab1fb947a48db222fda05ebcbc453b749a3689f8471cce873641d",
+        "status": "available",
+        "bytes": 322102,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-02.zip",
+        "source_id": "5fca5908c1e11245ab63b9818b08b32c77a7523544699b6c6e5ba4be48ceedb7",
+        "status": "available",
+        "bytes": 294375,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-03.zip",
+        "source_id": "bb77f96ead5cee4e96ea3e935fd465919faee58dd8b1764a5f9ab3c84f015b56",
+        "status": "available",
+        "bytes": 320236,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-04.zip",
+        "source_id": "a0c1a24a760762b4d35364aee69c90920c2d207d851393787cab7402a660dc86",
+        "status": "available",
+        "bytes": 310477,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-05.zip",
+        "source_id": "631bbb5899c6a639aafdaccdf91bd3bf232bcf0c25c50f7b559ce3335ccc64cc",
+        "status": "available",
+        "bytes": 312966,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-06.zip",
+        "source_id": "7616cc3a45091108fb0732a9d8a389cb9b95146ff6faa740f74a52fc6ac6c200",
+        "status": "available",
+        "bytes": 310607,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-07.zip",
+        "source_id": "f75cfb9baeec84afe1e1f3e6c8e2f3db6ff67b6b9ee9acd4ff9abd840ac881b8",
+        "status": "available",
+        "bytes": 318799,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-08.zip",
+        "source_id": "02fcb5f81b720cfb24c2ebbe94d754472f05a266fa7bb9bf6965d05ce0fb1e00",
+        "status": "available",
+        "bytes": 316846,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-09.zip",
+        "source_id": "d1f787b906d06c154a3916b118a746e2c337dbd933cbe5c0f981f624e67a2cff",
+        "status": "available",
+        "bytes": 318150,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10.zip",
+        "source_id": "1cce298d29ab233bf40253490eebcd8d8399b087ea9042175e3e966a107a77b5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-01.zip",
+        "source_id": "c7916eb6db66aefb4d4a4676f34f9d10dac082546ce13c0fd405303614036ed3",
+        "status": "available",
+        "bytes": 11566,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-02.zip",
+        "source_id": "498585e843a3cdfbfcc2e68b08a06fbd08a7bc0097d1994b6e88fcb9ebe3d7a4",
+        "status": "available",
+        "bytes": 11731,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-03.zip",
+        "source_id": "9092e2eccaf1ffb137e9b57f777514a223e3e536bb031374490bc1fa2fdcc938",
+        "status": "available",
+        "bytes": 11098,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-04.zip",
+        "source_id": "c2c52500352c19b5feef6a0f11f7750f103be975975ddc18fbadc595c0d3e32f",
+        "status": "available",
+        "bytes": 10940,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-05.zip",
+        "source_id": "b32bcd59ca5c6d7b9d582e4f4e4f9acc2587bc4656d9c6be19f205ee1b847fe2",
+        "status": "available",
+        "bytes": 11320,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-06.zip",
+        "source_id": "ecdec36879346b1bb3068ab362ccb3d093568c27347737638d6006220052d8d9",
+        "status": "available",
+        "bytes": 11148,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-07.zip",
+        "source_id": "d591d25f07008aecc10b1fe032cdc60ff374ac94bcb0d2c1b72573d07b8cc593",
+        "status": "available",
+        "bytes": 11264,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-08.zip",
+        "source_id": "f3a7f51f0d8845a65aa8924370d6f966bdd5b6176c3fa96010fd1edf068e7f9b",
+        "status": "available",
+        "bytes": 11347,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-09.zip",
+        "source_id": "07afdb207434c905acdc53452870dc253f0e7409da0a4aadf1317e547246f175",
+        "status": "available",
+        "bytes": 11118,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-10.zip",
+        "source_id": "724ceaf4286db22d7e53d50d7a8e859f271f47b39a6c7f6adf981f1d9a1f8399",
+        "status": "available",
+        "bytes": 10944,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-11.zip",
+        "source_id": "29180911ed88031af88e11c74a767516186846210e166a497b1520f45f3247f3",
+        "status": "available",
+        "bytes": 10858,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-12.zip",
+        "source_id": "8677a4ded67de339ced1317844d201638ca24c1c2541ecfe7c7d22de5cda4701",
+        "status": "available",
+        "bytes": 11237,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-13.zip",
+        "source_id": "4cfeaa4e09ebbcf2d21b45e5cd97b63c81fe642ff525b00d5394092683c605ab",
+        "status": "available",
+        "bytes": 11060,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-14.zip",
+        "source_id": "ef9514faa5e08d7ba2ef99ef14f86c30cdb2a63422f981d9f67824ac4a0aaf57",
+        "status": "available",
+        "bytes": 10948,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-15.zip",
+        "source_id": "3dbc81c69adf5a7fc5d73afd08cb74ae11223634b8b2869761e02a8a02c71ee0",
+        "status": "available",
+        "bytes": 11242,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-16.zip",
+        "source_id": "3ca43d8a155b55f6f3af65fcf5bf824650c3961510e25abf6cae6e87fbee6bff",
+        "status": "available",
+        "bytes": 11109,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-17.zip",
+        "source_id": "a23895e912052406603308767cbd63cec62426e40fa9d8fb50d0a778a51d8282",
+        "status": "available",
+        "bytes": 10646,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-18.zip",
+        "source_id": "8458e9b401340a8b08566100b6e9d410cb57cc03b517f12b18f7adbf9749ec98",
+        "status": "available",
+        "bytes": 10871,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-19.zip",
+        "source_id": "7b15d6bf83b3454c726595e0661691f06b041bed01b12d1137df9e20b003fb70",
+        "status": "available",
+        "bytes": 10905,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-20.zip",
+        "source_id": "7efcf0b82c8618d206cb1527d466de4efb34581a79eeeff054eb475dd6c3fe89",
+        "status": "available",
+        "bytes": 11118,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-21.zip",
+        "source_id": "a8fccfb14e52fd4edba1671c60d17f4a34bee02e13389cb450c71d71b5bd382b",
+        "status": "available",
+        "bytes": 10986,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-22.zip",
+        "source_id": "0968b06afb1b2cd1f485b50a4e5e32552098b68f202ee040a4a6b2e729b8a59a",
+        "status": "available",
+        "bytes": 11018,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-23.zip",
+        "source_id": "d1ef789efb04612017bb00194f3ba1fe0412b5ed92396934c1170927cc240183",
+        "status": "available",
+        "bytes": 10840,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-24.zip",
+        "source_id": "1bd71d099e3f603dc6eccf9dda9cc5bab632fc9b0f4d110b155ddb5ac833eb8f",
+        "status": "available",
+        "bytes": 10906,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-25.zip",
+        "source_id": "e31c12d39fcf404ff98cd22d3925a25efda984d1f374cbba2422a17983930c8a",
+        "status": "available",
+        "bytes": 10666,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-26.zip",
+        "source_id": "9bd65d3deed596f8510e939b95e0e376f819b1dd50275660027f2c7dc204580a",
+        "status": "available",
+        "bytes": 10863,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-10-27.zip",
+        "source_id": "58ea4ad3f4aa9413de4b69e698296045473bab0817b995c899594b073c5283dd",
+        "status": "available",
+        "bytes": 11008,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5115773,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

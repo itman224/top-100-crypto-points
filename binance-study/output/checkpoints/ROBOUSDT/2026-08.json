@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 437,
+    "1d": 23,
+    "1h": 303,
+    "4h": 123,
+    "5m": 454
+  },
+  "event_file": "events/ROBOUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 340069,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 340069,
+      "source_id": "cba17786d9648276633e51c3e666b42ab5604eb058edb2ad136b0c3274b48bf6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ROBOUSDT/5m/ROBOUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "ROBOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 117,
+    "1d": 22,
+    "1h": 132,
+    "4h": 77,
+    "5m": 82
+  },
+  "event_file": "events/CRVUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 314509,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "bcd50135b6e92a1e1d6793cf5440e3712a22fcc91b1f8ed3de9b975f22b9f4cc",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12186,
+      "source_id": "9615bdc31f91bc72a89f10cbeb4bb491d07c370b941c742d92233beb8ea763fd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12260,
+      "source_id": "40ae07d533e40d48fd1097fda2c0d4a6ea7949ce58e76c700d595ef39341cdc2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11964,
+      "source_id": "e3062daa199c9b34d45f4901d9944dae6d2677fdde542feb40b99356592ff2e1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11761,
+      "source_id": "c56ce52297b7e2ab8efa67a8904c8d60f68532714dc94bcffc2df05c7dcd3597",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11977,
+      "source_id": "06d6328320563f549460a3ea752ae5a81f4fc19ef7783d55a6d5b348fdd4266e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11968,
+      "source_id": "d70c53e495ba5e520f91879bb105956a5bfbcdfda27e748f2dfec42bb122bd0e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12133,
+      "source_id": "74ae6e0fff0313993143afa0807756e2ffedc1debcbec60caa20daa42d6c8bdb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12642,
+      "source_id": "b695f8018bd007fc82f947112b200fc806752e43a131a3d120bbf83689fe779c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12361,
+      "source_id": "1c0b28328f3e435b2357414a79c5f795bbef0b1b5bd13c31835a77b441dd8aa4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11677,
+      "source_id": "4826cd1d099f7a6fb936d43f5a8102a1369fe71ecd652ef32e714bcf335a301e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12024,
+      "source_id": "1f609e37bd7ba28fe95edfb3196cb19d4b973007a52adcbbd350e4d12b502ee4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12135,
+      "source_id": "50327472a36f8d57654e4893081a60965e07e6816da027ed5b4db0602c2bae9d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12326,
+      "source_id": "983d2a4677080368e35766dd2743ac79d93898e23ea4f1be87820a2ef5deccb6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11999,
+      "source_id": "a85964a8cf1a354071101c2aedaa9de12d37d751f2c0752c6f77226782240e49",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12613,
+      "source_id": "345730362819c6f269e28953a223295e0b7464ca7d1dea881ebafce32abebefe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12152,
+      "source_id": "292de690611d400fb869a197810072ca3cbb9e1fe56cac7ddba82fcf9a33f155",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11830,
+      "source_id": "4b11f57dd7d7e5c0944a1501e5b55147022ded3d3935c30fc2282280ae850472",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11990,
+      "source_id": "713d19ec3e40699935850ca54ecaf92e46531a4d21d05b3cf04474615d9df8b1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12225,
+      "source_id": "2d867de15185304a302b35d5ac300ac3054993ea31db78ef189f53467b1c3b43",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12262,
+      "source_id": "1b4bb3b4d9912ffbd7a3a660685cd99e952b45696446750923e2ad7492f1f2fb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12258,
+      "source_id": "4105f7efcaf11457eb87574b619af10327c695cf63bc07581e3f49757e7b031a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12213,
+      "source_id": "bed79afe5d51ce151a1af4649d52680264667c875501b7eff85802fb5bb86527",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12032,
+      "source_id": "056a9ad22161c1cede0cadf6f3cf0be0ae9561c1a9d4bfd7acfcb771fdc4c97e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11760,
+      "source_id": "1161ff3f5994d67eef7c5b5cc2186aec51bbddb0c9e0769d62b35c883acf9460",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11759,
+      "source_id": "8812d3af121bbb4afa2669c633b893659f7dbce6e4f30e1f5ca7e44d59ea7a8a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12002,
+      "source_id": "e3674eb2b5785a4479c39766c27c4bf27da83360e2647619482e7a59ae6c7d66",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/CRVUSDT/5m/CRVUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "CRVUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

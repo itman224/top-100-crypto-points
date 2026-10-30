@@ -1,0 +1,352 @@
+{
+  "symbol": "FILUSDT",
+  "event_count": 3248,
+  "quality_counts": {
+    "complete": 3248
+  },
+  "source_event_files": [
+    "output/events/FILUSDT/2026-04.jsonl.gz",
+    "output/events/FILUSDT/2026-05.jsonl.gz",
+    "output/events/FILUSDT/2026-06.jsonl.gz",
+    "output/events/FILUSDT/2026-07.jsonl.gz",
+    "output/events/FILUSDT/2026-08.jsonl.gz",
+    "output/events/FILUSDT/2026-09.jsonl.gz",
+    "output/events/FILUSDT/2026-10-27.jsonl.gz",
+    "output/events/FILUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/FILUSDT/2026-04.jsonl.gz": "81630e74503335ebedf8759e9deef5d105908efd7f4b9e870ec1c9f90a405a2b",
+    "output/events/FILUSDT/2026-05.jsonl.gz": "096b0e93aa1254d686a898fdc34b09f031f4dbbbe1f8ca6753340f85e8624ec7",
+    "output/events/FILUSDT/2026-06.jsonl.gz": "1ae833fa9070867a235cc59d472668ab6a5fcd2211b2153367d82e49c4b8aef6",
+    "output/events/FILUSDT/2026-07.jsonl.gz": "ca44f08b8a278059d80214a37171874223bfc680727e7e78604100820648642a",
+    "output/events/FILUSDT/2026-08.jsonl.gz": "6a5c4603c3c5ceccb24197884b38ec4867cf90bc2c03cdf74cc2ca3e5aa88775",
+    "output/events/FILUSDT/2026-09.jsonl.gz": "c30f17ea0109763859984ac5aea74cce87cc8ef9427f5b90180894f3450da08f",
+    "output/events/FILUSDT/2026-10-27.jsonl.gz": "428372e559cad56b353ffbd81fc3ad918bebaa3b77e77bee409ccafc53f239c6",
+    "output/events/FILUSDT/2026-10.jsonl.gz": "89a778912cec98da70f7474b126b802ab76349603935fd0493d37cbde32e4501"
+  },
+  "market_data_quality": {
+    "symbol": "FILUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-07.zip",
+        "source_id": "badaabbe46fbf89c9103e892eadf3b70ed3b6fcf95fd2286ca97f1c1145f0b7a",
+        "status": "available",
+        "bytes": 329446,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-08.zip",
+        "source_id": "a0a71f3ce8d423cb4b6b8a5e22dbf9e258d67cef7efc04e9ff24b51488c0b71b",
+        "status": "available",
+        "bytes": 325850,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-09.zip",
+        "source_id": "a27a6cc2612d95482bebd3dfa62d161bd24e93b4e910f62c1834874e8aa8ca25",
+        "status": "available",
+        "bytes": 312251,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-10.zip",
+        "source_id": "500dcd7f4ae46b0abe1e99ed11874701f91a6921860a0c6b379dd9e8a50b2af8",
+        "status": "available",
+        "bytes": 325900,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-11.zip",
+        "source_id": "0a41424b663a26e2efcae56d0cb28e171faf5d879ff3d8eff7f0955075c65342",
+        "status": "available",
+        "bytes": 330305,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2025-12.zip",
+        "source_id": "705f7326dfd989f2010f40dd1e3cb48b4476d678fc3a9f644a4cea60ef915958",
+        "status": "available",
+        "bytes": 319815,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-01.zip",
+        "source_id": "25b758f19b1c01b0226093ee4fd66c2a75d22ec8f0d3913f4dab14fd21cef8d3",
+        "status": "available",
+        "bytes": 323462,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-02.zip",
+        "source_id": "d422dbbe73b8bfd0b1cf4de51dccb3af88c7e18abf00c5d98b92edaf0d278cc8",
+        "status": "available",
+        "bytes": 289971,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-03.zip",
+        "source_id": "297503dccc7c7fab5ba1829656bd2efd056873f206251dd6d590045a862c6860",
+        "status": "available",
+        "bytes": 316776,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-04.zip",
+        "source_id": "c73ecb5a960f4a22d2167498401b121e931c0fa5a64d395e1721e7d4874ffbe5",
+        "status": "available",
+        "bytes": 300467,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-05.zip",
+        "source_id": "57fa122d97282eae5e75d22e4600628daf7dbfcc215cd70a05e8a477fd130c2a",
+        "status": "available",
+        "bytes": 318750,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-06.zip",
+        "source_id": "6b33e441bb9426a5612be4f710f29646ecc1ebd1ec4df91c7f3149c1ffafc0a5",
+        "status": "available",
+        "bytes": 307471,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-07.zip",
+        "source_id": "8a136a2cd15889eff08233b23e4fa460ead808a5ecbf302bf038ed5c525c0b40",
+        "status": "available",
+        "bytes": 345610,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-08.zip",
+        "source_id": "59c2fd38a79d7db8240a0ae97cbb9d259a24c2a4f644eec410dff44131c56799",
+        "status": "available",
+        "bytes": 359676,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-09.zip",
+        "source_id": "8aed595e9d49f30babba8d070b4bc36732e2d7c8890a0dc589cc9e2f17ccde96",
+        "status": "available",
+        "bytes": 368837,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-10.zip",
+        "source_id": "7c857d173858115976327aa4ef278c2b8e115598431a36ad6b9bff8a17df8605",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-01.zip",
+        "source_id": "282bf6a10ca70ec91a11fd323de8b14683d50a28b8017905317f2b9e9acfd061",
+        "status": "available",
+        "bytes": 12667,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-02.zip",
+        "source_id": "87f1f71f86a10dcc3640ddbdaa9429ab2cd21388ded617011b6bff4fa895a58e",
+        "status": "available",
+        "bytes": 12695,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-03.zip",
+        "source_id": "5355774216ceb761971a7b3c5488d5b69d490a6445843100d8600d1eb70875c5",
+        "status": "available",
+        "bytes": 12503,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-04.zip",
+        "source_id": "4c940ee4c863233e8500782a6e64928f01fe0a43049a3bfa11adcaa136c3bf61",
+        "status": "available",
+        "bytes": 12044,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-05.zip",
+        "source_id": "ee3de20d79bc44cd4108cd3b7a5291c0dce2a9daf97c186ea1c9b518a4bfdc74",
+        "status": "available",
+        "bytes": 12965,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-06.zip",
+        "source_id": "4ff6f6b58ce7c9078e37265186361144b9ad0c6ae0d8f861c9bebb7c2127d80c",
+        "status": "available",
+        "bytes": 12874,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-07.zip",
+        "source_id": "d3cae024bed6b607884474df05f95658fc3448e0bc3094a545556d16a69bfec1",
+        "status": "available",
+        "bytes": 12837,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-08.zip",
+        "source_id": "a02e033d2ec07ea75b9d73573e74b2c55336f10a2df26b3e670f0928e9675e6e",
+        "status": "available",
+        "bytes": 13069,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-09.zip",
+        "source_id": "95cfd311911287de3a4d6e6292a4734d4f89d466c9955e06b3b56b451cc75be6",
+        "status": "available",
+        "bytes": 12702,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-10.zip",
+        "source_id": "bf7f2c4f595804d352cbdab74980e6b49091c92d873fb42cb781e9a849734116",
+        "status": "available",
+        "bytes": 12767,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-11.zip",
+        "source_id": "fc88e316583f28f5397cb21b2fe763a709c77c0d8955460f3cacbd28f744109a",
+        "status": "available",
+        "bytes": 13013,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-12.zip",
+        "source_id": "7cff54f9aa7356f9d849c49990d9f2e23be0ccd94f1146457c6895bdc602dfba",
+        "status": "available",
+        "bytes": 13221,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-13.zip",
+        "source_id": "04da6e2e4906ff2b5f8dbeeacc23d878af497518798fcb4438389508ddc86c41",
+        "status": "available",
+        "bytes": 13086,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-14.zip",
+        "source_id": "54331996bdb6e895f0e2f291b096b1e213120edd2262c9d1b94610b0a9162d60",
+        "status": "available",
+        "bytes": 12891,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-15.zip",
+        "source_id": "a63b942bdfe2a42178f44b2cb6839874a78dcd3c3664acb1eadc8dc5b4789395",
+        "status": "available",
+        "bytes": 13242,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-16.zip",
+        "source_id": "046a0bfd6bbd6521c61700a71609153e37e3ce46f0a3e1fc65f29018a5de1de1",
+        "status": "available",
+        "bytes": 13035,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-17.zip",
+        "source_id": "27c446a11cee4759e07087c413bb5d8da8eeef14d0f5e3d192e67d1b5bf5fd95",
+        "status": "available",
+        "bytes": 13033,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-18.zip",
+        "source_id": "9f37239e875254a79ec988b6a7a60af670cfc1c8f834d35949f3023b2356b49f",
+        "status": "available",
+        "bytes": 12814,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-19.zip",
+        "source_id": "b53b8c10eade64625f684787c97c448c60e577e0270578b7b8e2f0edbcbe3819",
+        "status": "available",
+        "bytes": 12767,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-20.zip",
+        "source_id": "c86dc07c54e4945bdfc9f60f8469a069c84c1b3d5fcc9fef84c1b197e510cc36",
+        "status": "available",
+        "bytes": 12664,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-21.zip",
+        "source_id": "cdf044d77a703c2e80cd280b81008e71caa87b7c45d2244a943a8e340a0d8de7",
+        "status": "available",
+        "bytes": 12789,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-22.zip",
+        "source_id": "026a63aa66f7690f85c18832138696b24ab774512713e2f1a596fbdc51404d13",
+        "status": "available",
+        "bytes": 12940,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-23.zip",
+        "source_id": "9ed91b2aaa7e79ef87d9d10efda1fb96042143b0a429a7fd1ff417616863237b",
+        "status": "available",
+        "bytes": 12637,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-24.zip",
+        "source_id": "e409ad13816e9d76da44540766e0b2f1bed170846dad70fb60a2d60ffe459a18",
+        "status": "available",
+        "bytes": 12558,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-25.zip",
+        "source_id": "5814d6c16aeceb7b0acd848729696666c1b940d35544e21adf37707a23e776e5",
+        "status": "available",
+        "bytes": 12368,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-26.zip",
+        "source_id": "2cc96462d729e4c51172eba96b75a73fff8f328d3603f42206b4b23c50c755e2",
+        "status": "available",
+        "bytes": 12644,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/FILUSDT/5m/FILUSDT-5m-2026-10-27.zip",
+        "source_id": "2ea80a69a4991fd428fbfeb7349a79c02dfda65253ed227b4140bd86fcacea26",
+        "status": "available",
+        "bytes": 12499,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5219911,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

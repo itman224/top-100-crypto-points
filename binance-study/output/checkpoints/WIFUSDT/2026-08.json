@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 170,
+    "1d": 21,
+    "1h": 146,
+    "4h": 77,
+    "5m": 108
+  },
+  "event_file": "events/WIFUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 343346,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 343346,
+      "source_id": "d7baafbed2fa3026d0a6ccb6f6ae9a36def914a2f8368c86c74eb42f7c74ee2d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/WIFUSDT/5m/WIFUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "WIFUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

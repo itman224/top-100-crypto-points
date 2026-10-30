@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 120,
+    "1d": 26,
+    "1h": 166,
+    "4h": 82,
+    "5m": 56
+  },
+  "event_file": "events/AAVEUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 318150,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 318150,
+      "source_id": "d1f787b906d06c154a3916b118a746e2c337dbd933cbe5c0f981f624e67a2cff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/AAVEUSDT/5m/AAVEUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "AAVEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

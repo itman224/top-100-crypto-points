@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 342,
+    "1d": 24,
+    "1h": 283,
+    "4h": 119,
+    "5m": 241
+  },
+  "event_file": "events/PHAUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 326881,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 326881,
+      "source_id": "aec574087708566ff82cd5b86f9ba0d2d277fa3d43c6c5c053177b1c446d6a41",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PHAUSDT/5m/PHAUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "PHAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

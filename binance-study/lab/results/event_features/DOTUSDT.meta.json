@@ -1,0 +1,352 @@
+{
+  "symbol": "DOTUSDT",
+  "event_count": 2257,
+  "quality_counts": {
+    "complete": 2257
+  },
+  "source_event_files": [
+    "output/events/DOTUSDT/2026-04.jsonl.gz",
+    "output/events/DOTUSDT/2026-05.jsonl.gz",
+    "output/events/DOTUSDT/2026-06.jsonl.gz",
+    "output/events/DOTUSDT/2026-07.jsonl.gz",
+    "output/events/DOTUSDT/2026-08.jsonl.gz",
+    "output/events/DOTUSDT/2026-09.jsonl.gz",
+    "output/events/DOTUSDT/2026-10-27.jsonl.gz",
+    "output/events/DOTUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/DOTUSDT/2026-04.jsonl.gz": "53be1bf00983dc3bd26b04723781339672b132e04e07af9573bb3af50bf68fef",
+    "output/events/DOTUSDT/2026-05.jsonl.gz": "d11910fd9b2c60cdcafc351e9c78b7363a679c5538e4c4b63b7387554532d235",
+    "output/events/DOTUSDT/2026-06.jsonl.gz": "c6aa92cc6aab94aaa7b41d29ca493e6130c9fdb2c3373ced33db7ac189d7f661",
+    "output/events/DOTUSDT/2026-07.jsonl.gz": "98940b7930c409c94119a05cdc763edb2f2561dc7a018ab8a3ec4f1a65efaae6",
+    "output/events/DOTUSDT/2026-08.jsonl.gz": "6afa158b34f71e1fe335e35e6e8088f3d31c949faaa93749cb1e8fb3be2ff128",
+    "output/events/DOTUSDT/2026-09.jsonl.gz": "80b812cb36eb8d29fbabfc4cbd3cc3f7c0d872c1c0b3162a6c957a533e8e8079",
+    "output/events/DOTUSDT/2026-10-27.jsonl.gz": "4231aade740ecc345108c4b4a9395c8e39558fe96bbd9685033cdeb5041995d7",
+    "output/events/DOTUSDT/2026-10.jsonl.gz": "eabca5f60eb90c65793f91a79bc7a79a611eeb129bb2c44e7d5be7b358360d7f"
+  },
+  "market_data_quality": {
+    "symbol": "DOTUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-07.zip",
+        "source_id": "226198a4b1321c17787d4b1c210c245508689ee2645754e091e451fd419c76bb",
+        "status": "available",
+        "bytes": 336250,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-08.zip",
+        "source_id": "03e3dec01416fa98c091f67b08ff907638e1868b3a10a08a604dd9d409dd2ced",
+        "status": "available",
+        "bytes": 333941,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-09.zip",
+        "source_id": "d6b902867b8e52b2dba79739f3e01086699af0332a30e0f43a6f5a8b1f048abb",
+        "status": "available",
+        "bytes": 320495,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-10.zip",
+        "source_id": "c40cd48c539f95ba2d33ce03da48b7cce1d47cfb11234c7512a336314b58e153",
+        "status": "available",
+        "bytes": 332708,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-11.zip",
+        "source_id": "5f70f784c1682f9d380250db5b6cb343df22f0a8440dc0cf9e07b9d0f0097df6",
+        "status": "available",
+        "bytes": 320650,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2025-12.zip",
+        "source_id": "94920e62b4e90432227474cdb5c4c9d8b08d404565aa1d3a6f5ddc590b2ec854",
+        "status": "available",
+        "bytes": 319660,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-01.zip",
+        "source_id": "14fb174c5fe065c12dbcaa892de68a39c84746ea9608970509ce3ad334a6dd51",
+        "status": "available",
+        "bytes": 321200,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-02.zip",
+        "source_id": "bdaa004d6617d74297e299c82c4353a9bdb7f498dc86c47722cfda58d4e417f1",
+        "status": "available",
+        "bytes": 291312,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-03.zip",
+        "source_id": "5c133f222df31f60bcc3807833e03b989cd64a8843d526272ebee5f618f02d48",
+        "status": "available",
+        "bytes": 320460,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-04.zip",
+        "source_id": "21f8883437aa4b59449ad3af8431b95945fb41fb943d6d6c514b5ec8662e6b1e",
+        "status": "available",
+        "bytes": 304039,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-05.zip",
+        "source_id": "c742c821d34e5802784d0b21d587ab82e54407cc29ea4e52edbad9d8a20d3ded",
+        "status": "available",
+        "bytes": 311650,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-06.zip",
+        "source_id": "1be0b79bcbb57a4dbc495f75f4fef2030420b9a4f412b58618259866f10964ac",
+        "status": "available",
+        "bytes": 302520,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-07.zip",
+        "source_id": "b96349170851fd559611f91ce10d375fa725eed9e531ff749b36b0b76b5dbbf3",
+        "status": "available",
+        "bytes": 321309,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-08.zip",
+        "source_id": "1bf6e01e5c8ffdedd34a4f83566f90501b1544c0f231084cce05827d6e105802",
+        "status": "available",
+        "bytes": 357725,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-09.zip",
+        "source_id": "0edb64ca13dcf50e6655161fd5aba7f88dcaa9d4feb1c700e50bdf58dfdf09c6",
+        "status": "available",
+        "bytes": 362798,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10.zip",
+        "source_id": "88880d3c8262d6c382d2d5e21352b2aa61417c8f5927b5084dccf7e195582097",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-01.zip",
+        "source_id": "ec44f87f10d2b763b52072ed0fdacc7ffb89faf5ccfaf9d0b5eeb5dec12a22a3",
+        "status": "available",
+        "bytes": 12622,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-02.zip",
+        "source_id": "005d00eb470b79e61216beaeddf356dbb77028acd8332eddb60b644eb2031ea9",
+        "status": "available",
+        "bytes": 12631,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-03.zip",
+        "source_id": "fd4d6643a45f112c167b672ad05e082b1296eeb405867122eca6356d778a2c07",
+        "status": "available",
+        "bytes": 12473,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-04.zip",
+        "source_id": "be332f136c1a06777fa071ecc8ca2fab0a5438384440b967755be911c2fc4059",
+        "status": "available",
+        "bytes": 12253,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-05.zip",
+        "source_id": "3de2c25ccdfe8b9a95e9ce26815e917b0ce1f2beaa98bcde820a7c59b6a48ac5",
+        "status": "available",
+        "bytes": 12604,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-06.zip",
+        "source_id": "c3aae00d56c449eb118088c96aeb1c25d3df5dc87232b8389bd4a64b6e9c2a12",
+        "status": "available",
+        "bytes": 12456,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-07.zip",
+        "source_id": "8adab10a50c2af68633775aca862b5aadd37cae07808719154e9ee9dbbd9ba1a",
+        "status": "available",
+        "bytes": 12559,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-08.zip",
+        "source_id": "fb3e20214f6769b7fb1b440eda6553624cc9cc9b79ecf3c116c145d0b789fb55",
+        "status": "available",
+        "bytes": 12814,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-09.zip",
+        "source_id": "0c0a076ccce1a1690639d797f91c0da43d945d60729d5593cca210c52fabb0f3",
+        "status": "available",
+        "bytes": 12902,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-10.zip",
+        "source_id": "41fbeb54eec3f980dc33f718d1f9a6d6885991143e144af121b528667ac9fa03",
+        "status": "available",
+        "bytes": 12559,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-11.zip",
+        "source_id": "80ffb4d26f072a1276a489bae7c1d253de916f5890de9d77afaccf22ab16c198",
+        "status": "available",
+        "bytes": 12322,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-12.zip",
+        "source_id": "4754ecb640a0b7943ea3f48955adfa72ee030667700341b752b44e45945428a7",
+        "status": "available",
+        "bytes": 12710,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-13.zip",
+        "source_id": "535df6c30f674e942a7b858bf60758cdfbe265b9dc7da5f9a0be5490df7f7519",
+        "status": "available",
+        "bytes": 12731,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-14.zip",
+        "source_id": "f6bfc8dcd7f36598ffe7a98d8dc71722fc120fbf56c86e493c5888f194da2770",
+        "status": "available",
+        "bytes": 12500,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-15.zip",
+        "source_id": "230cbfe018c59d4d889a5f794cc75cc90a31f21268d4d075552fc793646b1f8f",
+        "status": "available",
+        "bytes": 12745,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-16.zip",
+        "source_id": "a363143d58457ad8ea03479565a100484344e8cab9ac56a50bcd73c59a15d488",
+        "status": "available",
+        "bytes": 12749,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-17.zip",
+        "source_id": "6a5209d23a65b8d3bb62257700bdaa754af415b77b82e5c79b7df41fe06b331c",
+        "status": "available",
+        "bytes": 12636,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-18.zip",
+        "source_id": "ce43cc8eac8c4a02830a708b9ac9a221d2115ec7a0eaaba1bf423242ee13c1c0",
+        "status": "available",
+        "bytes": 12407,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-19.zip",
+        "source_id": "9a66b47980682103f1c50355fc39d7472a47585ea4a3957360bb43dd8077b5a5",
+        "status": "available",
+        "bytes": 12584,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-20.zip",
+        "source_id": "c0e991516a22a2141cf23cce307c3d93bac837380b995a8271609b748d66ed77",
+        "status": "available",
+        "bytes": 12486,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-21.zip",
+        "source_id": "0a199f2dc58a1b8ad9dd5b45013b6d72a22df6d72a2d27aebfd11cb76763556f",
+        "status": "available",
+        "bytes": 12410,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-22.zip",
+        "source_id": "f980e93629380e646d34ad84c59121cdf2269af64bbc0faa1d6e63ef0d228bbb",
+        "status": "available",
+        "bytes": 12423,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-23.zip",
+        "source_id": "227e71548c3f57caf8e760c50224a18723ed1cd00e7ff08a7c2ae1619e30f119",
+        "status": "available",
+        "bytes": 12771,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-24.zip",
+        "source_id": "714104a5af3d8612109d19956a3de1f34589797713de6a9ac787691516cc3a88",
+        "status": "available",
+        "bytes": 12408,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-25.zip",
+        "source_id": "fb87c62555b4a8133e00dc5d0e53ce4ebf060f0764c3cec284b5087d14a4f41f",
+        "status": "available",
+        "bytes": 12235,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-26.zip",
+        "source_id": "cc8f93299c0ef1050b217e2574e6d738a4f2edf087fec4ac074d9b7285ad9b1f",
+        "status": "available",
+        "bytes": 12389,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-27.zip",
+        "source_id": "6432e979c03a438077c11dcc669382b66685894d78ed5bd65738b189fdf049a4",
+        "status": "available",
+        "bytes": 12377,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5195473,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

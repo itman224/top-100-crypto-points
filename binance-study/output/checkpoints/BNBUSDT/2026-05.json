@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 10,
+    "1d": 19,
+    "1h": 28,
+    "4h": 27,
+    "5m": 2
+  },
+  "event_file": "events/BNBUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 359147,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 359147,
+      "source_id": "0f82cc9dde32bc65ccd5b6180da749c1abb87ebb3996ef417883127067975763",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "BNBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

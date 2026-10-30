@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 175,
+    "1d": 17,
+    "1h": 162,
+    "4h": 96,
+    "5m": 155
+  },
+  "event_file": "events/PIXELUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 308807,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "f4dee827699e6b39baecef6136415ff519a824a3a784823486e2649cce5ca0fc",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11576,
+      "source_id": "804e35571ebb311c792cbcd6cea2696a973fc605cf67e5dec2dc94e132bb4898",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12084,
+      "source_id": "fbcc50228b2f692e72267dacdd588c62c09544e2beedbe9b5bed8b867adcd48b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12110,
+      "source_id": "92eba501d60e00dc5add0545efb8fe745997c3551c811bc0d8476102fc8fdbbb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11951,
+      "source_id": "130204d41273872bbae9848f6e85bf3f17578d0bfd1d712612e35ad967c5fac9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11654,
+      "source_id": "de12e4659b4c8445ead06beaa09828e62927beff767bb3490d90c2abd25dc4ed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11652,
+      "source_id": "edf67e0c4a460603aea63ee4594684d48406cf0d5ffaca28191e1360c2668414",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11804,
+      "source_id": "cce749f4897e02d5c95f449e7c8fa9c079163b9f74fc05dc686e91e84aa5e82e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11849,
+      "source_id": "59b7303847e204a98e373e5bdbf1ef7a9ca1af9d2b5297b5cd61589816035fb4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12329,
+      "source_id": "72de0750ced6bf3e1b7bd247071398822b207750563167c0df6e671664b7a45d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13158,
+      "source_id": "23ca9ec5699018219d104eb38b10d3fd5a6aa41d881e8866e4bee778aaa06a40",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12454,
+      "source_id": "cadee9999e10ce1922a4bc46edc0cdfe85ea7addb3e8bb6f32a54c415e60d9da",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12395,
+      "source_id": "85f59ffb8877258d3a6674f49bbd86fe48557303ae79d4c83c1223ff1af6402b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12144,
+      "source_id": "8e084f40d7a1d8841ddc01a392a96fcac736dd751a2c33f51c08cc0e740284b1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11801,
+      "source_id": "60ccf6896bb151489924841aacd3d442f5ce79d4c21bd64dec0b88ec55e31035",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12100,
+      "source_id": "310a55b258d5e039b1c372caade2253f9f4c84c950dadddfdc96be65181748ea",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11720,
+      "source_id": "c5886d174725ef8a0ede2d2678a7c3b11653bfa89046c212a5dd772dcbefe46b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11403,
+      "source_id": "62077fedd3321b26e30a41efa7c0c344d212b01ac0162a1c816bafa7e251fe7d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11593,
+      "source_id": "0f10a89fa9adf5de4a0ec286cc02dddf5d91986f59e6498eab66c94ddb248fdd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11482,
+      "source_id": "b9212feec56af28242e866cfc45a01bff63c88e5917f2d13c51f61667f2d349a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11444,
+      "source_id": "91a5f3d202fef6b387fa3137a36816f6c8848e9084c0ec4abbfab61c3f2fa7cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11647,
+      "source_id": "85bd49d97cfa684edd7d66f7d4cb5d44b8b42edbd8ec84a08d8d49731943b33c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11685,
+      "source_id": "d0f314a08b34f03fa2b2e6ddb617dc9338cf53f0cc604ceb38385887a4972ae7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11591,
+      "source_id": "fd188e5f8125926bdbf42db3b035545c8aba672c1a2eda60d5a788b43fac4b0e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11787,
+      "source_id": "71f727b1ca7e306b290933c9b207f007f8ed0ce757d03d57dc073745ee4cfb3f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11345,
+      "source_id": "f93803808016010e808b2a7a4f0313bc07445a7dffe44d01de3a6c188db5af61",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12049,
+      "source_id": "b4f55afa78f234b62c3a23b235cbc3fc1bd9c1135df23d653226c5e3699866a6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "PIXELUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

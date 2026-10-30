@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 340,
+    "1d": 21,
+    "1h": 227,
+    "4h": 100,
+    "5m": 275
+  },
+  "event_file": "events/LYNUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 345090,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 345090,
+      "source_id": "5b12d7bdfa2aee36ae5b63a79c8b92d5c7f5be7dd8f9e89ec8068f6c0e338652",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/LYNUSDT/5m/LYNUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "LYNUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 114,
+    "1d": 20,
+    "1h": 142,
+    "4h": 99,
+    "5m": 76
+  },
+  "event_file": "events/RENDERUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 290711,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "6bc30e49c14ed9a01720e47f1da6c2dd29db9d0e9d6c4f12ada76b6df77318b9",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11019,
+      "source_id": "582d685899f94409b47445518d139291709882218eb216285418f0fc4cf56154",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11344,
+      "source_id": "bbc28f8d4990afb0a8e45fde038f4f9fe6cce5ef3ec81dd0a29a8657af9902a1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11005,
+      "source_id": "f33548c7c51bba1102d7af6012804cd72c51c3272b8133cc49582b300aa1cde5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10729,
+      "source_id": "c83851af5adfce34780080ceed615e253ab9dc4f899b22b2d4d42454e5d915d3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11397,
+      "source_id": "eab9e04fa20c2b089d4c672abcfadf66126cca4ad808ecb87760b5089eea5156",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11614,
+      "source_id": "3462fe885f17df19832706e6965629f63a0a6b818624e4e6aed6c1c7baf97dc5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11566,
+      "source_id": "8051e27e1e12da81517fe1422b02a3743f141c48e45a194fcb8fc1116a1b82bc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11487,
+      "source_id": "30e007dd7fedac23525ccc39fb9144d3235264fff9630454e4d2f40691cfefd6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11292,
+      "source_id": "3c7ed3eec87cee92ed8a53299ea31f4ce859c28eb3dae9059c355db8a7db47f6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10774,
+      "source_id": "5c609baa9835b5c1e3849443e5a14525aa1d018873aeee091b58c46bc0237985",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10911,
+      "source_id": "df3771e278eea9e2848892ec216027c94a65fb3c4d10ee4d123090ee2a001aa6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11745,
+      "source_id": "d3417094da9a5fd49128f2f7dc660bed187bcc3e7fd256a8e5559b3b3d4568a9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11895,
+      "source_id": "5996a74fb33f78863fbffb448dfe8578c0fd759761335516adc8c39c03eb8f41",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11539,
+      "source_id": "4416a7e6fefa82dfdeaa897778ec59b430c9d8e93c80d6815acccc2159720fbe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11460,
+      "source_id": "9a646df0b1a27386e44dfb56cca040be9c0faf48bc3f6d093cf4d49106f7fb6d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11166,
+      "source_id": "35b69dd14a42bcd5703754f1d89b288f8551d36249548cadd0810a6e886f2955",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10811,
+      "source_id": "717469fa62ffe2902d37f66d3a54a4a3d5d6a754db452e353afd2e130522f37b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10987,
+      "source_id": "36ebb4b177c506810e109ef3fad430528b183efc1753b2a06e5160f2b46b100f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10909,
+      "source_id": "1a76128cabb44d23cdb1e11afe0b327745b8178e2db075117da97c6473c4654f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11150,
+      "source_id": "61b8a5443712d32ebffac27e4f5ad1aaf8635bb4cb006b27b5056472a72dc1d4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11075,
+      "source_id": "f0091426dc54b9d97757a82cf1a076acd05ae167f31ceda453fde6d19fc9d794",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11114,
+      "source_id": "48c5bde5dce20586a89220f295074d0548802f3e1645fb3ca2f89d7cc9232dc2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11069,
+      "source_id": "ae244bfdc61178b52a61d5042836f4c36e9abebfa5f74ec1d6a74b69afecb8e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10862,
+      "source_id": "d70cf9722a36e4d711a58284c016bfaa66db4ea8ab27c0253517b2e73ec306fe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10718,
+      "source_id": "d33f65703f92c44fc9e49acf545c7912d95c9143b737654c6fd147dbcfb14c88",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11073,
+      "source_id": "0547327baa9120c62c337bf5c27d658206b3d01bfeca6f289f864f05b7e4ea12",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "RENDERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

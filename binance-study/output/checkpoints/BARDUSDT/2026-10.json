@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 56,
+    "1d": 16,
+    "1h": 105,
+    "4h": 66,
+    "5m": 33
+  },
+  "event_file": "events/BARDUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 250700,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "6f186514d28fe9ddc77624e151d227a678b1e43deaf2928d48d1be987131344c",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 9785,
+      "source_id": "3c417f5c7ec4dc4724da92b1c59744f7154efeefc090c48860865bfc18114fe4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 9911,
+      "source_id": "714204da2a2968f18aa3a2dbcf0f8b4448c93a670c1f263a900ec5132d1160a9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 9452,
+      "source_id": "491d57f063f238a88b5b6270b8bae7785866b0ed29c813421c7bcb8beb97d928",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 9255,
+      "source_id": "a8106a0fe8f9d76fb34c5f630dafeacfb992c622fac20cb98a2017e6b74bd362",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 9675,
+      "source_id": "de2b21bbd916ffc36c733850fefaa30f0794459ac07b5c7d70479b2e1394d9d8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 9837,
+      "source_id": "13c78ba77fe6530e8554ec19ba3e26d8f8872cea407f7f4d60798a74e0dbe7dd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 9814,
+      "source_id": "0229f85dbe146bded397e87022ef9ff655b13095b008299f5161f32dfbce35f6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 9953,
+      "source_id": "b4bc3465302a4a46974845629c21dbb3bf1ee345de5805f5ea7bb7e435e74668",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 9588,
+      "source_id": "1f734294d9572bc5577700fcd14571aa50c3e1bcf0ebd7ceaf3db23a9e4acccc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 9163,
+      "source_id": "92b604120ffec5acfe370024cd928e4d1a2bafb75992d71a4014b58ef2589453",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 9507,
+      "source_id": "75b27fa08c30ba7dfa97080e061b15c78ae4473823febae4909c7e9b71d1f250",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 9640,
+      "source_id": "1d63632aa624e0fa709c3a244b8938f4a0adf3483ceb9785ef9e941908f6d211",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 9805,
+      "source_id": "0b42bfa82664e54daeb6abf441a3ca476c1ffdbfa4ba1be3ba5848a891cded46",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 9430,
+      "source_id": "a57310461518e3626ee1c338112ca2f7fbac9d225ade5cfe9cd7be56cdf433a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 9801,
+      "source_id": "c4459c1ebe2b7f65c5d3752502d231cfbe5fa3f4e5dd7df24a5dbadb3ef13c3a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 9425,
+      "source_id": "da29e3b25257e40b7bf27d31aeaaa6850b587875b1b823a79c715efc1e21384f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 9632,
+      "source_id": "81b6dcfc63f885c77a8221b6611399a91f0a0cd6dbff50919fa71f062926c8e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 9551,
+      "source_id": "71e4789a6a50c92c1ed4447a04970832bd459e4b8ed04bd0e9ab0b6cd70d06bb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 9412,
+      "source_id": "7b083969ac3d6c51a403dfdf4cb609ed6d3742869ff300c60d6b0ee3a9b9fc62",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 9562,
+      "source_id": "228d890f6e6956cc73d8d44e9d0ccfac80a32f8d61dcd606577a07be85313953",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 9350,
+      "source_id": "ebdd59ee53d7bf03ab085b46015a87c9ad154524ddbcdde6ac5f7962cb334685",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 9397,
+      "source_id": "8785f6eb3849f8974786ecd2fc2b5b0497d9da6e4c8255d51418660f266b720a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 9719,
+      "source_id": "ecf978298bc1db4a8743acaab751ca99680e4b76ec67c5bc8b4605735deec189",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10352,
+      "source_id": "1b37f2ba716234288be8e8fea626085f2f22b4f7dd50e0f7d24ffc7704184bb2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10060,
+      "source_id": "527c4ce1876d3cd4909a46f185b5619ac6bf232987acc0a5b3c297cc0b0bf405",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 9624,
+      "source_id": "8bf23ca4b1483eeaa9e845c4c7fe69683ae7b74242d941412f095a8d8663e92d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "BARDUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

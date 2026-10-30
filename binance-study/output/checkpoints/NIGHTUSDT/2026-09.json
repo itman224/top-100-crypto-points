@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 217,
+    "1d": 26,
+    "1h": 184,
+    "4h": 96,
+    "5m": 168
+  },
+  "event_file": "events/NIGHTUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 318279,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 318279,
+      "source_id": "72c748670675e0da0d1bd48f8fb7a2deca4e113fd50c0b654c8a1b5b104cdd8e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "NIGHTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

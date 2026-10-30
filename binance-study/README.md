@@ -1,0 +1,13 @@
+# Binance archive movement study
+
+Run `./run.sh` from this directory to reconstruct the universe, process the requested range, generate the manifest and reports, and run tests. Network access to Binance public archive listings is required. The processor resumes from per-symbol/month checkpoints under `output/checkpoints`; event files are gzip-compressed JSON Lines partitioned by symbol and month. Each line is a JSON object. Timestamps use UTC and close times are exclusive. Archive files are not retained. The `output/summary.json` and `output/validation.json` describe only artifacts present when reporting was last run; rerun `python3 report.py` after any processing or manifest update.
+
+The ranking uses historical March 2–31 quote volume from archived daily candles; contract type is inferred conservatively from the USD-M archive and symbol name, not verified against exchange metadata. Selection is incomplete if discovery or ranking sources fail. Direct exchange APIs are not used.
+
+Universe discovery now uses the preserved Hugging Face tree snapshot in `output/hf_candidates.json` instead of S3 directory listing, with optional `output/historical_candidates.json` for independently sourced historical candidates. Ranking uses official direct Binance archive files. This is a current-snapshot fallback and can omit delisted contracts. Run `./resume_supervisor.sh` for bounded retries followed automatically by processing and finalization. If a supervisor is already running, do not start a second one; inspect `output/supervisor.pid` and `output/supervisor.log`. A background process may stop if the environment terminates.
+
+Hugging Face Parquet fallback requires `python3 -m pip install -r requirements.txt`.
+
+For the current official-first / Hugging Face fallback workflow, use `./continue_analysis.sh`. It uses an exclusive lock, persists ranking progress and processing checkpoints, and retries transient dual-source failures up to 30 times before exiting. Inspect `output/continuation.log` and `output/continuation.pid` before launching another job. This replaces the older `resume_supervisor.sh` procedure. Run `python3 -u validate_pilot_sources.py` to resume independent verification of prior pilot close timestamps.
+
+The scope now ends 2026-10-27 23:59:59 UTC. To retry missing intervals without reranking or repeating complete checkpoints, run `python3 -u pipeline.py --universe output/universe.json --output output`. Then run `python3 manifest.py --checkpoint-root output/checkpoints` and `python3 report.py`. Existing source-manifest lookback paths marked inferred have not been checked remotely.

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 60,
+    "1d": 26,
+    "1h": 95,
+    "4h": 75,
+    "5m": 27
+  },
+  "event_file": "events/UNIUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 301800,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 301800,
+      "source_id": "79bbf347af7227805ab0ca972e61415d58cfc2eb3e2d97bfeaf6840371731f23",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/UNIUSDT/5m/UNIUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "UNIUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

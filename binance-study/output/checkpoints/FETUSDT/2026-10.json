@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 161,
+    "1d": 18,
+    "1h": 173,
+    "4h": 90,
+    "5m": 91
+  },
+  "event_file": "events/FETUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 298752,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "99271d411f6dec522b82afd9457369c383f17b53bf020ef40b794b8e1e673741",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FETUSDT/5m/FETUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11839,
+      "source_id": "7a77bc64945ecb0b5f139aa3573091f7d94139d10cdba1997db29e2f48cfcf49",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11644,
+      "source_id": "df9cbcafc1c8573f8a4271257b90f6f445a0b39f2e5128914322a7bae411b8aa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11268,
+      "source_id": "8b910e152463505975ad12e6d10813007fad308dfddd6972f73682d802dad2cc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11909,
+      "source_id": "06ac75135dc90a8cf5369497e6736150f2bd1c4ec1deb4f5783ec32bc3a3bdaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12110,
+      "source_id": "373229adbbcc4123877efdf6a6d9420f6a65967b71815eb1667899f9b4131c1b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11549,
+      "source_id": "288aa4d761904509ae2d2c599f15f5ba7b39df439076fafa72b0841191f08dce",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11590,
+      "source_id": "32147c669640bf9551c7af868ee8f37b8c1cb488849bb53116d84b0c2622742c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11763,
+      "source_id": "b1df914d429ff2b29c4ef38ebe554a0d70e0a225d4f38814caac8cced691341b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11424,
+      "source_id": "2e52c3fd2425d9d8e039259417c21cb4547f7f44467cbc743980e35061d1208a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11420,
+      "source_id": "9d07823c13188efc14e970d31d1f42b1e0c2836c6177109161976d7b576defba",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11641,
+      "source_id": "1b02ed7a0a3a6588ae93434aa58d85b27c54fb05cacdcf6c5a961853088834aa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11738,
+      "source_id": "2d452303ebdf545edde15e356bb52881846bcbd86fa1231374fc9e834f83a945",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11559,
+      "source_id": "7e7a1d02d89b2b61ff294842e06557cbe1bdfb43badfca8116255c871117757f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11592,
+      "source_id": "ea520cbca957972944daf060309b32d69c764285c71d1a9a02282e8189b0431d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11641,
+      "source_id": "9aeeb118a200c721e3a617ffea544bc958a8dd50454a0d72df689cc3e04ba6a4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11445,
+      "source_id": "4a57eed8c074d39da879da896c511097e94e8abffd75a6b56ed406b4d31ef699",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11327,
+      "source_id": "41333e70669d18b2876df325d94644b3310bb10e3b6b5153968804412f3d6a85",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11436,
+      "source_id": "1f24d2b1abe64477d7e4c8b7df425f982e23741a5a023e7435ecd0754583ab7a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11303,
+      "source_id": "c1beb98273b13f744efec5fd4edd0de8bf9af35718c8dfe1a7cc6cf82d24d0f1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11530,
+      "source_id": "3bcad3eacf1b83fdb401df0afc8e4e1ab868f74fa54758bff00dd3bf2c739b73",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11386,
+      "source_id": "81a4a0fd1d271685177864d2a2c3caf06851014dd8f4274751c8f9e1758fa1b3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11355,
+      "source_id": "38f265fa16e2981a65bf3cc9b12576baada22f3ca617fb57f608327fb584d9c7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11255,
+      "source_id": "f563d7022a6f5298752df5c44d1a1355129bd5059e135ecf763eae27060336d3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11081,
+      "source_id": "60a554f101ee719a307f559f781b9cad6b3b55bd964e504937cf01d7d5ef67e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10910,
+      "source_id": "438aaf9ab14bdebb1be335ce9ce613945dc1e230620b77989386c90cf7681134",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11037,
+      "source_id": "87f7824505f120a354a12080f810e119cd2b168fba24eee99e103e7e042e6ff2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FETUSDT/5m/FETUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "FETUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

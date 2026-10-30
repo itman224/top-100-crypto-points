@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 121,
+    "1d": 23,
+    "1h": 133,
+    "4h": 65,
+    "5m": 95
+  },
+  "event_file": "events/NAORISUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 274495,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "6f046ab7dc3d80c84f378197003831a49ad3e0a6f6776ef9a2cd020bd58a5185",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10466,
+      "source_id": "9eb5b7b3a8d86319eeba004490fbf4fe67a64764f09d3bb92f79d4963fa2bc14",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 10499,
+      "source_id": "66ce082d199a255919cc294020ab584445e9235743d0cfc124b300207f2ff115",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10307,
+      "source_id": "444eb2d54694be3213f2b0b3e1b6ae8c7aa8a69c33c12f72cf64c557b248b1cf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10295,
+      "source_id": "a2ca046370d723f03030af93f5b02707de2331cb9d03c357f2dde8f4158240b1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10503,
+      "source_id": "dda09e163a1635989332d9d0f8e945e625d3c6a964e04fc8bfa0421ae58f8152",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10524,
+      "source_id": "653811acddedc58ed1aafdac9f4ec39619a485b0ab577ee608e2f99c35b90a3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10460,
+      "source_id": "09979d465040534c141b145927bb1138509f6ccd3cd6976e2fa17a0d3b6c0f66",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10737,
+      "source_id": "62c6398e141c0e205994a8c9b099888d52217adb08f456c51e8699a741aabdaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10201,
+      "source_id": "6e2d99c36d5051b9e19c557cbd9565a6189ef61ffb54a102ac748c43b713253f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10426,
+      "source_id": "08a1eb51eaffebbb0edd166a49777c4dae6839605d07904c67dbb37e378dfd2c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10540,
+      "source_id": "790859a86f348ed072c3067a6e4dd8ba7e5258600cd871ec18a62aa35f78dd0f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10307,
+      "source_id": "0027177d199d0ad57e589850ee50fa18584278359794358bfe57d9f779e16fef",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 10748,
+      "source_id": "a369f97bf0d0eecbe9b440e2f3dfc950a98f18e02492cd295177911163a9fa1b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10448,
+      "source_id": "a5f934cdc73bfe77475f1ec55bb4fefca7eee34cc40312e73e32fc81e9dbfad6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 10619,
+      "source_id": "c81d01189e61be9b79a7a3ea9100ed0bc83982481f5e64aa4026b93f478e4f75",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11049,
+      "source_id": "20738c5f30571cc297d0c98c0cf102f5ecadd8c9e5cfb0c2080338858740a5dc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10752,
+      "source_id": "427e131f714e9f72f30d210327556728b5c3ac6de8a823c54074407d5d77869a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10514,
+      "source_id": "9eaf5c1de370a8e99179683ba8e05918214cb735e7023e4681a2cd0ce680f4e1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10630,
+      "source_id": "6319cbdc94a97bf9a927aa4bd7fc8685ad8bafec1024ec154751e8d49b9bd195",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 10530,
+      "source_id": "d462a66268f05d07dc1e159a778924fd7343c59b28659f882231f0644b5054aa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 10451,
+      "source_id": "6c285cf87a8703a7a37ec10e97f25eaec7c0e36536fb07effd82b049ab824294",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10579,
+      "source_id": "a4d3c31331acece5e5b946137c7db4a7ee18ddeecbd7b4e24680239d4cdac8c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 10732,
+      "source_id": "d23cb8b6856f07989dd658bfff6014f93e7b5d5304c69e8164def3a659cc8642",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10563,
+      "source_id": "a570f11c1127e21c950a9fd8470e1cb315dfd5e9deef112fe105f5f42f180011",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11016,
+      "source_id": "f15b9550674bfb200478ddad62f1c6420c9f39b0128deafcd5108e6d8d121383",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 10599,
+      "source_id": "acb339ca0167ca3d618708057f339aa58b212bf916908f24e021929fc8add9a3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "NAORISUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

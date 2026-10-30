@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 14,
+    "1d": 17,
+    "1h": 34,
+    "4h": 37,
+    "5m": 4
+  },
+  "event_file": "events/DOGEUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 365748,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 365748,
+      "source_id": "8d2db2ba06a430359ce4d11fad09d4755fb4a4d939c745e580e985bb886dcba0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "DOGEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

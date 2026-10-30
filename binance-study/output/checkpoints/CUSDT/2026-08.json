@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 154,
+    "1d": 24,
+    "1h": 156,
+    "4h": 84,
+    "5m": 107
+  },
+  "event_file": "events/CUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 322271,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 322271,
+      "source_id": "d1f8d2a050fec3295aad8ac472a103079cb1ec9acc7c42f4afe0a05d67fe8c10",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/CUSDT/5m/CUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "CUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

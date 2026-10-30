@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 1,
+    "1d": 0,
+    "1h": 3,
+    "4h": 2,
+    "5m": 1
+  },
+  "event_file": "events/DOTUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 12377,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 12377,
+      "source_id": "6432e979c03a438077c11dcc669382b66685894d78ed5bd65738b189fdf049a4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "DOTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,352 @@
+{
+  "symbol": "TAOUSDT",
+  "event_count": 2999,
+  "quality_counts": {
+    "complete": 2999
+  },
+  "source_event_files": [
+    "output/events/TAOUSDT/2026-04.jsonl.gz",
+    "output/events/TAOUSDT/2026-05.jsonl.gz",
+    "output/events/TAOUSDT/2026-06.jsonl.gz",
+    "output/events/TAOUSDT/2026-07.jsonl.gz",
+    "output/events/TAOUSDT/2026-08.jsonl.gz",
+    "output/events/TAOUSDT/2026-09.jsonl.gz",
+    "output/events/TAOUSDT/2026-10-27.jsonl.gz",
+    "output/events/TAOUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/TAOUSDT/2026-04.jsonl.gz": "2e5f8a49bd3a0a2cfa3296c137299d3edce7bc38ac19f5d617815e513e1dfd45",
+    "output/events/TAOUSDT/2026-05.jsonl.gz": "1b2258b9a65bc6a605f09a3f674f27da17c39b958c835f919c2d9be55fb7440f",
+    "output/events/TAOUSDT/2026-06.jsonl.gz": "642fe8aca2c93d95bbdb0e6b01ec12926890686185bc5a85fefa660f7a81fcd6",
+    "output/events/TAOUSDT/2026-07.jsonl.gz": "3b095e71b727c30c29be57f4befc20287d9e2a3cbf0204ac8acd7e84df30ac1d",
+    "output/events/TAOUSDT/2026-08.jsonl.gz": "0c55504b0e84c62ce753bb2e5820498a42183d1587bb6a45064e150fff6c8679",
+    "output/events/TAOUSDT/2026-09.jsonl.gz": "1fbb5f268da4fc62aa8cfb0d236c57c7ea4fcd117f75dd2d7a58a9572b9aaab4",
+    "output/events/TAOUSDT/2026-10-27.jsonl.gz": "179af03c0ada16b7de602dcd474f316ad4e040c66407172c7ab1fcbae10c1a50",
+    "output/events/TAOUSDT/2026-10.jsonl.gz": "64decf812b212bac774fca8ce4d2ce242f7c8c7f40c5a053980424cf3546ed6b"
+  },
+  "market_data_quality": {
+    "symbol": "TAOUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-07.zip",
+        "source_id": "2f1bad189bff7f9683ad38a03f58751cc18ff169a3c73edfbcdca5932ce9844a",
+        "status": "available",
+        "bytes": 371428,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-08.zip",
+        "source_id": "cb0a7f72d9aa4ffeda14d41deb8ea5d96e5f1f3725b5d9b40e21de01edf1602a",
+        "status": "available",
+        "bytes": 367432,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-09.zip",
+        "source_id": "80869395d5580f2307aa5522764841488356362db34acad1094bdb35713de068",
+        "status": "available",
+        "bytes": 350455,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-10.zip",
+        "source_id": "8f1fac7e9aba70ae81e9511e3f751decaa9949bca066ab03cef5bdf50bfe8a57",
+        "status": "available",
+        "bytes": 381709,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-11.zip",
+        "source_id": "c24298b6e81b78d4805ad5a8785fbd1f1fea135d8a1018d2c8ee0eb5f0946b00",
+        "status": "available",
+        "bytes": 369343,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2025-12.zip",
+        "source_id": "4460665889e3cb0bab00e19e4ab6fd594478cec92069977a5cd355300fd9e4f0",
+        "status": "available",
+        "bytes": 367227,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-01.zip",
+        "source_id": "7fb529f6a29e4a71557f0795cb2a3cb3cd680053c2164bb5f9f22ab2b98445af",
+        "status": "available",
+        "bytes": 367148,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-02.zip",
+        "source_id": "8e4dcdb991d21c877f35779f65ffa818c7b15da7cfbd0e646feb9b55a2ace743",
+        "status": "available",
+        "bytes": 333805,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-03.zip",
+        "source_id": "81a8f3bffba57ea9eb6ae01b464b5322214fd8cac65a739f3e0d3be3b2114ced",
+        "status": "available",
+        "bytes": 382442,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-04.zip",
+        "source_id": "4d15876973bedc15cd5a2d7cfaa4838b816f8485bd43c70956ac266214b9336c",
+        "status": "available",
+        "bytes": 362288,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-05.zip",
+        "source_id": "541423b19a5564991b3d6485f608988f5debdd8db1abc133fc7bc7d54f2bf15b",
+        "status": "available",
+        "bytes": 371885,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-06.zip",
+        "source_id": "6260049bd522d79780457d0aec55218bf691c09408e39e628e0e96d3d177b873",
+        "status": "available",
+        "bytes": 359660,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-07.zip",
+        "source_id": "ea4824c2a68884131859b8b6c089185e3575d04b88633b62ea3d14e036871d33",
+        "status": "available",
+        "bytes": 358186,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-08.zip",
+        "source_id": "09f7c78bf0a3810d9cc4c341f21f09c5068a24c476871ced93844bd6b6a04a2e",
+        "status": "available",
+        "bytes": 360381,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-09.zip",
+        "source_id": "6203b84acf5edcbdb4c50213a75925cfad6edbf611addfc6e8ffaf7ebd6b8c6d",
+        "status": "available",
+        "bytes": 363213,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10.zip",
+        "source_id": "d1e2b3221f6cf9f9330b74ac071ff33e64d8bf03507b0adc72fdecc31779c903",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-01.zip",
+        "source_id": "63d858d36aeaf3d401cbc76f1fcfc8b05e92a4b90b5c8e70da28a8b5222b7059",
+        "status": "available",
+        "bytes": 12685,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-02.zip",
+        "source_id": "944a321a6c8efcc38f4e21a0cd5e22621b7f551eff6103956e94073e18ba1a11",
+        "status": "available",
+        "bytes": 12862,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-03.zip",
+        "source_id": "3937eb3246cdbf2aa84d88daa2e0b5d70574ceb84bc03edb7fba47279de0b8b9",
+        "status": "available",
+        "bytes": 12538,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-04.zip",
+        "source_id": "990b834816e8a58be49e483663c035eade9c08dd7c97ef4e0218dd614b3294db",
+        "status": "available",
+        "bytes": 12415,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-05.zip",
+        "source_id": "34e6151c027064a481369a945b53dd967de9b37b298cd637aa829837c6290e6e",
+        "status": "available",
+        "bytes": 12689,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-06.zip",
+        "source_id": "48029c693a1b80e707790d4b298abecee8d88f7c60cb76b38b30fb732fb23ea3",
+        "status": "available",
+        "bytes": 12483,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-07.zip",
+        "source_id": "02a6ba3e88e18a2b84c3f59580f8b764ed7f149abee35267c0d2c99a0ff9a0fe",
+        "status": "available",
+        "bytes": 12747,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-08.zip",
+        "source_id": "5811ada9524db1b92f42b5d84bbe85b3b2d3ffe98d78eda5ceb547f4f1681618",
+        "status": "available",
+        "bytes": 12906,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-09.zip",
+        "source_id": "55086946ab12c2800e0a4ffa817d137acc70c14814c2d9a58170cd069c4c0868",
+        "status": "available",
+        "bytes": 12378,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-10.zip",
+        "source_id": "34e7a4c6a1ca9a4a85bf5eebb0ffffb9b35c0baf714f296ec05131ca0a3b3776",
+        "status": "available",
+        "bytes": 12300,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-11.zip",
+        "source_id": "4db5eec62248a547b030ec41d6e12378cdf6ed91f0c0270a5898505f5a2923b3",
+        "status": "available",
+        "bytes": 12456,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-12.zip",
+        "source_id": "84b1b7b90025532a425116706b93afae683de59607743cd23e6c41a569e8b2c8",
+        "status": "available",
+        "bytes": 12769,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-13.zip",
+        "source_id": "e304e9659d85b9d52d5a4cddefca890e345e354fc9375158200aab69afd59edd",
+        "status": "available",
+        "bytes": 12710,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-14.zip",
+        "source_id": "418b7564d7b033f50a57327790464c9789504251e94bb1036cbf50be2f3f4288",
+        "status": "available",
+        "bytes": 12565,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-15.zip",
+        "source_id": "0a9f6f036ac03fbc4e1ae3c61d63480ea74e076c8e4b5ebb41ceca01a518e0d7",
+        "status": "available",
+        "bytes": 12692,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-16.zip",
+        "source_id": "45226ab51f7e7a15476e0b56e1a96a06ea5b3f3d93eedff1171be3c53bcd0c82",
+        "status": "available",
+        "bytes": 12698,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-17.zip",
+        "source_id": "d65f69cc892b2734b71154eb0446c3cf151cdbdacedf1627df8d60be501c434c",
+        "status": "available",
+        "bytes": 12332,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-18.zip",
+        "source_id": "14638767c867013749a4c4350e2c1b4e6bdb435d33c934b60e78dbc8ace17369",
+        "status": "available",
+        "bytes": 12494,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-19.zip",
+        "source_id": "8f624ca8cb4ffaf8f77288f4573944d7e2e0a17ba3100315e1372d5254f40f27",
+        "status": "available",
+        "bytes": 12499,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-20.zip",
+        "source_id": "0469900f68745003a45c3491730f439b2a4642ddb93e0bd6282922dabff0aceb",
+        "status": "available",
+        "bytes": 12543,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-21.zip",
+        "source_id": "c285b61bd157bcbd23a60ef18e35ea96d00e03f45d1308facf80be39139791c0",
+        "status": "available",
+        "bytes": 12547,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-22.zip",
+        "source_id": "2ebff95ab49d067bb953a87eddcae4cfecd8b5fe1def6d82272800bdd74bc310",
+        "status": "available",
+        "bytes": 12523,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-23.zip",
+        "source_id": "0bf5b4d4059988d375229fb8073a8d51e0c3083c3817bd6fab4578f0206d1760",
+        "status": "available",
+        "bytes": 12405,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-24.zip",
+        "source_id": "3acfcab6da9727aa93b107383bc8543fee8bb22a05696370170431ccb952a992",
+        "status": "available",
+        "bytes": 12334,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-25.zip",
+        "source_id": "5099de34b78529c9529892ce97bb91c7cab05848e29729de351e1e13e7725c2f",
+        "status": "available",
+        "bytes": 12274,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-26.zip",
+        "source_id": "1d27520d5d93101b20418b88fe55ad03bf0fc622327c1fb54d80dc24af943363",
+        "status": "available",
+        "bytes": 12423,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TAOUSDT/5m/TAOUSDT-5m-2026-10-27.zip",
+        "source_id": "47a2ec49c07e156d443ff00c146325304cbc29f905e7902c1319cecdc02e34fc",
+        "status": "available",
+        "bytes": 12271,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5805140,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

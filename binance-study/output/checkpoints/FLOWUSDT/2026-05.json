@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 62,
+    "1d": 23,
+    "1h": 88,
+    "4h": 75,
+    "5m": 34
+  },
+  "event_file": "events/FLOWUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 343052,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 343052,
+      "source_id": "023bb3ebca82e641f5d0470b10ebd5ed0686ad0c1b335c48d36d643798a361e6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "FLOWUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

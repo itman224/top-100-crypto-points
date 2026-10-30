@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 72,
+    "1d": 22,
+    "1h": 111,
+    "4h": 79,
+    "5m": 45
+  },
+  "event_file": "events/1000BONKUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 319593,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "f1e3db745c4a7ecfbdc37ad3880eb5a565b7e35af2539efcf20ecc1b47e0e9a1",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12667,
+      "source_id": "7433b49ce6594958a7022607c11e4bd7fe6f4d4766dc40889140181c56bc948f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12737,
+      "source_id": "0cba84915ec1bacb25632bbf023edc42836c17672054c5fe35c55698cbd7eb04",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12393,
+      "source_id": "bbcab2902eeab306a91fc9770f06d570d02826ea2985d8af4bd0739c137be869",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12230,
+      "source_id": "48abe44309387cd2f8ce004bdbfc5d99700e245392de325b2d65bd61bd7965aa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12624,
+      "source_id": "7872cb7b23ece142ab41585327e37204185516b5767d23898b11fa2c506c16f4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12273,
+      "source_id": "2ab1dd88203035f68811d93f037a723cccb8eefd96a42bacb9c9661c229e6797",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12490,
+      "source_id": "8cce0f6bd57647d3a3ebec3640180a0da7c0bbf4832432105911e2d85d498190",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12639,
+      "source_id": "de41830e837f9fd4eb6eddfaae77f05ab7c78e76078c80db1366103c4af69b3d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12192,
+      "source_id": "e9e425547e5644494311c914de4e7fd3fc42f1cd2ba97def5663dc36e9c5df9c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11776,
+      "source_id": "87e3d1805c00cc700e9134fefa503f5dfa478fec4de9498c518bde7d41c34b57",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12026,
+      "source_id": "15f07344b5321e4e50acc2b8e5ce8ba7b4d4aec7ad4c6eff2c8a1d3333191b1c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12378,
+      "source_id": "e99588433f9dd440a12445bdfc980401765d45be43d97a82367e0e364afd633e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12310,
+      "source_id": "b4a3a1ce193082675b7e6ba983a3f1d4c445dc291b42d96a58104cc23f13acde",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12263,
+      "source_id": "d470203e60f4e3a609c42329aae7d3db0579ad42fede661cf86ed691df83427e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12399,
+      "source_id": "1325f2861610de31325fec9dac6ff72f168c7eac5067551a6391af2625113bd4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12255,
+      "source_id": "dd6b6d3cd3f65c5af15e3769c7c96abeb44c66eb256a92e52dd885540caf6bb1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11822,
+      "source_id": "9d1635ac10866c45351b9d08146b1c575dc79924bd2d170d21d2c94037edbadd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11992,
+      "source_id": "7feb58a1b922fd13acda491388a6d0f8db4cc2c602d51301ae515e32fdee54fb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11869,
+      "source_id": "28227ec16361b65d8cad8c3440a3c46ab91fbda82c590c85e9a8562962fabdda",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12121,
+      "source_id": "fc60175700ab9273c38c28dfbc778c2b3d4345af0bb074abbac3348aaec8fef2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12254,
+      "source_id": "915ef37ef92c913ac20a2b47e38e88080d9579c1aafdda1499679d843ec6abea",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12239,
+      "source_id": "73aff284301dc88d47475e467d40f8fc1dabe5f0377cc93ada65774ec974be6e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12740,
+      "source_id": "e57e4403ceca185df5b4601d6a8f2929b3fa5b313c173d97aa7e72370c2a153f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12413,
+      "source_id": "128ad6dec9b4c4f59a87da524f53744468c52be963261553c948708861a9774f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12208,
+      "source_id": "80ff44b49d73082d139238281ec89908ca52cdf8642ea54b7eb21452cf6b96db",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12283,
+      "source_id": "9e54b8aabe8786eb845ec000b8dd10aa5aa26cf396bd325094dc91149b358833",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "1000BONKUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

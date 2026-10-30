@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 72,
+    "1d": 16,
+    "1h": 93,
+    "4h": 67,
+    "5m": 62
+  },
+  "event_file": "events/MANTRAUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 299222,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "c7d0a8236b9def2527aee24f7261a85400350f4655111d3bcbc9b19b5f373617",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11503,
+      "source_id": "14469cbbf13943cf122bfa01258a320d7cb5f34122b1ca6deb9e8fc912924d24",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11688,
+      "source_id": "9c3095f064f1e794fcc87d1716b08c48e309eefaa222407afb8261dc02145042",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11399,
+      "source_id": "786e348719ac80e60197a23a46f5e37225e67066b35f0ab6864bfd33c9518155",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11160,
+      "source_id": "4c4e0b6425a30ee8528795e11f2e4ef3504982a8e913252fd01f14ed117c5844",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11429,
+      "source_id": "3d279691792d3e971f6eb6200bcff542a59a3df48ca7d41e825ae077ae5bb657",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11482,
+      "source_id": "9f7389c670ad7cb444513c637134000080d389562a7487a688c6e9718ce4a525",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11551,
+      "source_id": "7245ab804ba700465f1159b51c423ff411e320cd69526a66e7a22869a941a638",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11575,
+      "source_id": "95107d1391f8b8ecdf46cc31acd79066805338b4a16818fa5187db0e91dd3619",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11224,
+      "source_id": "867553e4151e932f2436a99f5ae7473826d7c51915fe7c00a3ffb972cd79c7af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11366,
+      "source_id": "43108e9825fb32cca6f79103b9f214237467194d7d4f1020daea5d4fb0081f99",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11307,
+      "source_id": "c42c63c4dc382b598e3caf56e9a6478b796f590fc0610eebdba439c683e4b0d4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11576,
+      "source_id": "d296fc0293f2f09bcd00ab9cb11518e31d157898b82c74718a149836fdc8a7d4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11495,
+      "source_id": "08ee3d935f1a9a194b0cb2d7715cdfa694bff465f837fa9f09ea0491658a0fed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11483,
+      "source_id": "746e6b79575b23a7397807b0964bacca90473d45f6748d38651c1284962e71d5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11753,
+      "source_id": "c5e4965debb54ab88d33a51a1323e4bfddd198efc2e7fed602b4ccc7a50babe9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11918,
+      "source_id": "8bdcbec73ccdb13dfab2644e560be061630b022f67cfcfdd24d6df2554589e53",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11667,
+      "source_id": "cdb0fd3e79b8e6e49679c7bcce48269ae628250750ff08b4d3c2138027001fc7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11715,
+      "source_id": "7af23e16ea9052ef02ff66eb4abfa17bcf55b2dcd9ebf18959f33a2de4c2654a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11877,
+      "source_id": "aee36cc0d0495cfac75bd47c52070f0f88636353eb97cb6fc8c725d8a80de696",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11535,
+      "source_id": "a89a3cc16b5292b40204aa740e13846f5cdfbfb73a3d87c7e83cb9671c42ec88",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11310,
+      "source_id": "16db4e453eeb23382671cfb0f590944af358f03277e5967ab86bd80a5a20cda4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11428,
+      "source_id": "16cf3b2de2fa50c939c55d6c7ab4b94c0a0e0900ec5e6c9f84145b14a4ca5383",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11354,
+      "source_id": "1cd6e14281a88c85e9e12ab745ac10c4dc1971f142b9aa0311d072ff652efafa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11281,
+      "source_id": "dd1ebbe6474b8f845eea9896086e4743e870b690b420aa5ded8317a1a4994fb5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11572,
+      "source_id": "f77d46b14ad0e58eb6eb1e5451266dfffe22e8a87f5d1272dc7c81d377350c97",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11574,
+      "source_id": "ccd4344d8c5bd03638169b30464a54becb6be79db7c7371ae75b73e8fa5723a5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "MANTRAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

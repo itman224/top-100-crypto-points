@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 85,
+    "1d": 23,
+    "1h": 100,
+    "4h": 74,
+    "5m": 64
+  },
+  "event_file": "events/1000PEPEUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 367631,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "71f1b35b8d9f04e65fc14b4734429f15833f4b25e4702f42785a2cfabe8ba587",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 14264,
+      "source_id": "954997bdb974b99d8fd7f53e6062825430840e8feda6e535a491a7d30b81f794",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 14551,
+      "source_id": "7ee9647cbd887f15afce6421598e4acdda72b78ac05b4486bd4215d0e990b006",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13743,
+      "source_id": "debb739e44cf0ae2c458f37e3b94dc3237680c9785c911ef91cf15a02f2ae148",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13723,
+      "source_id": "021701893038c41c8cd48cd241a3b48c05d561232f3560331f468cdf408e441e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 14217,
+      "source_id": "71a9e79eaae26a9a2dd8719c39ae9dac35a6b11fa01b9859d3491043efdb1f23",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 14030,
+      "source_id": "4dff7b869f4098383b7f84faa380251f2f83c1d78a85547c74baf0a0c80f3c93",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 14063,
+      "source_id": "8b1e221858a2451b9b41dc802494c61700a4f454f4e08c6981498550706c31ca",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 14248,
+      "source_id": "6981fd9ecde4ab69b206f3e330eb4d042ba71aa51440e9a2b7149ab475963152",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13905,
+      "source_id": "08af31edd0b883149db68cbe4b5bdf6a9c2e87bbdfd82bbf90d5362daaccf327",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13587,
+      "source_id": "5d5eb5f12942a10333734809ceb737e9709793f6c54912d53b1907ed272eb62a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13822,
+      "source_id": "4158871bb25dc44322a9f710c8cf1416fccbcf28745bfe79c664ecac136d0dc2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 14198,
+      "source_id": "fda4d21d92eb73e0c3080f188b39a8f0aa4e1ee00fd0712b537a788c9dcab584",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 14292,
+      "source_id": "669c74c9fc8de90606964b6b5a060e2c079f81b17ccd8326f7b655e68009c4c7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 14182,
+      "source_id": "9026ca44ffd15d675cf067a39bee4a5e1f957877408e0fb8371de8a5dc817b36",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 14377,
+      "source_id": "aae585d3da97a7b18b7f1a75260c9683f4b69a7c7f5a6d2c21f9bce3455e2109",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 14077,
+      "source_id": "6ca0231a09528a22cdb4eac1b1bb6ffc53eeaba1dbe7bdfadd3694ffffccc91e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 13821,
+      "source_id": "87947823cbf8aa63b42b08142eb8642c7dbfa8cccc8d0d81b4729cea8c9c0e9b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13973,
+      "source_id": "8acc84cf01e105af11fe75bea38313ca935439f52ccf8f67a617a0165b7272e5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 14125,
+      "source_id": "e81c408824619edc768e787c20a1759d26f05108cbcfef232be38817e9ba6a31",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 14397,
+      "source_id": "7c0c01ba15e298f5872041fdd359b60fe9b1a94eebe90b4917b9044480b9d7fb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 14280,
+      "source_id": "35a47ca76e03080da9549239faaabaad86b2192e899a68c2e2d072607007d1f1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 14169,
+      "source_id": "9d0d26025e4c2a6de86e0994eae6544e5bf1d142f3d5761ac18c841a0668e464",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 14742,
+      "source_id": "be95157aca65f889e319daae3094754581c9386c8929c2eca5b75c5c49a8817b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 14431,
+      "source_id": "146fbb56dff908987bea5bd51b8f6876334bffed3b641593a9ca2d1f7ef85275",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 14156,
+      "source_id": "fcd6f587dbe5f1f96cc0e3db7c3fa42457c992b4b037377f4551e04f3070e706",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 14258,
+      "source_id": "2a44d7567827721ba53858c97422f88b29fb3c68d6d84bc641dc110ee5600c05",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000PEPEUSDT/5m/1000PEPEUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "1000PEPEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

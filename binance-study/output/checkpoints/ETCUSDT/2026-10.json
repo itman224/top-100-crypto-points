@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 28,
+    "1d": 15,
+    "1h": 45,
+    "4h": 47,
+    "5m": 16
+  },
+  "event_file": "events/ETCUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 297926,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "988508607448636acf6b915a118618fdfecc64f8b3bba1309b47a2bc00873ef6",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11691,
+      "source_id": "431fadf1bd9d32ec0f1186273297b30301ec1c788206e5a96b0c511b080a2815",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11943,
+      "source_id": "00cbe326861577e9f8b7f7ccb633c4ead5357f8f93306b546c54c775d7464a43",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11170,
+      "source_id": "3d7cf5fac95c143b7a4519c50f9cb87caf1e05f6cea477dceb004691a4750123",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11205,
+      "source_id": "92207185c55dde1fc62ccd0155a796e5598ee4547a479f029dbd9f0dc8eb2bd9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11566,
+      "source_id": "fe0360b6c7fdf25a8abaa51f1fe3bf9569d397164260ef9d7d46847ba82247cc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11394,
+      "source_id": "3202ae626d5c11f1b48ed95420ece46d36093fc2aa7570e240a6a1b080bdba3d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11617,
+      "source_id": "2d2698be20a7bda6883913fba8b55b4cb14bc8b7891f8f9966fd1b3caff9b51d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11834,
+      "source_id": "c539a8143a31ef6d590d99ef6970d92437a49156f231798ebd9bab2419dc810e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11462,
+      "source_id": "0904d2d8baf2b3ee1531a4e57cdf2fbdbbb986b158ad6c241ad227010954b2f1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11251,
+      "source_id": "0294b73d99c12d4afe89b59b3c1d5130b7d4f6fa0f6bb33d5c44cab5a700718d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11198,
+      "source_id": "ae1a9e60521323e600c9afefabbfd6295fa9153de8787012475ec44bba07035d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11564,
+      "source_id": "a8a64f4fe05e6326444836b2511befb9353477b092abf0613169334651b75d21",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11580,
+      "source_id": "ba8db9f716623e70d842e0be38171a4842f06529cb42037740f356b178cf0805",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11484,
+      "source_id": "fd28cb04ab4bef74a71fc86d2fbab0c82c59e3610f85f21e7c9bbb9c2329a052",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11734,
+      "source_id": "8fee7ce9d240e6c7d385396545502485f08ab13e51ec9ebb5d05aa0459259fcf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11430,
+      "source_id": "4456fd6661fc11fa0aebe32a00026435826e3643ffc7840830a448904fd75f29",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11270,
+      "source_id": "ed71c1a3671d1a0f9bf5cbe85667f5b62f7c54bea0c7d679271989128d09f01c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11480,
+      "source_id": "2f874e019edfbb186af5dc8bb4292d605ae2e2b8b5177e632fa4e170424122e8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11373,
+      "source_id": "d69999f208b22088cb6ca60c26034350c1c39dd2c8ef463e4057ca74e450789b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11402,
+      "source_id": "59c25bc4e980f8bb09c83591c51690ff9617aa54c02c5807baa36d3ccd0e3ba1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11335,
+      "source_id": "d7f210b56c442aa7bba3b1c9886bc7e0512d620501fe4584e29e9e9cc10c8e1a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11463,
+      "source_id": "008e63c548a8806ec3c571db09fbe23ba7df86b26c4f672f068a92929c5462fc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11412,
+      "source_id": "7d85d74fcf0318dd8227c467df9cf8b59bf1f46d3030f9f760b9edadf862f1e4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11344,
+      "source_id": "18617055970319b7a0f1e957c7e096926d156568f9453e674c217ad1e8bad077",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11248,
+      "source_id": "76ca094ec5bcc9ca8910e8e33af22763c77b3b15000071a06312f8fca3da5a4d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11476,
+      "source_id": "073469bd26fcbd08f2235ea46784dcaec2a59e8f5ed28670fc730bbcdb58714f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETCUSDT/5m/ETCUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ETCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

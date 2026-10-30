@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 56,
+    "1d": 19,
+    "1h": 84,
+    "4h": 68,
+    "5m": 31
+  },
+  "event_file": "events/LTCUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 332302,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 332302,
+      "source_id": "7e800eb2c771f1353c66e19441b3dd68fd176068f9363bca251355adfb88dff9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "LTCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

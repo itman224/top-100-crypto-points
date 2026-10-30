@@ -1,0 +1,46 @@
+{
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 16,
+    "1d": 14,
+    "1h": 24,
+    "4h": 33,
+    "5m": 5
+  },
+  "event_file": "events/ETHUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 408995,
+    "expected_5m_bars": 8928,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "sources": [
+    {
+      "bytes": 408995,
+      "source_id": "8207a968d8df4fc5547f24694082ed38092a1d87bf8fc64f827b8e7155af4bb9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "ETHUSDT",
+  "version": 1
+}

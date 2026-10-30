@@ -1,0 +1,3 @@
+pandas-ta-classic @ git+https://github.com/xgboosted/pandas-ta-classic.git@9c1e0ca16f1decf2cb39823f0e229e17d97bafb2
+pandas==2.2.3
+numpy==2.3.5

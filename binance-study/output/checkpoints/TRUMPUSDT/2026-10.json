@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 55,
+    "1d": 21,
+    "1h": 78,
+    "4h": 61,
+    "5m": 38
+  },
+  "event_file": "events/TRUMPUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 315943,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "34e40f16b36713699f706e106d45302226e3e18a4a92e81eb259d1e34e47707d",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12640,
+      "source_id": "6e37ff0a6d5829c244ce48dedc7cd9503132a85a58bfea1c996f1fbd76c2df42",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12853,
+      "source_id": "576a563b1892f4b67da9aee59e39dfb73610a0b26e731599e35dc88601d53419",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12080,
+      "source_id": "a87f33d808cf2f83c6f735b3d4334e0d657f56bfcd5cffd99569d0863d66f629",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11923,
+      "source_id": "91803d4b3bafa25a6a743ec6648522e19ebf0f6dcda531ec1a126a50c77afc3b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12210,
+      "source_id": "c09c967e6efd2111570a01cc734d03a632d31405389b53a69fbd84e82c650c3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12134,
+      "source_id": "d34bbe69980dc58ef7ae2ac189f6f04057ffc59f2b224c05e311b2ab784f3510",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12399,
+      "source_id": "ae934422376e5348d605a5b6bf7729d0083ed89580b5b58150111961128918c7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12438,
+      "source_id": "a190141ef4608628fca6bddb32f4cff1bd10d362639d7b36d855f5c56598daed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11961,
+      "source_id": "c942517e09ca36c4cf386b4c900b207894f657bbcd8c27b9acb0e440379f5409",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11622,
+      "source_id": "67b554f2e395cc60d959c80728cd9ec32ad93bfeb8010a052cf7ecb3122c924b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11756,
+      "source_id": "ff2905c80e5414b65170b2c15c2ad63d24f360b22e9846bdd319539eae0b513a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12212,
+      "source_id": "2fc178d16fbe4458a8b8a5f8406d230ed180604cfb28e290e713c3cced0d3dc9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12300,
+      "source_id": "95b6573f29a39a2b215e1b185e668aa6ab600effe79b2eeb9d2f6459364ed748",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12131,
+      "source_id": "bfcb6b0e4811a6b3d0aebf403238e692a59c257b4320595f7caa6844728a267e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12444,
+      "source_id": "61bb29abc10afb8b0e6daa0dda6e0cf7183466abbfa3ec805b27f28383c908f3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12138,
+      "source_id": "32961f0729c8cc4319a9603605f687de4ac8acc5bfec0e297b7fc60cae5259ea",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11835,
+      "source_id": "36fa06e192dbec15b37cb37a13b762292c9f21f357c95465e66b3e19296d8efd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12123,
+      "source_id": "a8540a8c020a2d2d63c473b4ae9a177b9c9c4c618ce51713b6f5deb3ad842fa8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12016,
+      "source_id": "9ca749a813e5a87ce2b5eaa41cf769b5627ab87d44e8c44b779cb1c66c349ab9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12201,
+      "source_id": "4fb7b15f03756d6e0e9cd94df3efb7c4e7f4d2794125376dceb93807805430de",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12364,
+      "source_id": "b95aab704c2cbfca849ec89ecded5cb3a7c3793fdbceea7579bcb9ec8c35112a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12182,
+      "source_id": "a1efe3a898806513d0c330520adb6c823bb8cbbc13a0d21773065ff82f9b5106",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12072,
+      "source_id": "b0a5c9207895103eb1fff9fae74b3c9822d301e0480ddcc16dc94a60a7d0441a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11970,
+      "source_id": "696e5af3e7d082cfb5226a6e68e5fd9d64823751943baec3d8cf75f512ebb40d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11807,
+      "source_id": "893d97c7308f13e5d6de89c2ec0f32c7b54fb44f0249a4c20ad9ad0e2970254d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12132,
+      "source_id": "e25231ce970f1b46f75c4bb0030614b341be67c31feafae3ac8a55753d656c57",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "TRUMPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

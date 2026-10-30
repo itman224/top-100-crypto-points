@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 260,
+    "1d": 20,
+    "1h": 230,
+    "4h": 101,
+    "5m": 187
+  },
+  "event_file": "events/OPUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 339580,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 339580,
+      "source_id": "30ee9ab0d8df3251f65316cea79a2604e3d189cdf5d13bcfb972f950a3f14a86",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/OPUSDT/5m/OPUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "OPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

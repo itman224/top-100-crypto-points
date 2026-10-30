@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 267,
+    "1d": 23,
+    "1h": 215,
+    "4h": 111,
+    "5m": 214
+  },
+  "event_file": "events/RIVERUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 344478,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 344478,
+      "source_id": "a0a28fb6dabe6c32353759f55a122dba6f050110e5fd2f74504b3b0db7d47594",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "RIVERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 173,
+    "1d": 24,
+    "1h": 203,
+    "4h": 98,
+    "5m": 104
+  },
+  "event_file": "events/SIGNUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 327903,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 327903,
+      "source_id": "b9e835aa3d2fce0d0d3f4b024ef4be0387fe49e5373c7b7aa0555353fa960b14",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SIGNUSDT/5m/SIGNUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "SIGNUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

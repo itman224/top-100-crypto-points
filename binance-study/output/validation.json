@@ -1,0 +1,12 @@
+{
+  "checks": [
+    {
+      "code": "close_timestamp_validation_pending",
+      "severity": "warning",
+      "symbol_months": 13
+    }
+  ],
+  "errors": 0,
+  "status": "passed_with_warnings",
+  "warnings": 1
+}

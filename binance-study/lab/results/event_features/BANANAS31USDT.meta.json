@@ -1,0 +1,352 @@
+{
+  "symbol": "BANANAS31USDT",
+  "event_count": 4526,
+  "quality_counts": {
+    "complete": 4526
+  },
+  "source_event_files": [
+    "output/events/BANANAS31USDT/2026-04.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-05.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-06.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-07.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-08.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-09.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-10-27.jsonl.gz",
+    "output/events/BANANAS31USDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/BANANAS31USDT/2026-04.jsonl.gz": "0d0d873c0a62619e694588ba0af84c48cc681d7362d643fa33001ac2621d9459",
+    "output/events/BANANAS31USDT/2026-05.jsonl.gz": "e4eb0affbb5cd9f5fc2597de655e6a709dfe5ee6f60c32428a66fae3273c90dd",
+    "output/events/BANANAS31USDT/2026-06.jsonl.gz": "ee979e238d0ef73f64365c2bd168058d06c730917782337fb2ed439cfd09a410",
+    "output/events/BANANAS31USDT/2026-07.jsonl.gz": "0ad6c1d846371c1ce6bb5bc78147e7f9ca2de57b15592dfb30c3a604177a6339",
+    "output/events/BANANAS31USDT/2026-08.jsonl.gz": "c94056205755e90042f01b8d48105c1a157d24e2d7f2d7ed748e1add1fe33518",
+    "output/events/BANANAS31USDT/2026-09.jsonl.gz": "0d2317b7a6523f96010da7ee17a18c546f25b70b2dd0e2b57077c1f3e0073146",
+    "output/events/BANANAS31USDT/2026-10-27.jsonl.gz": "c6a6ed9cb602ff82370a98b61ca18f40d8706479e9ef3e21129c5732a6005e25",
+    "output/events/BANANAS31USDT/2026-10.jsonl.gz": "e0680193e57ef54c418ee5db4b7b3cfa4bf5bb0df802fe11f2de50ccdfd7512e"
+  },
+  "market_data_quality": {
+    "symbol": "BANANAS31USDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-07.zip",
+        "source_id": "e3b6c38d358f2a4ec8eecac81d7b791901bfd6ef2dfa6ea997240703a5861910",
+        "status": "available",
+        "bytes": 397637,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-08.zip",
+        "source_id": "fc5e69075c2598d659922b117d648882524d348ac4f0ef3021422f61e65090f1",
+        "status": "available",
+        "bytes": 369146,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-09.zip",
+        "source_id": "4b875b4a682732f8fce001cc4ff1dd2dc6b19e7cc2550dd34169d7d042d0594a",
+        "status": "available",
+        "bytes": 345659,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-10.zip",
+        "source_id": "b1317c85e041996ca0501c4cf1719dce35bbb3768085546bda95055c206463e6",
+        "status": "available",
+        "bytes": 354680,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-11.zip",
+        "source_id": "bcdc599bf59223798ad7cd95163671095c224d62b0c44709b4a17908669b03bf",
+        "status": "available",
+        "bytes": 358285,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2025-12.zip",
+        "source_id": "7881bd488a5cd26383bc77cf7338ce11627891a6929dddbed136b88977002b42",
+        "status": "available",
+        "bytes": 360774,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-01.zip",
+        "source_id": "3b77aa12a80b4313861d4ba9b7698d67b962f24686e6a71ad3f985593bd94b73",
+        "status": "available",
+        "bytes": 351975,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-02.zip",
+        "source_id": "0dbad80cc008cd236d7d2a813e3d0cf82ebc14ec27430d368e450df0b7306cb1",
+        "status": "available",
+        "bytes": 322565,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-03.zip",
+        "source_id": "5c91a03d44bb70093277ac8b999ee1d3ea5ffa05e50fbedbd591c531c0b07f16",
+        "status": "available",
+        "bytes": 384634,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-04.zip",
+        "source_id": "3725991fb9d7de40c4c2ba27b82612a90d350cb97074680deab17d122d11bd3a",
+        "status": "available",
+        "bytes": 357003,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-05.zip",
+        "source_id": "b8848a434e5beb1970da59466fbec68e27c1f2383efd38b696f158a53872784d",
+        "status": "available",
+        "bytes": 372066,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-06.zip",
+        "source_id": "f239d1119f56f4e2034a682002d377261c7d9719c47b201f878ac2f3243e0b50",
+        "status": "available",
+        "bytes": 354681,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-07.zip",
+        "source_id": "b9d3b4c3153f800b1917e2e2da126863d696bf8eb37e12538e26d1f66b281303",
+        "status": "available",
+        "bytes": 342612,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-08.zip",
+        "source_id": "9844ddefcbaa4404aa4a1eabce6b470b20c583e987695ec07219123e36b1276d",
+        "status": "available",
+        "bytes": 348942,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-09.zip",
+        "source_id": "c30a5e5af7f2e84956ab96f79ccb93f72fce10ed2acc9ef58397a248630b8eae",
+        "status": "available",
+        "bytes": 327316,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10.zip",
+        "source_id": "23bf2e40a5ac2dbd85666a70fd555c2a89c5ffb5f7b870e9dc54a63e059fa5ad",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-01.zip",
+        "source_id": "20b8282ea24834d87113e7928037f86fca68a5ccaa2ceea10c6def2ea309b5c8",
+        "status": "available",
+        "bytes": 11348,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-02.zip",
+        "source_id": "c10cc3b5f3dcb8d718d203f4634b98b685c7495a5f7ced92427f61eb76d10ee2",
+        "status": "available",
+        "bytes": 11665,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-03.zip",
+        "source_id": "0530d8984792751a1142029df5df4962371e43be145e6581d72559472383b46c",
+        "status": "available",
+        "bytes": 11231,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-04.zip",
+        "source_id": "89724142c929a830e499754ab6263a068a0dc45f4cdd4859172365d564ba42db",
+        "status": "available",
+        "bytes": 11016,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-05.zip",
+        "source_id": "e2a9c782ed890d2589c184b1ebc9638f1f70b102817414a9636802240130d6e1",
+        "status": "available",
+        "bytes": 11454,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-06.zip",
+        "source_id": "a1a9c271b594ad180bccfbd610c5c9bb12723e4f487939a16270aec7e859b995",
+        "status": "available",
+        "bytes": 11310,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-07.zip",
+        "source_id": "30cb8f6f1378b752ad81b66737f3258e6f565dfb0f4d5b6e3c0bf08e34939524",
+        "status": "available",
+        "bytes": 11399,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-08.zip",
+        "source_id": "60c464019308fcd1886f74957a01a40a0c2e589524fb1818e89beb16a71d7265",
+        "status": "available",
+        "bytes": 11543,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-09.zip",
+        "source_id": "89b4900d177409c303aefc9528386b27d78fee8908e5ca8272be3d3673ec3b73",
+        "status": "available",
+        "bytes": 11222,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-10.zip",
+        "source_id": "7793b7a8a50ce49f47aa437dfeee74f8eaee5affddf21389f406ce7a2ef88ed8",
+        "status": "available",
+        "bytes": 10792,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-11.zip",
+        "source_id": "fce745625fb75b5678413028b90691aa61627059ee16c4d53d40ad79755e393b",
+        "status": "available",
+        "bytes": 10877,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-12.zip",
+        "source_id": "33612fd215285375e5db8e068d715e193e97cddc661acf4fa666d5432bc8511c",
+        "status": "available",
+        "bytes": 11280,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-13.zip",
+        "source_id": "b35401f3b964ebf0be4537e7443089a5164a6446113df9b73272e7286681392d",
+        "status": "available",
+        "bytes": 11504,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-14.zip",
+        "source_id": "c9590eaea61883721b884545380cca794ca6bc147eb1017713b03ac37a41e81c",
+        "status": "available",
+        "bytes": 11378,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-15.zip",
+        "source_id": "449c02deac9b6e15a1c70810677419d0f8c8603d82bbc28fea507ee2ba89cf84",
+        "status": "available",
+        "bytes": 11617,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-16.zip",
+        "source_id": "bb3f5ecf9675d3abd170a97cca3bebc5bdad6e6f42ca823bf6772711b826142e",
+        "status": "available",
+        "bytes": 11010,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-17.zip",
+        "source_id": "c8d250a39f2a095a5542782965f49bc132d896132d48b7c1d89310a51285ac3a",
+        "status": "available",
+        "bytes": 11027,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-18.zip",
+        "source_id": "0b90255c978c33c4cecf4c6b07ebe2c47d308eb9f31692874a2ffe2ae068e803",
+        "status": "available",
+        "bytes": 11411,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-19.zip",
+        "source_id": "c2f30881e90e2738f126d67704f5cb4364637053347bfa239507eabf76c65990",
+        "status": "available",
+        "bytes": 11075,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-20.zip",
+        "source_id": "cac64ea8a70d3f396b574dcb4d9f3471e32f82716b72eddf7261f6fe736e698f",
+        "status": "available",
+        "bytes": 11138,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-21.zip",
+        "source_id": "6dc36c692cbf21f93ee5b87174a6deb75eb7d562dde24f65dd63505f5cf9296e",
+        "status": "available",
+        "bytes": 11225,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-22.zip",
+        "source_id": "d1c579b7a3b5fbfcb96f8cf10bb0b20b45c066c75f5343f86e1796c2ba67f9b0",
+        "status": "available",
+        "bytes": 11105,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-23.zip",
+        "source_id": "67fd5c1b616b002c835600a851aa5603ed4a29861d4311c2e287eee441fc2359",
+        "status": "available",
+        "bytes": 11182,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-24.zip",
+        "source_id": "f248d6c3c46e106e6ea3f1f85490f35c22718c025c22ac261f2f7e34fb28416b",
+        "status": "available",
+        "bytes": 11086,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-25.zip",
+        "source_id": "e66920c3063be6dba7f8c4f4e5f32a0846bf79906ec9f6ac59b288498eec2a32",
+        "status": "available",
+        "bytes": 11020,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-26.zip",
+        "source_id": "ebfa28ab08e06d04b51170877ea3f010ced5d25c021513ac22d7c6fe1e063bdc",
+        "status": "available",
+        "bytes": 10894,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-10-27.zip",
+        "source_id": "cb4fc8a45fc57d5f280af127af30f26991e61a11e7f28371a3fa7779933a89ca",
+        "status": "available",
+        "bytes": 11059,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5650843,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 356,
+    "1d": 27,
+    "1h": 248,
+    "4h": 112,
+    "5m": 366
+  },
+  "event_file": "events/NAORISUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 315672,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 315672,
+      "source_id": "b3f676686897e185a84a5c3f5745d077f6e1f4261bd154199453d264e9b06dc5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NAORISUSDT/5m/NAORISUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "NAORISUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

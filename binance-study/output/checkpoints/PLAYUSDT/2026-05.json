@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 1031,
+    "1d": 31,
+    "1h": 469,
+    "4h": 159,
+    "5m": 1483
+  },
+  "event_file": "events/PLAYUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 379466,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 379466,
+      "source_id": "f0891e222a9feb30a8ad97e413ac0c2448f24f0239cf337fe8189eb81e3e2135",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PLAYUSDT/5m/PLAYUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "PLAYUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

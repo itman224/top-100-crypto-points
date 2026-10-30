@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 56,
+    "1d": 24,
+    "1h": 90,
+    "4h": 70,
+    "5m": 49
+  },
+  "event_file": "events/ONTUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 303002,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 303002,
+      "source_id": "2589b22491cfe3eb31f457c83818db2b332a5de9c9b226b3856cc4d0485f1de7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ONTUSDT/5m/ONTUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "ONTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

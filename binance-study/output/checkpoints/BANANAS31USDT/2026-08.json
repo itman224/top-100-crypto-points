@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 211,
+    "1d": 26,
+    "1h": 170,
+    "4h": 92,
+    "5m": 222
+  },
+  "event_file": "events/BANANAS31USDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 348942,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 348942,
+      "source_id": "9844ddefcbaa4404aa4a1eabce6b470b20c583e987695ec07219123e36b1276d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANANAS31USDT/5m/BANANAS31USDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "BANANAS31USDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

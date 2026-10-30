@@ -1,0 +1,833 @@
+{
+  "symbol": "RIVERUSDT",
+  "event_count": 6409,
+  "quality_counts": {
+    "complete": 6409
+  },
+  "source_event_files": [
+    "output/events/RIVERUSDT/2026-04.jsonl.gz",
+    "output/events/RIVERUSDT/2026-05.jsonl.gz",
+    "output/events/RIVERUSDT/2026-06.jsonl.gz",
+    "output/events/RIVERUSDT/2026-07.jsonl.gz",
+    "output/events/RIVERUSDT/2026-08.jsonl.gz",
+    "output/events/RIVERUSDT/2026-09.jsonl.gz",
+    "output/events/RIVERUSDT/2026-10-27.jsonl.gz",
+    "output/events/RIVERUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/RIVERUSDT/2026-04.jsonl.gz": "cda9f32b53aed7cca3d93b20f5d99421acbcaa746331ac0b91ba78eb505d8082",
+    "output/events/RIVERUSDT/2026-05.jsonl.gz": "fe30fdae90330bd366f0516b8a0a289f411d41db791fdcf035211ccc4279c625",
+    "output/events/RIVERUSDT/2026-06.jsonl.gz": "7b46c2f225af7eb1d1454e5a85a624b09073bb0c0f4eb4648016d4736ebee0a6",
+    "output/events/RIVERUSDT/2026-07.jsonl.gz": "7aba745058d1b638b2c949987daa8e9cd14fb9759d3d5aa708523b54e1b42900",
+    "output/events/RIVERUSDT/2026-08.jsonl.gz": "860df4e360932238755d6416824c7b90fd07b229ca8d8acd9d7bcf27e5d5284a",
+    "output/events/RIVERUSDT/2026-09.jsonl.gz": "548e952cd1a633535b49914656fa0fb8ab1b61209a247fdcef5ecd63f4f75d95",
+    "output/events/RIVERUSDT/2026-10-27.jsonl.gz": "c00f8ac9e7ee181a43aa000a3e893c6e18ffb6ffd3f80dc44d210e3fd18eb9a1",
+    "output/events/RIVERUSDT/2026-10.jsonl.gz": "51002ba46dd48e7e21274b2f490b782abc514452fcfcbe61be5ea55a4db71e89"
+  },
+  "market_data_quality": {
+    "symbol": "RIVERUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 108111,
+    "missing_5m": 24369,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2025-10-17T14:45:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07.zip",
+        "source_id": "de70181e25abdf03e20cf888c1d1bbc3d9c3ae39ba0bf98ba3b963d5cf79e2c7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-25.zip",
+        "source_id": "989ef39a9f6058e039da7041ed84b6f41ddddcd13d9151111c05d0b31e21ee93",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-26.zip",
+        "source_id": "e21b063e7e3df0678b55390e61aa04844b01b96e96b124f90e21a98a60faa5f6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-27.zip",
+        "source_id": "02d3294eb8eb49f39978eea6b8ffa5a6e309b031e632bfbe36a393a7d7e3a8bd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-28.zip",
+        "source_id": "acc5725de9ddfb91163749f01d1d4ced3779a6a321a5708aa5f6fa2b06022473",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-29.zip",
+        "source_id": "3d537f45c23f7ae3e9bc4e372a698a12359a58597e6c8177338736d4b9888d4c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-30.zip",
+        "source_id": "83459b56f79cf5d6a6874c8922d49f1402e82dbb2bb676f2807c05dca3993a39",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-07-31.zip",
+        "source_id": "b2d4ceef1297b1d181367092e607ba73a0467246bd4e52395640511f47c53504",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08.zip",
+        "source_id": "1c588e0ccd6d0a4caab54344a5705133e2e5b3241642021a6634464a95ff76fc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-01.zip",
+        "source_id": "ff76c5d06627586c5738f83c5ddd809f90091d184625d1225b9a28050412fe48",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-02.zip",
+        "source_id": "0d0a4a0be8b041dcab8f398539b963b99bd51c35bda52d32d337e9a019632554",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-03.zip",
+        "source_id": "f55d0e1e9e5d2aab0f8ad00bc69a531f6f2da6ec1ed609070cc89d8d0aa44634",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-04.zip",
+        "source_id": "769acc217efafd7f029cef2bc0c2fb35d0ff41822a7427d94ec165e8836243c8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-05.zip",
+        "source_id": "86adf8df86da7d8fc1f49a11cb9961ca0883fbaaee86f6ee4264dafc56f83be8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-06.zip",
+        "source_id": "4387423b4c0056bdf28ae2040de90a9054e694a9b224340ec1f080d17c95ad8c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-07.zip",
+        "source_id": "380edf8079cd548eb8af108f195f3aee4f9aeb2f0f50a6f9bcf272368e4b64ee",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-08.zip",
+        "source_id": "4fb4d5976634f426d76c576179796950311912a4dca849162227a9f7d454c92d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-09.zip",
+        "source_id": "84df05b26bc051f50db29e7b3821636421f78393198135b72f78faf35a87fd92",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-10.zip",
+        "source_id": "bef465be6dd02709a5b437fb550bb2360a2a659421b7ba101622cac060faabe3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-11.zip",
+        "source_id": "784984a0e55f32746c5859abe1eef08d8781d60dc73358a5805d9a9f736b96b8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-12.zip",
+        "source_id": "037783d947e6c1c96960c6ed62e1cbb0d5859f660c7869514ea9c14b0141bb5c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-13.zip",
+        "source_id": "c387fda7fc626428643e183f8e3f344f9cca171e825c699f0253198788e0a42f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-14.zip",
+        "source_id": "b9a976dcfbfb97233a8c5561a6bf77ed021bd181496721412b26e9e4aa3092f1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-15.zip",
+        "source_id": "4c58f99f187f07e41606463b1fe0aeed4bffb5cd9d732d6bd43b7968c62dde48",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-16.zip",
+        "source_id": "e1d57b7b5ffadb773b5867d99878e3aeb95067b4065d0e9ee659641026a8065e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-17.zip",
+        "source_id": "e4d6701020fcdc3f940f99721c9f3f1265e710f6ca032194f8c5d71d873f59c3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-18.zip",
+        "source_id": "acdb9eba0ee229ed3b921db0eed1aea818dd9325a3e14258784fee95e7adcad5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-19.zip",
+        "source_id": "ddaa6cc93d5c7d83aa33b5dbe9c65d9daae37bec3a2b9edaf2bb83b691f84f0c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-20.zip",
+        "source_id": "9b484d049e79633193f4f3779706ee9d34049b5c1e167add20e1081362e51cd4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-21.zip",
+        "source_id": "131a3c7d57544bbe84b9c8c9b22b292c15a4fd3c759a42b0b7a9f07ef1c829f5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-22.zip",
+        "source_id": "8cf840036f4c1ca7097e18df8e3c80500c5c504ae2bd63296f91380d44b11478",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-23.zip",
+        "source_id": "94fd783fb61cc86872cfe69eed4377270af5b0421be2f74cec1ddf669228847d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-24.zip",
+        "source_id": "c31bee3385f9e3436dee697c7318fc291b57a4c7dda0155b2287d4ac6035bb30",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-25.zip",
+        "source_id": "69e0fb9b67ab5e9cbca12e2837eb9f4a6f66592ad26c4ed41b50bb72c33695df",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-26.zip",
+        "source_id": "bc472baab36352da02dfea47c9f13008494c1bdc6976138070612c99418d78dd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-27.zip",
+        "source_id": "1d21491a15cb010d1a29e9f2d196b21f9dd49e4ed15cf0705a4bdddb03a1929a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-28.zip",
+        "source_id": "59aaa87ea5d48e2126b3657fe2726fee6b992ed7f4402ee57c58d6ea4c532928",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-29.zip",
+        "source_id": "b8d11f1ae47fc0eb0500f593fe772702e86c328b2d92204140a650087ca2080d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-30.zip",
+        "source_id": "43fbd12db1811f106059d6b7ea75be807e139ab3af99358b3aaf50c81d9063fa",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-08-31.zip",
+        "source_id": "65eb5deec6154d12ef0840b130553829a7bc2f31fafe6fcf36b1276e3826a359",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09.zip",
+        "source_id": "b0e6f4bf3a62059f37c0581716ebea160f18fca186c8b14b55c4e5d38332c6d2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-01.zip",
+        "source_id": "eccb12e05f04ea41ec7f2734cc1f4421af4fafcb731d5c0d26f642ef9a5c5564",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-02.zip",
+        "source_id": "aac3bf48b8b8dbae358304060180c67305c13c97b8ef2b4dcf782bf811b05480",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-03.zip",
+        "source_id": "0cc253e3d95f77acd3714ea629f92546e594a332c6f2e6da811e4febe52dc508",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-04.zip",
+        "source_id": "7d8a31c00c03c6aad73abf2d3bdd55aa9da25ba3783b4ca16c0efe77669f68ef",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-05.zip",
+        "source_id": "fc359c43a988fa1c73999e435fc2989022d993c9e3da7539f21c1880f1f6d4ab",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-06.zip",
+        "source_id": "aaee5a1c79afea1313e8ded40d9168e4b9863d979684dddb65ddf0be2beb0033",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-07.zip",
+        "source_id": "9c679c30118b33082469682f834d8e315389f3e5c4d2a2614359420b56a16f85",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-08.zip",
+        "source_id": "1f98dd10346879b123289fe5371ed29f3dfb55abe91278298e840fdd9636c14b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-09.zip",
+        "source_id": "2328d9443dee145ab0c41b1c880b02f8c322aea37e4f54af2ea854cc95783024",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-10.zip",
+        "source_id": "26d6a7791627f055370b295de5f6c04de3ca6cd72ae6bde3fd1a1955759b046b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-11.zip",
+        "source_id": "1f9c882ef5b9d4985101cdbfeb1075cfd93cdecc4d32467967e568534a76e1b0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-12.zip",
+        "source_id": "1412631eb5312e3327e978c93ec38977e44ebede72a19e46eebc8463acbf0cee",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-13.zip",
+        "source_id": "a64f2d2d1356dc60d5c14a0932d3679ff070b16e349377ac4e71ed6d146ba007",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-14.zip",
+        "source_id": "3f5a1d3cb158415b985aeae0468942478be03c6dd7be5557132a0b63076dfb09",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-15.zip",
+        "source_id": "bc758167d05969e41bb9c9416c5a3f026db168f5b68686cf199d1deb7e041f94",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-16.zip",
+        "source_id": "e5697db23f5352388bc6d65cabb0fa3ec6cf3091ce45344f68d52a6f09b5f7e8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-17.zip",
+        "source_id": "331019a9cf8261c5bd4a19cea4ea6085d0ed501a5339f236f1744e1ccec3bdf1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-18.zip",
+        "source_id": "1d6802994fab063f105aad408d36377575f4815c224a346e24d337ca5d461fd9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-19.zip",
+        "source_id": "9016e193c0d359defe1a6375022b8331bfb760e653ea35d1905fb7d07875371a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-20.zip",
+        "source_id": "9b5598a50fc77391343db2cff51bd5885ab0abbeb5aa7ce80304dce51e3ff64e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-21.zip",
+        "source_id": "5f83df887df09d183f9184e975829df6853f9456870c0ede3e3a413d074727fd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-22.zip",
+        "source_id": "0905591cc76f71c48ea8240cc7ba3a64687c08e10f2460d9f439d8abf408f96e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-23.zip",
+        "source_id": "f2b9a6c96b0ba570d90f16a5550361a77176c69989732f58d7a8f5f18c1668d4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-24.zip",
+        "source_id": "b0c8525dbe3ee45ae650d6f7752c0c49bca2a83a3c7913fa088661251d81ccc0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-25.zip",
+        "source_id": "5231cea367a655c8922c87b4b7671217c52239625a6f72dc2c8604b101f5acad",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-26.zip",
+        "source_id": "cd61f9810d7dd8b007ddc6ebfde72bae73df0c3bd6c6d1fab57d548b88a6dc99",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-27.zip",
+        "source_id": "a0a7896678376a8a3676863e52851195ad848b833f61f5f7676e9d99ee2cbc8a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-28.zip",
+        "source_id": "f2023270ac3e967ab9163fa5d3912ebc284b0326285c71f31739a24537365688",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-29.zip",
+        "source_id": "ca04f83a8e719821198e7dd4befb3e02d87ba7bc16973e1daa7d2726f7bd01d6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-09-30.zip",
+        "source_id": "685b327457b871719f6a0f864beb6ef584d39e0805332e6c2430934b14ac4f98",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-10.zip",
+        "source_id": "d972d935a304966182c8a01218d5ee5543841caae26db4558b2c2e8add32016c",
+        "status": "available",
+        "bytes": 171210,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-11.zip",
+        "source_id": "6fa06d136ecaa52c158da0be8937685f1252024d32be282b36ea8a7dfdb53224",
+        "status": "available",
+        "bytes": 325792,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2025-12.zip",
+        "source_id": "b15b539a3f505bebea1b0780d9cdab7458e22055530f3ddb914b4e4e9195b641",
+        "status": "available",
+        "bytes": 357267,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-01.zip",
+        "source_id": "39e91c69521cc112d56409d7b94e1038bd49c240ca0144b1978c293e0e0c49ef",
+        "status": "available",
+        "bytes": 400775,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-02.zip",
+        "source_id": "79822b6746258420269bf1aca8e48702cfbc771c40b9f1a2b31041ecb4a53703",
+        "status": "available",
+        "bytes": 347003,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-03.zip",
+        "source_id": "686f31debdacda7a09a334bb1fffcf71c9f14e6847cb265d56510374c5fe5ef9",
+        "status": "available",
+        "bytes": 388147,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-04.zip",
+        "source_id": "52e77c4daee573173021181fae57061c0a6c4d486b5a030f4d68b7ae97b25eb7",
+        "status": "available",
+        "bytes": 353275,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-05.zip",
+        "source_id": "a0a28fb6dabe6c32353759f55a122dba6f050110e5fd2f74504b3b0db7d47594",
+        "status": "available",
+        "bytes": 344478,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-06.zip",
+        "source_id": "bcfa69a877f930cb4259e7de146dd60ad831a1b8d36386e4955797e8c9e87cda",
+        "status": "available",
+        "bytes": 322180,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-07.zip",
+        "source_id": "a330018728c30c6931209474e2cd633c84b9bae6f86027e36e124f5aa6602c8f",
+        "status": "available",
+        "bytes": 320725,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-08.zip",
+        "source_id": "9cf7e54a5bed62a5674f5e6879fd19b38780c32dfb48ebf0b22ce167c0e4c6ed",
+        "status": "available",
+        "bytes": 323430,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-09.zip",
+        "source_id": "05b3a607579bef0181661e1504e1bd08d7505da29fa6e638e32f0609dc399e19",
+        "status": "available",
+        "bytes": 312842,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10.zip",
+        "source_id": "88bdd4d0b4bb8505778b161c7ffb150d47e0641e39e76e3c5020ea1434989c44",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-01.zip",
+        "source_id": "49e5acd33470c2cd42304af53a3a31c446e2a71f1770303dd70c587905c0de95",
+        "status": "available",
+        "bytes": 10803,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-02.zip",
+        "source_id": "0ba349edf81c7d4f3707fdec5574be7c24bcde0f73f86e87af8adabd50e98547",
+        "status": "available",
+        "bytes": 10647,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-03.zip",
+        "source_id": "308cbd4f49e1540c826a9616811f3ecafea2629059e6c7537359cc2cdc9fc3a7",
+        "status": "available",
+        "bytes": 10476,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-04.zip",
+        "source_id": "1fac846308e923bdf77a438fd05ae58915a5b03b4bcb76132b0b7e9301794308",
+        "status": "available",
+        "bytes": 10508,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-05.zip",
+        "source_id": "7e5aa9a52f2fc0ed07f1b0528dd033f0aefe8fbb7d36fa451f8fed2a8ba2c088",
+        "status": "available",
+        "bytes": 10254,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-06.zip",
+        "source_id": "1a15d32cb699112f601b2551b6c4b1cd52d3218302797901974341f41b89cc94",
+        "status": "available",
+        "bytes": 10205,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-07.zip",
+        "source_id": "c009dead1f9e41879bcc0e5410f0c2fa33690419d68e6a439a0bafeb30affb1f",
+        "status": "available",
+        "bytes": 10540,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-08.zip",
+        "source_id": "fe48e4b5d573b424c8ab951f977fd2376da66c3352bd19414c2134aa7481c3ac",
+        "status": "available",
+        "bytes": 10829,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-09.zip",
+        "source_id": "8b8b6b7ebf68cb7a186dafc119da94425f3e6c60cecc2ad9c5b554afdf816a64",
+        "status": "available",
+        "bytes": 10797,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-10.zip",
+        "source_id": "cec202e49eba374f33fb4322c3983d2d8180e8035373deafbf4d4db8bc46cb73",
+        "status": "available",
+        "bytes": 9981,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-11.zip",
+        "source_id": "db55b68732022fe0307a9cbd0cde647587ef70f01f5f816672b2e5b31e37ed51",
+        "status": "available",
+        "bytes": 10214,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-12.zip",
+        "source_id": "097bafc3a6c72d64fa506c013fd35a795a39ad1b58d33d0de27d0d0fe19ba28c",
+        "status": "available",
+        "bytes": 10843,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-13.zip",
+        "source_id": "f8c9e39c9b60f7238b2ac7e32582918dd7d9aef02df8fd102a9e41cd7625dd8e",
+        "status": "available",
+        "bytes": 11162,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-14.zip",
+        "source_id": "3d7951e3227e98940a05d3b8fc2a09653059341d0933af5a6a8ab2b891cbd616",
+        "status": "available",
+        "bytes": 10798,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-15.zip",
+        "source_id": "1bc0a1b1d40e351b463a2b8c98c5c8f0783f7c02b81c74a8312a14f9a30564af",
+        "status": "available",
+        "bytes": 11359,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-16.zip",
+        "source_id": "a208dd635fb9fa1c85ce1d8123599c8f947ea2bd7634bd2e33dd12e562a10a81",
+        "status": "available",
+        "bytes": 11392,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-17.zip",
+        "source_id": "3eb825b9d908a948c233dfa92ae00132e6da0b6fe840b703455a1432170d4138",
+        "status": "available",
+        "bytes": 10606,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-18.zip",
+        "source_id": "32d8384ef2c3ce68c7c65f87eb678c6640b2816cf2834c7a4c340ded11aee924",
+        "status": "available",
+        "bytes": 10708,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-19.zip",
+        "source_id": "798286f99e734a05b4a9f61aff98c31776a7dcfbab0627aeb9b32c1b21f65e8d",
+        "status": "available",
+        "bytes": 10489,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-20.zip",
+        "source_id": "b92a154075017e920cec53cfff824e4a98ea7815525de49d1fb6324c0662cd73",
+        "status": "available",
+        "bytes": 10584,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-21.zip",
+        "source_id": "9bad68947bf9347db3949c0b1c6c645a5a3ba8dfefdab1aa41b1ec92f524bed0",
+        "status": "available",
+        "bytes": 10523,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-22.zip",
+        "source_id": "3eb4000ae52e6b7efefa9b3d90ad94826e15f62d03d375f10776628d3d98cd5e",
+        "status": "available",
+        "bytes": 10829,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-23.zip",
+        "source_id": "990cb116e99e80f2db6d75255aa2cc3fa1db483abe4cc4136a4c1d6776f8dffb",
+        "status": "available",
+        "bytes": 10653,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-24.zip",
+        "source_id": "0626e5c61fef5984cb3b72d672f8438294ce9baf3f1bc7773a1ca17fa1a49639",
+        "status": "available",
+        "bytes": 10644,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-25.zip",
+        "source_id": "eccf14eb881712dc0db1436c73a36ba786f724a4cb4ea0bbfdbf0e1c55ca072d",
+        "status": "available",
+        "bytes": 10352,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-26.zip",
+        "source_id": "e0e8e21ffdeeb009660b09c7bfc7835118118cf182c7eb5133cbc0bff8ed66da",
+        "status": "available",
+        "bytes": 10549,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/RIVERUSDT/5m/RIVERUSDT-5m-2026-10-27.zip",
+        "source_id": "85641208843aa9f696fcf7fe6118b65ec64334c86bfe49ffc5068caf2b73835f",
+        "status": "available",
+        "bytes": 10419,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 4254288,
+    "frame_counts": {
+      "5m": 108111,
+      "15m": 36037,
+      "1h": 9009,
+      "4h": 2252,
+      "1d": 375
+    }
+  }
+}

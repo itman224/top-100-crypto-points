@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 233,
+    "1d": 28,
+    "1h": 229,
+    "4h": 114,
+    "5m": 173
+  },
+  "event_file": "events/ZECUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 398527,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 398527,
+      "source_id": "49833c475389b7b6fd33fbcd61909e50570fac55362eaa2b640e549d886ede55",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ZECUSDT/5m/ZECUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "ZECUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

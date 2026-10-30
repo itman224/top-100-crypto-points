@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 144,
+    "1d": 19,
+    "1h": 109,
+    "4h": 66,
+    "5m": 154
+  },
+  "event_file": "events/KATUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 299474,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "ad50b916ec271286c13793e13d5b4fd9ec4c3d439410d567488a0db7976d393d",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11521,
+      "source_id": "23874002fd74a0eaa2131753ae85f8df3bd3237e34f9fcf7a9c528d5ce00dbc3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11577,
+      "source_id": "ff3e7e7dfef03e7c99b3439a8589d76f08eb34c1293019a8773e90b7611658c3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11001,
+      "source_id": "1c23665202256b4949306bc05d83ad59b7582bb6148d531a4100cbdf7b32e56c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11023,
+      "source_id": "16137f23f693d9fd9e11912c501b167acfc58c2292345ffdfa81deaf042c361e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11392,
+      "source_id": "b24351d488822cb7bbec7f0d4bb8606af9a39a8937d2a05ea5d9568ef3a9cfaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11377,
+      "source_id": "8aae3ba06ce803e2c2be5d53dffadb17330fd120f9de3a8a490e90b120556d04",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11461,
+      "source_id": "0849ec8e7e64e2fc14d0f37d5c1bdaf6d62bad30a3e67b252514647e13497732",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11618,
+      "source_id": "2dda1922b8680bc1cd587c8d86f60b14b1ffd3f02971a672af21139bbe572e77",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11345,
+      "source_id": "3a2158ae06a92637c757e8c936856c1314a5f7b772914a8c3b693f0df9727ab5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10930,
+      "source_id": "10eff30d728772cbe3e89175e4c683a2d9ba10f4757a8608316c42efb8154022",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10893,
+      "source_id": "578fffc9b9aa8d6982c3f16dfb4748edbfb0d73c781ef6143758b6618b71cd0f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11326,
+      "source_id": "c46f39ad3bac75f2f49135ad8f5e44e174a29eaa21e74b34744d45fc4bef1869",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11425,
+      "source_id": "efe2f07f47fc01f0b9140894a770872e5fd6cd3425ff6e2cc9a5a0a64cf3f37f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11281,
+      "source_id": "51b0ed489d9b0a4757ba9b285e480ee5d5fe0883ae1ac41e5b8a247f459fd0e5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11510,
+      "source_id": "01f1f8a4d804fec306cc85d02d9637488955e0a61f60ce18597d5a3f1fee0a02",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11152,
+      "source_id": "ecc781899feba731521345e976a4d24c87bc2c34e6c7221639ea695927751839",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11059,
+      "source_id": "af8915d438e92443e7f2c6640cbe8aa525a64621e77ca777854cfb5e59b5e717",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11400,
+      "source_id": "dfbf2f720dd4e4bd4de11a3f0e5f0aff40068569875e7142d4b2bcdd30cb6bd9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11920,
+      "source_id": "5bdd16c279fd822725a783ff4adab9c2ee13370cf0b45a90038971295a36d556",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11726,
+      "source_id": "d5130b7fa8488199769a2b5d5e4ce9c29262a3d31df0c337605e0fe221720838",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11302,
+      "source_id": "258e25269c43acf5dd0da610369926514f9fe4d84d09b8a2b8838fdfe7c7c3fe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11271,
+      "source_id": "052b8ca85077262a00952ffe641f414b0787f6eb4e94ef667dfb32d5718da9f8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11435,
+      "source_id": "656f4a522a11de211727ce84b9103e0aeb012d88e288e15b8aca35c38bd6ce47",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13219,
+      "source_id": "125b91aec26c51b983b0b61cb551effe91a7ea494e751ac7bb432832bf1d4d3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12366,
+      "source_id": "527372af1119ed254b002acbce431e42a7f926cd21ca498b097b985115a0ebc3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12944,
+      "source_id": "30d836592ce5d8d46c429040a232e6cdb3ea613e2a4ee87ea05efea9c42c1505",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "KATUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

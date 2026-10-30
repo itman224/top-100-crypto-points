@@ -1,0 +1,833 @@
+{
+  "symbol": "KITEUSDT",
+  "event_count": 4815,
+  "quality_counts": {
+    "complete": 4815
+  },
+  "source_event_files": [
+    "output/events/KITEUSDT/2026-04.jsonl.gz",
+    "output/events/KITEUSDT/2026-05.jsonl.gz",
+    "output/events/KITEUSDT/2026-06.jsonl.gz",
+    "output/events/KITEUSDT/2026-07.jsonl.gz",
+    "output/events/KITEUSDT/2026-08.jsonl.gz",
+    "output/events/KITEUSDT/2026-09.jsonl.gz",
+    "output/events/KITEUSDT/2026-10-27.jsonl.gz",
+    "output/events/KITEUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/KITEUSDT/2026-04.jsonl.gz": "2e976d50a729c9a01143965d2bdaec1ee64ffb506986ea7ed7b82651ea6434b5",
+    "output/events/KITEUSDT/2026-05.jsonl.gz": "4b56a14384eea483a132e20955a4d32babfacb0ed513d46808e88ed40ff000a6",
+    "output/events/KITEUSDT/2026-06.jsonl.gz": "3ae6254309fb794d8082b3024dae5c4dc4366309c79344d57907c2e4603bc703",
+    "output/events/KITEUSDT/2026-07.jsonl.gz": "19f2405983470950701c61df0948569a8a99de5d2fd94c74f28baa826eddce18",
+    "output/events/KITEUSDT/2026-08.jsonl.gz": "804d872d99f64bdb65e8a404a8a0a84b11ce5fd7d63909f945c2b407c64a670d",
+    "output/events/KITEUSDT/2026-09.jsonl.gz": "255e2c4244832cd32b2ca73cbbc4001107c1309aa5dfded7759515410131eeea",
+    "output/events/KITEUSDT/2026-10-27.jsonl.gz": "f105ff6f4381803ca2ba88c9920a14a00215c6be1c1c576601e6f512d9e3d76e",
+    "output/events/KITEUSDT/2026-10.jsonl.gz": "e64f2bc180ecec093d9aa9e8e88d478c4e2710d194f06bdad5b6c9d6e5df47ff"
+  },
+  "market_data_quality": {
+    "symbol": "KITEUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 104706,
+    "missing_5m": 27774,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2025-10-29T10:30:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07.zip",
+        "source_id": "06c5d45dde985b3e9ce84668153f2abd86e1a2ea184db9de434ff18d20a86f1b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-25.zip",
+        "source_id": "9d8e8c9493f85838685259167f3f3339f94251180ee108ba40b6c1f2b471f5e2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-26.zip",
+        "source_id": "27d972966ff8f54f6d71cb1aaaa3b85c9e37e445a8a5a390e61767650d52a46e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-27.zip",
+        "source_id": "a6449cfae96af585919547431708e1c4d8028c298b02da59b446959d6538e4d7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-28.zip",
+        "source_id": "bf3a7dacdc5fe8cc451c9ff50d1da4eef5ec3e29abeece00328dc1266c51886f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-29.zip",
+        "source_id": "571484a2dbbaf45fb549008b5dc43ee4f15fb44a1359c130804f127deaba903f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-30.zip",
+        "source_id": "ab4fe8f394b2af8eacd6f80c8d3a8cb9fbb91927eaf5b1c7589579ff81625d30",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-07-31.zip",
+        "source_id": "e57a71edc4594bc43faacd7a92315a118b46c6346f18e339f0e17067af987bc6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08.zip",
+        "source_id": "1097f2dfae1fb6d25f3719ba7679fd2f66d6d97f1c480f6274164d8937ae6f60",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-01.zip",
+        "source_id": "37af944e279d5de2b57a98a8fdb572a0892326462f056bcec99304288f8bc47a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-02.zip",
+        "source_id": "f0696fd0c91aaa6a84562a0029e8374adf9f19e5ecca7417f32214db1e4f79be",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-03.zip",
+        "source_id": "66ac30f073982afaa26d19a2754a001fb99e393dfa75ef4f68de8d91fba2c743",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-04.zip",
+        "source_id": "2fc9b7291cde7eb8d557036c9e85e22fbb439cedbb73a9186b664a095e070468",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-05.zip",
+        "source_id": "a545804970517b5a6899733a6a679d22d7d54ba5164822b09ee4c442d8e24e6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-06.zip",
+        "source_id": "75c940fb2df78280e376075100d45b86ed0d7ee21a77c05f649668db5ac3ba43",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-07.zip",
+        "source_id": "5886ec5455491e47680349e5837a47f0d8ee67c83ee001a3008b08e9b29a6c1b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-08.zip",
+        "source_id": "afe39cf330afa529f7643a93186486b464657e499edebf28b82e0450cf8f25d3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-09.zip",
+        "source_id": "08a9035278e26002ab7d299871065153a79794f54c46f7d3bd0ebd01a8ed7e68",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-10.zip",
+        "source_id": "e6367d8f38be410f362d7e7f325ef326cc86b51b9ba7ac4109289f65661673f4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-11.zip",
+        "source_id": "c1433acb83fb259975a77cb7d67dd62fe600fb8ef172bccac7a62a9b3780ffc2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-12.zip",
+        "source_id": "0f357d9d05143457e9256e24ab4dd7c53474894f83482f0bdc435a4397122961",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-13.zip",
+        "source_id": "5249e3b365d38e6046048a7987c283343031e9bbc4b726fbb27c61b38719caed",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-14.zip",
+        "source_id": "81910fca2de777e2d2773861ee246da95432c2c295020f025e8be6bf29113946",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-15.zip",
+        "source_id": "d9a55320d2984986587aba4ae82b2adb56da4b3e91a93560133b7165f0e24a67",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-16.zip",
+        "source_id": "829f7e1490997536ad290c89e2a7f4c9745658d042c01d235597a5a386f850ee",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-17.zip",
+        "source_id": "5d36017da4a55f23b5a0cb96f53dfb1e213dbf1dc3dd2657b38e9973bdeddb60",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-18.zip",
+        "source_id": "623846dcb5eb00a101f29cae8b8ab63758ce09e42dc7544412544f97a60fc873",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-19.zip",
+        "source_id": "3727b48a0511571980d49f9bdec85818e57d6e83b7668bb8b02644fb69896bb6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-20.zip",
+        "source_id": "7f2903462c74284a3a742b43b83026bc6689dfc2b448a40c48ff905f1e1d90d6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-21.zip",
+        "source_id": "67eb2df9b1a8879290e2591756252063d2c02a20e8160793746c16d82f3b120c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-22.zip",
+        "source_id": "f502a7fab13fe247f38442295c89b1a405e884a3b0a1356c4a75210dbb5de488",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-23.zip",
+        "source_id": "0d06778fee5bcf1be1fd1be5982599d21ecc80da551b6910a8429c4555164e95",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-24.zip",
+        "source_id": "a144f215d7618578de30586e9c38347e10ef7bede3dc4d89e83587827d8837eb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-25.zip",
+        "source_id": "50d0f8a3c9521b1b678184b966d8fbe06626adb601197c6bcc2d6881740c8949",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-26.zip",
+        "source_id": "858f59ec607d0fa55c7d79f44217d078c0f6e472619220a771af0411e9689792",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-27.zip",
+        "source_id": "5876c07ea824203e7b2c42a72902394e0c29a60c725ee6f64a17a0ff553f6893",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-28.zip",
+        "source_id": "46ec9413a41d74c796d4cac26c6abb8ac1ae9d8f163eb06cd11d137a7f78a7e6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-29.zip",
+        "source_id": "be1d6105c130596f15f07b4f12a81bd5bd8e8bff65676fe5a7d8b838e30421b9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-30.zip",
+        "source_id": "252fe8d7cce1027acb8c0ce5ab5966f59288220742f341755ab0cdaeaa9ecb7b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-08-31.zip",
+        "source_id": "1b3899e74f06d92793abdfc1375a7a39ea86e59f64405685d8a33047029d5ae2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09.zip",
+        "source_id": "f48a8c38e78c5b1337cfc48663fb4c1ff9de1bc01451440b082a74112f5d636c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-01.zip",
+        "source_id": "c3b1939f9194f1b7b9b63752c00ee867e5c1459334e2c5b7ab241aa7fb890e57",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-02.zip",
+        "source_id": "6ef8a6bb3e2908a0c06a5d5c968a81e9f1e24b41ff726742b9e368dc9356f3af",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-03.zip",
+        "source_id": "3cbb25f3143f77658e02d0bb15029bdb300ca9da7d5f23701eb8f5205fd679c2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-04.zip",
+        "source_id": "86fab0269859019f49c7b972e5fa0cbb45afdd3c7d7e068b4d85384d637bebc2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-05.zip",
+        "source_id": "a4456529b695c3494274240a4e0f37d0695ae2ec7bedf86b10183a33aa0a1281",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-06.zip",
+        "source_id": "23c9e3c486f69e1fc15eadd60771d867440727d5ce4d0c1f7153934d6022732b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-07.zip",
+        "source_id": "a27509321cddf53e47f67384b0380771b0daf9940b60d231e1d076a7bb2ca969",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-08.zip",
+        "source_id": "4cf931ccd58f32f96342de3646745f75fcb5ca07f95dd4e57ca60f543dbaab6c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-09.zip",
+        "source_id": "d572730d2c58bcea203d60ac02dad6d2b224c25cbab264faf96766480a876aeb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-10.zip",
+        "source_id": "a9132e40ec5d0597a09086b1bc6c92d3907982301393552cdd845e4c25d9765f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-11.zip",
+        "source_id": "68a960cccc3cfe637f37183789dc4bdbbfca5e841059ca0a4b4c557884491edc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-12.zip",
+        "source_id": "1cacd1052365ae6ff41277d9e5fe60e7a3ccffa66dfe93061d4ff943830505d9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-13.zip",
+        "source_id": "1df096729e275211883febf19e52c169d5ddac79dc8b2b64d172eaf66de7008b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-14.zip",
+        "source_id": "e86a31a91a18848e0f3722e21f15725a76e4744a5f805f224e7f642f446fe592",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-15.zip",
+        "source_id": "9e7c09b3f9a1868ba8faf590f8e92153f287747220413b73c3207c7ab8ccbf23",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-16.zip",
+        "source_id": "66ed74b61c19a11dbf32992c12710443a9d71cfabe5574138bbf5534ab2d31c5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-17.zip",
+        "source_id": "2edcecb9d12e48282823949c4ee09bf14226c71970b583c80f75e6f704a012b9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-18.zip",
+        "source_id": "359ea7d99048ecf92385a89a097e69933c17d611947782025cb1c56e9f3f8584",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-19.zip",
+        "source_id": "2be3b5eb33edb54da18f443d8e082f12b43f24b1f19be7f4afc4e4e101e1075f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-20.zip",
+        "source_id": "ebf2b4309b0f1725f5e76d740fb1ffbd417a5ae8d19e91bb179aea89d85f7985",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-21.zip",
+        "source_id": "210462019e9dfb506f4ee4e0c59b4b76429ea18df126c3ba5731a8b8deeec3c5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-22.zip",
+        "source_id": "720eeb328b76c54a9d5783031d1d693236dab83c636345f7ba19c967cbf955c2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-23.zip",
+        "source_id": "b698ef0897f4e398229a34d495c50c50e81316f02900c5afeecfb59ba80a2650",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-24.zip",
+        "source_id": "4bd9a6f494feb3ccfc8981171bbb2a2761080bd23270d52f3a03f8b4badc68e7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-25.zip",
+        "source_id": "ed2c7ca1ec5d9f367fd344afc4db00aba8185c95efcea2725f2f63562115167a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-26.zip",
+        "source_id": "543c63e2b439c89aae796aa9547e7df071ac01b080b74649a32afa50a4e09905",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-27.zip",
+        "source_id": "18c24b06e6d8cdea5baf0126da3651fdf209acd995b012ae72a96c8cf0221a71",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-28.zip",
+        "source_id": "101216334a8d09bc8c3df2f0f93603050e471bc0daed0dea7635849706f59723",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-29.zip",
+        "source_id": "2d7b1e8481bc8740b7c0a59fc44604f64674e85b76a6509e598eb30e4c692dbd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2025-09-30.zip",
+        "source_id": "408491cb8ca5e13c31c312ff8061fefab0067cef13274244a6aec673298a73f5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-10.zip",
+        "source_id": "bbcf8994a72243387d7d43d52d892286bd8ec83328bc84e9e1558f877fa3cce6",
+        "status": "available",
+        "bytes": 34397,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-11.zip",
+        "source_id": "1fc54f0259f11e254615f27f6bed64a32fb6ead2c49f72603070525eac7d9fa5",
+        "status": "available",
+        "bytes": 370930,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2025-12.zip",
+        "source_id": "0ca3fe942f31913f9f12e064fd29d6bc7924354a1b2e6a93178bdd73311baf1e",
+        "status": "available",
+        "bytes": 354077,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-01.zip",
+        "source_id": "497fa1690e6be936f50882178d3840a14925850c078ddf7483cac9d19c868809",
+        "status": "available",
+        "bytes": 348850,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-02.zip",
+        "source_id": "94e4f8bd2dff38df53d7b0f25af5b4825335942a4ea5aee395ded5c6dd67283c",
+        "status": "available",
+        "bytes": 345569,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-03.zip",
+        "source_id": "8b12cd627e5c865eee1a9edaa8377b5c65067770e6d37bcc96abf6d5e8504ff3",
+        "status": "available",
+        "bytes": 382429,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-04.zip",
+        "source_id": "53e671ff00c50bd4619e8183dc247d9bdb35f3b8b69d923c2dedef16872b6fcb",
+        "status": "available",
+        "bytes": 354391,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-05.zip",
+        "source_id": "d988e485d112052ee4d4fe087512f4913e1976d02311fe549c55ed3a1c1c1dcf",
+        "status": "available",
+        "bytes": 361898,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-06.zip",
+        "source_id": "93fe365a466fa6a08cfc991f457e2cb002dbd782066f2b65a29f230fe9989cc9",
+        "status": "available",
+        "bytes": 339881,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-07.zip",
+        "source_id": "eb2e1949ef0accb2351fd7297f2008f566a4d0485efa0f99034546ddcd9e8f76",
+        "status": "available",
+        "bytes": 355401,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-08.zip",
+        "source_id": "a0fd5d8951b86f4c21970ed710c16ec2ea915d66603b450fe8ff975f0358b62b",
+        "status": "available",
+        "bytes": 342464,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-09.zip",
+        "source_id": "729162de17ab50ac3dd799bec914df0f5d33f4a3d34c636e2f2460260a32fcf7",
+        "status": "available",
+        "bytes": 337497,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10.zip",
+        "source_id": "85f451d1e77aa17685af67ea592a50081936a67796b07b9529110d1c998174a8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-01.zip",
+        "source_id": "dd4a3abc79e74593b7560cf581556a3c82625ec2bde5feefde63c6c42fb17f39",
+        "status": "available",
+        "bytes": 11982,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-02.zip",
+        "source_id": "dd3fdfae666ac89c4bd63072aa7344b7086f24118123c2f51a38ab7ac5bb38fc",
+        "status": "available",
+        "bytes": 11840,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-03.zip",
+        "source_id": "54fa4ce11be8ae635745e1c3764fcd710d9b0deb5061b4f24323cbbe381780ee",
+        "status": "available",
+        "bytes": 11821,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-04.zip",
+        "source_id": "5acfcfd7eb166fc21c46f443a0b46282c6f79ce7d002fb6f5a0d89dca08a0dd2",
+        "status": "available",
+        "bytes": 11687,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-05.zip",
+        "source_id": "d23921c9fff7ac3c44d6f2ec1e652f61ae70c423554600681649827322a7334e",
+        "status": "available",
+        "bytes": 11669,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-06.zip",
+        "source_id": "260b5e62dfc383ea87e8796dd0c841e5876a385763fb444fc3ea399a877105ef",
+        "status": "available",
+        "bytes": 11513,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-07.zip",
+        "source_id": "f933542846a04a86573c8bba9d3a3eeb5f81de6da3a340af2ef54ab6ea8df6aa",
+        "status": "available",
+        "bytes": 11742,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-08.zip",
+        "source_id": "7def313baecf3c3698c935af785dba5119bd8612a8972e5fb5797368cae4c464",
+        "status": "available",
+        "bytes": 11686,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-09.zip",
+        "source_id": "977e32fc8a41d02a47a4ebd9cddd544fd3144d370588c7bd0d271e1117e075b5",
+        "status": "available",
+        "bytes": 11621,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-10.zip",
+        "source_id": "a4e171d215053ae1adf74b112f0c1084a08907461d890466c55ed29d40596187",
+        "status": "available",
+        "bytes": 11715,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-11.zip",
+        "source_id": "92137918912dc6602ffc803502935b2ca153d6875e5b280d90bfaf6b3c01c45b",
+        "status": "available",
+        "bytes": 11391,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-12.zip",
+        "source_id": "2693f2b7ae7f2ea61498930fb5224497d386c1b954f757033df7bc79106e4251",
+        "status": "available",
+        "bytes": 11754,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-13.zip",
+        "source_id": "8741059e168cc17c21f281557f68e119a6108937e31a53cd7d67035d17446697",
+        "status": "available",
+        "bytes": 11635,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-14.zip",
+        "source_id": "87ab4040d5e418ba1d5a0b68170f6d683e13e3f255e7344d849cb90a4719d444",
+        "status": "available",
+        "bytes": 12042,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-15.zip",
+        "source_id": "99008789a496bf83abea79a129c5bd548c935f836e7d84dfbef95f77bcc01c96",
+        "status": "available",
+        "bytes": 11802,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-16.zip",
+        "source_id": "68c7027d2ea6adef684f884046e24fbd02538aadaf4576335a926c4edab0e2bc",
+        "status": "available",
+        "bytes": 11668,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-17.zip",
+        "source_id": "f3c5cbe8b1c8cc193c85e543e2bf1eb8c319acbb99d07d0c760901642018bf6e",
+        "status": "available",
+        "bytes": 11704,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-18.zip",
+        "source_id": "7b4611f9b4724e733931e3f061bc37fe253a6f50fe7051d6b82fdd71c8c50f75",
+        "status": "available",
+        "bytes": 11319,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-19.zip",
+        "source_id": "cdc4b028d10fe8d716aa9fd7132719c429971e47c75a35b470b6da22fde7d711",
+        "status": "available",
+        "bytes": 11744,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-20.zip",
+        "source_id": "c380a121f1cb9e87c49566f7dacbda92893184846f3fb9721baba35da3f9cc3c",
+        "status": "available",
+        "bytes": 11473,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-21.zip",
+        "source_id": "2e7a4a7bf1a8b48b3d5837d08867b98347995c6b8b042e83e99af8fa315e42e7",
+        "status": "available",
+        "bytes": 11265,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-22.zip",
+        "source_id": "0d0e3be5027e0a3abad4a6615f00cffe5aa9103b799985cc27af1b4467c95a55",
+        "status": "available",
+        "bytes": 11334,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-23.zip",
+        "source_id": "d98d0f3516420d028464b2635dba576eb18e3eff43e54d7527db8ebfa34f1ff4",
+        "status": "available",
+        "bytes": 11475,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-24.zip",
+        "source_id": "367e26ab9dfa969c3ab5fdacafe7ed32b88d86752c89dcd19bead1c8806d9ac1",
+        "status": "available",
+        "bytes": 11378,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-25.zip",
+        "source_id": "396708fc9793ad82bd4c7d75e1d02f3408a1ea2b4d6c4395021b59577ff6b13f",
+        "status": "available",
+        "bytes": 11410,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-26.zip",
+        "source_id": "aeb68166d99f19f869d5b4e3ddace23da5235e40e11f310b67e3aacc6462919c",
+        "status": "available",
+        "bytes": 11316,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KITEUSDT/5m/KITEUSDT-5m-2026-10-27.zip",
+        "source_id": "622c0e5b44f252bf1e3991af71d8b016ffbc676026ab58788cf6fedb2abb978b",
+        "status": "available",
+        "bytes": 11256,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 4241026,
+    "frame_counts": {
+      "5m": 104706,
+      "15m": 34902,
+      "1h": 8725,
+      "4h": 2181,
+      "1d": 363
+    }
+  }
+}

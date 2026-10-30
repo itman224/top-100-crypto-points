@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 166,
+    "1d": 28,
+    "1h": 140,
+    "4h": 82,
+    "5m": 119
+  },
+  "event_file": "events/FILUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 318750,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 318750,
+      "source_id": "57fa122d97282eae5e75d22e4600628daf7dbfcc215cd70a05e8a477fd130c2a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FILUSDT/5m/FILUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "FILUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

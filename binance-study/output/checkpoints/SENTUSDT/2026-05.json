@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 44,
+    "1d": 24,
+    "1h": 92,
+    "4h": 72,
+    "5m": 24
+  },
+  "event_file": "events/SENTUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 317298,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 317298,
+      "source_id": "5c68422fcfd7c894bb0c7cd11fa325b8769ae19aafa1d0f627a101a6279d8e52",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SENTUSDT/5m/SENTUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "SENTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

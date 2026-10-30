@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 60,
+    "1d": 19,
+    "1h": 88,
+    "4h": 69,
+    "5m": 34
+  },
+  "event_file": "events/XMRUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 319256,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "188e08ce6bb194ef97d58004e69ec8d6f8badc84bdd6729347da821c0cf7332c",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12081,
+      "source_id": "5669db8c55513fbdd388a4eb5b401149082cd6d978cd5267468ffcfb11e18755",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12072,
+      "source_id": "e816323441774c0c72e8f22d1fa3ae080cf807f8aec296ed6a89494bdbc84595",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11853,
+      "source_id": "66d42c7c452911a7239e107e463bd0ac35b0e2c376629533450fa1f5b6f03be3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11867,
+      "source_id": "1637343c0b477a87905689b2f31a386d65b73668dbf17fa3b3ea0fe38e0fc434",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12174,
+      "source_id": "665900bfdc631d665e15e9d1e722863be0da2acb8ec24e7ddc409bcf12bcc678",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11963,
+      "source_id": "2437f78e52928a48042c21570d650ae9c058f0caf10057db411ed77fad8ab713",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12200,
+      "source_id": "d767fac0b8ac6810782cf0c474ef7c4935f234bc50a775d0b6670f079a1567b4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12375,
+      "source_id": "d87b81079d927b8bdd7739522e734f2d6f18d274353866944fb37f4b7daff472",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12295,
+      "source_id": "d31aaec2684beea8a7f6504d1a51e6d86f2ed53ee62b603b1c51fd0bb9d2ec7b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12003,
+      "source_id": "384414c9c703dd4beb2846058e104629fc96f919249da37ba00568b7a41755c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11930,
+      "source_id": "64bdbac9211dab622685e022e8000a1945068b3e364335e8bac6518284650ebb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11999,
+      "source_id": "9de8c6313f0bf2857b9b1771bd06dd7a6cd3bd8d0ecde4ed16537075c1f38ddb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12188,
+      "source_id": "f693da973fe967a79045775410d46df7980d6f5a004929b8fab922c201af4117",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12163,
+      "source_id": "d443c4ec868b5187b8f43b55305218ba0084fa7e371156460edb325e9e69deb0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12276,
+      "source_id": "a578ad4f84db981b26a5b0a89192db675855658fe47f076d4dfadd5914f4c7b6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12219,
+      "source_id": "c2cf3be947e8888da52b2b0e7bce10917017b690f1e313c0126123b44134ed86",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12164,
+      "source_id": "40781262c1908a1cc9fcf36437746fb12da460eec2cc0b9d3705c27c4465a11b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12758,
+      "source_id": "9af54bb737d58415491246c0808c01c3166abb5b46ca9483a702de5ed726cce2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12580,
+      "source_id": "679ac2332feea0e2a9b5a3c32b37d96c3bcbecddffa50e0df5cee1634cef8239",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12560,
+      "source_id": "69974cc14fba197739b7afafdf12fd1beaa637c5e153e971ded4871a2e503862",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12749,
+      "source_id": "dc1c6692e679ae303aafc3c8b7241316bc77a7fb5bb8008382685253fbd63eab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 13063,
+      "source_id": "f0a780826f40d23f025bc3eaa3e443a6a19d385cf9d14880be8ce258842540d8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12574,
+      "source_id": "8b35898c6da1fcf3d537ae2fd6031d9d063dd0d472ae149963e4182a80addf60",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12523,
+      "source_id": "a1f9db65d8412f06894e2bcbc973fd5512c8eba5dbaa1e9513185262757663d6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12349,
+      "source_id": "57f9b983b8b18af9c78326721abc9060dffa4567103f6c18fd97d504d4237f47",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12278,
+      "source_id": "fbba6ecee812733f0b4ab44ec9fce8def5ecc963b9d4deaee91c736d94f1d055",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/XMRUSDT/5m/XMRUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "XMRUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}
