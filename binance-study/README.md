@@ -1,13 +1,94 @@
-# Binance archive movement study
+# آزمایشگاه حرکت بازار و پژوهش اندیکاتورها
 
-Run `./run.sh` from this directory to reconstruct the universe, process the requested range, generate the manifest and reports, and run tests. Network access to Binance public archive listings is required. The processor resumes from per-symbol/month checkpoints under `output/checkpoints`; event files are gzip-compressed JSON Lines partitioned by symbol and month. Each line is a JSON object. Timestamps use UTC and close times are exclusive. Archive files are not retained. The `output/summary.json` and `output/validation.json` describe only artifacts present when reporting was last run; rerun `python3 report.py` after any processing or manifest update.
+این شاخه یک نسخهٔ پشتیبان از پروژهٔ Binance Historical Price Movement Detection و Quant Research Lab است. این راهنما فرمان‌های اجرا را توضیح می‌دهد و وضعیت فایل‌های موجود را از ادعای کامل بودن پژوهش اندیکاتورها جدا می‌کند.
 
-The ranking uses historical March 2–31 quote volume from archived daily candles; contract type is inferred conservatively from the USD-M archive and symbol name, not verified against exchange metadata. Selection is incomplete if discovery or ranking sources fail. Direct exchange APIs are not used.
+## وضعیت دادهٔ پایه
 
-Universe discovery now uses the preserved Hugging Face tree snapshot in `output/hf_candidates.json` instead of S3 directory listing, with optional `output/historical_candidates.json` for independently sourced historical candidates. Ranking uses official direct Binance archive files. This is a current-snapshot fallback and can omit delisted contracts. Run `./resume_supervisor.sh` for bounded retries followed automatically by processing and finalization. If a supervisor is already running, do not start a second one; inspect `output/supervisor.pid` and `output/supervisor.log`. A background process may stop if the environment terminates.
+- محدودهٔ نهایی: ۱ آوریل تا ۲۷ اکتبر ۲۰۲۶، UTC؛ تایم‌فریم‌های 5m، 15m، 1h، 4h و 1d.
+- Universe: ۱۰۰ نماد از ۵۳۰ نام کشف‌شده؛ برای ۵۰۹ نام دادهٔ رتبه‌بندی بازهٔ ۲ تا ۳۱ مارس ۲۰۲۶ به دست آمد و ۲۱ نام شکست خورد. انتخاب به snapshot فعلی Hugging Face وابسته است و احتمال حذف قراردادهای از فهرست خارج‌شده را دارد.
+- گزارش آخر ذخیره‌شده: ۱۰۰/۱۰۰ نماد و ۸۰۰/۸۰۰ پارتیشن نماد-ماه کامل؛ ۶٬۰۴۸٬۰۰۰ کندل 5m معتبر و بدون کندل 5m مفقود در دورهٔ مطالعه. کندل‌های تایم‌فریم بالاتر از 5m ساخته شده‌اند.
+- رویدادها: ۴۶۳٬۲۲۰؛ ۲۳۶٬۳۴۳ صعودی و ۲۲۶٬۸۷۷ نزولی. معیار، تغییر close نسبت به open و آستانهٔ سخت‌گیرانهٔ ±۱٪ است.
+- `output/summary.json` پوشش را کامل گزارش می‌کند؛ `output/validation.json` همچنان یک هشدار برای ۱۳ پارتیشن با close-time validation معلق دارد. این دو گزارش را هنگام هر اجرای تازه دوباره بسازید و اختلاف را پیش از اعلام اعتبار نهایی بررسی کنید.
+- دادهٔ کاندیدا از snapshot عمومی Hugging Face برای کشف نمادها استفاده کرده است؛ کندل‌های 5m در گزارش provenance از آرشیوهای رسمی Binance ثبت شده‌اند. از universe تاریخی کاملاً بی‌سوگیری یا رتبه‌بندی رسمی ۱۰۰٪ نتیجه‌گیری نکنید.
 
-Hugging Face Parquet fallback requires `python3 -m pip install -r requirements.txt`.
+## نیازمندی و نصب
 
-For the current official-first / Hugging Face fallback workflow, use `./continue_analysis.sh`. It uses an exclusive lock, persists ranking progress and processing checkpoints, and retries transient dual-source failures up to 30 times before exiting. Inspect `output/continuation.log` and `output/continuation.pid` before launching another job. This replaces the older `resume_supervisor.sh` procedure. Run `python3 -u validate_pilot_sources.py` to resume independent verification of prior pilot close timestamps.
+Python 3.12 توصیه می‌شود. ساختار `.venv` داخل نسخهٔ پشتیبان برای ثبت وابستگی‌های قبلی نگه داشته شده، اما symlinkهای آن ممکن است به مسیر Python محیط قبلی اشاره کنند؛ روی ماشین جدید محیط مجازی را دوباره بسازید:
 
-The scope now ends 2026-10-27 23:59:59 UTC. To retry missing intervals without reranking or repeating complete checkpoints, run `python3 -u pipeline.py --universe output/universe.json --output output`. Then run `python3 manifest.py --checkpoint-root output/checkpoints` and `python3 report.py`. Existing source-manifest lookback paths marked inferred have not been checked remotely.
+```sh
+cd binance-study
+python3.12 -m venv lab/.venv
+lab/.venv/bin/python -m pip install --upgrade pip
+lab/.venv/bin/python -m pip install -r requirements.txt -r lab/requirements-indicators.txt
+```
+
+`requirements.txt` وابستگی Parquet و `lab/requirements-indicators.txt` نسخه‌های NumPy، pandas و pandas-ta-classic را مشخص می‌کنند. برای آرشیوهای Hugging Face/Parquet به `pyarrow` نیاز است. دسترسی شبکه لازم است تا آرشیوهای عمومی‌ای را که هنوز در checkpointها موجود نیستند دریافت کنید. کد از Binance REST API استفاده نمی‌کند.
+
+## ادامهٔ پردازش دادهٔ تاریخی
+
+ابتدا مطمئن شوید اجرای دیگری فعال نیست؛ lockها و PIDهای ذخیره‌شده ممکن است از اجرای قدیمی باقی مانده باشند و به‌تنهایی اثبات زنده بودن پردازش نیستند:
+
+```sh
+ps -ef | grep -E 'pipeline.py|continue_analysis.sh|resume_supervisor.sh' | grep -v grep
+```
+
+برای ادامه با universe و checkpointهای ذخیره‌شده، رتبه‌بندی را بی‌دلیل تکرار نکنید:
+
+```sh
+lab/.venv/bin/python -u pipeline.py --universe output/universe.json --output output
+lab/.venv/bin/python -u manifest.py --checkpoint-root output/checkpoints
+lab/.venv/bin/python -u report.py
+lab/.venv/bin/python -m unittest discover -s . -p 'test_*.py' -v
+PYTHONPATH=lab lab/.venv/bin/python -m unittest discover -s lab -p 'test_*.py' -v
+```
+
+اگر عمداً باید رتبه‌بندی را از نو بسازید و fallbackها را دوباره امتحان کنید، فقط پس از بررسی lock از `./continue_analysis.sh` استفاده کنید. این اسکریپت تا ۳۰ بار universe را امتحان می‌کند و بین تلاش‌ها ۶۰ ثانیه مکث دارد؛ این فایل به‌تنهایی scheduler دائمی نیست. `./run.sh` هم پردازش، تولید گزارش و تست را اجرا می‌کند؛ پیش از اجرای آن وضعیت worker را بررسی کنید.
+
+آرشیوهای خام عمداً در مخزن نگهداری نمی‌شوند؛ checkpointها و خروجی تحلیلی حفظ شده‌اند. پردازش باید تک‌worker بماند و هر اجرای جدید وضعیت شبکه، RAM و دیسک را بررسی کند.
+
+## اجرای Quant Research Lab
+
+نتایج موجود در `lab/results/results.json`، benchmark اولیهٔ ۱۰۰ نماد است: ۱۴ قانون جهت‌دار و دو فیلتر، در قالب رکوردهای تایم‌فریم/تقسیم زمانی. این پوشش برابر با تمام ۲۲۴ قابلیت catalog نیست. برای ادامهٔ baseline:
+
+```sh
+./lab/run.sh
+```
+
+اسکریپت lock پژوهش دارد و نتایج هر نماد را از checkpoint می‌خواند/ادامه می‌دهد. بعد از ساخت venv دوباره باید dependencies نصب شده باشند.
+
+نسخهٔ گسترش‌یافته، یک سری فرضیهٔ صریح برای ۵۲ اندیکاتور/تابع دارد. فقط checkpoint نماد BTC در فایل‌ها دیده می‌شود؛ `lab/results/benchmark_v2/execution_ledger.json` اجرای batch را ۰ کامل، ۰ ناموفق و ۱۰۰ pending نشان می‌دهد و scheduler دائمی فعال نیست. ابتدا dry-run را اجرا و خروجی را بازبینی کنید:
+
+```sh
+lab/.venv/bin/python lab/batch_runner_v2.py --dry-run
+```
+
+سپس با یک worker و ثبت خودکار ledger ادامه دهید:
+
+```sh
+lab/.venv/bin/python lab/batch_runner_v2.py
+```
+
+این اجرا فقط فرضیه‌های ثبت‌شدهٔ v2 را پوشش می‌دهد؛ همهٔ ۲۲۴ قابلیت، تمام الگوهای کندلی و ترکیب‌های چنداندیکاتوری را کامل نمی‌کند. پیش از معتبر دانستن checkpoint قدیمی، hash کد، خطاهای indicator و پوشش هر پنج تایم‌فریم را تأیید کنید. برای aggregate و walk-forward، راهنمای [handoff](HANDOFF_FA.md) را بخوانید.
+
+## داشبورد محلی
+
+```sh
+lab/.venv/bin/python lab/ui/server.py --host 127.0.0.1 --port 8765
+```
+
+سپس `http://127.0.0.1:8765` را باز کنید. API و فرانت‌اند در `lab/ui` هستند؛ server فقط محلی و read-only است و این مخزن خودش را به سایت عمومی deploy نمی‌کند. داشبورد، ledger و فایل نتایج فعلی را می‌خواند؛ pending بودن ledger به معنی وجود نتایج کامل v2 نیست.
+
+## تفسیر و محدودیت پژوهش
+
+- گزارش catalog در `lab/coverage_report.json`، ۲۲۴ قابلیت دسته‌ای و ۶۲ نام الگوی کندلی را ثبت می‌کند؛ الگوها با قابلیت `cdl_pattern` هم‌پوشانی دارند.
+- دلیل محدود بودن benchmark اولیه، انتخاب چند قاعدهٔ جهت‌دار و قابل‌تفسیر برای ساخت اولین اجرای causal بوده است؛ محدودیت زمان/پیاده‌سازی نیز نقش داشت. هیچ شاهدی برای بی‌فایده بودن موارد کنارگذاشته‌شده وجود ندارد.
+- بخش `lab/VALIDATION.md` یافته‌های قبلی و محدودیت‌ها را توضیح می‌دهد. دادهٔ holdout سپتامبر تا اکتبر قبلاً دیده شده است؛ آن را holdout تأییدی دست‌نخورده ندانید و پارامترها را بر اساس آن تنظیم نکنید.
+- در تحلیل قبلی، هزینهٔ رفت‌وبرگشت ۰٫۱٪ استفاده شد، funding شبیه‌سازی نشد و بک‌تست‌های ریسک ۱٪ stop/۲٪ take برای پنج پیکربندی منتخب، میانگین net منفی در holdout اکتشافی داشتند. تا وقتی آزمون‌های زمانی، چندنمادی، آماری و پرتفو کامل نشده، هیچ استراتژی را سودآور یا آمادهٔ معامله اعلام نکنید.
+- کارایی indicator، سیگنال معاملاتی معتبر، سودآوری خارج‌ازنمونه و قابلیت استقرار چهار ادعای جداگانه‌اند.
+
+## فایل‌های راهنما
+
+- [راهنمای فارسی تک‌تک فایل‌ها](FILE_GUIDE_FA.md): فهرست تمام مسیرهای فایل موجود در نسخهٔ پشتیبان، از داده‌ها تا فایل‌های محیط مجازی.
+- [HANDOFF_FA.md](HANDOFF_FA.md): تاریخچهٔ تصمیم‌ها، وضعیت اجرا، نقاط باز و دستور شروع برای ایجنت بعدی.
+- [AGENTS.md](AGENTS.md): سیاست دائمی اجرا، batching، checkpoint، مدیریت منابع و گزارش صادقانه.
+- [EXECUTION_LEDGER.md](EXECUTION_LEDGER.md): ثبت رخدادهای پروژهٔ استخراج بازار.
