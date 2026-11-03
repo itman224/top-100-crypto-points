@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 448,
+    "1d": 27,
+    "1h": 326,
+    "4h": 115,
+    "5m": 366
+  },
+  "event_file": "events/PUMPUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 392347,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 392347,
+      "source_id": "eeb31e46c40e8cb79ddf47c605c0e1418b35931317d790fe562a487e09aa04f3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PUMPUSDT/5m/PUMPUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "PUMPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

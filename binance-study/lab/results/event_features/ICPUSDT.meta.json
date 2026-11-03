@@ -1,0 +1,352 @@
+{
+  "symbol": "ICPUSDT",
+  "event_count": 3112,
+  "quality_counts": {
+    "complete": 3112
+  },
+  "source_event_files": [
+    "output/events/ICPUSDT/2026-04.jsonl.gz",
+    "output/events/ICPUSDT/2026-05.jsonl.gz",
+    "output/events/ICPUSDT/2026-06.jsonl.gz",
+    "output/events/ICPUSDT/2026-07.jsonl.gz",
+    "output/events/ICPUSDT/2026-08.jsonl.gz",
+    "output/events/ICPUSDT/2026-09.jsonl.gz",
+    "output/events/ICPUSDT/2026-10-27.jsonl.gz",
+    "output/events/ICPUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/ICPUSDT/2026-04.jsonl.gz": "0e2a874cb591359e259f773a7b06c28a16831d1e6292bed00c7548edac33404c",
+    "output/events/ICPUSDT/2026-05.jsonl.gz": "5a663979fc5195aea180f9c9caef9d3cbb1dc37490f80f5c3d85962b336a970c",
+    "output/events/ICPUSDT/2026-06.jsonl.gz": "4eaa9401eb831f4a734f25e2abc36fd621d8dbec6a56481b88da14f65ca112b0",
+    "output/events/ICPUSDT/2026-07.jsonl.gz": "abea716bd1618c3da2228d82e77b5474bd9b931eaffdd033cd952922f0c9d923",
+    "output/events/ICPUSDT/2026-08.jsonl.gz": "6cc5b1a8700498d388c10c9fa90f73b5df68fb75532e6e62cb73be76b76c76b0",
+    "output/events/ICPUSDT/2026-09.jsonl.gz": "fb5356e844320a15c1197ed83f0709f24b4dca53171e6dc9286fcaa9085e50d6",
+    "output/events/ICPUSDT/2026-10-27.jsonl.gz": "4cac40cc078bf0f49aea9a8620904eb807e284c38d9da954047efb7d25aa5d57",
+    "output/events/ICPUSDT/2026-10.jsonl.gz": "290790b74dad00e532ab3a4b187ddf34af1ee777d4409ac80c1d01df1cd0c652"
+  },
+  "market_data_quality": {
+    "symbol": "ICPUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-07.zip",
+        "source_id": "f955a9b2287b00f7ab47932d60f152b6ee8019c7d29e7bc0100370c211e77b00",
+        "status": "available",
+        "bytes": 312414,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-08.zip",
+        "source_id": "95e2e01246856f7bd6edb4e08f9fa2e7c5946f2df4f67c2cf69ab048ef2e7be2",
+        "status": "available",
+        "bytes": 309029,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-09.zip",
+        "source_id": "7298d2777c4fe92824e7b5b6210dc44c75f7754c15f27f0cd1db71fd88a761ef",
+        "status": "available",
+        "bytes": 294033,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-10.zip",
+        "source_id": "a94223e424b330f447bf88297c8a627a8ed0677f6e828ea422542288d46dfb9d",
+        "status": "available",
+        "bytes": 306802,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-11.zip",
+        "source_id": "a96ea61a0f43111f8fc9dd5704845dcccfcb93b3187b1dae99b4c767db0ca5b7",
+        "status": "available",
+        "bytes": 326991,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2025-12.zip",
+        "source_id": "75ec3a83abffd41ac57cab02cc0678f868852673fbf7b40268ff4fd732a7970f",
+        "status": "available",
+        "bytes": 310890,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-01.zip",
+        "source_id": "d62917878939e4886f80aa6b630327748118b0aa7c270c8b66d8ce19456d69de",
+        "status": "available",
+        "bytes": 318014,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-02.zip",
+        "source_id": "49b7ef6a7b39cc464961877ea7351b6689c6527e64b63aea7e720dced3e1c6aa",
+        "status": "available",
+        "bytes": 279207,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-03.zip",
+        "source_id": "270c49d151c8c7fd65b945db4d654daf0170ee2639ee48e257fed34694a85fb2",
+        "status": "available",
+        "bytes": 301586,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-04.zip",
+        "source_id": "4dbb8ba132612582d72d507d951fdebb472c933ab337f2022155b49fcf75a5ca",
+        "status": "available",
+        "bytes": 282551,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-05.zip",
+        "source_id": "e000ac58e82258223de59d7f140b4630abaa81a105d0392d25f960b63257bab9",
+        "status": "available",
+        "bytes": 312193,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-06.zip",
+        "source_id": "5bbd7ad47a1878b6a998eb1e5bf825843c8d536560043c09a41621e03e61be8f",
+        "status": "available",
+        "bytes": 298224,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-07.zip",
+        "source_id": "6e2a487b79651b29008e0d5bc280dad25a74dbdaa10974998accbb3399783852",
+        "status": "available",
+        "bytes": 288960,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-08.zip",
+        "source_id": "10c38a98fe26cf4b94565155ef3ab4f7d794365cd0266aa9d1581548b49c9758",
+        "status": "available",
+        "bytes": 293433,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-09.zip",
+        "source_id": "8b7e599e688744acec816c81785c2646cc8dd6a33d9fd575dacd20b1b37c5b6b",
+        "status": "available",
+        "bytes": 300327,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10.zip",
+        "source_id": "e2470a83252f315d19811f9494853a7dfbe605dab9e24de95a0eca357923826a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-01.zip",
+        "source_id": "d6da26a0a31aa127a69f6cbf3831a3179ed866c385d8e15c74c3b650380ca1f3",
+        "status": "available",
+        "bytes": 10520,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-02.zip",
+        "source_id": "994383433fb679ba28217ace98ef2ea27b82bcc1de5d353c70d6ad1eb98e53f7",
+        "status": "available",
+        "bytes": 10480,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-03.zip",
+        "source_id": "6c151ae222ccb7e9e860eb8a03d8ccb7f14c9665eb8b4b42aebfd71eeb7bcb5c",
+        "status": "available",
+        "bytes": 10279,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-04.zip",
+        "source_id": "141e251802a52f530766917dd532cbb442f0c83648eeeb876799c660c669a7e3",
+        "status": "available",
+        "bytes": 10411,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-05.zip",
+        "source_id": "45d9494792e2e5a6c145b20959ea3ff815596d1caf51fec75f88e37d18f70c1a",
+        "status": "available",
+        "bytes": 10725,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-06.zip",
+        "source_id": "9db6e705262506147a8a2ff067ba81568f8c7272c689ebf01b31144d416dcf19",
+        "status": "available",
+        "bytes": 10449,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-07.zip",
+        "source_id": "46d00b7cbcaab42b42f118a3ce77b3811a2ee8de19d60486c9253d0dbd4d0536",
+        "status": "available",
+        "bytes": 10533,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-08.zip",
+        "source_id": "36696dc21dad4c8a89d92bd6ddbb9c33058dfc7b0174d9e2e40d5e4648e4dba4",
+        "status": "available",
+        "bytes": 10598,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-09.zip",
+        "source_id": "084dc09397781f06cbc49685b01a2313d0cc40c9f1f67760a18d59cd0d1527fd",
+        "status": "available",
+        "bytes": 10393,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-10.zip",
+        "source_id": "b4e5750f70f29faf30aff02210a3e77e103c1c849e4db12854665b9a71a84b11",
+        "status": "available",
+        "bytes": 10222,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-11.zip",
+        "source_id": "706e83e863c6cfdd4f87e37ac803fb478b327a46d1860451c051fff969fe3404",
+        "status": "available",
+        "bytes": 10626,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-12.zip",
+        "source_id": "e9a90cf335f7e621c335d5807df5d971bd07cd59f47704f8fce3a3797e649098",
+        "status": "available",
+        "bytes": 10897,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-13.zip",
+        "source_id": "ecf9de8c4ee4630c400558d95b9ee4af05035c40f7ce107f662c42871e46972d",
+        "status": "available",
+        "bytes": 10669,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-14.zip",
+        "source_id": "1485f9a794f97de5988d284fb5ff3458fbe2fc580b05b79062f4d96a6b6552b5",
+        "status": "available",
+        "bytes": 10445,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-15.zip",
+        "source_id": "02d4de8bb4623c10bdbe841cfcc5b57953faf353c1f5ca62d17eb68a7fcfa113",
+        "status": "available",
+        "bytes": 10629,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-16.zip",
+        "source_id": "7a0abab4013c7dfa278a3c5e82d48eba87fe65dfdc3c7df1f1b654f34952d003",
+        "status": "available",
+        "bytes": 10346,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-17.zip",
+        "source_id": "7e064a919200d6a3eeae77cc5087de847c71508ac74c157ed439e33344fe6551",
+        "status": "available",
+        "bytes": 10129,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-18.zip",
+        "source_id": "21d9765ee802d80feae084cbee9dca9809d1b0c64d18d31ab2ae89175f803895",
+        "status": "available",
+        "bytes": 10174,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-19.zip",
+        "source_id": "6ffb73cf98453600acb1a8590f0e41d90ccd8c13d1825bad06b7db9e21d643ee",
+        "status": "available",
+        "bytes": 10117,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-20.zip",
+        "source_id": "7e3db2724e80965295db2722ac3fa7eebe20cd3ea22fc5216f5ba3737a32b7d9",
+        "status": "available",
+        "bytes": 10222,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-21.zip",
+        "source_id": "33fe2504cbf6e029da3cbeadfccf6adf51d019f5b2655a70b1ab7786d51c09bc",
+        "status": "available",
+        "bytes": 10160,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-22.zip",
+        "source_id": "834126373456815c036f9ece69d45ced7b84666ae09c8df4164179f3022042d7",
+        "status": "available",
+        "bytes": 10372,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-23.zip",
+        "source_id": "75de5bf797fe9c1dc29085ea15b06097ef0a9b861930237768850c6dee039aa0",
+        "status": "available",
+        "bytes": 10147,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-24.zip",
+        "source_id": "3f4dbc101a6c8af3d1299a4976570eccdba7c30df83f3d98d01939e9b8d64cd3",
+        "status": "available",
+        "bytes": 10056,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-25.zip",
+        "source_id": "234ccb7946f11b03d8fb11ba930da4c59fc8b537cfda9a4b727c2edbd72890a7",
+        "status": "available",
+        "bytes": 9892,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-26.zip",
+        "source_id": "371106844c0cec07d75790bc73a0d26888e9d09cc4cabe9c199ab7d63205d608",
+        "status": "available",
+        "bytes": 10109,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ICPUSDT/5m/ICPUSDT-5m-2026-10-27.zip",
+        "source_id": "59f762d9b8e865b9cebc0b2afcd8ec1a4905621724716d900b7d08c07338658d",
+        "status": "available",
+        "bytes": 10050,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 4814304,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

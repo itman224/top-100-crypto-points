@@ -1,0 +1,45 @@
+test_missing_columns (test_hf_source.HfSourceTests.test_missing_columns) ... ok
+test_preserve_timestamps_and_filter (test_hf_source.HfSourceTests.test_preserve_timestamps_and_filter) ... ok
+test_hf_event_source_provenance (test_manifest.ManifestTests.test_hf_event_source_provenance) ... ok
+test_inferred_not_missing (test_manifest.ManifestTests.test_inferred_not_missing) ... ok
+test_missing_month_daily_fallback (test_manifest.ManifestTests.test_missing_month_daily_fallback) ... ok
+test_per_event_no_future (test_manifest.ManifestTests.test_per_event_no_future) ... ok
+test_universe_filter (test_manifest.ManifestTests.test_universe_filter) ... ok
+test_window_and_merge (test_manifest.ManifestTests.test_window_and_merge) ... ok
+test_daily_fallback_and_resume (test_pipeline.PipelineTests.test_daily_fallback_and_resume) ... BTCUSDT 2026-04: 0 events; 0 missing bars
+BTCUSDT 2026-04: checkpoint
+ok
+test_hf_fallback_and_provenance (test_pipeline.PipelineTests.test_hf_fallback_and_provenance) ... BTCUSDT 2026-04: 0 events; 0 missing bars
+ok
+test_monthly_missing_falls_back_daily (test_pipeline.PipelineTests.test_monthly_missing_falls_back_daily) ... ok
+test_negative_threshold_and_preserve_better_partial (test_pipeline.PipelineTests.test_negative_threshold_and_preserve_better_partial) ... BTCUSDT 2026-04: 1 events; 286 missing bars
+BTCUSDT 2026-04: retaining prior checkpoint with more valid bars
+ok
+test_october_extension_preserves_prior_checkpoint_and_retries_day (test_pipeline.PipelineTests.test_october_extension_preserves_prior_checkpoint_and_retries_day) ... BTCUSDT 2026-10: checkpoint
+BTCUSDT 2026-10-27: 0 events; 288 missing bars
+BTCUSDT 2026-10: checkpoint
+BTCUSDT 2026-10-27: 0 events; 0 missing bars
+BTCUSDT 2026-10: checkpoint
+BTCUSDT 2026-10-27: checkpoint
+ok
+test_partial_checkpoint_not_reused_for_larger_range (test_pipeline.PipelineTests.test_partial_checkpoint_not_reused_for_larger_range) ... BTCUSDT 2026-04: 0 events; 287 missing bars
+BTCUSDT 2026-04: 0 events; 575 missing bars
+ok
+test_prior_checkpoint_close_time_revalidation_preserves_event_file (test_pipeline.PipelineTests.test_prior_checkpoint_close_time_revalidation_preserves_event_file) ... BTCUSDT 2026-04: 0 events; 0 missing bars
+BTCUSDT 2026-04: close timestamp validation verified
+ok
+test_reject_bad_close_timestamp (test_pipeline.PipelineTests.test_reject_bad_close_timestamp) ... ok
+test_reject_submillisecond_open_misalignment (test_pipeline.PipelineTests.test_reject_submillisecond_open_misalignment) ... ok
+test_strict_threshold_gap_and_microseconds (test_pipeline.PipelineTests.test_strict_threshold_gap_and_microseconds) ... ok
+test_transient_month_failure_falls_back_and_retry_missing (test_pipeline.PipelineTests.test_transient_month_failure_falls_back_and_retry_missing) ... BTCUSDT 2026-04: 0 events; 288 missing bars
+BTCUSDT 2026-04: 0 events; 0 missing bars
+ok
+test_final_day_is_its_own_checkpoint_partition (test_report.ReportTests.test_final_day_is_its_own_checkpoint_partition) ... ok
+test_provenance_distinguishes_third_party (test_report.ReportTests.test_provenance_distinguishes_third_party) ... ok
+test_unselected_outputs_do_not_count_as_selected (test_report.ReportTests.test_unselected_outputs_do_not_count_as_selected) ... ok
+test_fallback_volume_and_provenance (test_universe.UniverseTests.test_fallback_volume_and_provenance) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.238s
+
+OK

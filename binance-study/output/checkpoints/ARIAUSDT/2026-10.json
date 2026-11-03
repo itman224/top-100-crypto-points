@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 563,
+    "1d": 25,
+    "1h": 263,
+    "4h": 98,
+    "5m": 832
+  },
+  "event_file": "events/ARIAUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 300345,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "1ee35660459acdd25911c48306bcae5930be484e2c224ba1961c4479e2f70f0a",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10806,
+      "source_id": "1ccb8189d57699527fddb935217cea0c68d308378c8c502b1d51c6b3693d0789",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 10791,
+      "source_id": "f1697590193920c65d94f08e66928578699211900ae1a793ff4043b0fcdf4ecc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10578,
+      "source_id": "73aef8a01b81a601b2d7ce35de5cdf7294a43520b493be6c69ceb2e24f8974d2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11241,
+      "source_id": "91a253dc1171d7bd07e3a3d10816d003545151c76b6bbe29fe700073d16d61b3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10699,
+      "source_id": "ca9b7b6d21f795fb575b17a9d14a40a032e140886fb2cf2575978dce63c4bb39",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10657,
+      "source_id": "af8cdb1f3a7d49a066b0572ca5d312528fb44beaa2a49db869da5f36452f36fc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10652,
+      "source_id": "34582304611d2735294762e5235520f9983f965f65f1fb2dbc24647a72344f9c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10851,
+      "source_id": "54670f0995908352940f98bb1a80899f44f4d6eaa9e55040dd28e65a943753af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10873,
+      "source_id": "e847a968ee2d9401cd3a7ca21f7104c55223a0d6fd9b869c847bd2e3428c92e9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10655,
+      "source_id": "43ae17e52592b65f3b3dc3d488d77ab9d7b49c893b846141d8e24d4e9b5b7277",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10298,
+      "source_id": "fd916cd97feb03962abb282ab385e4be2ef40c28a89cdfb381340b7cae5904d1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10651,
+      "source_id": "d65d731a9182769e09fd72368e8a6ef3ad388c36d6eac8c71533ffd621fb9681",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 10903,
+      "source_id": "8e7fc152911cf67defdb7d015e807c6b19b5a5039d6e907a139184cd764a7f68",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10815,
+      "source_id": "e7bb7cec4e982f9dc639ce38c6e221f831871b9876d3815337a02c746f19ab34",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11734,
+      "source_id": "1d0be0ffa3d2ad7b3424a7a7455847f7f4ac309dfb7cabbc2db84b0516e512eb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11821,
+      "source_id": "ddb83f65975a130e1cfd6087d907a0448fe01bbc0edfa22721bf55605ec171ae",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11892,
+      "source_id": "7f7c78d19b95d4ea9955bcc4dc59e02853df516ea05f190676063b3d517c9c80",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12939,
+      "source_id": "7337bd2b7802eb18556e78395398f308814860c8e12d360ce4a854b8f84b171f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12812,
+      "source_id": "5b19652dca1c1c73b3e1f08d8afa50daf028e5981790725072305dcfeca99cea",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12756,
+      "source_id": "7a85600e247b18bcd40aac3b377e7db39df1e9db6ad2a72d117f357a35651e6e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12942,
+      "source_id": "567a3d0e5df9d06a8182d2c2207b5f53a853bcdbef651a9179f484a7152c6a6e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12356,
+      "source_id": "f5c99ed4b773fc0b856a9d83207c1b982873804705931b61c0e590cc3bedd32f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12404,
+      "source_id": "460cc9947227f570a48610d7d5b19c4c256f750acbf835e06e662a6ced45adaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12558,
+      "source_id": "ea1917d9f0a2d9bfb78260235478ef756c536245a7a513022319bca44f7388a1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12558,
+      "source_id": "c94959bf67e1a1e78e47fdd4f7024283beaa1c604b2bc5cec457012fce30705b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13103,
+      "source_id": "2793abf701f84c6045eb92b3a8730ead1d129abaf995b8cdcb2cb10f447e1b4c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ARIAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

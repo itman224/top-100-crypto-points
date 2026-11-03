@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 85,
+    "1d": 25,
+    "1h": 104,
+    "4h": 71,
+    "5m": 54
+  },
+  "event_file": "events/1000SHIBUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 359999,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 359999,
+      "source_id": "f058c47cfac30fef3393cdfcd297bdc956c8a9125c0694a7028fd1535d864918",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "1000SHIBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

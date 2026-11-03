@@ -1,0 +1,352 @@
+{
+  "symbol": "PIXELUSDT",
+  "event_count": 3788,
+  "quality_counts": {
+    "complete": 3788
+  },
+  "source_event_files": [
+    "output/events/PIXELUSDT/2026-04.jsonl.gz",
+    "output/events/PIXELUSDT/2026-05.jsonl.gz",
+    "output/events/PIXELUSDT/2026-06.jsonl.gz",
+    "output/events/PIXELUSDT/2026-07.jsonl.gz",
+    "output/events/PIXELUSDT/2026-08.jsonl.gz",
+    "output/events/PIXELUSDT/2026-09.jsonl.gz",
+    "output/events/PIXELUSDT/2026-10-27.jsonl.gz",
+    "output/events/PIXELUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/PIXELUSDT/2026-04.jsonl.gz": "ec034219680ede61da3d47c478a3109501e258a163170af8cab527a2e276204d",
+    "output/events/PIXELUSDT/2026-05.jsonl.gz": "78c1c9707a08eea23f2c1c456d524b2c3d5c72c85218b175987c23156120dc5f",
+    "output/events/PIXELUSDT/2026-06.jsonl.gz": "da17fbc4b9f8808a62feb32f8324ccb4cc4a081c3dffc27041ee14b9205bb772",
+    "output/events/PIXELUSDT/2026-07.jsonl.gz": "21816068784c91522669a33897bb41316578a6151625b366f46ec4579c5a653d",
+    "output/events/PIXELUSDT/2026-08.jsonl.gz": "fe0e2f5f218fbb0f4649555d2956c5ff2aedd508290e9be916491d8fdb09c778",
+    "output/events/PIXELUSDT/2026-09.jsonl.gz": "858cf8838808581b2d359e046cc8e8695e98d72301af96996b9f43bb2227e4ab",
+    "output/events/PIXELUSDT/2026-10-27.jsonl.gz": "c1ce76018b59d542d74f80f67ea6d17fb72ccd15058fe0d15c3a6d77d0f16918",
+    "output/events/PIXELUSDT/2026-10.jsonl.gz": "0c996b558418085e6730c6fea211266f3dcd52cbe8f47362aab1f6dca35528ae"
+  },
+  "market_data_quality": {
+    "symbol": "PIXELUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-07.zip",
+        "source_id": "6e430507b175aa5bc979067a5576115919e913e51b7a21bb035f952121d5c28c",
+        "status": "available",
+        "bytes": 346933,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-08.zip",
+        "source_id": "af808f797d63b86073642a146cc654b109ac35363512f536f714f09ff140a254",
+        "status": "available",
+        "bytes": 336827,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-09.zip",
+        "source_id": "032e32a92ed25626c7bcc5476d168350745483a48a56364d73e456829c17a95f",
+        "status": "available",
+        "bytes": 322437,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-10.zip",
+        "source_id": "fa3cdfa1e464ebc8dbcbceebd8a441ae0b6b6271a7c15fae834dde059bf2b85a",
+        "status": "available",
+        "bytes": 329772,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-11.zip",
+        "source_id": "f11c1b69b19869f8e6b26097801fe928b8ca47c158a7ffa292199199830bc934",
+        "status": "available",
+        "bytes": 315762,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2025-12.zip",
+        "source_id": "0eaec6c5df44dd0e8bad3c74391e78d1ceb55de80d9c49ec609666cc5dde81e0",
+        "status": "available",
+        "bytes": 306720,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-01.zip",
+        "source_id": "713816dbac1b83cb243a4e4c2ce441b6a57ad7f5f3a9f29fad4b006044c3320f",
+        "status": "available",
+        "bytes": 312480,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-02.zip",
+        "source_id": "53addf4f3a67796a5c499b8fe18e8416882c351487ec364489668620db588512",
+        "status": "available",
+        "bytes": 296752,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-03.zip",
+        "source_id": "3d2686e68c2d546d5dea0a8450f4dda9ea4288397a2b1df2552936bb56b46548",
+        "status": "available",
+        "bytes": 379909,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-04.zip",
+        "source_id": "abf51fbf4d213f93666ebcdb92c8c7d0c7a042628bc671500b2a6816d0562abc",
+        "status": "available",
+        "bytes": 360009,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-05.zip",
+        "source_id": "f10a132a25f8a513b95de963c3468e0fc4e0717ec8bd1c00d32951755dbcdaea",
+        "status": "available",
+        "bytes": 354160,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-06.zip",
+        "source_id": "713951ce7ee1fc4e584b98b6bab1013b7ab397e647aa987cf98d3496659407f2",
+        "status": "available",
+        "bytes": 337906,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-07.zip",
+        "source_id": "c4057b96b870d866013bdf354ac9b43efee64fb012703f5938e1dcfb21641def",
+        "status": "available",
+        "bytes": 338001,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-08.zip",
+        "source_id": "1829543a1e54f06e34a99ab4194f35a77f7058dda99b364eafd6839fe0285e22",
+        "status": "available",
+        "bytes": 346424,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-09.zip",
+        "source_id": "e518439b193127119bd3dac7bf6982a9dd7d391f833725b19bc9c94467ee96ff",
+        "status": "available",
+        "bytes": 329625,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10.zip",
+        "source_id": "f4dee827699e6b39baecef6136415ff519a824a3a784823486e2649cce5ca0fc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-01.zip",
+        "source_id": "804e35571ebb311c792cbcd6cea2696a973fc605cf67e5dec2dc94e132bb4898",
+        "status": "available",
+        "bytes": 11576,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-02.zip",
+        "source_id": "fbcc50228b2f692e72267dacdd588c62c09544e2beedbe9b5bed8b867adcd48b",
+        "status": "available",
+        "bytes": 12084,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-03.zip",
+        "source_id": "92eba501d60e00dc5add0545efb8fe745997c3551c811bc0d8476102fc8fdbbb",
+        "status": "available",
+        "bytes": 12110,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-04.zip",
+        "source_id": "130204d41273872bbae9848f6e85bf3f17578d0bfd1d712612e35ad967c5fac9",
+        "status": "available",
+        "bytes": 11951,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-05.zip",
+        "source_id": "de12e4659b4c8445ead06beaa09828e62927beff767bb3490d90c2abd25dc4ed",
+        "status": "available",
+        "bytes": 11654,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-06.zip",
+        "source_id": "edf67e0c4a460603aea63ee4594684d48406cf0d5ffaca28191e1360c2668414",
+        "status": "available",
+        "bytes": 11652,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-07.zip",
+        "source_id": "cce749f4897e02d5c95f449e7c8fa9c079163b9f74fc05dc686e91e84aa5e82e",
+        "status": "available",
+        "bytes": 11804,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-08.zip",
+        "source_id": "59b7303847e204a98e373e5bdbf1ef7a9ca1af9d2b5297b5cd61589816035fb4",
+        "status": "available",
+        "bytes": 11849,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-09.zip",
+        "source_id": "72de0750ced6bf3e1b7bd247071398822b207750563167c0df6e671664b7a45d",
+        "status": "available",
+        "bytes": 12329,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-10.zip",
+        "source_id": "23ca9ec5699018219d104eb38b10d3fd5a6aa41d881e8866e4bee778aaa06a40",
+        "status": "available",
+        "bytes": 13158,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-11.zip",
+        "source_id": "cadee9999e10ce1922a4bc46edc0cdfe85ea7addb3e8bb6f32a54c415e60d9da",
+        "status": "available",
+        "bytes": 12454,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-12.zip",
+        "source_id": "85f59ffb8877258d3a6674f49bbd86fe48557303ae79d4c83c1223ff1af6402b",
+        "status": "available",
+        "bytes": 12395,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-13.zip",
+        "source_id": "8e084f40d7a1d8841ddc01a392a96fcac736dd751a2c33f51c08cc0e740284b1",
+        "status": "available",
+        "bytes": 12144,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-14.zip",
+        "source_id": "60ccf6896bb151489924841aacd3d442f5ce79d4c21bd64dec0b88ec55e31035",
+        "status": "available",
+        "bytes": 11801,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-15.zip",
+        "source_id": "310a55b258d5e039b1c372caade2253f9f4c84c950dadddfdc96be65181748ea",
+        "status": "available",
+        "bytes": 12100,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-16.zip",
+        "source_id": "c5886d174725ef8a0ede2d2678a7c3b11653bfa89046c212a5dd772dcbefe46b",
+        "status": "available",
+        "bytes": 11720,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-17.zip",
+        "source_id": "62077fedd3321b26e30a41efa7c0c344d212b01ac0162a1c816bafa7e251fe7d",
+        "status": "available",
+        "bytes": 11403,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-18.zip",
+        "source_id": "0f10a89fa9adf5de4a0ec286cc02dddf5d91986f59e6498eab66c94ddb248fdd",
+        "status": "available",
+        "bytes": 11593,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-19.zip",
+        "source_id": "b9212feec56af28242e866cfc45a01bff63c88e5917f2d13c51f61667f2d349a",
+        "status": "available",
+        "bytes": 11482,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-20.zip",
+        "source_id": "91a5f3d202fef6b387fa3137a36816f6c8848e9084c0ec4abbfab61c3f2fa7cb",
+        "status": "available",
+        "bytes": 11444,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-21.zip",
+        "source_id": "85bd49d97cfa684edd7d66f7d4cb5d44b8b42edbd8ec84a08d8d49731943b33c",
+        "status": "available",
+        "bytes": 11647,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-22.zip",
+        "source_id": "d0f314a08b34f03fa2b2e6ddb617dc9338cf53f0cc604ceb38385887a4972ae7",
+        "status": "available",
+        "bytes": 11685,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-23.zip",
+        "source_id": "fd188e5f8125926bdbf42db3b035545c8aba672c1a2eda60d5a788b43fac4b0e",
+        "status": "available",
+        "bytes": 11591,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-24.zip",
+        "source_id": "71f727b1ca7e306b290933c9b207f007f8ed0ce757d03d57dc073745ee4cfb3f",
+        "status": "available",
+        "bytes": 11787,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-25.zip",
+        "source_id": "f93803808016010e808b2a7a4f0313bc07445a7dffe44d01de3a6c188db5af61",
+        "status": "available",
+        "bytes": 11345,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-26.zip",
+        "source_id": "b4f55afa78f234b62c3a23b235cbc3fc1bd9c1135df23d653226c5e3699866a6",
+        "status": "available",
+        "bytes": 12049,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-10-27.zip",
+        "source_id": "d158291d8805bd55249b1b35478d36624e5afe3368eee8f90895665eda2fbba4",
+        "status": "available",
+        "bytes": 12140,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5334664,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 57,
+    "1d": 14,
+    "1h": 80,
+    "4h": 69,
+    "5m": 41
+  },
+  "event_file": "events/TURBOUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 318724,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "cea664936c233dfe82db56b36b19ec5ba0e643e58d47e61154b7669b78c71410",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12339,
+      "source_id": "db095e161e0334f35a724c7ec4dc47e4cce05fe3af67c12615da515f2e4db1a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12728,
+      "source_id": "ea43596806cc8f152f010e6b475f7d833a3a6d7683e4385427616064c4c0984b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12164,
+      "source_id": "e090dda285607cc0b58a5041dd939be341b8bd499b282832d4c060b6531b724a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12040,
+      "source_id": "a54f6c34a550d222ef681086a2356b2f63848f9fbd2f420671bc4757f9626b9e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12297,
+      "source_id": "885a8348f2cf059d5dbad9a4a3a59d39e6f8ce2e71c0060ce438a7a45dcf60d3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12262,
+      "source_id": "3bfa70c74b4e97a340474a3ff9ba1e0c0a6b37f73bf8c8c409d3392cd4c12f3b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12392,
+      "source_id": "80dd7fbe4cf08bb1a643697b4a7659bfc8269bd052b9bc8e98ddbc9e1b50766d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12485,
+      "source_id": "b20bee7187fda5277bfbc1ee7d594f8be25c9c5f0b9a61c64508be76918564a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12311,
+      "source_id": "e3087a53d5143f61cbae4ee6f8a72ab199957c0b42d1a683162c83b911454fd5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12303,
+      "source_id": "38baddee48cc3886e67b7b8cb03821256442668850e0a93b845b4f756035889b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12082,
+      "source_id": "f5c59736ab8d5ce08d274f8879addc9573580413ba7d7b829bb8bb6884755396",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12371,
+      "source_id": "09b1860887a4646b8869f538f6c04592d266ed9b07d46533d85e662702b32fbc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12355,
+      "source_id": "d34e475d9e47629609812c0f88b87054d57ff530f910d43582dbe4063445d75b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12279,
+      "source_id": "1bac40e4e1e478de5d60785c8beabdd5a5b4884c5b530f39e87616835f7959d1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12529,
+      "source_id": "5699e9f1e121a875525371c52964cee2a152312f56abb56cdce7318a4ee6db59",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12208,
+      "source_id": "fa8d5247a3032e83f0aa26f435a1726aa2ab66e67319e4f92da9eacd1f2918f6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12100,
+      "source_id": "c84a72fa06fbea0aa25a189e3bc89cd424856c5bd70ca4010440a864a9bd8582",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12328,
+      "source_id": "127c98d530704a4f155c796ed3c99bbd9727cd84bc31e8443b0223272e00647b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12064,
+      "source_id": "212bfb5dca7440d5b7d868c6a6c98e1df42c21601369d526c7a720ab42cf9704",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12145,
+      "source_id": "257eea1e2bf5071801c85995e01b3d21be06d4f37adfe8fc2f5526232f26d5a5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12264,
+      "source_id": "64b2052c3e0af5123e78c485b5fa51bac2b848f609376ca7f2c11785f88b8a99",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12171,
+      "source_id": "05416dbc1d8fb65c4f9a8b3c3aeb899288b5f56414cc27a11b25a63b701f34a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12310,
+      "source_id": "297518c1eb251e4a8bc09cbc1be925e46701b666e36693dada72baab259ecf44",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12104,
+      "source_id": "0ffe6a1ab7a575178ff7efba552b23f562115a3ef46c381bccc7967d1787fae2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11953,
+      "source_id": "b958ba2b9176238122277efad8b005b3f9f6455a1f5064f335a5bc0d6dbfa3cd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12140,
+      "source_id": "82fb6cbfb78aa654f0097bd313935b15950275a07a7f6a04f7ce917a51d371d2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "TURBOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

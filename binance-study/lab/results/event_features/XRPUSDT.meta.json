@@ -1,0 +1,352 @@
+{
+  "symbol": "XRPUSDT",
+  "event_count": 1270,
+  "quality_counts": {
+    "complete": 1270
+  },
+  "source_event_files": [
+    "output/events/XRPUSDT/2026-04.jsonl.gz",
+    "output/events/XRPUSDT/2026-05.jsonl.gz",
+    "output/events/XRPUSDT/2026-06.jsonl.gz",
+    "output/events/XRPUSDT/2026-07.jsonl.gz",
+    "output/events/XRPUSDT/2026-08.jsonl.gz",
+    "output/events/XRPUSDT/2026-09.jsonl.gz",
+    "output/events/XRPUSDT/2026-10-27.jsonl.gz",
+    "output/events/XRPUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/XRPUSDT/2026-04.jsonl.gz": "8b8ff050786ce2eafd332e019800fb71a806d6361546854778a714cd711acfab",
+    "output/events/XRPUSDT/2026-05.jsonl.gz": "c3636581f19467ee1ec6070bab15888f63f3fadd059f476d78804d6e7e8b6af0",
+    "output/events/XRPUSDT/2026-06.jsonl.gz": "b7e132e926e6be04712e0601e1e09e4fb2053b76be36e9477608d32bbe51b633",
+    "output/events/XRPUSDT/2026-07.jsonl.gz": "6f3d0166f113dd03746f6385a77367b9ff481df7420fdde35d955049ee421db8",
+    "output/events/XRPUSDT/2026-08.jsonl.gz": "04c23f54ebd0352c9df0d9903ebdff211a5e82a84c0dc2ddafaf8f43826cc72a",
+    "output/events/XRPUSDT/2026-09.jsonl.gz": "08949cdecbca01107789e86a7344a61a977d6efd5683e7cc296294552c603f6a",
+    "output/events/XRPUSDT/2026-10-27.jsonl.gz": "60998a0fea2677805d41fc7a6475db72b90f1fe21468efc9a2d21ceba037d91d",
+    "output/events/XRPUSDT/2026-10.jsonl.gz": "cfb16a8307413e0e4cf9f91ea6eeb83900f261174cb62b3401940fab138e9dce"
+  },
+  "market_data_quality": {
+    "symbol": "XRPUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-07.zip",
+        "source_id": "47f1248a717f3b1384e61ee28dbb455717012bee01e37d7c6f41e35d351ff488",
+        "status": "available",
+        "bytes": 397479,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-08.zip",
+        "source_id": "277f07eefba3038ad3a150926adcc0f04fb99f9ae0e9d5caf9e4a6bbbce08532",
+        "status": "available",
+        "bytes": 394279,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-09.zip",
+        "source_id": "7fb7d95fac9a84b05cd5c3771ebb7a043817cb85a1cd46d842de69a3b17cc645",
+        "status": "available",
+        "bytes": 373147,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-10.zip",
+        "source_id": "98000b08954fd2999d8ac99644188eed2c682a83f3b7d1a92d828cdfca602af8",
+        "status": "available",
+        "bytes": 392213,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-11.zip",
+        "source_id": "51028dc646c5195edb789f0751892c6928367214f217506fe3a9567e713ab96a",
+        "status": "available",
+        "bytes": 379354,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2025-12.zip",
+        "source_id": "55c72d5144589bb0c6ed91238de62d58dc91a545ddff7a637bc5965f754454b8",
+        "status": "available",
+        "bytes": 378852,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-01.zip",
+        "source_id": "37ae5e442c958d60979ce4759902f4aa89d4f831327aa535f23e5479474b9fcd",
+        "status": "available",
+        "bytes": 382230,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-02.zip",
+        "source_id": "22a342058e16f735c3ee4b12343d89889a7eea3a5f9061f33c5432fe996cf9fa",
+        "status": "available",
+        "bytes": 351143,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-03.zip",
+        "source_id": "bb057830c2fc4aff0444a7e00b619eb2e85c41d56ef6ef1cb2dc5110cc58fa7f",
+        "status": "available",
+        "bytes": 377015,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-04.zip",
+        "source_id": "5a861256ca4a6e91309188b68ce126e878c32248c94167e179bca5db4b3f1d4c",
+        "status": "available",
+        "bytes": 358385,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-05.zip",
+        "source_id": "a41b1e3e07581430b6bdc0d5a02f35d6e447e6ec44ecae97d67b4125dd7075d2",
+        "status": "available",
+        "bytes": 370565,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip",
+        "source_id": "970266dab98cd6650e96a1be3b2616d2e9533ca19885ddb18a37c64fff9deac7",
+        "status": "available",
+        "bytes": 362488,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-07.zip",
+        "source_id": "e9e6425e08a2d9b35d37c393db435704e4f49cb6a093789d1f10e8b958bc8e0a",
+        "status": "available",
+        "bytes": 366290,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-08.zip",
+        "source_id": "d5d066fbcb55002da4f42d828ae66933bfb15b20303148b055babb9a30588447",
+        "status": "available",
+        "bytes": 372897,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-09.zip",
+        "source_id": "e85d27eff4f6c64f113b8f591a3aefee1443dde5a915e4c5625cd876a592a736",
+        "status": "available",
+        "bytes": 372380,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10.zip",
+        "source_id": "eb855b83354e35afb20e0631e4a6398702572aef97a83d2d30edc235f6149714",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-01.zip",
+        "source_id": "330413b6d223d070dd898354781d61595f5f4c9074486d88af45e07d7cb26708",
+        "status": "available",
+        "bytes": 12849,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-02.zip",
+        "source_id": "65d72a8750e17fab1c14317a95e8f26448b3bfc24220b37060fcc5a1a75cc1fc",
+        "status": "available",
+        "bytes": 13153,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-03.zip",
+        "source_id": "e4c6702ac2430d1c95ad306f9ac78a7b2f833890734477e5e837cc8e516c03df",
+        "status": "available",
+        "bytes": 12274,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-04.zip",
+        "source_id": "da2b9edf5091ba11e80a4d94c5510de720609a59ff5936488bb5b03861b23394",
+        "status": "available",
+        "bytes": 12422,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-05.zip",
+        "source_id": "5a24859cf95e1bda40f480eee5e016852e17acfe51a9a9fe6f0869dba3d701b2",
+        "status": "available",
+        "bytes": 12840,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-06.zip",
+        "source_id": "cf9cb29602845011301ec9148ece03fe04b126c7cf16bb91c37362acf689fe77",
+        "status": "available",
+        "bytes": 12643,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-07.zip",
+        "source_id": "f014eeeaff44594683196f923457f719823188e326ab05d607d35a15f840fc4a",
+        "status": "available",
+        "bytes": 12998,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-08.zip",
+        "source_id": "02070a2b86d6513e9fc892787ddd6d35dfb56bfbe8ddf79504ee0ccdb2bc4910",
+        "status": "available",
+        "bytes": 13155,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-09.zip",
+        "source_id": "fa8653f73e9f73158491acf1c7c081e8589d29f16cec0d70a101135c6ad91692",
+        "status": "available",
+        "bytes": 12702,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-10.zip",
+        "source_id": "b95ab73b599f5bef410820f2b86ecda5ce401ad90f26129455d87f863aa11b66",
+        "status": "available",
+        "bytes": 12162,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-11.zip",
+        "source_id": "fa8a07e4733b52f9007d5b2f366bb50c3501e7d2ba8bf27c33cf3e2a5dad5e75",
+        "status": "available",
+        "bytes": 12417,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-12.zip",
+        "source_id": "9db09fc7ab82a1125cc3689ce65e0e5b44874c64839b92157169df385e5a632e",
+        "status": "available",
+        "bytes": 12914,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-13.zip",
+        "source_id": "71db5b3ec9bcfed835698e5b9575c160814435c7cf8d0e3501a4abd31e72a334",
+        "status": "available",
+        "bytes": 12888,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-14.zip",
+        "source_id": "884cac2675aff726d6ca795e4cbd19034aeff4b92ed3551b40ed439a610e7198",
+        "status": "available",
+        "bytes": 12886,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-15.zip",
+        "source_id": "ac82bcfe3e9f1509d91727696b932429348f43281416d6151a197f46fbc7b1a5",
+        "status": "available",
+        "bytes": 12917,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-16.zip",
+        "source_id": "27e16e649ee652ee66b3b62a238b2e459e868af5aad053191b68024e3e231ef3",
+        "status": "available",
+        "bytes": 12751,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-17.zip",
+        "source_id": "4631302d6228561610469db147207610ebff6f5062f18b718b4f6632759333b4",
+        "status": "available",
+        "bytes": 12301,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-18.zip",
+        "source_id": "23ab911b82147fb7dbea1f6725d3c07995209ceb4d614f1b0cdccea57a7140ca",
+        "status": "available",
+        "bytes": 12647,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-19.zip",
+        "source_id": "9300cdc369ab342ba87ae4974df81bcf77d53a59d2cc5b89bb3fa7118d005e04",
+        "status": "available",
+        "bytes": 12558,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-20.zip",
+        "source_id": "0c346c37dea6c10222ae1eedaec2752b87d447b2053b3f0811d95b4a3a771c98",
+        "status": "available",
+        "bytes": 12712,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-21.zip",
+        "source_id": "a0293da2f34ab2cdafdeb55a384ca42cd079d23f9fda881e85f5bfb132c10997",
+        "status": "available",
+        "bytes": 12835,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-22.zip",
+        "source_id": "939c900909f8dc897fc9168a974a841851130b5a5c1cbe2153d69fd6aae2c01f",
+        "status": "available",
+        "bytes": 12784,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-23.zip",
+        "source_id": "6943d28004c6c663aade7e9c08ea6744ab4bdc589c6fb33131026c557eb809d4",
+        "status": "available",
+        "bytes": 12648,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-24.zip",
+        "source_id": "f816b5759b47d302f0f8bbbf5a2b2bd77a23200fe1cdd9e448791f215ba86b18",
+        "status": "available",
+        "bytes": 12621,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-25.zip",
+        "source_id": "38cc015fd566b0394d5e7385b860aa08f288cd38a350864c8682d67ceef4cb18",
+        "status": "available",
+        "bytes": 12563,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-26.zip",
+        "source_id": "77295e990a4def8c5d06991f1d0dfa6a4ff09de441e365d3f71f6edb9b8c7fb6",
+        "status": "available",
+        "bytes": 12738,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2026-10-27.zip",
+        "source_id": "71ac1ce0062c08018f21f0a60b36d7bbdb8c58269ea9f2bc16ee207feb744d0a",
+        "status": "available",
+        "bytes": 12620,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5971715,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

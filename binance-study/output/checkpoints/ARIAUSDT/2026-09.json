@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 183,
+    "1d": 26,
+    "1h": 159,
+    "4h": 90,
+    "5m": 160
+  },
+  "event_file": "events/ARIAUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 310113,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 310113,
+      "source_id": "109357d00ed25871b1362c23343484a1ff12f3c488e61e40c22b3ea82c069a6c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARIAUSDT/5m/ARIAUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "ARIAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

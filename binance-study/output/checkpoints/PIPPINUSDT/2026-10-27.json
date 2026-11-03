@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 0,
+    "1d": 1,
+    "1h": 0,
+    "4h": 2,
+    "5m": 1
+  },
+  "event_file": "events/PIPPINUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 10322,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 10322,
+      "source_id": "8a3fff344738b264d264d1e1a66cae1dd74e1867d73bd6786873846a0bc9fae6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "PIPPINUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

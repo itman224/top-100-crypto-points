@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-04-30",
+  "event_counts": {
+    "15m": 221,
+    "1d": 24,
+    "1h": 217,
+    "4h": 102,
+    "5m": 145
+  },
+  "event_file": "events/PENGUUSDT/2026-04.jsonl.gz",
+  "month": "2026-04",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 372839,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 372839,
+      "source_id": "85ec07822dd439e0aefff93dec49ca77d92b6db8fe6e34083f82b3b70a5a4896",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PENGUUSDT/5m/PENGUUSDT-5m-2026-04.zip"
+    }
+  ],
+  "start": "2026-04-01",
+  "symbol": "PENGUUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

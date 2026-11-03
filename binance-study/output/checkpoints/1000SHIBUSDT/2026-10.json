@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 21,
+    "1d": 13,
+    "1h": 36,
+    "4h": 46,
+    "5m": 13
+  },
+  "event_file": "events/1000SHIBUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 315897,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "3d98f22cb1220b0ff16391e44731373083209636a26e56a2508a6a180a74ae13",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12313,
+      "source_id": "c54891a46b49454b7188c5151c85c76ad7d02643523e13361304df746011e3ef",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12602,
+      "source_id": "c40902a1201e6fdcfec65aefea47a9ebdbcb5e016f7cc4569df14f56b26944e6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11868,
+      "source_id": "6b4a0cfbdec5fbf8f79d27a7bce7c3481c900ae639b5d08e7b84ae8f9b6427e6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12067,
+      "source_id": "b693a2d7cc197bd161a1d35b74106bf9775e93408ee273a1176c98058519e03e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12457,
+      "source_id": "3af9f638b11fd05dbe537589900c6fcf475ddbff952968ece8630f4f3251930b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12219,
+      "source_id": "f7b1417fd2210e4a4b0c69d6c8a462c3be7b405a5d529a11216e4433a8f10bb6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12398,
+      "source_id": "d4f0317cc90e7b58ca82c23b8ac827880c39bd0196f696cce1c1e95e3145ee2e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12497,
+      "source_id": "c61f3ba6aa5f59416dd9eb8aa1fafd8c86f2f11eedb13c8256460e03d406172f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12181,
+      "source_id": "4bf511873e1631e37ccfa75b089e1917920c96edf69e147fc8d64ba8fa729312",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11799,
+      "source_id": "366865e11e4796e38e476a31ef755c4229027aebd5ef9f61476d6dcda9297efa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11896,
+      "source_id": "0e853f854caea625cf5b6113a903f80c11aa8e8039e6eb9c107dacde13c2eaf5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12355,
+      "source_id": "c7563dd984edd48b8daf87f691aae9d7971ea304b4cc39d2cda8cd4a983dbe25",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12251,
+      "source_id": "fc944588bc481d0bb49ef585a8143cb39028509767ae170418d8ef8d1396eb09",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12178,
+      "source_id": "ebe1b83dd9a5649e013976ccc9c1c19bd60bdc5aebc42878f3d424f69d3951a5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12423,
+      "source_id": "f27851c12ee36bb7b09cba1952c6dd8cf693cb847d58a6225aa479f716b3082e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12047,
+      "source_id": "2d1464d7b2ee81fdcfd853349ec7329c08a631b0c36e11c4e90699ed1f8be1fb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11798,
+      "source_id": "2773e0ba82bc57cff4d398cfa9e6edd3d157915983d762de7796b6e2e4429e8e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12003,
+      "source_id": "7c7d6976aabb8336fd09136a86306645ef56b078ba7455b606212a1faab86e3c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11925,
+      "source_id": "6cb614b5d0629975c233aeace244a28ce177169b1f8562203325761448b02ed8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12153,
+      "source_id": "d61e419d72ea35889aea9a019c10af5259e4c40f77df4759c42d1963893c5b30",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12074,
+      "source_id": "746467b211fd62f82bf2716ad182d7640f0d401eb93be4cec888e5918d217969",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12124,
+      "source_id": "9e987b4ccdf7c3905e0546d19f320ddedc477c3778681d9bb7cca4cf510387bf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12300,
+      "source_id": "1bf9f7e3e549746e6e0c62ced7d1325d524af3770ca983442e4e2e1afee95173",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12042,
+      "source_id": "2950ea75cea908bf69cbc2848dd91693ec9be93b8942521ca3e8138a33456d4c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11903,
+      "source_id": "70d3faee473d951def65b7664338db0db7475ebab70a8d23b7e52fe61b987cb4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12024,
+      "source_id": "0789ef198e8bfa912db2cb836a7b4f58b5e6d3d0d15b7c8203920d84ea8bdf20",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000SHIBUSDT/5m/1000SHIBUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "1000SHIBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

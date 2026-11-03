@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 132,
+    "1d": 22,
+    "1h": 137,
+    "4h": 82,
+    "5m": 112
+  },
+  "event_file": "events/HBARUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 337243,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 337243,
+      "source_id": "24cd70627467bdb4380f21e24030dd55616858ac531c9f40c02c1623d036d492",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HBARUSDT/5m/HBARUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "HBARUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

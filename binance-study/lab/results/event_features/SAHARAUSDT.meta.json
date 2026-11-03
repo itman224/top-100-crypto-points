@@ -1,0 +1,352 @@
+{
+  "symbol": "SAHARAUSDT",
+  "event_count": 4172,
+  "quality_counts": {
+    "complete": 4172
+  },
+  "source_event_files": [
+    "output/events/SAHARAUSDT/2026-04.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-05.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-06.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-07.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-08.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-09.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-10-27.jsonl.gz",
+    "output/events/SAHARAUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/SAHARAUSDT/2026-04.jsonl.gz": "c696f69069d1b54b486e7f0aa70506ae03a8815fada8b59c9d26864106d4a8b3",
+    "output/events/SAHARAUSDT/2026-05.jsonl.gz": "90f57fb66ea92204ea71d71c492777a81fbcfd297ee0291d48ff69eec5ed2dc5",
+    "output/events/SAHARAUSDT/2026-06.jsonl.gz": "235ef32c5feb4735516b3bc8bd3f9a6c7a66549085f391574b0a3a7339ca581a",
+    "output/events/SAHARAUSDT/2026-07.jsonl.gz": "82756a0a7efb3087835aa89072147fd8239d84f10679ed3eb87e3a1ea29d4e00",
+    "output/events/SAHARAUSDT/2026-08.jsonl.gz": "453f134ad0592b98f04a7bef2a4caa426a9b68ee250a295f37ab5ddc5451e892",
+    "output/events/SAHARAUSDT/2026-09.jsonl.gz": "b58a3c958ef755cd857345ff49a7737746434ea4333e718cfdd84e11cbd085d8",
+    "output/events/SAHARAUSDT/2026-10-27.jsonl.gz": "2b447f687f532b1d7f9a34c04e22b8cea92243771673d156c3e199f4062b43c7",
+    "output/events/SAHARAUSDT/2026-10.jsonl.gz": "ec350bed408083b289da7c453fb67248ea12e9aa8c6a07cfdd0a9db3604e3a1f"
+  },
+  "market_data_quality": {
+    "symbol": "SAHARAUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-07.zip",
+        "source_id": "9a62063ad54c6e35ca529e61954ef6bca597c3c51dfe4218f641b17779cb69e1",
+        "status": "available",
+        "bytes": 379205,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-08.zip",
+        "source_id": "369ca7e1f121b6cade1a4f3ca0f475280832321c0da789ef7ba19726c68be504",
+        "status": "available",
+        "bytes": 363779,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-09.zip",
+        "source_id": "5c54c12737ae03590f604ace2d827c378e94f1fbd8fd3d99cfe229d65ed90996",
+        "status": "available",
+        "bytes": 336196,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-10.zip",
+        "source_id": "dee13750886f639d854012ac0e2e9c5830434ad5357124ecd5a5ef83601f03f3",
+        "status": "available",
+        "bytes": 346476,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-11.zip",
+        "source_id": "b9ee323f7169162203bee0a2243684e5640d24300002b51d0489c847cef351b8",
+        "status": "available",
+        "bytes": 332696,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2025-12.zip",
+        "source_id": "8ff929f661704561b5194058e4cbbfe8591b6b8d353c268e5d33905ceb51ff53",
+        "status": "available",
+        "bytes": 340563,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-01.zip",
+        "source_id": "6eb0510728a225e3f9a0bca2eddee058268a83fae9ff04541cfafbffb2285e00",
+        "status": "available",
+        "bytes": 328426,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-02.zip",
+        "source_id": "b82f0c4470c55ca23dfd3149ab48881472f0b5407650fed6db8085e29d823b12",
+        "status": "available",
+        "bytes": 296001,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-03.zip",
+        "source_id": "188c15baabbd1757f6402ac4dc3cb74c3fdd77fb619bd3c2b3ef38c690693317",
+        "status": "available",
+        "bytes": 361370,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-04.zip",
+        "source_id": "63f6f47fe536ce5fd7c5f2e47a557be09c161dc7a3f2ef0f4c440d180e890408",
+        "status": "available",
+        "bytes": 324419,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-05.zip",
+        "source_id": "945dca825f39d50b76b6e74453065bd9430c2a07bf6ef946ccca164c0c66a8b3",
+        "status": "available",
+        "bytes": 359679,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-06.zip",
+        "source_id": "059c700fb25e93d699b43983fd60b634cecfec25c35ec5a9d18d6218540d8d3f",
+        "status": "available",
+        "bytes": 337638,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-07.zip",
+        "source_id": "2cf7c79a8003b6295fa88a71d4bf81bd075a4e069f0d4c2008a9dd24829eb978",
+        "status": "available",
+        "bytes": 319069,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-08.zip",
+        "source_id": "9c5a3123631b3c945164720d49ed571d5c5f72a26005cd47cc07325dfdff811a",
+        "status": "available",
+        "bytes": 350517,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-09.zip",
+        "source_id": "ae0d3dd662c43e60854145512c39d8967a832c4168d0dedf8c6e23cf0b975290",
+        "status": "available",
+        "bytes": 346464,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10.zip",
+        "source_id": "7dea79a6e275996b3806e4cc951e4d72568d799d697ca0899f98c425203de841",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-01.zip",
+        "source_id": "f5beed1991272085f6a53f195c66e0787a0d01591b6aed4fcce7741e1575e772",
+        "status": "available",
+        "bytes": 11806,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-02.zip",
+        "source_id": "455bebf43f28e048f125fd62bebdfece8a889b687558d3bf5c657ef618df694b",
+        "status": "available",
+        "bytes": 12012,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-03.zip",
+        "source_id": "12e4ea4e4c06e6acf2790fbb6dc24c413c4173e6e5c6f24aef05c08a78e3ec55",
+        "status": "available",
+        "bytes": 11460,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-04.zip",
+        "source_id": "cb861e7dfc6c127fb7372314e958d1376f03961fcf6dd778732eac6490095cf8",
+        "status": "available",
+        "bytes": 11407,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-05.zip",
+        "source_id": "e8246b174527180dcbb894c3693ab71cbe12e7e9ac0f28df364c0f5a7d59448a",
+        "status": "available",
+        "bytes": 11756,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-06.zip",
+        "source_id": "3e884ef63bafc8a8c63c8e77d7f992c41dc319095592513a3f5ed358ddd638b6",
+        "status": "available",
+        "bytes": 11656,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-07.zip",
+        "source_id": "e7121b3c173b7646d7715a66269904a771c1bf7e062066ed7642c32308bfa2e5",
+        "status": "available",
+        "bytes": 11974,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-08.zip",
+        "source_id": "e25513b1aef8b4f2cfda6e195225a35e346605c8672f4c9fcfbfb1f5bb59dee7",
+        "status": "available",
+        "bytes": 12163,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-09.zip",
+        "source_id": "39eaf353ef49b3ac468b30dfff0c0ea4393a098be827501217320afa6fd00409",
+        "status": "available",
+        "bytes": 11726,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-10.zip",
+        "source_id": "cc5960b93fdf650e8d5a3f6dec70467c9ccbbe547eba576ef59d267013507419",
+        "status": "available",
+        "bytes": 11450,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-11.zip",
+        "source_id": "fd3fae8531f4e48c506803b79db129ad4f634675e86d808972a26157e9fc3c81",
+        "status": "available",
+        "bytes": 11607,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-12.zip",
+        "source_id": "5811c4345a49b6ebc6ebb776af4e704e69f434c2e14b69fd5a82905cc38c597b",
+        "status": "available",
+        "bytes": 11962,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-13.zip",
+        "source_id": "d6ae0ac6e0a7bd034c8ea01eae91d0d7d2d1f2a67144278934b5d779b1a87d4e",
+        "status": "available",
+        "bytes": 11854,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-14.zip",
+        "source_id": "ef06db6131d2aa58353b6e11937896e7bc58819007c05ad95a214c1116dc1ac1",
+        "status": "available",
+        "bytes": 11897,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-15.zip",
+        "source_id": "b357d8bb9751e7cdd9f703d789ce349e004572c87cddff3ae2b321195e5fae2a",
+        "status": "available",
+        "bytes": 12004,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-16.zip",
+        "source_id": "4d9d13f2f1b46d906fa4d0c45d1a117cdccfc7a3532df14e2f91c0de372b2923",
+        "status": "available",
+        "bytes": 11686,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-17.zip",
+        "source_id": "286d3ab9acab844b43cec5f96c1241696891eb1c46cb9ac771c43d1bdae25c20",
+        "status": "available",
+        "bytes": 11477,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-18.zip",
+        "source_id": "620634f651153a0de14c9680cfd9c45601ea1b928da2b86c8c92165d8ac2f0fb",
+        "status": "available",
+        "bytes": 11748,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-19.zip",
+        "source_id": "a5bb056e7dbe3f1b391a4324fca1a9898b1424ae46f3c36d50030ce105d60733",
+        "status": "available",
+        "bytes": 11618,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-20.zip",
+        "source_id": "000bc6997e611696a748af8fe8c876058c0111f83cc8ad6573dc5dbff3476515",
+        "status": "available",
+        "bytes": 11816,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-21.zip",
+        "source_id": "e43fcb746e5acd5cb4dc58beaa29d0e541c32d898ad9d0ef166ef3153728b763",
+        "status": "available",
+        "bytes": 11519,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-22.zip",
+        "source_id": "d54c49cf052333088459002592e7656dcb9f6531605fd83df0bb166e03c085d8",
+        "status": "available",
+        "bytes": 11588,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-23.zip",
+        "source_id": "8a05c41a52815c7fe52543e3817faf5f39bcc7e94640ea163d0de8b3783abf08",
+        "status": "available",
+        "bytes": 11863,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-24.zip",
+        "source_id": "edc88d7266f93ca850a909e4ddca29dcce3d5f9bbb0e056675f61fcfa2168c39",
+        "status": "available",
+        "bytes": 12662,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-25.zip",
+        "source_id": "c86e7f32b0902d5c6ec62f09d18cb54c4d0317e055fc2f62a22ef12ac03ab50e",
+        "status": "available",
+        "bytes": 12239,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-26.zip",
+        "source_id": "d5c2a98494357157984575e0514f0cc09f85db3e8daf724748e183870d3d83cd",
+        "status": "available",
+        "bytes": 11841,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-10-27.zip",
+        "source_id": "e615e68fdc164487ec5b9ee9a337a8b690933e33720fd0e841ee5bf31b571462",
+        "status": "available",
+        "bytes": 11625,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5440914,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

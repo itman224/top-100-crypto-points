@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 67,
+    "1d": 23,
+    "1h": 88,
+    "4h": 75,
+    "5m": 46
+  },
+  "event_file": "events/TURBOUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 362042,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 362042,
+      "source_id": "d32db75856d2155bc64e0ff56130b2e9c4484024e7e334eae61f6300b5a1e68b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TURBOUSDT/5m/TURBOUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "TURBOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

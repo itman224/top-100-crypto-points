@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 193,
+    "1d": 24,
+    "1h": 175,
+    "4h": 94,
+    "5m": 103
+  },
+  "event_file": "events/CRVUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 347635,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 347635,
+      "source_id": "caba9cea3a49990d57de382ded65dd14d5d00e03c3b1004389fd786c503e9b9c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/CRVUSDT/5m/CRVUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "CRVUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

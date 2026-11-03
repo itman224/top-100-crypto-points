@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 105,
+    "1d": 19,
+    "1h": 97,
+    "4h": 61,
+    "5m": 94
+  },
+  "event_file": "events/ASTERUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 330484,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 330484,
+      "source_id": "3bf0b6ae9eaea422d2441a688d802ae35b632f6967553100c58c15a59a03d3e5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "ASTERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

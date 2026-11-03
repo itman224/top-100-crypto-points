@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 871,
+    "1d": 26,
+    "1h": 390,
+    "4h": 136,
+    "5m": 1257
+  },
+  "event_file": "events/ONUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 351683,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 351683,
+      "source_id": "21b3d88bc7661721cbabb2c85dacae42f20bedd7f81aa26e5ca2aeb65dad5266",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ONUSDT/5m/ONUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "ONUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

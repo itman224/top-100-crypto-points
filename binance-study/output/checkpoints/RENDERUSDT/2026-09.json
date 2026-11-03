@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 161,
+    "1d": 25,
+    "1h": 180,
+    "4h": 93,
+    "5m": 77
+  },
+  "event_file": "events/RENDERUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 314158,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 314158,
+      "source_id": "831bc8f5a196449406b192adee0d90f05b2a744c5889914a4666e142b1fdd01a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/RENDERUSDT/5m/RENDERUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "RENDERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

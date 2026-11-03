@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 179,
+    "1d": 21,
+    "1h": 193,
+    "4h": 89,
+    "5m": 106
+  },
+  "event_file": "events/ENAUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 341217,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "ebf1876bb7bf87b66c64c3b1f488b7ea3e5cb7578079f8ef6a5d94fedebed563",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13438,
+      "source_id": "eafc237928705bbf1c47dc20e71cf83c6ab23cd3eb6eb2733d883f00453c9447",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13289,
+      "source_id": "1cbfd98f9811c5cc6c2eb9f0252d810b0e5f12e1fe5807767896d931106648fd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12802,
+      "source_id": "096aa6ba25dabe377cc05b2d53e61b72e7ef7681b5ae21dce4771ec2173a27a2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12739,
+      "source_id": "4276d9a406795fe767eb6af38a1ca94540f917d0397a0278473f8f26f950dc6d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13343,
+      "source_id": "71473e2c98036f8fc8d6ba8ded7497b6a5c13ed403e9a51e144343497ab922f4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13060,
+      "source_id": "f20751dd64214a6887d009887c0e27eefb67a80f60191b14add703ac94ec29f6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13168,
+      "source_id": "4d44b756549e0e6e21fb181d27dd7b5d91bd5af9f849c195b867c8e0245e464d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13277,
+      "source_id": "8fb002b0ad00217f4bb1fb0ee9fb79402dc8b467e60af76d5addd9c7fbaf9b95",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13059,
+      "source_id": "23c0125a44948eb45623ac73ba7a3310aaa7b19ae9b40826722e018938f45a20",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12805,
+      "source_id": "353bbc38a1d2d1a0e673000aae5b771dc28d0a87aefc17e0b9827a1a89d70922",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13064,
+      "source_id": "9c400a8c1b314b7ee158180a0a7d418f2a0bf770e9c7a7098a4912d850bf305a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13415,
+      "source_id": "f60563c4d5b737826878791d5437ca389361637acfed69f5369903a792f350e6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13153,
+      "source_id": "98bfb5eab2a2823ef2424ce1ab8c66d7a88fe170076e36d633b67b7504ca05e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 13051,
+      "source_id": "c72a1ff906c236b9ef20494192b043402891b94156942403d0f60fc26816172a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 13273,
+      "source_id": "fca28d2f8db3846592fb88f0845821b106098365d85b46a0f56a1920860fc20c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12993,
+      "source_id": "e96c8ac99a753b3bbf93a3716284e649c8ed7d6078961f30c880e53c5732ce05",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12786,
+      "source_id": "1d9f7efa8c00372706569631d4e4d563a7bbffd2e5c11c87136b3fd8803afdaa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12971,
+      "source_id": "1b445bcf7d9a82dfe5ea06055e5cfabbbddb6106564440b95b884c2a4b92ae33",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12959,
+      "source_id": "26c2fe196d360a7a4b8fcccc0602f88c85c8dcb72c63a15120e26676d83a790a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13185,
+      "source_id": "01ab315e60ffdf29c68c407c1e022cdd5b07ac5cc5859aee886c8140a62102a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 13387,
+      "source_id": "ea960c3b296db74d5b919b640a32bb61322fd9f3551a5b82a30fe3c4cb3d2a7e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 13148,
+      "source_id": "4db20e1d012ae109a0b5cb87db29e72ae4ba807b1bbd1222ded290bdfd78ca29",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13219,
+      "source_id": "481173096673a3958bf121b237d3236d8d890f8f794deb07437d92206f9530cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13195,
+      "source_id": "37931bc3f90bd0a9eeb7eabac8385ef4ec5ac54831b7b45f44d14ee49ad39f47",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 13151,
+      "source_id": "e8a75e79d802ef88ec243b4e9f65c06c7c368dcbd846e0dd7e6e4c5001c7c036",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13287,
+      "source_id": "57fe6d0ad38405ee23024176ed8eb4a57811e15883ea6b0a1ea4a72393395cad",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ENAUSDT/5m/ENAUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ENAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

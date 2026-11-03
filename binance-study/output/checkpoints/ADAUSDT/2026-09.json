@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 117,
+    "1d": 22,
+    "1h": 147,
+    "4h": 88,
+    "5m": 51
+  },
+  "event_file": "events/ADAUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 328755,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 328755,
+      "source_id": "e54f6bc3e59047e777d939e48077979eba8b3d645cfa925e522d9245216d9e95",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ADAUSDT/5m/ADAUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "ADAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

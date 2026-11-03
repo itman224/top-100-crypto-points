@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 134,
+    "1d": 25,
+    "1h": 110,
+    "4h": 87,
+    "5m": 137
+  },
+  "event_file": "events/KATUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 343869,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 343869,
+      "source_id": "4f32a74a51fa81cc0a78313e0d593c09ff6e20ded094fa08511eaad4a46fc3e9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "KATUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,15 @@
+test_exact_threshold (test_backtest.BacktestTests.test_exact_threshold) ... ok
+test_next_bar_and_gap (test_backtest.BacktestTests.test_next_bar_and_gap) ... ok
+test_strict_direction_and_cost (test_backtest.BacktestTests.test_strict_direction_and_cost) ... ok
+test_gap_invalidates_bucket (test_data.DataTests.test_gap_invalidates_bucket) ... ok
+test_one_day_and_duplicate_rejected (test_data.DataTests.test_one_day_and_duplicate_rejected) ... ok
+test_validates_close (test_data.DataTests.test_validates_close) ... ok
+test_causality (test_indicators.IndicatorTests.test_causality) ... ok
+test_prior_donchian_and_execution_delay (test_indicators.IndicatorTests.test_prior_donchian_and_execution_delay) ... ok
+test_unsorted_index_rejected (test_indicators.IndicatorTests.test_unsorted_index_rejected) ... ok
+test_warmup_and_short_segments (test_indicators.IndicatorTests.test_warmup_and_short_segments) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.177s
+
+OK

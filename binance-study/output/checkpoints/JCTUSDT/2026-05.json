@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 603,
+    "1d": 28,
+    "1h": 364,
+    "4h": 137,
+    "5m": 619
+  },
+  "event_file": "events/JCTUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 357497,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 357497,
+      "source_id": "a0c0a06c08b65eb26c209fad463b3b2b63ca482b16b14e71932e5fda2fa3aa52",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/JCTUSDT/5m/JCTUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "JCTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

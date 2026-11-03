@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 65,
+    "1d": 22,
+    "1h": 87,
+    "4h": 59,
+    "5m": 36
+  },
+  "event_file": "events/APTUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 342934,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 342934,
+      "source_id": "9bd74f64e11f8e0b69e2849f27b7d1ba08f61e81cc7c16108412914c28cde59d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/APTUSDT/5m/APTUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "APTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,522 @@
+{
+  "scope": {
+    "symbols_processed": 100,
+    "requested_symbols": 100,
+    "status": "complete"
+  },
+  "questions": [
+    {
+      "question": "Which tested signal has the highest validation precision for up events?",
+      "answer": "bb_reversal_20_2 (1d, LONG): precision 0.4308, event base rate 0.3453, 253 signals. Exploratory maximum; no multiple-testing correction.",
+      "evidence": {
+        "strategy": "bb_reversal_20_2",
+        "timeframe": "1d",
+        "direction": "LONG",
+        "metrics": {
+          "valid_samples": 6200,
+          "tp": 109,
+          "fp": 144,
+          "fn": 2032,
+          "tn": 3915,
+          "trades": 253,
+          "wins": 145,
+          "gross_return_sum": 1.8117265232726063,
+          "net_return_sum": 1.558726523272606,
+          "net_positive_sum": 4.596864703949177,
+          "net_negative_abs_sum": 3.038138180676571,
+          "net_squared_sum": 0.5636459268218198,
+          "downside_squared_sum": 0.1943502623464727,
+          "symbols": 100,
+          "precision": 0.4308300395256917,
+          "recall": 0.05091078935077067,
+          "detection_rate": 0.05091078935077067,
+          "f1": 0.0910609857978279,
+          "false_positive_rate": 0.03547671840354767,
+          "event_base_rate": 0.3453225806451613,
+          "predictive_lift": 1.2476161817184908,
+          "win_rate": 0.5731225296442688,
+          "gross_average_return": 0.007160974400286981,
+          "net_average_return": 0.00616097440028698,
+          "expectancy": 0.00616097440028698,
+          "net_profit_fraction_sum": 1.558726523272606,
+          "profit_factor": 1.5130532025128263,
+          "sharpe_per_trade": 0.13139476868453157,
+          "sortino_per_trade": 0.22228855322381355,
+          "worst_symbol_segment_drawdown": -0.35010174837521413
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Which tested signal has the highest validation precision for down events?",
+      "answer": "rsi_reversal_21 (1d, SHORT): precision 0.5034, event base rate 0.3600, 145 signals. Exploratory maximum; no multiple-testing correction.",
+      "evidence": {
+        "strategy": "rsi_reversal_21",
+        "timeframe": "1d",
+        "direction": "SHORT",
+        "metrics": {
+          "valid_samples": 6200,
+          "tp": 73,
+          "fp": 72,
+          "fn": 2159,
+          "tn": 3896,
+          "trades": 145,
+          "wins": 83,
+          "gross_return_sum": 1.8211235325172623,
+          "net_return_sum": 1.6761235325172623,
+          "net_positive_sum": 4.36196274286645,
+          "net_negative_abs_sum": 2.685839210349188,
+          "net_squared_sum": 0.8634489485467798,
+          "downside_squared_sum": 0.2533194555596661,
+          "symbols": 100,
+          "precision": 0.503448275862069,
+          "recall": 0.03270609318996416,
+          "detection_rate": 0.03270609318996416,
+          "f1": 0.061421960454354226,
+          "false_positive_rate": 0.018145161290322582,
+          "event_base_rate": 0.36,
+          "predictive_lift": 1.3984674329501916,
+          "win_rate": 0.5724137931034483,
+          "gross_average_return": 0.012559472638050085,
+          "net_average_return": 0.011559472638050084,
+          "expectancy": 0.011559472638050084,
+          "net_profit_fraction_sum": 1.6761235325172623,
+          "profit_factor": 1.6240595215300875,
+          "sharpe_per_trade": 0.15098334607668337,
+          "sortino_per_trade": 0.27655897023979054,
+          "worst_symbol_segment_drawdown": -0.3596902760434876
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Which train-selected LONG rule has the highest validation net mean?",
+      "answer": "donchian_breakout_20__volume_surge (1d, LONG): 0.006501 per trade after cost, 192 trades; train-selected, validation-ranked descriptively.",
+      "evidence": {
+        "strategy": "donchian_breakout_20__volume_surge",
+        "timeframe": "1d",
+        "direction": "LONG",
+        "metrics": {
+          "valid_samples": 6200,
+          "tp": 82,
+          "fp": 110,
+          "fn": 2059,
+          "tn": 3949,
+          "trades": 192,
+          "wins": 94,
+          "gross_return_sum": 1.4402455247176156,
+          "net_return_sum": 1.2482455247176154,
+          "net_positive_sum": 7.800417354384461,
+          "net_negative_abs_sum": 6.552171829666846,
+          "net_squared_sum": 2.140071993968238,
+          "downside_squared_sum": 0.8837913464906341,
+          "symbols": 100,
+          "precision": 0.4270833333333333,
+          "recall": 0.03829985987856142,
+          "detection_rate": 0.03829985987856142,
+          "f1": 0.07029575653664809,
+          "false_positive_rate": 0.02710027100271003,
+          "event_base_rate": 0.3453225806451613,
+          "predictive_lift": 1.2367663085785459,
+          "win_rate": 0.4895833333333333,
+          "gross_average_return": 0.0075012787745709145,
+          "net_average_return": 0.006501278774570914,
+          "expectancy": 0.006501278774570914,
+          "net_profit_fraction_sum": 1.2482455247176154,
+          "profit_factor": 1.1905086675330803,
+          "sharpe_per_trade": 0.06153557629971581,
+          "sortino_per_trade": 0.09582405187780904,
+          "worst_symbol_segment_drawdown": -0.5646593061049927
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Which train-selected SHORT rule has the highest validation net mean?",
+      "answer": "donchian_breakout_20__volume_surge (1d, SHORT): 0.005889 per trade after cost, 69 trades; train-selected, validation-ranked descriptively.",
+      "evidence": {
+        "strategy": "donchian_breakout_20__volume_surge",
+        "timeframe": "1d",
+        "direction": "SHORT",
+        "metrics": {
+          "valid_samples": 6200,
+          "tp": 25,
+          "fp": 44,
+          "fn": 2207,
+          "tn": 3924,
+          "trades": 69,
+          "wins": 27,
+          "gross_return_sum": 0.4753135238090146,
+          "net_return_sum": 0.40631352380901453,
+          "net_positive_sum": 2.3795198869976915,
+          "net_negative_abs_sum": 1.973206363188677,
+          "net_squared_sum": 0.7699416336802309,
+          "downside_squared_sum": 0.26917637170042635,
+          "symbols": 100,
+          "precision": 0.36231884057971014,
+          "recall": 0.011200716845878136,
+          "detection_rate": 0.011200716845878136,
+          "f1": 0.0217296827466319,
+          "false_positive_rate": 0.011088709677419355,
+          "event_base_rate": 0.36,
+          "predictive_lift": 1.0064412238325282,
+          "win_rate": 0.391304347826087,
+          "gross_average_return": 0.0068886017943335445,
+          "net_average_return": 0.005888601794333544,
+          "expectancy": 0.005888601794333544,
+          "net_profit_fraction_sum": 0.40631352380901453,
+          "profit_factor": 1.2059153727603114,
+          "sharpe_per_trade": 0.05542600593427896,
+          "sortino_per_trade": 0.09427971584312841,
+          "worst_symbol_segment_drawdown": -0.33147038426693953
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "How many train-selected candidates pass validation?",
+      "answer": "5 of 10 train-selected candidates pass the validation gate (>=30 trades and positive net mean).",
+      "evidence": {
+        "candidates": 10,
+        "passed": 5
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "How many frozen candidates pass the holdout gate?",
+      "answer": "1 of 5 validation-passing, train-selected candidates meet the predeclared holdout gate (>=30 trades, positive mean net return, profit factor >1). This is exploratory evidence, not proof of robustness.",
+      "evidence": {
+        "evaluated": 5,
+        "passed": 1
+      },
+      "split": "holdout",
+      "status": "answered"
+    },
+    {
+      "question": "Does a volume surge improve breakout signals?",
+      "answer": "4 of 10 eligible timeframe/direction comparisons improve net mean; subgroup trade counts differ.",
+      "evidence": {
+        "comparisons": [
+          {
+            "timeframe": "15m",
+            "direction": "LONG",
+            "filtered_net_mean": -0.0013205914867840277,
+            "baseline_net_mean": -0.0012250631996432034,
+            "filtered_trades": 16614,
+            "baseline_trades": 26323
+          },
+          {
+            "timeframe": "15m",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0011926469155244233,
+            "baseline_net_mean": -0.0011940172586430472,
+            "filtered_trades": 14682,
+            "baseline_trades": 23842
+          },
+          {
+            "timeframe": "1d",
+            "direction": "LONG",
+            "filtered_net_mean": 0.006501278774570914,
+            "baseline_net_mean": 0.005027427714150295,
+            "filtered_trades": 192,
+            "baseline_trades": 251
+          },
+          {
+            "timeframe": "1d",
+            "direction": "SHORT",
+            "filtered_net_mean": 0.005888601794333544,
+            "baseline_net_mean": -0.005719115011466761,
+            "filtered_trades": 69,
+            "baseline_trades": 238
+          },
+          {
+            "timeframe": "1h",
+            "direction": "LONG",
+            "filtered_net_mean": -0.0006008223646070279,
+            "baseline_net_mean": -0.0008206230862657847,
+            "filtered_trades": 4184,
+            "baseline_trades": 6266
+          },
+          {
+            "timeframe": "1h",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0019032975258881314,
+            "baseline_net_mean": -0.0017660763288417586,
+            "filtered_trades": 3328,
+            "baseline_trades": 5709
+          },
+          {
+            "timeframe": "4h",
+            "direction": "LONG",
+            "filtered_net_mean": -0.003089275766638847,
+            "baseline_net_mean": -0.0016012248690975488,
+            "filtered_trades": 1130,
+            "baseline_trades": 1589
+          },
+          {
+            "timeframe": "4h",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0032751313722086672,
+            "baseline_net_mean": -0.002686211386669786,
+            "filtered_trades": 700,
+            "baseline_trades": 1401
+          },
+          {
+            "timeframe": "5m",
+            "direction": "LONG",
+            "filtered_net_mean": -0.0011575667263841634,
+            "baseline_net_mean": -0.00110139245469271,
+            "filtered_trades": 46875,
+            "baseline_trades": 82020
+          },
+          {
+            "timeframe": "5m",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0011147802183296095,
+            "baseline_net_mean": -0.0011036746216179806,
+            "filtered_trades": 43911,
+            "baseline_trades": 73652
+          }
+        ]
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Does a trend-strength filter improve EMA signals?",
+      "answer": "3 of 10 eligible timeframe/direction comparisons improve net mean; subgroup trade counts differ.",
+      "evidence": {
+        "comparisons": [
+          {
+            "timeframe": "15m",
+            "direction": "LONG",
+            "filtered_net_mean": -0.000974657550236124,
+            "baseline_net_mean": -0.0009802260572453281,
+            "filtered_trades": 130927,
+            "baseline_trades": 285406
+          },
+          {
+            "timeframe": "15m",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.001078668696320592,
+            "baseline_net_mean": -0.001041976961418911,
+            "filtered_trades": 126701,
+            "baseline_trades": 309794
+          },
+          {
+            "timeframe": "1d",
+            "direction": "LONG",
+            "filtered_net_mean": 0.0005327316921866987,
+            "baseline_net_mean": 0.0014148199358859149,
+            "filtered_trades": 950,
+            "baseline_trades": 1374
+          },
+          {
+            "timeframe": "1d",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0035745127962811744,
+            "baseline_net_mean": -0.003270963778769959,
+            "filtered_trades": 1278,
+            "baseline_trades": 4826
+          },
+          {
+            "timeframe": "1h",
+            "direction": "LONG",
+            "filtered_net_mean": -0.0008473066070663692,
+            "baseline_net_mean": -0.000972977482016153,
+            "filtered_trades": 35261,
+            "baseline_trades": 69860
+          },
+          {
+            "timeframe": "1h",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0012387901009110972,
+            "baseline_net_mean": -0.0011753291397342495,
+            "filtered_trades": 29251,
+            "baseline_trades": 78940
+          },
+          {
+            "timeframe": "4h",
+            "direction": "LONG",
+            "filtered_net_mean": -0.0007663276768467633,
+            "baseline_net_mean": -0.0008172045697034636,
+            "filtered_trades": 8903,
+            "baseline_trades": 17073
+          },
+          {
+            "timeframe": "4h",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0018188659208446501,
+            "baseline_net_mean": -0.0015775186065387127,
+            "filtered_trades": 6312,
+            "baseline_trades": 20127
+          },
+          {
+            "timeframe": "5m",
+            "direction": "LONG",
+            "filtered_net_mean": -0.001002875908291558,
+            "baseline_net_mean": -0.0009982934119782713,
+            "filtered_trades": 380157,
+            "baseline_trades": 866862
+          },
+          {
+            "timeframe": "5m",
+            "direction": "SHORT",
+            "filtered_net_mean": -0.0010480277961875046,
+            "baseline_net_mean": -0.001028451589329113,
+            "filtered_trades": 396961,
+            "baseline_trades": 918738
+          }
+        ]
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Which timeframe has the highest median validation net mean across tested rules?",
+      "answer": "1d has the highest descriptive median; correlated rules and trade dependence limit inference.",
+      "evidence": {
+        "median_by_timeframe": {
+          "15m": -0.0009999041999472597,
+          "1d": 0.00042607758076161677,
+          "1h": -0.0009887907125559288,
+          "4h": -0.001401406620171924,
+          "5m": -0.0010089971359928513
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "How many tested validation configurations remain profitable after costs?",
+      "answer": "25 of 208 eligible configurations have positive pooled net mean. Results are in-sample for this descriptive comparison and not independent strategies.",
+      "evidence": {
+        "positive": 25,
+        "cost_roundtrip_fraction": 0.001
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "How did the unconditional 1h LONG baseline differ for BTC and ETH in validation?",
+      "answer": "BTC net mean -0.000796 over 1488 trades; ETH net mean -0.000684 over 1488 trades. Independent single-symbol tests; not a portfolio comparison.",
+      "evidence": {
+        "BTCUSDT": {
+          "valid_samples": 1488,
+          "tp": 22,
+          "fp": 1466,
+          "fn": 0,
+          "tn": 0,
+          "trades": 1488,
+          "wins": 493,
+          "gross_return_sum": 0.304130610794073,
+          "net_return_sum": -1.1838693892059275,
+          "net_positive_sum": 1.3014022398551435,
+          "net_negative_abs_sum": 2.4852716290610712,
+          "net_squared_sum": 0.022180526423999345,
+          "downside_squared_sum": 0.011711099278508563,
+          "symbols": 1,
+          "precision": 0.01478494623655914,
+          "recall": 1.0,
+          "detection_rate": 1.0,
+          "f1": 0.02913907284768212,
+          "false_positive_rate": 1.0,
+          "event_base_rate": 0.01478494623655914,
+          "predictive_lift": 1.0,
+          "win_rate": 0.33131720430107525,
+          "gross_average_return": 0.00020438885134010283,
+          "net_average_return": -0.0007956111486598975,
+          "expectancy": -0.0007956111486598975,
+          "net_profit_fraction_sum": -1.1838693892059275,
+          "profit_factor": 0.5236458762243263,
+          "sharpe_per_trade": -0.21051988697526544,
+          "sortino_per_trade": -0.2835982159139336,
+          "worst_symbol_segment_drawdown": -0.7023629907290813
+        },
+        "ETHUSDT": {
+          "valid_samples": 1488,
+          "tp": 40,
+          "fp": 1448,
+          "fn": 0,
+          "tn": 0,
+          "trades": 1488,
+          "wins": 551,
+          "gross_return_sum": 0.4705074205678209,
+          "net_return_sum": -1.0174925794321796,
+          "net_positive_sum": 1.9211983776058617,
+          "net_negative_abs_sum": 2.938690957038042,
+          "net_squared_sum": 0.040296469214091336,
+          "downside_squared_sum": 0.018681226567252927,
+          "symbols": 1,
+          "precision": 0.026881720430107527,
+          "recall": 1.0,
+          "detection_rate": 1.0,
+          "f1": 0.05235602094240838,
+          "false_positive_rate": 1.0,
+          "event_base_rate": 0.026881720430107527,
+          "predictive_lift": 1.0,
+          "win_rate": 0.3702956989247312,
+          "gross_average_return": 0.00031620122349987963,
+          "net_average_return": -0.0006837987765001207,
+          "expectancy": -0.0006837987765001207,
+          "net_profit_fraction_sum": -1.0174925794321796,
+          "profit_factor": 0.6537599242971337,
+          "sharpe_per_trade": -0.1325050171758796,
+          "sortino_per_trade": -0.19298657169830338,
+          "worst_symbol_segment_drawdown": -0.6632448954931309
+        }
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "How did the base rate of >1% up candles compare for BTC and ETH in validation?",
+      "answer": "BTC 1.4785% across 1488 candles; ETH 2.6882% across 1488 candles (1h, validation).",
+      "evidence": {
+        "BTCUSDT": 0.01478494623655914,
+        "ETHUSDT": 0.026881720430107527,
+        "btc_candles": 1488,
+        "eth_candles": 1488
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "What was the modeled cost effect on the BTC 1h LONG validation baseline?",
+      "answer": "Gross mean 0.000204; net mean -0.000796 per trade after fixed 0.001 round-trip cost, across 1488 trades. Funding is unmodeled.",
+      "evidence": {
+        "gross": 0.00020438885134010283,
+        "net": -0.0007956111486598975,
+        "trades": 1488
+      },
+      "split": "validation",
+      "status": "answered"
+    },
+    {
+      "question": "Does multi-timeframe confirmation improve profitability?",
+      "answer": "Not measured: current engine has no synchronized cross-timeframe signal.",
+      "evidence": {},
+      "split": "validation",
+      "status": "not_tested"
+    },
+    {
+      "question": "Which rule is most stable across months and symbols?",
+      "answer": "Not established: monthly per-symbol stability and confidence intervals have not been independently evaluated.",
+      "evidence": {},
+      "split": "validation",
+      "status": "not_tested"
+    },
+    {
+      "question": "What are the effects of BTC/ETH market regime, hour, and funding?",
+      "answer": "Not measured: market regime, hour stratification, and verified funding series are not in the current experiment.",
+      "evidence": {},
+      "split": "validation",
+      "status": "not_tested"
+    }
+  ]
+}

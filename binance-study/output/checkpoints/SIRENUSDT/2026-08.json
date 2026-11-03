@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 272,
+    "1d": 29,
+    "1h": 207,
+    "4h": 96,
+    "5m": 263
+  },
+  "event_file": "events/SIRENUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 334390,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 334390,
+      "source_id": "684bcc5ef4fc4b851de51df1e1989ad22e7c6098f8460a4e4e71f1ba2b4750af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "SIRENUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

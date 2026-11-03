@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 53,
+    "1d": 26,
+    "1h": 93,
+    "4h": 70,
+    "5m": 14
+  },
+  "event_file": "events/HYPEUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 397854,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 397854,
+      "source_id": "0f58a3a9bb49aa6be2d94ea8f2d7e8644c0e299b4392b089df516712f6fccb7f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HYPEUSDT/5m/HYPEUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "HYPEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

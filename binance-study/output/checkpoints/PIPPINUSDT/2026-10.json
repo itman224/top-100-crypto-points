@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 32,
+    "1d": 19,
+    "1h": 64,
+    "4h": 57,
+    "5m": 24
+  },
+  "event_file": "events/PIPPINUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 276015,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "2a0431f707249ccd643bbeeafca9c9ddf2363335a560c12703e5b32f689eda75",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10889,
+      "source_id": "3d3fb8b174de385f3a0249274676d662562f561a825c7db9c724c6983e895b53",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11103,
+      "source_id": "26dda64b961275172dee619235cae4c40319aab1ae95c406bd01defaee451c0d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10566,
+      "source_id": "5000e7e6f03eaa984de2cb38d663a7f7c9310287a5f1caa77b19c23f5d96a426",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10645,
+      "source_id": "52bea6e6d04a522ba293f9c5523c59bceed868c47a2b1b8daaaeb1583497198d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10542,
+      "source_id": "e5fa68eab18ceb04a85fd58ef7015c295c19f1d66a8fdffce597cc342b48e6cb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10555,
+      "source_id": "9ee326211dc33ce091b240c936c29f3b3bc1c6b7c078abaf47981ddaa1a4dd94",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10763,
+      "source_id": "a07f0849bcd521ceb20444cc94011063d1434be5252ec9b5fd990e081805a901",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10984,
+      "source_id": "fcedbaa528fb14978c044b2c99a19dda9a05db311016e975f3910edef6afa4c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10677,
+      "source_id": "869fc433d279f79a348e520e0a01426620d27997b20d234854d2a2560f0c2268",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10261,
+      "source_id": "be8fe7d02b22844dfe9821ac8fdde347d9d5c2a717db2c2e57dc06b415241c81",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10217,
+      "source_id": "9bad5adf42dc54a2032052e04a35502dcfa4e43c82b10f2cf8dcb2e65b3ff00e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10729,
+      "source_id": "2572f4e984b7a91def65872a8b4ff72e257fb413257d5ad9ed79706dba399c06",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11185,
+      "source_id": "0e505b5757dc5801e06bc0a47cb070e5ed87139aa57f99f7485e04d8e6f1f6ec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10828,
+      "source_id": "193144a79831037324e8e3f1a54b43611ab623f5920905f684679e5e89b5ccda",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 10979,
+      "source_id": "957af9c723ba15f5acb46192ac9832beaab39afa236c3ead7a4c04bb3541dae1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 10530,
+      "source_id": "80398d80945ea32a102b7142713759db6653100003fcc41e51567ae34358f232",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10360,
+      "source_id": "b27e786980f3fe3e4d734813a1d9d9e22a094d4d3022ddff66fcce7033dace3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10496,
+      "source_id": "197c01d7e4071160ff0ac097dc9b4dc07f5df6852d30381b0d4d3c06a2b08a07",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10451,
+      "source_id": "1f1eb3cd31adc77bb488cc73d24e5ec3281c2439e8e4912f85f51ec8f81fc952",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 10439,
+      "source_id": "5073977e8a54f4f7b464a068078df9103550a4be1264d00addc4808169f19c81",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 10446,
+      "source_id": "05346095113909e5807be5b85c5e9e253866b9c8123f52edd35e101623b5a66e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10423,
+      "source_id": "8b7e4e91c82d843e9f36b942693852c1c7e1baa38a3ba8dccbfca06602feabd2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 10520,
+      "source_id": "c7220153a86073131466936482e03987f73a19c6abd3ec92448b991b40f0a76d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10513,
+      "source_id": "f62b36f7648db34ff66b989cd57b7525afcea331d60a67df608e63376ec84d77",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10292,
+      "source_id": "7414df538459d00e49831a17f3763cd882b60dcbb2f73fb777935c58ff4a6e46",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 10622,
+      "source_id": "77712eb9d62ba2147f517b91b51694e9536e011e05be89d3381352f62c1354e3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PIPPINUSDT/5m/PIPPINUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "PIPPINUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

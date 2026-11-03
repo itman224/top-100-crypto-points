@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 164,
+    "1d": 24,
+    "1h": 137,
+    "4h": 79,
+    "5m": 158
+  },
+  "event_file": "events/MANTRAUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 349965,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 349965,
+      "source_id": "89162054ab8cfd90ec0ab57a9dacd1944d04832241e6ead851c90c3832c3123c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/MANTRAUSDT/5m/MANTRAUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "MANTRAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

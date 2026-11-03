@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 86,
+    "1d": 17,
+    "1h": 115,
+    "4h": 82,
+    "5m": 57
+  },
+  "event_file": "events/ONDOUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 329361,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "206880976639ea2f6cf16a2aecb42d212c1c3e51e9990d2c1e1dd2315831f8f0",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12887,
+      "source_id": "aa1ecd629e49c63c66bb7d860a207d43c6ac5014232ef952bf0f3c2a4a8ec15b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13010,
+      "source_id": "e3bfe191efc0f210a5e03845bead5cd7dec77de739d2a830942771feb423e169",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12578,
+      "source_id": "c02c51fe5cd9cab3558f968951ee7f27e36443077446e6ce09b3b55fb029f373",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12349,
+      "source_id": "5b9e2a810b2cb9c3433a0848aa84438d2267086de9ead74f9ea784555f2d6f2d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12821,
+      "source_id": "d736432e83475452410aa3d96976b55e7f80a846b0a53dffe5b7ce342bc4e7a4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12760,
+      "source_id": "8de96d3a5dfd4f633d4e5c2fb5f1eca79cbfcf31c04c0cd0f1150cc7fe078c62",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12800,
+      "source_id": "6e96e8d9d3c5ddd1bafcf3b5cd3d2ab4fa83636d1c652818466b85c140e832e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13161,
+      "source_id": "5b6e2919b39b189ae3eccf0fc23bef2782c9c0be51357ae895eb997ea84289ec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12944,
+      "source_id": "fcee8b501009baa11978bb77de601ed895281c249820aeb056f2f594d7babdab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12701,
+      "source_id": "5372d395382495deb31c9179d48539abca7151a31a01d2525f44511497b8b0bd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12764,
+      "source_id": "953e9c35d50f75e432c0a4667eab88e8b93903167dff3e7dee111570f2e44cd3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13072,
+      "source_id": "b25409659ad8874a25a9634d833327867d8ce8c9be1fcce7b0433548c25e7bcb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12860,
+      "source_id": "4fcf93d89ddb66cf2941c14e2b7e5d49d0793e1db97742eef96bfc114b8ef41d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12684,
+      "source_id": "2822688e301fa83300a5f5f2d0d3daee7567b187b3ccbdaa39c241bdc4582b38",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12939,
+      "source_id": "b3e7d643f5ff20299db1c534ca87f76574a8171fc76d0d19739b98998b93dc1c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12640,
+      "source_id": "82b50803888d08cdd923282b2c6ab26eec712390db0a6c8fdce1ec400ad464e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12333,
+      "source_id": "7b034f1f29b778e33327ea54b16770422111485c50dd656b10fdaaf37f8a800e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12442,
+      "source_id": "c1a34330a2d2a8006fd9006a0777999de74ed0ea9d27a2e1131729828da34c35",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12414,
+      "source_id": "34033abb62eb8b0ee98c4dea519362215b39af59433af42ba60e256cf124c220",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12590,
+      "source_id": "e65b984d472eb95112e777c51955c1c5ae1de2e6d38ccb4480676537119a7804",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12538,
+      "source_id": "75f83a811ad812a52411ff6dbe71c20704f6fce94d633bd4d96dec47b7a0dcfb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12559,
+      "source_id": "af63bf4fa4220a87dee4e40e1a1aa4ac3d83e106080d101e1eb44dbfafcebd58",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12410,
+      "source_id": "c4597d7ccf45332c377b235bd18252440942521fb8330a0b48e711bb2683cda3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12325,
+      "source_id": "3129260661ce7e37e1d93be5d18f78295f55374040ff6c1218463625ebd21810",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12237,
+      "source_id": "642d8bdd13a7d2e41d6d987a45e729d24467de45d87e09b2d8e978360e5e4bff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12543,
+      "source_id": "7665d81f4f8c37e57f33acab5bc01bbde8ac7666f24d9b506a0d5427745d2656",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ONDOUSDT/5m/ONDOUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ONDOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

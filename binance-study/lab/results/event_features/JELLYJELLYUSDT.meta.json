@@ -1,0 +1,352 @@
+{
+  "symbol": "JELLYJELLYUSDT",
+  "event_count": 3632,
+  "quality_counts": {
+    "complete": 3632
+  },
+  "source_event_files": [
+    "output/events/JELLYJELLYUSDT/2026-04.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-05.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-06.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-07.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-08.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-09.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-10-27.jsonl.gz",
+    "output/events/JELLYJELLYUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/JELLYJELLYUSDT/2026-04.jsonl.gz": "6ead7c295d95168da2d68ca2a3b072ff4b7b5a5af6969bded3f6c268ea231599",
+    "output/events/JELLYJELLYUSDT/2026-05.jsonl.gz": "7e5612f760afceccee316008f184fe5a1afe18907dfb18ffe61305dc06795d41",
+    "output/events/JELLYJELLYUSDT/2026-06.jsonl.gz": "d4831ca69a7e720eae30ecee17d63619dcdc4e277f363feba76f22c7d981d585",
+    "output/events/JELLYJELLYUSDT/2026-07.jsonl.gz": "72ca7702d24e8081fb35132efbff9e77f7de664163bb0ad87b36053a01292688",
+    "output/events/JELLYJELLYUSDT/2026-08.jsonl.gz": "040929b0c1bed85cef646208a0deb3a9fefea9556f548d68adac429ae5266d14",
+    "output/events/JELLYJELLYUSDT/2026-09.jsonl.gz": "c2a0832a943e767da70f85209edcebd9e6b687efd3a69f54a847caf446804bb9",
+    "output/events/JELLYJELLYUSDT/2026-10-27.jsonl.gz": "25aefeaf6bec3e97294521247249d7c1e13d4af087dd18092bfd41f0197b83ee",
+    "output/events/JELLYJELLYUSDT/2026-10.jsonl.gz": "490acc73a4c80c033f141080aa2af01b989a189edade97fa591d6997531e4b77"
+  },
+  "market_data_quality": {
+    "symbol": "JELLYJELLYUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-07.zip",
+        "source_id": "985c356f816253e201d92500585df9ea1bc42579841ef77054a2b9b6fa7e058d",
+        "status": "available",
+        "bytes": 338776,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-08.zip",
+        "source_id": "a37f37acf2273092fe8815bac126f23db6c9d1663d3648a3fbe57c6785f10c1c",
+        "status": "available",
+        "bytes": 326856,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-09.zip",
+        "source_id": "9c9ef5e136df8970219c5352e8e7c0928cc105da823067cd1b89a20a32059283",
+        "status": "available",
+        "bytes": 354635,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-10.zip",
+        "source_id": "6dc304787d773c0d99255a22d3725e0f5c8d3d5141d09bddf2338f1f04e46369",
+        "status": "available",
+        "bytes": 364564,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-11.zip",
+        "source_id": "1c8467a827098e0d2f77bbf8a63e9c5044a9d945209cc15cc3ac740d66b04f47",
+        "status": "available",
+        "bytes": 363099,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2025-12.zip",
+        "source_id": "2fb6a375aa8bccc9d053c08c820873dd9eb730e55c237bec0f5dae97a97420b3",
+        "status": "available",
+        "bytes": 372766,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-01.zip",
+        "source_id": "eeb3f1a9073e6dd17f494249c823a9162366cbfa30ab1468d0d1a8e167fc6cb3",
+        "status": "available",
+        "bytes": 347736,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-02.zip",
+        "source_id": "f1b279180b46d8efc0b989a3c67193d40a8b1a7348bb280377bcf12fbbd29b32",
+        "status": "available",
+        "bytes": 311576,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-03.zip",
+        "source_id": "04a58ca09c74d6503f6a2ceb4b7c96649fe535f8bb93b8c6f7806eab4716e853",
+        "status": "available",
+        "bytes": 348957,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-04.zip",
+        "source_id": "b416ec32949bd52ae23df13a311b74373b7b82cfae5853ba9d99f5c7dd4a0768",
+        "status": "available",
+        "bytes": 321435,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-05.zip",
+        "source_id": "0fd27f68dab7308b3bee60e2f9aad6a0f9fbd0278a893403ae49b385d6277164",
+        "status": "available",
+        "bytes": 340219,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-06.zip",
+        "source_id": "a050c78a7d99aa56cb50cd8635e8888ee074ecf9b4140a6d073ef139672f45c5",
+        "status": "available",
+        "bytes": 327542,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-07.zip",
+        "source_id": "0a154ec33c72ee9de81ce34f7812678183e0f22e12a7c363fa98887175195282",
+        "status": "available",
+        "bytes": 321464,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-08.zip",
+        "source_id": "fbe5f52b5d929a01828387181c816901ef1cbff8a18c9515fe146602c5959eb3",
+        "status": "available",
+        "bytes": 313395,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-09.zip",
+        "source_id": "cfec871c5627e86df35f6b5779e57c9bff24a0913553d832d0770ffc1461adcf",
+        "status": "available",
+        "bytes": 305661,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10.zip",
+        "source_id": "648b9cc208810fa6e0c511ab8207a08dda26758b5e0a92f6215d291eb8d6d25a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-01.zip",
+        "source_id": "e79dea7cb0652ca6b5d0e3cfc0e98ca81cd1866870f0a8e1ea66da03fe04f2ac",
+        "status": "available",
+        "bytes": 10900,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-02.zip",
+        "source_id": "2c615b8c65c2f2b5dea1e37e65e7872aba5826da1741fbfe0db203201cddf777",
+        "status": "available",
+        "bytes": 11013,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-03.zip",
+        "source_id": "2e94efcbe89558ff40b13307b8d4dc587cf844f3891b3b48437f445f0b308e34",
+        "status": "available",
+        "bytes": 10540,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-04.zip",
+        "source_id": "328ef53c46e3a90ea86467c9271355a07ddb048d12665f7fad05f6659da75d4b",
+        "status": "available",
+        "bytes": 10385,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-05.zip",
+        "source_id": "7993245c624449bac2a29e0f09a2929b0f879d5f3ccd00de1a7ca11d0e791173",
+        "status": "available",
+        "bytes": 10463,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-06.zip",
+        "source_id": "7b67ee96326b586e9f49dc0bb6242a26d28b5b9b5e86b07c0d4c294d296295ee",
+        "status": "available",
+        "bytes": 10459,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-07.zip",
+        "source_id": "601607cfbf61e07814e78a5c046de7b929dcb6133a5736f0fc025a46833e9e52",
+        "status": "available",
+        "bytes": 10679,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-08.zip",
+        "source_id": "d5e9b2391052c89020c333896bd18cd7489c82b95e4647a34b09529be4910f5b",
+        "status": "available",
+        "bytes": 10791,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-09.zip",
+        "source_id": "4a8c6d3db2fccdf8336aa8efc3e93c466d231d33e3f519aab7d365226cae1422",
+        "status": "available",
+        "bytes": 10475,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-10.zip",
+        "source_id": "fd75d433146fa4ecf7ab6aa80b84dc93ff86c0c36ae8094d1009b38f64e27571",
+        "status": "available",
+        "bytes": 10134,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-11.zip",
+        "source_id": "2c4ecbf48aa9c0254324eb05def0a20bda2cc1556b44649bbf09db290e6a0868",
+        "status": "available",
+        "bytes": 10355,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-12.zip",
+        "source_id": "e4d7cd7d64bb6c58086f08dd2b26e73e1c73e93c58d274c0916423bcb49531eb",
+        "status": "available",
+        "bytes": 10591,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-13.zip",
+        "source_id": "4e3a5694419445f980d6b6826e8861ae343e4969f4b325179d38b2111f4095c0",
+        "status": "available",
+        "bytes": 11123,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-14.zip",
+        "source_id": "d3347042a38ac560a38cdb92d6833b7b7a1521a2c41c78cee98031448e83a927",
+        "status": "available",
+        "bytes": 10979,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-15.zip",
+        "source_id": "a8b0579047dbb60bfb1a4d00cea4dbb70c2ae42f7688542c367942f82f118264",
+        "status": "available",
+        "bytes": 10918,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-16.zip",
+        "source_id": "e31475e04b55d775a0db1e07d825d012952883111d9c98500f3860752b16a0fd",
+        "status": "available",
+        "bytes": 10744,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-17.zip",
+        "source_id": "3f318ad353694ecbf0287f82e8d678d7302303dbd0bd44c86a65cc4078d8447a",
+        "status": "available",
+        "bytes": 10551,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-18.zip",
+        "source_id": "58a59fc09b68f039c7e00568045bf3050b660eb5c88bdf64d9a567bf28ab2e82",
+        "status": "available",
+        "bytes": 10529,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-19.zip",
+        "source_id": "40a964be61e053d4e7938e7c361479df2c25a7c1d836b4cba2305d96c9cce2a2",
+        "status": "available",
+        "bytes": 10305,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-20.zip",
+        "source_id": "742024d154eb288d666e7aa24ecaa90b90b322ebead669890d01f114344aab1e",
+        "status": "available",
+        "bytes": 10461,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-21.zip",
+        "source_id": "4f0cbfc6750fa6e94cf771225ce309daee377cf6b3d1528ce22425c2e6c95d6d",
+        "status": "available",
+        "bytes": 10341,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-22.zip",
+        "source_id": "157aa4626e8296ad94f95622bd57c0db7c57dbcd2e99d13524ef5c0e845348f0",
+        "status": "available",
+        "bytes": 10449,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-23.zip",
+        "source_id": "16b9539b55981c6ef54f337bb830aef1ce391d9ed3fb9313497d827bc9cbba2f",
+        "status": "available",
+        "bytes": 10498,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-24.zip",
+        "source_id": "24aeaa3a7a01580267acbc6bd802044873a22d90422dbd1b2ed78c19f66d1d1d",
+        "status": "available",
+        "bytes": 10457,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-25.zip",
+        "source_id": "87ed672a34620cebb88a7a865e74c01f69c82c7af51bd4213f359685c9980aca",
+        "status": "available",
+        "bytes": 10065,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-26.zip",
+        "source_id": "b4bd1a5a7c432466838a7c6f3ac0db4dfaf526c833ebea8024158ca21328ff68",
+        "status": "available",
+        "bytes": 10172,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/JELLYJELLYUSDT/5m/JELLYJELLYUSDT-5m-2026-10-27.zip",
+        "source_id": "f9ebf457774fea81fa61398112f7ec150cf8c3d73ecfd8349f5172710a750a3b",
+        "status": "available",
+        "bytes": 10309,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5343367,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

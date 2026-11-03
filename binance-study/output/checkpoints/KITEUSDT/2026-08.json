@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 152,
+    "1d": 26,
+    "1h": 159,
+    "4h": 87,
+    "5m": 69
+  },
+  "event_file": "events/KITEUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 342464,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 342464,
+      "source_id": "a0fd5d8951b86f4c21970ed710c16ec2ea915d66603b450fe8ff975f0358b62b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/KITEUSDT/5m/KITEUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "KITEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

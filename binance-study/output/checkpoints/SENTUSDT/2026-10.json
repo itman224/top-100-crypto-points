@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 220,
+    "1d": 22,
+    "1h": 219,
+    "4h": 104,
+    "5m": 144
+  },
+  "event_file": "events/SENTUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 298697,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "97fff9dc72792d2c1a808fd85d7c77b89d225bc934c02bd2351e7eb182ecca51",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11070,
+      "source_id": "091425b6c541cdcc573409c79a1e7ea0612bfc8f660ac765230db0dd47fdc106",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11095,
+      "source_id": "8d4c9ba57da0cfee75e8a048f2aad8166ad4d2f6b2330b06fb690fe58728d0d5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11039,
+      "source_id": "035a30f4664cf80d2bd07055749a67988eea5bd414b4446f30f9736cee76233b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11630,
+      "source_id": "e857497d00ee5b4c2b368946d42efdb8c11290844e20e6520e37a0f45af1761d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11470,
+      "source_id": "2729a572cdec774c10f30fbe407741c2605975bd1292a3cdf9cf15e4481ecd58",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11718,
+      "source_id": "a4caae89febe3ca377cb827c6ec7453b157af003ed69415977a0e80386baf0f1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11590,
+      "source_id": "2e60e761a1c6618170b157192a202271e2ee86a81c8abfa6e882c498ec15b8ec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11712,
+      "source_id": "41a5abbc7acaf4771c5d8910f337a32e53cb198eac7be33ab3f56a07c6a95c36",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11827,
+      "source_id": "5e65f4e9a4c577c428ff907e23564aff963f489abffd9b244af24331b993eb45",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12001,
+      "source_id": "71df2a98f1a03559880397cfafe8f770bd23320aec9ba18095dba5344070a83d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12143,
+      "source_id": "4b9d46fbef0d894fcd18fcbffbfe841ba0d189408761718a215b914dfb056241",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11717,
+      "source_id": "ef089f487e0465e988c08643e1abb936ec98439ae3348f4adaed235c56311c2f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11391,
+      "source_id": "488f79d94d890414f9caab5560353630726f622c98e86d954a2498af9d93d96c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11325,
+      "source_id": "7b2c84321d0d73397d4bab876463ff95342e124cfe98abfe211dc9820424f938",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11558,
+      "source_id": "ca738162417f16744d4b889b99c3984dc10b2068d0f8fb8a342cecfccde862eb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11463,
+      "source_id": "5198ba08f161a1204eec4e97a7fa89365381ce7b722d455a0b2297fae5188f0d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11275,
+      "source_id": "36d22bab6fa5f8a7ef2b0e886e05cf32f958665e6668ae3e3d497ebd72ab9f23",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11620,
+      "source_id": "48342c774fa71167f9f2c0f2771848e7b1a13a4db408c1bc968e6a2315e916cd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11812,
+      "source_id": "c8640fd288012ae006288274b7f002769fee034e0d8dd93e46c0ef53bf4aa2f0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11307,
+      "source_id": "772254fec4a6128e5564c6fd803fde2cac874d1f3f94d844256dea0a0ec3f3d3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11367,
+      "source_id": "ffd7856be42406f41229db36291b1dddc08fa9bd8e94e009c7d421efb884ce7d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11307,
+      "source_id": "66280b1aec5c35c194489191fea8fe77b00437753726bc29251f5153b1ea8a7c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11613,
+      "source_id": "88790545a88305c8be1ca9ad2ffd1a43dc965029e3820acbd947af9c0f68982c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11256,
+      "source_id": "f638a02ad8e57eab364e24e5bb7799a0097cac24d969ac4f0e90ab05e4fff377",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11233,
+      "source_id": "0aff61cb90ae832bd1621247d492cced0828b7e07b389637fe56860f2195deb6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11158,
+      "source_id": "a94d4fd137af34a88434eeb75fa3c964a35e2e6cb87170b1ec614fef43557b36",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SENTUSDT/5m/SENTUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "SENTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

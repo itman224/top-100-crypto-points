@@ -1,0 +1,1694 @@
+{
+  "symbol": "TRIAUSDT",
+  "event_count": 9927,
+  "quality_counts": {
+    "complete": 9927
+  },
+  "source_event_files": [
+    "output/events/TRIAUSDT/2026-04.jsonl.gz",
+    "output/events/TRIAUSDT/2026-05.jsonl.gz",
+    "output/events/TRIAUSDT/2026-06.jsonl.gz",
+    "output/events/TRIAUSDT/2026-07.jsonl.gz",
+    "output/events/TRIAUSDT/2026-08.jsonl.gz",
+    "output/events/TRIAUSDT/2026-09.jsonl.gz",
+    "output/events/TRIAUSDT/2026-10-27.jsonl.gz",
+    "output/events/TRIAUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/TRIAUSDT/2026-04.jsonl.gz": "c0195e3fcf1accd21e278981cc977ab59a3aa1aef6dc29c71a9846d1d6b9c5c9",
+    "output/events/TRIAUSDT/2026-05.jsonl.gz": "fee46111ad99a25c71bbb634eb466d7d1fb951ce0f39a703c3753ddf42591d07",
+    "output/events/TRIAUSDT/2026-06.jsonl.gz": "a61545a31e273f86f5ee6b6522aa3eba6de8af2d0ca6e1f2c578eb1ba2da3352",
+    "output/events/TRIAUSDT/2026-07.jsonl.gz": "cd1771896162165c142d45aecfcde995eb8addd61588ce79da0674454af9dc66",
+    "output/events/TRIAUSDT/2026-08.jsonl.gz": "0551b82db208f52620ade8cf6a6c693b24206af75070aa2ad65af0efc6fe78c1",
+    "output/events/TRIAUSDT/2026-09.jsonl.gz": "c05bdca5a72a5d485fbb8714bff3b126734448013b0f7df137d694c28ad54606",
+    "output/events/TRIAUSDT/2026-10-27.jsonl.gz": "eaa3dcbc37928ab3802ddf7996d4414ca52bcac8690ff8752f8ce4622b503b33",
+    "output/events/TRIAUSDT/2026-10.jsonl.gz": "84fe03b6d4b5886374eccfdc2470d7bf3b84c7936ee9d045b5801e60ee3d952e"
+  },
+  "market_data_quality": {
+    "symbol": "TRIAUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 75885,
+    "missing_5m": 56595,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2026-02-06T12:15:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07.zip",
+        "source_id": "caee8fc231abbe51f403df7c9ba9fc4724db3ed89caa1c2522e8435261e47bcd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-25.zip",
+        "source_id": "75a49624018a50666294919ed4e08ad2ea91a49950555c0c82102ccd6046f04c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-26.zip",
+        "source_id": "c3f9bef0b01975451dacfdf48738bb5db410b30317b7dadcd1331288a21c6cdb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-27.zip",
+        "source_id": "c3d482cad39de76adc2eb05269d53663d838398bdfedaed5789a5cbbd4249543",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-28.zip",
+        "source_id": "09504e789107f5e5a44eaed9d9c676fc57807d20b35950a2bede70bb7c14709a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-29.zip",
+        "source_id": "3d5fbf862ea1f047c2e4c7bf0f56e18323042d88c1e7c80d65581b80750f1c35",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-30.zip",
+        "source_id": "a06b9ed5f6f1f5d4014aa171b8368073fc53e194897bd6b709d5d8bd64702782",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-07-31.zip",
+        "source_id": "e03b535afc90253dced42557bded410b6b28fd9f0d80f0b71a9729fe4f522d5e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08.zip",
+        "source_id": "23ef4206bfcf38b53747791716861d9b3a3a0581a38842c85b30057303619dcb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-01.zip",
+        "source_id": "8473fef85862dbf1feda61dfc75f083f7fc22a1647d7f79972170c7c2c06d8cc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-02.zip",
+        "source_id": "047d585f97f78c5f91d6ec4a598215c08bda2cd3f83c09c7150a16ad1ebebfdd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-03.zip",
+        "source_id": "873091e3b29a059981910b36aee1568a1268f67866f7e201271e4c2d952adce9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-04.zip",
+        "source_id": "b3bbd96504834f9c5207444bbf5042a66739f01ce9bde232b5834d97394820da",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-05.zip",
+        "source_id": "2b915a8e0d23c579ef5184cdacef56571cd5e98fa2c193001cf7af56ec14e7a9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-06.zip",
+        "source_id": "88b5de6bac024b29b75a129c43add765820b6d8d8320e3d2459b1501f723e591",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-07.zip",
+        "source_id": "c841c19d56fab57bc4a272d3e80fd1237c541ac8fcab04b4b187cb28970ea90c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-08.zip",
+        "source_id": "fa867fa8ee5eb9ef10d64b21389bf4d827b8468cb6736e309626f5faf113063b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-09.zip",
+        "source_id": "70c5e4d9de0b1f48f47f30f672eb2be2176330579c056c790d5f06bfad153c4c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-10.zip",
+        "source_id": "71444d0d285db4faed589bc6ad316871bf424cbb6de43340754d760007da2270",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-11.zip",
+        "source_id": "b285535f045c12ab2609c50bab33af6b7e1e5779e2efc3c6ec417bd676afcecd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-12.zip",
+        "source_id": "2e1e837aa9f921a793e9213b0411c7362c68c9ff1af554529c77c643ae8b77f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-13.zip",
+        "source_id": "e08a44d137853510f9cb5c19cf6aa4a17d7370afe89bec3431427a066a2e6571",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-14.zip",
+        "source_id": "6ca276833a1b0dd53215ef2abbccbad0f11188e28e72a2b48c265f18a2e9711d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-15.zip",
+        "source_id": "309152918b6eff454ce9710860d939da6a6cbce9f4d0111e269514ddb0b92a84",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-16.zip",
+        "source_id": "12bb306ed09e6384bed33131cfa308bf5c97691518b44989f9797e27aeb4f736",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-17.zip",
+        "source_id": "7abca845c43cc95fd5b72246bbd6871dc4840f9c152ed8ab523a1c1a3a7ba9c2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-18.zip",
+        "source_id": "296871c6fd6c0feed4edffda026ba7540aa212ea951742d2e81eb25604fd9c46",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-19.zip",
+        "source_id": "a6b7e633962d2cd57a2140da6ca9b8e7fcbac9bb89349362df9320b29f4691e0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-20.zip",
+        "source_id": "23795ffbedadd936a42b122815ce550f367172904c7baf17259028eef340f83a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-21.zip",
+        "source_id": "a8b07b99fe588b12ceba78a0cd622120a9986e868f78bcd3b9028c6d0717d017",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-22.zip",
+        "source_id": "747e1863b220d8aab3b5299703a9d5f3e229042124fbf70dcf60e2821a8d725a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-23.zip",
+        "source_id": "31b4215b77cd0dddc5645c0cc4aa80aefed7de701bc7b5df06e5bda865f90b46",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-24.zip",
+        "source_id": "c0af201b725bb46f43bfb3833422b9b7b6c0245d4dba4da41713b182d8dbfa8a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-25.zip",
+        "source_id": "04c7914018791feb2c048173e7e888d0a32afbc370db91cff577ff3ee4a67126",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-26.zip",
+        "source_id": "be1573135ae384bb34358e05d202b9f4f29c5389e74fbee4fc50fcabc0aa3d5f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-27.zip",
+        "source_id": "5d9659828220f2ec556b807cbc1a8edfc40b09f0302d7b7584516f4830cf08b3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-28.zip",
+        "source_id": "0b9c41b60cb684c950957e13c1304483480b8fdb79ed3b77b1767da5ce64c675",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-29.zip",
+        "source_id": "36609b6c6a90f8dffed9144a2d38245d7f9beb978c61d3098f9797cc759de096",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-30.zip",
+        "source_id": "8fb8aa9207fa05bfe0ca9d3ef50a81a1074d250e567299ec6501ea9ad8800bd7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-08-31.zip",
+        "source_id": "cd48cc43034661181b4ce8aa95e9824c30271db3d632143493f0bec87cb87c60",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09.zip",
+        "source_id": "f2ad568ada07e4a3df2b55b96ca089cd7ff7aacc93c360041ced7c0ed2e0c4d8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-01.zip",
+        "source_id": "770bf593c18539a247cef4ca7a671b974b6ee0c9f9f8545b5bd2e4414f5fba03",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-02.zip",
+        "source_id": "281168086f6637eab220204537d740f700e19667d3a3fe165097b4c7c731aac7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-03.zip",
+        "source_id": "b25eb40fd77e703a64e6ee892503aa139df0e01d9c6f656a58f4bbfa98ead2f0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-04.zip",
+        "source_id": "44db08df0f3cdebe6f154c94ec09b2a89c154d1b7792daa4e15488d7e563d94d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-05.zip",
+        "source_id": "51299d7a131c543279cb2761cf0f275c8844ffcc8eb41716b1eac23f51ead679",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-06.zip",
+        "source_id": "df495759c6e837e037562bc976be26d3122b870e180ad72c16837ffc15171c0c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-07.zip",
+        "source_id": "27f3c9789d75c422dd19f2ba1688fe3d6a2f04466a6be0dffc913d5f625708fa",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-08.zip",
+        "source_id": "0517571dd86601565a76cbdd935facd76b9f8396671b0dc2985919115fbccbec",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-09.zip",
+        "source_id": "e54b68106fb078a1f05d4d54fe87842d0261e7481a494d79cd253d415544a3b4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-10.zip",
+        "source_id": "22d2b7cced59f4913fd111e8f9db6146d71b6ae18f4c442f9a0663d8a2bcaebd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-11.zip",
+        "source_id": "92284c8ae5b685ddbf29424421a45adfc8a1e5972edf9456333986fca493f0be",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-12.zip",
+        "source_id": "f5fff17306169f0358fb88e9c95bf7ce2274810d9cb12669834816e2f099bf33",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-13.zip",
+        "source_id": "1220bf5c3049239074f2d91d9d7d2410939325ac3445330547633f18864cb37a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-14.zip",
+        "source_id": "b4926b8a0a04b38cbc6048c4fb9bb6ab9523e68ca6d2061e6d2e2633eeb6edf4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-15.zip",
+        "source_id": "b30bc2dcba51d45b1fbf937594845d0eefe140642ea6e90264b81a963bfd0bbd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-16.zip",
+        "source_id": "38cbcf9cde1a1b12a0edb7a1dc9d0d5b56a4aa35be23067a980b799e034f958a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-17.zip",
+        "source_id": "0baca878a40b4186dfe2a7f52ff008fbec55af7306a679477d4975d56115ec8a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-18.zip",
+        "source_id": "a4945f2fb5888c8f87e3e0e12d2fda5c5697615f1ea3f38c91d1e308a2c323f6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-19.zip",
+        "source_id": "e437850c60417d2afc96fb3c92a97dcb1680bf2a6a5369047ba8aa0079c2e313",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-20.zip",
+        "source_id": "cb02f6ff0c9a1fd33d7d34701d4768068982e271162888d6cad7ba9367468917",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-21.zip",
+        "source_id": "217423d4885c8c7db9674773dec4350ea83821a2b3a917ffd6249c299f483c8d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-22.zip",
+        "source_id": "afdf666f5c3105e47cad98a03b7990111afcf90793b166059e1179c08bd0c558",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-23.zip",
+        "source_id": "ac6778dcb85a919a38f98384d8b5da9b849f6adf0d8f95a8932eb3b2f501231c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-24.zip",
+        "source_id": "5fca3b56dc05261f544ffbc57fc7f88ed73870b689f81d33baad126243483b03",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-25.zip",
+        "source_id": "0ea95f46aa8107746b0e885c8d5f5b3dd52a470cd9a0728a0c6d6fb44a3b82d4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-26.zip",
+        "source_id": "f5b764accc057efb677c09cd27acc338737cf2cce79afddfabf5296aa9b7f0de",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-27.zip",
+        "source_id": "932b805d919e8bbc93bda309801e6a1475ce8ace1cf280f2bc50fc22f3851aef",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-28.zip",
+        "source_id": "9e62c18a7b0d7571048e8599c0886c5df3a3a9b8146f196905cfec60ef2ba2db",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-29.zip",
+        "source_id": "a7c1664e582a84da5fcdc032890b1af8d05552a8d9bfdcf4e74504bdaa29749a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-09-30.zip",
+        "source_id": "b2d3dec6a484e82b3650ce27de35ee291a67c6d47d21945856e34017a1a246e6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10.zip",
+        "source_id": "92c2bcbbdcac2fe8288b4ab9a690323679dc61c17274d9cb3fa2ff98c67adc11",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-01.zip",
+        "source_id": "22902c7e4d3b0722297a96cbe05fce22c8823d8652d05acdeca3067f6458a2df",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-02.zip",
+        "source_id": "e1dbe4d5765fa70b261bc58e567b7fc5a6bca681a4b31fad90583ec8e476b2c1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-03.zip",
+        "source_id": "78f66c3fc96e743ce1bc5a06ab0195e313ccd2bbd372901c32bad6d0887c8a35",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-04.zip",
+        "source_id": "e57f6a9a9539472c594823c7a2a456a36b2d151b636e25be6f3534a3fec4ea10",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-05.zip",
+        "source_id": "c48e81fc8ded61cd122479965639ab7b504f1bedbfb11d19e245bb645e2606dc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-06.zip",
+        "source_id": "f6477eff3baee0279fcd99f1e1a694f8eee3bf8bdb3b78d97a65a05bd949b953",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-07.zip",
+        "source_id": "c1873cd134ba00da0ceca5ee5263b69b5dc214a298a11c9e59e988cccbbaaac6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-08.zip",
+        "source_id": "7e637a282a0eaf2c36c76c7412009a085038ec485e0f3efed7ec5f664e9f2a26",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-09.zip",
+        "source_id": "0e866ce8d484bcd86b6eb8f40153536b4f88c7a84d7f9a317dc6e56505b7ca6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-10.zip",
+        "source_id": "f3aa1f0d0e770bcecf68663fd4bc11d848ff4caddb0f72c869666b499c59f17f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-11.zip",
+        "source_id": "b78f482c97611017677789d86053f57319f5405e5c682e451bf153e5469aa7cc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-12.zip",
+        "source_id": "4078ee08444cf969a80b806184acf99b50a390994352dbec2e16fa1bb0b9fe20",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-13.zip",
+        "source_id": "5ff6c9ab64f511c12259450996b59fb531ce1b725e7be96a88ae823261dc9e8b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-14.zip",
+        "source_id": "5ffa25e37ea77bbb574523e01627dc8896552b63fdb2102c4ae26dd2319f316e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-15.zip",
+        "source_id": "6d38ab4e051009bfa71d9d94e72ca8067e6640d80b6fcb7efe51d96ae61f33cf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-16.zip",
+        "source_id": "c3db0a0f4638d0cd9136e79c60b5ca184a62f1711527144af9f22d648035e7f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-17.zip",
+        "source_id": "ccb00b2b2a5968893f02a3aef8fe9072067360ed5674cb55d7b840db341237c0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-18.zip",
+        "source_id": "0ee31326ca1c779a85af41653f1a7990e0ce9e5ffbac78bd0c33dc3fd3fefcf6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-19.zip",
+        "source_id": "bfe6c06d94779c68f42c0918152c17a41cddccb0290d98e3778c7e9b8e494439",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-20.zip",
+        "source_id": "9fb918f48ce797718d50485aa2c1c16ba981c5d749fa558ffc4303c4721daad6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-21.zip",
+        "source_id": "df21d11112b044fffa94ffc145c3ce5a330394d1fda5d1f4f984aec581e221c6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-22.zip",
+        "source_id": "e0491b357e0a9cf6448351d76e165e91a9f323ba5f2c0bd48992327949c1e19a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-23.zip",
+        "source_id": "e1fa46882d8f0b56cfef9c946ee3f2f1288fb85c99f740b926e7f318314e8232",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-24.zip",
+        "source_id": "fa85117656a1b51f45d86fac77a0e75b316281331719820a06fdbc1a964b0db9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-25.zip",
+        "source_id": "ab6cc8caec55141af67fdf02b4de3cf73b1d22a387e1a494c0779770f97c402e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-26.zip",
+        "source_id": "bbe17b3bc6a7176f211d688cca6786bcfcce7589aece12517fcb28f4c76a0a7c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-27.zip",
+        "source_id": "6ff0a43605e60e8936ac8c3e8dac5001cec1913ec290401a2b39f38e2269dcec",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-28.zip",
+        "source_id": "36240747428a676466aa6f2bea782efbd2155e7791f5d6df0a7304ee427d91e2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-29.zip",
+        "source_id": "c39f35a557206b1e8113ea96a53644f7edfe39e86775b38306a11069764cac78",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-30.zip",
+        "source_id": "ba938f0d86daf19420d6d703095506eb5bee2f1656eaf50be971deca2eabf5df",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-10-31.zip",
+        "source_id": "6d294c9bba211a9599affb7ef086b38c964fb81778fff5b755e6463537c9504a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11.zip",
+        "source_id": "cdd0b4f1bf4699872b4d172ad94437c0b6c79502c882cfbe9291f1974da33ff6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-01.zip",
+        "source_id": "9500339c4c1e965249541d796270d1f4407087cfd282b1be909ff9a2440b60c4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-02.zip",
+        "source_id": "4ed557ed54f7c407ca4ce1f827759485afcf649f6c118ab6c10cd2b46fa05d0f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-03.zip",
+        "source_id": "178c0ceebdffc1048a289c472f68a0fa13f2bf3bfff05b0844926b672cca4ae8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-04.zip",
+        "source_id": "5d5e5c1179cc3c4428fb3d242700fff0cebd19dc61fe922ce0279a3c018a3df0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-05.zip",
+        "source_id": "e90c46762b92c686aff76be5c2c505ab5311790db7e8fd4454fdf5cf05924792",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-06.zip",
+        "source_id": "1a7350b318152acc094a1d67232388efc50c1ad5938e33b58c369fdc1a9d588c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-07.zip",
+        "source_id": "5764d9bcfb621bd3ce5b7a0c7b37cef16a9fcb112cb52582d50702b194458f09",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-08.zip",
+        "source_id": "a6cd9a4b738f4e96a9f6b96ba87ab2ac0e023285e3ee924fb827559588bbb283",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-09.zip",
+        "source_id": "eaa2c15914f884be6071fdd4721259cf3903ac01335859b29c5cf1e4634f56d2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-10.zip",
+        "source_id": "16cde2c1b6d431ca6fe05288260f08699f8fb941ce30508aa8cb6812484287c8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-11.zip",
+        "source_id": "9010757a179fb27e6ea088c615de886a8177b8e2a2c3966e1907fc2d14fd7b12",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-12.zip",
+        "source_id": "193a31baf0f27b6785142417491e14a5b7fedebc42406af59d3fc2d37fe2e610",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-13.zip",
+        "source_id": "cff8513fa621b176ebd80c0d258f050be51e17a7b65eba7060ea70ac84d8b80c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-14.zip",
+        "source_id": "7039e4f8d275f8b8cf2aecee9ea216b02ad62dd2681532761e4c3c0711cf6d8c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-15.zip",
+        "source_id": "f23b04c78a8981708898582cbe4d4a3cdbc4713304b950f85595fa8cd112e9c9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-16.zip",
+        "source_id": "e97d754f289d75cc2a1972acf246289c02fa1fedb164450f33efa3f2afb5dbe3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-17.zip",
+        "source_id": "03d046d78f1e904dc4aac710b6dbe7ed6a9dae8e38a2c6d469386c2ce0f812c8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-18.zip",
+        "source_id": "11dd3569e306b53545a1a1d7071d4de01cd71d3fbbf6e68900b8cb89e4797701",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-19.zip",
+        "source_id": "0401de99032c93a0a00c7ebf29c60c9813f9cf33d3a78e6678857d2129571ba1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-20.zip",
+        "source_id": "34bb7c5438423cb9c22f11d51b816f9d5cd4b6e3271c4cf1fa36f5eff413ace0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-21.zip",
+        "source_id": "a50cc28b97e13c6177bebc31d208ec649e94fa06f36397feab1e2898b68d14eb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-22.zip",
+        "source_id": "800635917edb66ee0f36815cab5f7c04022afa175cef89d4d1826a02bbb30d59",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-23.zip",
+        "source_id": "e1f2871291628e44ffcbdbb7dd4996cbf94c73ae473181d5d85b8037e38d3b1b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-24.zip",
+        "source_id": "9b4ec2d4a2af5688583816de065c86b4065c706074866547eb6568b2411e3fed",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-25.zip",
+        "source_id": "baaf8ee8ddccfa1a474605606d1f1f92a6dfcb9226357f4cef2e54b45e56038c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-26.zip",
+        "source_id": "a200f25c678e26c2a1fac47f6657f5343b3613f482895f4c4834c08961c4c2b7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-27.zip",
+        "source_id": "2e875eae0f87122704e1d8acf8d01a2eac20c84d9d8759f1fd8b4172ff88d3ea",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-28.zip",
+        "source_id": "0fe7b5a30b80d186a47fcbc47f1700e618f41a146eda33b0612a88e83d604fa8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-29.zip",
+        "source_id": "1ae618073910575bc6b808beeb263ba499d33646d8affed1cfcec0ab4df2c868",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-11-30.zip",
+        "source_id": "9303c11d6ab7da2f480a1c256d89d6ff16355e20456d3a4a997c031ba01fe125",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12.zip",
+        "source_id": "a81cc16ed0f91ef4ee01d9dc7769571eda8612ff192887f0aa2ac89be8cdc99d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-01.zip",
+        "source_id": "6bd6d2cbf79a2eca5a5c2d9583d074f406680f68deaf6b3d0fb4d3e813a2e65a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-02.zip",
+        "source_id": "fb0f385d4d6992cec4fda2c124f0d9f67b2b25525fc87a978e27ba0a08325dc7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-03.zip",
+        "source_id": "b80ef0d7d241d9f9cc3084e033ffa620d135b242a6c6be20e6624ebfe6edfc14",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-04.zip",
+        "source_id": "b106212824a20771353b33f34432306b6657057c086e592665a055fe7d793316",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-05.zip",
+        "source_id": "d1292de5c2317e7b8a74506cee3520525ac85482d015226d35703f5fbf9afe67",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-06.zip",
+        "source_id": "3b199545387e5e12fa01130a4d840b0fdf062d590e9eb36a055698b866ccb009",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-07.zip",
+        "source_id": "89f21a3b5022ee99a27ed7845f7e1182c128e81384ab0c470f3d97e13e1f46da",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-08.zip",
+        "source_id": "3d95d2df0553efbe197526cd6991428dcf6ad3c003584c82fc77f90996e546a7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-09.zip",
+        "source_id": "4d06070752cb748c3fa2090e11e9c7a45db7f2302c5da86d1abe9c90a768a1d2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-10.zip",
+        "source_id": "3b6645f7eae1a73a1ad9f49096fd994c2fe0c453f763ab1da01110c9568624e7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-11.zip",
+        "source_id": "6a00cdc4660c6b0fab29b916b7e1e5edc3c29cc61055571acd651c220b543cc3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-12.zip",
+        "source_id": "d1915869638deeee3f365e12b85e33e678180bbeb172a0d756b2ca1475189155",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-13.zip",
+        "source_id": "98c85f50087f4bed1345d3d40d82d2b64dcc56d120e6b4ba948888303e10fa61",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-14.zip",
+        "source_id": "85c2b1f7c30f05510f240708f1e5e54ef9aa0ba311edf1dff789656b51081354",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-15.zip",
+        "source_id": "14a643e03553876491dc842cf93d437c66cee65125d4421ee38e23f0c2eeaf73",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-16.zip",
+        "source_id": "c914259db209f65634cf2db549fe5751a6b8ef4a5f1f9c97c691968a690071ac",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-17.zip",
+        "source_id": "13665bd1328704209d3d98cb2cf9407388523aa57ad90b12f1221db865181f33",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-18.zip",
+        "source_id": "3851281068f51570da4f141dd3cf05bb06c1c2fcc023345118f3d99dddaefb42",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-19.zip",
+        "source_id": "723c708e6b24eb9d53dd6d8a52869c8f1a6dce93665688619f3772cfb6868bcc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-20.zip",
+        "source_id": "4f6823e723b7e89ae6662223da4aa83a63ff0d7305f09a5d9010a4e957533e7a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-21.zip",
+        "source_id": "9998dd8fe5b81d275bc6bc487d7c7496bd5dd4852e25213d2514d54b12c2723e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-22.zip",
+        "source_id": "cb033ca3df12c9b8a66ce0672ad771d1785d67d2fcd2c66f9c51d5ceb5a73a07",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-23.zip",
+        "source_id": "de5fba37a17e32258ef2088020958cf58176efad41ec0ab9a8316d36bf9a7d6f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-24.zip",
+        "source_id": "eaadbce0f4db9a3ea856f759545753026af258a7f7c6cffb1dd01864e927e253",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-25.zip",
+        "source_id": "2263dc24caebad55552d927c578c03bddefa82ac828bddc6301828f2de83d27a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-26.zip",
+        "source_id": "df054c8934f3f2f039b213fb5f3831d3d2e0d6b9629c8660eecc59f5df56d30c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-27.zip",
+        "source_id": "d8d8b47fbffe49ba3193951f1c4d0bb03e3ccbab8bbb7d959ffe89c6d61c501f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-28.zip",
+        "source_id": "f599f33930ea74da914315057a46eb4087e2e6da12cdf276a75f0e2cd900786b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-29.zip",
+        "source_id": "6671345d7b289effafe46fa1586e59b1dd93e6ee752cf6e6a37d339563923b49",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-30.zip",
+        "source_id": "5163549e39fc5c0ffa4869e65e90dc3113cdbfd0a0bebe3aa1746db487145b47",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2025-12-31.zip",
+        "source_id": "9cb4989837cf54f05dee98cc86834dbddc35fe50e740258813ca42bdf9aa8fb3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01.zip",
+        "source_id": "da042da1db154cda95c6f334169bb173a9caa1471c7c8c59813415cc8882dfb0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-01.zip",
+        "source_id": "6a8e4116f76bec89985feb122cb66b61903f4760ee2cac7a2c6696141492e141",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-02.zip",
+        "source_id": "2368e9c48f87c8c57b15a7a288ab56c18de1c3c7d477a522bcb104b27c502204",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-03.zip",
+        "source_id": "a034a5ea4d0df340d01be671efee2fcc818b3df97117d7e5f93687be6812e6d9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-04.zip",
+        "source_id": "8a691f77d7051301cef50db86717610aaf538c7596a2c2e40ccbd86875d167e5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-05.zip",
+        "source_id": "678651066492608e0781d07da166aa80b8cb694e8d93053d7d649ef6d7ca6bde",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-06.zip",
+        "source_id": "f977430e65fbd535679e23ca61fe606dc99a2704b09658568da2ab9e666363a3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-07.zip",
+        "source_id": "6404d99aef762906b283edece0516405a4e4ff38a172066a45bdd6021d76f311",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-08.zip",
+        "source_id": "df77c18af4450640002550ed3dc7b161e0edd67a67e2d256151b00259371394b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-09.zip",
+        "source_id": "7a1c6db20bd29a5be7b1e7b221e36fc02d7a2de0ec6c11c80aac6033dbe4f4ab",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-10.zip",
+        "source_id": "92db2e35512a0fa3d3da8cb7cfa03d36d09bc091d1b3fc6de4de600b72850044",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-11.zip",
+        "source_id": "3bfd5d2fb995bcd0d1604739e625f40a1950b23bbdc59d7699e0c9b0a1ec7599",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-12.zip",
+        "source_id": "0501ddc3c8fff67fd0fe128407389847901c022ccf95ef86a918493022e0a776",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-13.zip",
+        "source_id": "acab0868fa4fad0194372ecf7d97481c9ced444b9f9a145d7e3c4ab4b95043f6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-14.zip",
+        "source_id": "bc016212c909ad108b3ff4e5fde158dd8e42957776447c8fda0218e1399669a8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-15.zip",
+        "source_id": "218d3e242b6075a3d93197542c9fab55f2cb35ec23313d22097fcd4d9455fb6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-16.zip",
+        "source_id": "ee3262e618bb4cbeea090fafd7a6a5c7b4ae1444632ae61c134a9b83402c94e3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-17.zip",
+        "source_id": "ce3e069c39ed272784b4caa13f5cab27e62fa4f6baccbed288d1d12b84c6434b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-18.zip",
+        "source_id": "f10c74063c0b7bb9b7f81c60ca262803072843a35bb5da8e5b22a4bb4a3994a0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-19.zip",
+        "source_id": "101aabb012cd64cb16c5a0872cba78b0ba854611d4b45e76a4245691ea1011fd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-20.zip",
+        "source_id": "26d4b9b624e0330d8e3e4d864c4c06ecbb4f77b30e98cc6d37c71b9f3ad507ad",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-21.zip",
+        "source_id": "7083bc3746c19c6acc06fa68da096c330184c603889c9cb6612bed3a7a9ca29a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-22.zip",
+        "source_id": "085c4af3232f86882f459763c8225951aafbc4612f0fb6287912abe7e791eb4f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-23.zip",
+        "source_id": "0d056a3f05ed395865acd3b7c985b7bad476e084a8e79dfe718d88db62f82b39",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-24.zip",
+        "source_id": "099c322c45f7a580880c01dec4c07b4ecc26a2cbf7e2966cc4cd6e30d7228781",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-25.zip",
+        "source_id": "71de885386753af2f25b169bb180355df62a2b640a169d04a81e80c70ee5be69",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-26.zip",
+        "source_id": "62ba76298a35c1d77ed7e05a921b3c16edcc56749dc6dd8b6bf03a437cdf3a9f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-27.zip",
+        "source_id": "c1c1b15f847786845be0c631c16ca019020717a01dfa459819451c39b7e07747",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-28.zip",
+        "source_id": "0c04beeac131d64b1d6c99c75b02c32841cae539fe24f65b31c7eeef92d834d5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-29.zip",
+        "source_id": "b5cdda09f2554faef1c60231cdfb942ddfe170dd3e22de0a2bf156d5b108d301",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-30.zip",
+        "source_id": "4804c222a93b34a69f0d0bf0f4df37ebd4289b6b01021589db7aba2f9aabdd96",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-01-31.zip",
+        "source_id": "07ba065a9b7861cff3eed44137e8a23426c6cdbc3cb165e4628aff18c2842d21",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-02.zip",
+        "source_id": "672259e77c11fa7db942fcacb938b939c173a602e3d23dec09712159b68366dc",
+        "status": "available",
+        "bytes": 262814,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-03.zip",
+        "source_id": "0a474bcac6488c486b5e91e3532b51d5dcb5cf9e85ee679b897ac2c3baf55142",
+        "status": "available",
+        "bytes": 365156,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-04.zip",
+        "source_id": "177d684e27ae2a0d937813f7d26777dca56c3de7911d3916ae9ec9ec85bf044e",
+        "status": "available",
+        "bytes": 342240,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-05.zip",
+        "source_id": "9ca8faab66d34532fdba24b47b9ed963e155d953f9520ba0691405f70be5c8cf",
+        "status": "available",
+        "bytes": 345669,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-06.zip",
+        "source_id": "4ded11c0235669f3b220f6242d4c2fd09dc3f01564e6755efbc5d97771a25d0c",
+        "status": "available",
+        "bytes": 326860,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-07.zip",
+        "source_id": "3a2ab7536e0a7c2cf9f8fac9e2f2d2074d213dc04f34dc1c4b1b7b29e23a0fac",
+        "status": "available",
+        "bytes": 353324,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-08.zip",
+        "source_id": "9576e152157b47b0ba0db5272999794deffed12e1b2441ee772b9aee91945ae2",
+        "status": "available",
+        "bytes": 357022,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-09.zip",
+        "source_id": "9d573707f1f40a99e0ae6c3259d641006cc2c2d77c1b4e8de2d1078aa477c1e7",
+        "status": "available",
+        "bytes": 349028,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10.zip",
+        "source_id": "6b32995bc7e6736fe1de95e9f1cc6eafae02bfb6ce8e0df5a6db95c1544edd32",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-01.zip",
+        "source_id": "473e1f6944849101863a0dd61fc22819d5e30051ae58eed6a30929ca0161a6fd",
+        "status": "available",
+        "bytes": 12093,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-02.zip",
+        "source_id": "a93c00b6f9d072f3784ef7ca0b5dd5173e4eceb4e116801562e024b517fa55d2",
+        "status": "available",
+        "bytes": 11746,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-03.zip",
+        "source_id": "cd1309d86a0f66aabd18033ba4114f6a92c4e7434a530d5d8f9b08a865be3432",
+        "status": "available",
+        "bytes": 11423,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-04.zip",
+        "source_id": "47eb9a5bef0094986877720cdf05493881cde36284c84f506a56dfcdf7c33b94",
+        "status": "available",
+        "bytes": 11384,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-05.zip",
+        "source_id": "e2431980910d9d674de755a64eda8670afbcb9d8e5b2f7214576c1ae1881de9e",
+        "status": "available",
+        "bytes": 11744,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-06.zip",
+        "source_id": "62dfc207b1e0ae0c4b140d192bb8e0906364138f336d170e9d7ed18c12994d4e",
+        "status": "available",
+        "bytes": 11720,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-07.zip",
+        "source_id": "e03b71c48ebab417e35585eb777a00b1a105a9c73810d7c47aa604d3df909a5f",
+        "status": "available",
+        "bytes": 11740,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-08.zip",
+        "source_id": "b43adbd5fdefd9c00f6c7dbb1e344d9c10213f54abdb575a394b73767bac42bf",
+        "status": "available",
+        "bytes": 11742,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-09.zip",
+        "source_id": "c192ec333ce692a889722c2cf7ae373d79f12e53b95f434190f71e45de4f4769",
+        "status": "available",
+        "bytes": 11389,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-10.zip",
+        "source_id": "2617a19c51b5cb7c2c3e0632dbcd4f138f87e6e9eb95f783d7ae0b67a93915c5",
+        "status": "available",
+        "bytes": 11163,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-11.zip",
+        "source_id": "eedd476d4fb1af453245aef5ad4bdfa6741ea10cbad39a133ded614575d488ed",
+        "status": "available",
+        "bytes": 11491,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-12.zip",
+        "source_id": "4b9c9306f49545f26f50cfff329511bf2933bc800663f44a10a9529525c9d584",
+        "status": "available",
+        "bytes": 11657,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-13.zip",
+        "source_id": "8651b0e4716d70dbb550dd9dfe5a24217473aed84ef9fe34d2ce2aabb80f15d7",
+        "status": "available",
+        "bytes": 11717,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-14.zip",
+        "source_id": "5d29dfbf4e00d79bc5bc67a22d9ee8409a4a13b70d21e85ee3107984e2dc78cd",
+        "status": "available",
+        "bytes": 11623,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-15.zip",
+        "source_id": "00452ab921849efd60a81ec901bedb2d4283bd88289fce555960793e466f45e4",
+        "status": "available",
+        "bytes": 11872,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-16.zip",
+        "source_id": "0441ab89142852f85940d595182fd3a053b2d3089d58883de27541a7976576df",
+        "status": "available",
+        "bytes": 11416,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-17.zip",
+        "source_id": "b37e60d3490ebc27ef6df0035e0fce53d0356602b138bb487e480e9a67b24e5a",
+        "status": "available",
+        "bytes": 11396,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-18.zip",
+        "source_id": "a489e29d27ad81091a300d61e7b32efa6e07c9cdf8b04f26ea21d65a4e027f23",
+        "status": "available",
+        "bytes": 11651,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-19.zip",
+        "source_id": "1c083c8ce112256d474dfc2742eda8dda3141c5e237ddc4bead6c03c0a3f2278",
+        "status": "available",
+        "bytes": 11478,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-20.zip",
+        "source_id": "20dd90ddd6136548277d4fc36ff96e6ec386c99cfd4b0d7935a3473866de4ad4",
+        "status": "available",
+        "bytes": 11433,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-21.zip",
+        "source_id": "b37c3a262f6c368e69689f9934dd362e5abb6bcd7de74144e271e32a2845ccb0",
+        "status": "available",
+        "bytes": 11750,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-22.zip",
+        "source_id": "4c76a350cd384048c67d1629957f2bdefe0fc287dd7dcec365830ec2017be2d7",
+        "status": "available",
+        "bytes": 12475,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-23.zip",
+        "source_id": "4632324008d2432cce60056d3e532c7069b388ced97e44a96c2082807c078598",
+        "status": "available",
+        "bytes": 11825,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-24.zip",
+        "source_id": "48aa2bd0951c25390424fab78abdd09e897bef211e5285809c785efb24cfdecf",
+        "status": "available",
+        "bytes": 11821,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-25.zip",
+        "source_id": "5adc3c142bc4d05690aa60f362cde86947aaedfc1c97314b198e442c81468dae",
+        "status": "available",
+        "bytes": 11839,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-26.zip",
+        "source_id": "505d7bada64ae2b1fb2705998d0da86d9451c667b48222295672693020fdc0df",
+        "status": "available",
+        "bytes": 12120,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/TRIAUSDT/5m/TRIAUSDT-5m-2026-10-27.zip",
+        "source_id": "18d694eb662190fbff9cac98209270000dd892b1868c760751882ae4f9ba1599",
+        "status": "available",
+        "bytes": 12235,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 3018056,
+    "frame_counts": {
+      "5m": 75885,
+      "15m": 25295,
+      "1h": 6323,
+      "4h": 1580,
+      "1d": 263
+    }
+  }
+}

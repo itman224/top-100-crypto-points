@@ -1,0 +1,46 @@
+{
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 28,
+    "1d": 19,
+    "1h": 49,
+    "4h": 47,
+    "5m": 13
+  },
+  "event_file": "events/BTCUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 395606,
+    "expected_5m_bars": 8640,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "sources": [
+    {
+      "bytes": 395606,
+      "source_id": "a9864013b737e03043a0da52959d2205873efe31383310366083285a1024925b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "BTCUSDT",
+  "version": 1
+}

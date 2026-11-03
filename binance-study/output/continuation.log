@@ -1,0 +1,5 @@
+Ranking attempt 1 2026-10-28T09:51:58Z
+[17/530] 4USDT: FAILED official: HTTP Error 503: Service Unavailable; fallback: HTTP Error 503: Service Unavailable
+[18/530] AAVEUSDT: FAILED official: official source temporarily unavailable; retry deferred; fallback: HTTP Error 503: Service Unavailable
+[19/530] ACEUSDT: FAILED official: official source temporarily unavailable; retry deferred; fallback: HTTP Error 503: Service Unavailable
+Both sources unavailable repeatedly; progress retained for later resume.

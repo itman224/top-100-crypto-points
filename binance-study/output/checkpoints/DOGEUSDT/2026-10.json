@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 23,
+    "1d": 15,
+    "1h": 44,
+    "4h": 45,
+    "5m": 15
+  },
+  "event_file": "events/DOGEUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 326692,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "d6689c9445045926ccc676a988b65a9ef692f928b21c0283100d09e2bdf1717d",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12786,
+      "source_id": "90a2e85ede463780b131985337f8d50a02b291eedee83d4bd047bad7eaa1e9aa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13039,
+      "source_id": "ad33ace3e16ffdc7dfd99960acbe9e9e376effcb94659d8866ed15abcb40e09f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12174,
+      "source_id": "41e6a21fe656a3c744835bf509439bcc149b1b7f33a3a14cbdd536d2f86f7644",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12488,
+      "source_id": "626c044e0e8590d8baaeb67b0a33784c5bdea47da75e7af5e9591a4f293894c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12691,
+      "source_id": "e001b63f1d2ce96ae73170e5de34af001ab7df34a4ca74befbc9577504fb4282",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12639,
+      "source_id": "db1fce3de09f0192befaef0bc8a535371cc9697975e1d8ef65268996fff3e7d3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12768,
+      "source_id": "d71bc16e0c40f8078d3abbae50baccced87b23b35378758785ea41632801b013",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12943,
+      "source_id": "02c40aa3964a0e493ee09b5069e5e654f810118b27f2a488bf8979009092e913",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12477,
+      "source_id": "451381b1371812b6dd8146d5d742a8219eba24041b70403a868af5147250e49e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12074,
+      "source_id": "ff9f075f628ce0980b42e588c55904108ba3b12c23dae21841f5b148854913e3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12320,
+      "source_id": "040f4eb09eed6357ffcbf70a85e56b1ac711144d3a547d092170646d7f2b2d69",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12751,
+      "source_id": "eb865d4f3845df1044a09ab4f593ffd1efbd75cb5c196518ddfb310db7b7545e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12731,
+      "source_id": "9310aba0dd8a21e22ca1ca6e150dea1182345ce59ef46c88fe0d73aded3e0f87",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12573,
+      "source_id": "c9bf5aed2fd04c80555b4713847d2f68b11daa3d94ad51e3ac0020fb4621eba0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12869,
+      "source_id": "bdbdaa999546c58521c8c89cb0b710a1f68e0dba170a1b95a4ec521fc09a9104",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12647,
+      "source_id": "f29fcdc42c1623abf31015591fb51ac9f5995b1219c6b7d7b7864e4a0e71e588",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12366,
+      "source_id": "e194b10b8716cff06f8df96f47003f5b52da4cf69d968b125515cc0522d605e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12551,
+      "source_id": "a1e7df4a12144430054a1866dc631835e1254c566a511dd657db22ca1f22dcf9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12388,
+      "source_id": "b959c04b7a57bf3b4d743b7f885d954bf299b0c5228e3eea1f58ffda8ce86d9d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12593,
+      "source_id": "ef616fb591a3d9e58a11a7a911706ea66ce2d794107fe489556700974445aa6e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12495,
+      "source_id": "e5dd0442eec56cef34ea524c337c6141338a2ca178d0bae977a8fc269f3f5680",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12604,
+      "source_id": "eb6cd3b52bf7395f0173d7248900dbae0df29b850cdbcb383dcd855d46c6df61",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12550,
+      "source_id": "d6ce25b8fabfcbdea539c39eec05eff25824d02a13e104b65cb2c03a9e91f334",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12493,
+      "source_id": "6c939bb9769622d1e34305870c2342bee0962ea3bd6ee4ff49fac12de8c09a6c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12282,
+      "source_id": "c513f816a41665ac862322608b7dad8f8f380cd338ad14ad8a4b11fd0670c3c7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12400,
+      "source_id": "14b6231094fc55c779cfa71bf5ccf2176a66dc4cb38e21258e1e80afe2d837fd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "DOGEUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

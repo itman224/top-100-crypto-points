@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-09-30",
+  "event_counts": {
+    "15m": 141,
+    "1d": 23,
+    "1h": 144,
+    "4h": 89,
+    "5m": 82
+  },
+  "event_file": "events/SAHARAUSDT/2026-09.jsonl.gz",
+  "month": "2026-09",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 346464,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 346464,
+      "source_id": "ae0d3dd662c43e60854145512c39d8967a832c4168d0dedf8c6e23cf0b975290",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SAHARAUSDT/5m/SAHARAUSDT-5m-2026-09.zip"
+    }
+  ],
+  "start": "2026-09-01",
+  "symbol": "SAHARAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

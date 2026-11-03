@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-04-30",
+  "event_counts": {
+    "15m": 32,
+    "1d": 17,
+    "1h": 65,
+    "4h": 58,
+    "5m": 15
+  },
+  "event_file": "events/SUIUSDT/2026-04.jsonl.gz",
+  "month": "2026-04",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 360044,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 360044,
+      "source_id": "6e124a3b4cc09b585ddcc90dd3c77d90e2015f0e6e1d3c8ef0e86dd2bf4abff9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SUIUSDT/5m/SUIUSDT-5m-2026-04.zip"
+    }
+  ],
+  "start": "2026-04-01",
+  "symbol": "SUIUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

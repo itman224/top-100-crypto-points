@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 403,
+    "1d": 25,
+    "1h": 238,
+    "4h": 107,
+    "5m": 524
+  },
+  "event_file": "events/ARCUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 302178,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "09bfc2a92bfcb9f69f0fe9ebb30302d4d6a6b37e5237c8ec8941479bca04b5d3",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11062,
+      "source_id": "ae132c2c614c1463ac338fa725aabb746227aa836de9be65bbbb4b3420e71794",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11277,
+      "source_id": "406db7aa8e6eeb9298726501f21b93234f8f7c10006b20943e56aeb585f3ed30",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10842,
+      "source_id": "6a67c6e065d487c45b75e4e32c6895b95d5604f478ecfcb92137eb3af69f8957",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10697,
+      "source_id": "5485d694b63989cb809a60a1dc759b9907ae3353126a5d2f6fd5ff1f95383ab2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10866,
+      "source_id": "093b94e48e23c0ab6da3c696f82f0b673c15c472117d4f2c413399618db77a1d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10947,
+      "source_id": "6ee56e46c04d5b01bb53ecb8a57d7a87c577ef1828d65b9d03685dbad7de574e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11202,
+      "source_id": "7473f3876319c9e281d58ca1f528ff721be15a7ddab6e4a74672c6c4bae54ee3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11358,
+      "source_id": "4d12b4c1d47d2a3ee238d8879f6f7c4aedc9498d21ee2da800e242a841231506",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11033,
+      "source_id": "b8e2692ee94b4bac775405acf43cc1003c3bd16e4f0ce73a2eabfcecb9116f8b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10617,
+      "source_id": "c3253e8167e07baba390811ffa0015902176239b3587d6f8446b930f1242b103",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10685,
+      "source_id": "096d76f7b8d2165ed70e45dbb9269c6897565cbb9b4fb4f660676c40150b2e8c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10829,
+      "source_id": "9034e37321e08b8c49656b8ca1f39292a30eb6972f37e6c77a860751b9567f08",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13139,
+      "source_id": "6f4b29082dc13982c57a7f34d92a42a705879b85a498e2d634ab1ae907458f1f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12609,
+      "source_id": "241d13849bdfd29e65ae9b1bad9df949e33f8c9a7bb6bee9af033cd8ba33d696",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12814,
+      "source_id": "a62c7b31b925c27f2fb9e5422a8cbee9cfba047acd2269f6613090324e73dde1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12124,
+      "source_id": "6703ce1c584e8e3a02d0ae9309b35e5cd5fc44f5a86563a1a455544b40b11a8f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11976,
+      "source_id": "488e3f70ad224030546886649063d06413c4c351b9961ed44657509cd7a10ada",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11956,
+      "source_id": "8b0ac2c8b180cdedc816532e0a431d7f54b8712a92aa7ad75231a87adc8b9fc5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11813,
+      "source_id": "7498c6085e000b62345daa35adb3155541848e856475586cb3f129580b17c25d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12253,
+      "source_id": "bf429aee06d877d0bd405aa6f9c529c923e7544440ba101c5970124937c1fcf7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12428,
+      "source_id": "63deb74c397e2fabfe43a0d1c0a257f2c13529b3dd91cd12f875959512860b10",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12340,
+      "source_id": "24d6b0f3a0b0c3dbe2737cefcd945f6f47daaef74bd75e4ba692aacf2da235cd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11990,
+      "source_id": "e322fb6c417d1fa1cbd367e6dab043230f5401d7ce0dff84bd7c0c26c8242912",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11657,
+      "source_id": "5b4c989f156495e60a4e361add9ab54576700f687e7cc66f255f5788a6d2e907",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11759,
+      "source_id": "0a6c84f0c3735e1522563d533048d34c528484de5fed9c5b46ce06be79efe96e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11905,
+      "source_id": "1d7cc6c2c7778bee9c06886bb058eec09d4e65a2e9546e2cc1c2c7dd93bc3217",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARCUSDT/5m/ARCUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ARCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

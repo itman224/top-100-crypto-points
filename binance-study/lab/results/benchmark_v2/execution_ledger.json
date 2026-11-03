@@ -1,0 +1,431 @@
+{
+  "checkpoint_directory": "/workspace/binance-study/lab/results/benchmark_v2/symbols",
+  "counts": {
+    "completed": 0,
+    "failed": 0,
+    "pending": 100,
+    "running": 0,
+    "total": 100
+  },
+  "created_utc": "2026-10-29T11:02:31.972304Z",
+  "elapsed_seconds": 0,
+  "eta_note": "Estimated from completed per-symbol batches; excludes unavailable network wait and future processing stages.",
+  "eta_seconds": null,
+  "fingerprint": "656497f96f56dc8f29ec063e954d299ed2194f2175df4814f5d4cefde80463f5",
+  "resource_observation": {
+    "disk_free_bytes": 31578378240,
+    "memory_limit_bytes": 5368709120,
+    "peak_child_rss_bytes": 0,
+    "peak_temporary_disk_bytes": 0
+  },
+  "resume_command": "cd /workspace/binance-study && lab/.venv/bin/python lab/batch_runner_v2.py",
+  "scheduler_status": {
+    "note": "This runner does not install a scheduler. Configure an external timer; verify its real state independently.",
+    "persistent_scheduler_active": false
+  },
+  "schema_version": "1.0",
+  "symbols": {
+    "1000BONKUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "1000PEPEUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "1000SHIBUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "AAVEUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ACXUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ADAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ANKRUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "APTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ARBUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ARCUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ARIAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ASTERUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "AVAXUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "AXSUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BANANAS31USDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BANUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BARDUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BCHUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BEATUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BNBUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BRUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "BTCUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "CFGUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "CRVUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "CUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "DASHUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "DOGEUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "DOTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ENAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ENJUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ENSOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ETCUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ETHUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "FARTCOINUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "FETUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "FILUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "FLOWUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "GALAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "GUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "HBARUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "HUMAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "HUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "HYPEUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ICPUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "JCTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "JELLYJELLYUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "KATUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "KITEUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "LINKUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "LTCUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "LYNUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "MANTRAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "MUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "NAORISUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "NEARUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "NIGHTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "NOMUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ONDOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ONTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ONUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "OPNUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "OPUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PAXGUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PENGUUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PHAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PIPPINUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PIXELUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PLAYUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "POWERUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "PUMPUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "RENDERUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "RESOLVUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "RIVERUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ROBOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SAHARAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SENTUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SIGNUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SIRENUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SOLUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "STOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "SUIUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "TAOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "TRIAUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "TRUMPUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "TRXUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "TURBOUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "UAIUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "UNIUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "VIRTUALUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "VVVUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "WIFUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "WLDUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "WLFIUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "XANUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "XLMUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "XMRUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "XPLUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "XRPUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ZECUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "ZROUSDT": {
+      "attempts": 0,
+      "status": "pending"
+    }
+  },
+  "updated_utc": "2026-10-29T11:02:31.972360Z",
+  "worker_limit": 1
+}

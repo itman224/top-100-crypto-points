@@ -1,0 +1,28 @@
+{
+  "symbol": "BTCUSDT",
+  "start_utc": "2026-04-01",
+  "end_inclusive_utc": "2026-04-03",
+  "expected_5m": 864,
+  "valid_5m": 864,
+  "missing_5m": 0,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "missing_ranges": [],
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2026-04.zip",
+      "source_id": "175a17dcf72609a3d0d38414fb0358ac0c6e5fc1ee62edb82ce9426c4be1a2bd",
+      "status": "available",
+      "bytes": 391115,
+      "error": null
+    }
+  ],
+  "downloaded_bytes": 391115,
+  "frame_counts": {
+    "5m": 864,
+    "15m": 288,
+    "1h": 72,
+    "4h": 18,
+    "1d": 3
+  }
+}

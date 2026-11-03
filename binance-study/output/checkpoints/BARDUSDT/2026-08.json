@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 101,
+    "1d": 23,
+    "1h": 121,
+    "4h": 84,
+    "5m": 50
+  },
+  "event_file": "events/BARDUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 288039,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 288039,
+      "source_id": "9f313f6f6d1faf92359c04eddd62e52380d337d0a598fcdaa8f58680d6a8b63f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "BARDUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

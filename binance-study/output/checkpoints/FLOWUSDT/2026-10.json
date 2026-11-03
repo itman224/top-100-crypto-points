@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 138,
+    "1d": 21,
+    "1h": 147,
+    "4h": 84,
+    "5m": 84
+  },
+  "event_file": "events/FLOWUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 307376,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "85ff0a3c908738dc95aa00c1391c0671d872937564adaec09cf028625899a82b",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11947,
+      "source_id": "db619f8d1de0cf9c1ccc0fef3cfad4826b23e8b853b71da3fb7d5d2bc7a906e8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12084,
+      "source_id": "81964293f145048c78efc6a27395519424d932ccc15a48994ec427011c39397f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12026,
+      "source_id": "bc256a1ed284836ae7ce83ffcef92dac71fa9e3ba4ed27f4aeae7c7320b25dbe",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11651,
+      "source_id": "28f57dea7cbfbaa74907c027414013b72ed5bf56220dd0c5fadb3a7a203534f5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11716,
+      "source_id": "4097718f278e02c2d8a54f7e87d546d8043c072714bfac505c110c0346ca157d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12030,
+      "source_id": "084de0f3f618a234a9a9ac02124e1ca434b7004ee72b8c61de8e45f1528d513e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12151,
+      "source_id": "f5ef39f963c4fb003d0357ecf99e6bcb952c3fedb9f120dbd3463a873a4b8d67",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12101,
+      "source_id": "6cdebe4414c8fbf9f8d4066032b9c4d33f4912de8d1200cc68c4d529f7c081a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11973,
+      "source_id": "e4a4c391375176e55fd9d22ba04a1f6395e8b3ddf770a30d9ae2a6dd54132003",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12002,
+      "source_id": "c96f0553ca796b8df84d417f94e40c075f184d9295fc85a6a97a6598b631fa1c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12385,
+      "source_id": "f44426769bc59f68c93ea1f2e55b51ca0dadd8e54b1a18615b677d29dba348f1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12696,
+      "source_id": "86d3a8a7f8a3cb757b6771ac72bca7014c5cd3b2aa084bf52aac0b1867fd4454",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12186,
+      "source_id": "7b0e3ec0518a34a2846c8679bc62a139e6f0cc4c31786ebd4cc6af376f42fa8f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11873,
+      "source_id": "b02ac5619da2540bf2b473e9a3abde12413297f27342cde47fd4f5735437f5e5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11992,
+      "source_id": "37d9f5eeade93010e8ad5b5a084b1c2c65666a2350956717bcf4eec77c8c3438",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11833,
+      "source_id": "2258d5cdd924674210a62fb0e86577610a84df0867b09d8e356a1a237130f8eb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11582,
+      "source_id": "00f9ed1d0aa1cb00649cd643c9caa03d79ecddd3a6021b50c4b92ec10d748e5c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11567,
+      "source_id": "271667fdb4428ce5bf7e5d2d41cda249c811effc2cd6c02f92ba27258d2a0719",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11421,
+      "source_id": "f2c1067cbebacc411f8b9450341edb5e1b809361308aaab1fc6f00702548c40a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11464,
+      "source_id": "5209d635e85615ede8120d8ae7b060925647197c85286efb42f37dc38b1aaab4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11493,
+      "source_id": "efe76a61605f9c2ec6b46585fbeef0804aa2a4075393c61bd552e978302cbcae",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11602,
+      "source_id": "34212e0842a3497cf5c53572d112844236a01318879ca7f53b4faec513b48abd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11535,
+      "source_id": "61ff125826db903a8f7b5aec116e2101a224f914ecea33dc6e773c2ac18fd5a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11397,
+      "source_id": "1028ae9d823ff73c569e62e2da0fdfacd6c600a63d2e8a5b4d578686a71192a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11206,
+      "source_id": "ec6409593d31db8d8f92342a64034108dda3db0c17430c8ceddc8d76cfb10749",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11463,
+      "source_id": "6bd8bff2332b99542d1ec702a6b3fc6954b3390752c2ceb060e6862dd7439bc4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/FLOWUSDT/5m/FLOWUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "FLOWUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

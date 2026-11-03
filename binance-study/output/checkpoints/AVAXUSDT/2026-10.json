@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 45,
+    "1d": 14,
+    "1h": 81,
+    "4h": 61,
+    "5m": 23
+  },
+  "event_file": "events/AVAXUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 282115,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "dc36d432b3ff00684aa0c5fc3d08d6de507627024f165ceadde8f513fdf5d7a7",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10998,
+      "source_id": "30ae4b46be3a462d7cda4de997cb14876e49e781bc6736e041741b51ea33a6ff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11107,
+      "source_id": "cd886523d465905d1c45315d684792356bae5315bce0f17ea4942fa8f4cc9a91",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10696,
+      "source_id": "511995949d1ecdb52218fb2ce3245f6500978151a459c5e63da5cf30f7cefc7b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10380,
+      "source_id": "d877fe973521b7c0596831f21efeb94513ead86497dfee378da5a0779035ef65",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10831,
+      "source_id": "b9241541d3dce9d518a2373afecf931fb054d736a90f528b5cd49f7e9d22fc1c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11195,
+      "source_id": "2264918edf9b106cde820de91e873ed59839696039d6e22fb5631cc2b7757d8d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11317,
+      "source_id": "92febc6d63cc119def497b73a0394fc5044539d71ddc5f44cb696954c2820df2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11361,
+      "source_id": "9f4a956db330f5135a499b5ca365ab0f44095996dfe966db6f7faa3cd1db7005",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10909,
+      "source_id": "14a42d623558dcd49984fff0f5ef2e1a8fdb08aff473a8b41a0ca0a2ca5e4df2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10711,
+      "source_id": "521f48f8255b106cf3090a85dd25681e8140af415656d24b615c87b41ddf918e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10823,
+      "source_id": "fb635c690a3b3d87a6fe014e160faa57015fd5fbc233a55be1fe1a2fd17887d1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11105,
+      "source_id": "02593c62ce0ede9d4f93d9429484451b198dc762c1b2e28395184cc31cd75158",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11028,
+      "source_id": "bfa757eab102fea1e5fbf441282551fd2ed25b3537fb082552aebc3264545b77",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10860,
+      "source_id": "c8dbbae8d5700a28d279643f2cc318c64b6831afaeb398c42f9213db86077027",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 10990,
+      "source_id": "f145c653f5897c7069226b1628b2407f166147747637460ad679dc86312797c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 10876,
+      "source_id": "5246c7779a122a839a5f1e074057d8f21e3c9522c3334b6c3b96980b1f53e6a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10621,
+      "source_id": "fc12a94e3701eaaa49f8844738e48358563ef6de6421feabe139deb7d4729a27",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10760,
+      "source_id": "a26419619aa40689a0ac5d6079b5f5ae3812aa39478b3f6dc602e26fc56c2eb8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10626,
+      "source_id": "1822e141931173a30d1692ef4de31d3868341bde6dc918edf50c3d24831dfa76",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 10821,
+      "source_id": "d7bc4d81a8d6cb730717920a5a6534fe385ae400cf26d5a6594cc627d3bce24d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 10841,
+      "source_id": "2e079cbbe531b92978ad97d60d8ac16265676b955748d04bca88404530ed91d4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10844,
+      "source_id": "b3ba572db95c9c102a9ce46405002f55734cf83e8680da33eb61ab8c23bc8dc0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 10743,
+      "source_id": "da155fa8ac9d9a81b7a866f57d751981f675cde80a638bf0c913619562eb5bcd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10568,
+      "source_id": "c1cb802a134de2b687c4a393563fa98fb80b01483028b8ce479bb121ade15ebb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10429,
+      "source_id": "c8465240ea79cdeec802fc2436e44ca163c354a6f6b1373157d1c99f1e461aba",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 10675,
+      "source_id": "413071eac9841614dc2c705b1bdadd4b4c7d8de0be6e8aa86a1dd924a033cb05",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "AVAXUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

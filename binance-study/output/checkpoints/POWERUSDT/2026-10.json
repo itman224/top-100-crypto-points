@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 159,
+    "1d": 20,
+    "1h": 155,
+    "4h": 77,
+    "5m": 110
+  },
+  "event_file": "events/POWERUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 290766,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "2461bcd61d62eb366dec8683d30d8938781509d433a94ba2896cb7695c7e3ff5",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11734,
+      "source_id": "41a7e0c558a6ed82b3dc436928be5af7df8c741d8e082f5e11da331ba8c4bfac",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11932,
+      "source_id": "7e95e24e38cb975373ef59fbaafc0e2b2f3d3e15afce5a542d651a27be9180a7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11623,
+      "source_id": "48bf42532443a33d02542ac65827c571b8aed4fd8a7abf840ada9ea1b4b8bb06",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11215,
+      "source_id": "938ed54dcf805c8258947c13e92fcf7a490a21af5c6a6fbd0c7187245b18e851",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11177,
+      "source_id": "dbae125206624a193ad7327d9daf2db9a204b104d7242f20918162ab60fadca7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11370,
+      "source_id": "f5381697a78bd53acc5b66509f8534653051e26c2c881790fefcd2e924f8e5dc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11243,
+      "source_id": "b03a9a635ec988f35f134b76529d295fbb9b7064cdcb91b977631b924c6edf60",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11418,
+      "source_id": "4aaccf9a45d93b2ea04f3150707967f3a05de7d5921b797c0bffb8e1b2132490",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10876,
+      "source_id": "d6e829ea338478a7dddfcecabcad2af3b7a0805ab81c8ca8357c94be7d2a7eeb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10608,
+      "source_id": "95d3458f4c828dcc404c3e3882009d9d700bf1d0fe622efdf26fa360138423b6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10809,
+      "source_id": "3ed22903a6cb8556455aabcd64b3af7d8cc87f2df0e284fe55b021a9ca01fc6d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11318,
+      "source_id": "c3ab7f6451c0d2ef9b63a5f1985e8c29cdcfa8738ae8aac371df3c235b70c5c5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11510,
+      "source_id": "12f55b3fd9cb7a00e9b4d72ab2ef32f34d631b16862535e4dbd336ba3bd8d0c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11283,
+      "source_id": "0b8daf5772f063568349b9dd57dded11a3559e7f1919de79a7c197e2562993b9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11256,
+      "source_id": "153fdef9023cb659d39a48a9d94d85742deaa49a3e88e6c15a487467c1793255",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11102,
+      "source_id": "55df64bee11e5cc6f055d8e9d0dd32f31743c07c2f8acd98d72ccebfbf224082",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10866,
+      "source_id": "656f9d83527066546c588603e410a7225bf614f8c9fa02333d7c08b630848a18",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11067,
+      "source_id": "b7c11ecbc94fea5964498d3c8d5225bd5cf11b3c769227a26d81fb9c4f8e27ff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10932,
+      "source_id": "2fe8dd518ee33ceb8f7ca1dd7d855a1b2116a1e13846ef705214341209553d26",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11285,
+      "source_id": "4d5f1e4a660226bf05a5e84629fce4077cf31412929b93769b9be87c2378198d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11201,
+      "source_id": "c3e2465b19ac3b93ee5b576b36c3f95dd0c7a0ff0fd931e718248a6eea115ed3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11188,
+      "source_id": "d6c50c547af433ae30b8a802e3728d955287edca50ed674453150c99a794f43c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11205,
+      "source_id": "65801353362b9fafe556a84e1efdb1644ee49ae8bbb7892a20df1010cb2eff65",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10856,
+      "source_id": "864947116f7c7b9e3aa852446becd5b79a37505383bb7600dd486e7e392181e1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10638,
+      "source_id": "efce9ee27ae5cb288a251ca620f56f9f8870ca3dccd7d6f1036865bc21c7fe52",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11054,
+      "source_id": "d7edcad0475fe386a944da26ace3db9a4cfce6b2796f12cfe7e01de2f17a9eec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/POWERUSDT/5m/POWERUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "POWERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

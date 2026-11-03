@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 42,
+    "1d": 19,
+    "1h": 69,
+    "4h": 63,
+    "5m": 24
+  },
+  "event_file": "events/STOUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 277620,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "8f83e69d7ff0a097cd155bc2c7c2c305f6b6cf37b0fab0038f5ef42ca93e3771",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/STOUSDT/5m/STOUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10958,
+      "source_id": "d63a0d88b50848e08cca4b57f8f6a837505f73552a9d7936b5340227d32b6a4b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 10898,
+      "source_id": "f9fbf0998411951764b68e66685ad6590d00e00fe9eeee1e4fc5d8cb247e18b3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10522,
+      "source_id": "0179237f71c0220871f9c665c3b1f7e952e352424265cb139ad7f9dda288a4f5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10292,
+      "source_id": "6e4bee217e5729032a17f7841bafadec84cb8c850fcb5c29c609ffdb7e29616f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10762,
+      "source_id": "3e6da58d820a3fa88236f660eadf16c7c24d358540268870b50c60ffe22f938a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 10714,
+      "source_id": "85a16f7b9dc7ae03c0e08b861120aafbeade9b495a32fa3493ab44c21b189298",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10818,
+      "source_id": "08775ee395ec43604bb9ae89090367c28cb39cdfca226392f42b9054a2394673",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10894,
+      "source_id": "d20b0cc13c5f9f1ed3380d45f70928d05b72837a7e8359b4b49b9c5d3296606a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10626,
+      "source_id": "d4229cfcf0f01787eae52a64d008c053423f8d954dc5a4f93f861145015f01c3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10377,
+      "source_id": "f613786e31d8c067921774a181bb77d8254083c89ae4fd9e6ef78589172d2c3a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10456,
+      "source_id": "14c3549db64c7a550aefebca9c6a84ffa99068d222d81533184509914b3110bb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10908,
+      "source_id": "1a94629274048255a60a8d76978765f90c2bfdbe0503e0f3ab49e045c7492380",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11035,
+      "source_id": "f9dbdcaf96eb00ec289bf1221f941aa2db10b848ca784fb3a400cd8cd74703d6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 10659,
+      "source_id": "8b603c1a4eb5380ef414d90399dcd376403f56e218d6b51f13795557836b2a8b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 10907,
+      "source_id": "d5dc9f234cc95e95f5af5ac1e53832003aef3183cec1ba40878c97563d22abb5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 10598,
+      "source_id": "43093b749af91f3e0af074e03dec49b2d5982547c4bfc2663dfc1531096d9f30",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10645,
+      "source_id": "9516a9c5aef207bc4ce1458e6ceab4688f5cce72c702ccb96de0a409b9feda22",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10713,
+      "source_id": "50dde2ab983ec923829ee966c6dd807707fa9409c15b0f40b7d76dfb5caa67b1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 10569,
+      "source_id": "d685d5fd07a30ca7a2585e5cb394e018efa9b6db812c3a59eacf25728abb44e0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 10720,
+      "source_id": "4a35b89ab4af3d5b0da78c7edc29fe72bb47fc16e54b4e8f83c8152921d1154a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 10333,
+      "source_id": "f79df9ca4444335a9f4cda447515e7aa5df992e615fa3501af07ef68ce972c30",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 10649,
+      "source_id": "6926e8f0ef2ef2a6e7d653872e7c3aeb281e35476393d3224ea1a749802fabd7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 10666,
+      "source_id": "3c04bdfa008241568f052d8ba783d0edb33ccc028de721625d08bb87a879286c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10815,
+      "source_id": "45bd4838e396ceed6117d425b6d9a1f514c773c8d1e5cbb397b3ffef4d2765e6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10530,
+      "source_id": "4ef859b78a3ba3256765cad5cd8239e86d8ff37b0a8efb6b1bdcbb530346a184",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 10556,
+      "source_id": "0e95aa49e77cb1c967c82cbf43ece66ce27f21eba9d1c8d352e20e2d3854845f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/STOUSDT/5m/STOUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "STOUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,352 @@
+{
+  "symbol": "BANUSDT",
+  "event_count": 4167,
+  "quality_counts": {
+    "complete": 4167
+  },
+  "source_event_files": [
+    "output/events/BANUSDT/2026-04.jsonl.gz",
+    "output/events/BANUSDT/2026-05.jsonl.gz",
+    "output/events/BANUSDT/2026-06.jsonl.gz",
+    "output/events/BANUSDT/2026-07.jsonl.gz",
+    "output/events/BANUSDT/2026-08.jsonl.gz",
+    "output/events/BANUSDT/2026-09.jsonl.gz",
+    "output/events/BANUSDT/2026-10-27.jsonl.gz",
+    "output/events/BANUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/BANUSDT/2026-04.jsonl.gz": "d6af6ecaafc4d05a1ee1298870383ca46be930d9a511910b009e6412100d4e2c",
+    "output/events/BANUSDT/2026-05.jsonl.gz": "adeb4901ccfd76a21a8c6619e09a90d65f0cd5eb422e057dce3df43a1ece9d93",
+    "output/events/BANUSDT/2026-06.jsonl.gz": "c8e1486b99cc057168868ef14c78e941f2f3a2049c53996efd2165a24038135c",
+    "output/events/BANUSDT/2026-07.jsonl.gz": "cefba9f03a55d57a160b71ca4393be590bc857809aaccf663d57e68b98b12d13",
+    "output/events/BANUSDT/2026-08.jsonl.gz": "be4bd2c318ac86f945c0931fca055f4431d7e294babba89d3882f256ffa39adb",
+    "output/events/BANUSDT/2026-09.jsonl.gz": "5ba6cd0ef633941ec7b84f85468085e5cfa3036cbf8e5d28f2caa7ad64afb2c0",
+    "output/events/BANUSDT/2026-10-27.jsonl.gz": "815e9a6ceca14ba1f10717cdd504951e8055c121d0b5ee8c102f49ebe40d600c",
+    "output/events/BANUSDT/2026-10.jsonl.gz": "adf4bf454bb0905a4218795bddacf36d062a2199d6317f06bdf9fed91819d0a1"
+  },
+  "market_data_quality": {
+    "symbol": "BANUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-07.zip",
+        "source_id": "d6d1f9f258b4d8d2c2a88f3ae08c177f8c2845a58e68d3c9119d0b7f2c80c79b",
+        "status": "available",
+        "bytes": 328671,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-08.zip",
+        "source_id": "fb813600f0ee6f340ca702a271a6438b24715ff927cb2f3642afeecf1e29b41a",
+        "status": "available",
+        "bytes": 341491,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-09.zip",
+        "source_id": "f3f49f1a19fbc3754d50bce793c4e8fa71302d546d82eedd3b2b8139d7e40959",
+        "status": "available",
+        "bytes": 332479,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-10.zip",
+        "source_id": "ba12ba05a6b6b73d7ea72e8cc775ad554cee3dfebf5536bef86d3c4c96734a3f",
+        "status": "available",
+        "bytes": 337185,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-11.zip",
+        "source_id": "868c30113338ea46d6d91eb8e1f7783e04d74bd78a173607b5095ff3946018a4",
+        "status": "available",
+        "bytes": 316368,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2025-12.zip",
+        "source_id": "1f7d4b1d951cd1fe945b58643e66002b22835864ba6b693b02cc7d94d22bb2fc",
+        "status": "available",
+        "bytes": 329912,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-01.zip",
+        "source_id": "4a486094a39f38ee82eb7d9fefb39e5c99016675bbccdb35a6f86cfb7254764f",
+        "status": "available",
+        "bytes": 329710,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-02.zip",
+        "source_id": "7ab1574ed0f9db9b1eca686457c4ccff2444135b65223d0109eb89bd723555e7",
+        "status": "available",
+        "bytes": 307420,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-03.zip",
+        "source_id": "e7a3b5b8f5bed742d5a5132d226b6f5d880b590d14a865794c4dee77fc3e3e96",
+        "status": "available",
+        "bytes": 347143,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-04.zip",
+        "source_id": "fe7c5b99dd261727d45b9b60873a3d728afd9f78c799d27e16e7b1b6b39dc1c6",
+        "status": "available",
+        "bytes": 329497,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-05.zip",
+        "source_id": "fbac2552ac11f71ff6d269da55f59b1ea571a958ed4affff3137d7b767802230",
+        "status": "available",
+        "bytes": 329501,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-06.zip",
+        "source_id": "bd17f3c17b4ccb0f0d7927c58cd3d9c392acd33db60856189bc079a8cf42de01",
+        "status": "available",
+        "bytes": 320243,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-07.zip",
+        "source_id": "54e66e24b3cc7d46b279ef2fe0807863a540b2402da5f94c245da7c72772ad50",
+        "status": "available",
+        "bytes": 313023,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-08.zip",
+        "source_id": "220f5cb63c61b2063149a755e644f36fde3a60ab546160390eacdbaeb65f1f3f",
+        "status": "available",
+        "bytes": 310638,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-09.zip",
+        "source_id": "315ac5c85887e00702fe5f23e0ef52d835d2a4d6ecb318e33dc26e4eed4c8dec",
+        "status": "available",
+        "bytes": 304104,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-10.zip",
+        "source_id": "dbf0c452a8a96b376a75fe872b2bcbb4722f306d72c0a2cd309556857f257027",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-01.zip",
+        "source_id": "209e122c3e6b2e7d07f456d6bd29d6109dc3e17b2c58a59c4d1e0e752520660d",
+        "status": "available",
+        "bytes": 10986,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-02.zip",
+        "source_id": "81d356dda5c10b35d1a4c86b707bc21f2a7c501c380290415a7eb10a749877e8",
+        "status": "available",
+        "bytes": 10788,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-03.zip",
+        "source_id": "eca2dc01d891ed6fd219899b8823c7842d9afadaebae0c849ec29a33ae459be3",
+        "status": "available",
+        "bytes": 10601,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-04.zip",
+        "source_id": "f41b2e2df5d8baef2f7816f7c0a550595d5e9da25e8fb30415e350391d71149e",
+        "status": "available",
+        "bytes": 10463,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-05.zip",
+        "source_id": "1397f5ca9a9801999a47f102f7ef6057d67f816b45876b9a2036b245a16e882f",
+        "status": "available",
+        "bytes": 10628,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-06.zip",
+        "source_id": "aba12689222d535d6528cd5fb63ccfe7d31c315c5342f0285f0625890ad61856",
+        "status": "available",
+        "bytes": 10593,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-07.zip",
+        "source_id": "f02dba1fc95aa3634beb688af33aded115f8a07c50e994ddc71076dfac1c1dec",
+        "status": "available",
+        "bytes": 10558,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-08.zip",
+        "source_id": "069a4d813487a236e77f447e7d277e68aac5d7e5fbdd85c3ce353d9e5105e7e8",
+        "status": "available",
+        "bytes": 10857,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-09.zip",
+        "source_id": "2d9a724e0f9075690f6325ff5da2b82965afacacf1f0875c4c1b33cda885dc5b",
+        "status": "available",
+        "bytes": 10575,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-10.zip",
+        "source_id": "c5bf6fa2dc7260a2f9be6789f7cc706c17602a7f1dd697f97c421593cef38c78",
+        "status": "available",
+        "bytes": 10193,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-11.zip",
+        "source_id": "5bf9e6ec1c2f577d25cd79f76c407b96f147ec5e16d2f11f79d168f3552d0c29",
+        "status": "available",
+        "bytes": 10564,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-12.zip",
+        "source_id": "ee1730a704436978e29b527e21702b05ad57ceecde5a8d138061bbb08465393a",
+        "status": "available",
+        "bytes": 10851,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-13.zip",
+        "source_id": "8279c3434b923bcf17d969e5c6eb909a8540770ab9ca30366c938279f4594281",
+        "status": "available",
+        "bytes": 11082,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-14.zip",
+        "source_id": "2f380b1c1352d97fc8732ff4f075277f01096949f8be7c258faea00e60119840",
+        "status": "available",
+        "bytes": 11058,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-15.zip",
+        "source_id": "a3b9afe6b2749649dbf1a04b7d52be3fc67a1e8580884ba4d2e91bd26059af60",
+        "status": "available",
+        "bytes": 11034,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-16.zip",
+        "source_id": "48a2921d51ab4269e571f96ba52a52dff5bbf32d31d093c1822a60735016fd6d",
+        "status": "available",
+        "bytes": 10933,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-17.zip",
+        "source_id": "17f25e25e1d5ac513dac25047eed127680a2166a37dcf6b11a7a0ca4784f3a75",
+        "status": "available",
+        "bytes": 10682,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-18.zip",
+        "source_id": "0058aad46806a1d37fd3b592e9d87ce3e22da57a4a8355cd9d43cec2925097ae",
+        "status": "available",
+        "bytes": 10656,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-19.zip",
+        "source_id": "f7048f212fc4c3b17cbc2146f6fdb353ace109aab998d3a8226446454fde4c75",
+        "status": "available",
+        "bytes": 10174,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-20.zip",
+        "source_id": "7a2b6aadc733c8b8a86f19c39a2d3758256eb0cc70646457afa8853aa4c9d34a",
+        "status": "available",
+        "bytes": 10465,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-21.zip",
+        "source_id": "65205f6cc97ac9e2d172c9c7417d45f021ab0027ee950aed32191dd59abf6468",
+        "status": "available",
+        "bytes": 10812,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-22.zip",
+        "source_id": "db6596d570681ed486ae53aeb38e7c6292ff03ec660fe8890813cb0abc629f6c",
+        "status": "available",
+        "bytes": 10837,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-23.zip",
+        "source_id": "53690f6060ec65fdc6afbc08a5ad2eae7d376a3ae17784489ed79a1fa5aab98f",
+        "status": "available",
+        "bytes": 10684,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-24.zip",
+        "source_id": "328b9ff3322cbd8a70136b1024e4bd93a1591f3aaee1ff65a83090706468a726",
+        "status": "available",
+        "bytes": 10963,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-25.zip",
+        "source_id": "41521b665ba3e8b0ee05d026f4f42f6248443d45bb01b4f72a79118925431607",
+        "status": "available",
+        "bytes": 10538,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-26.zip",
+        "source_id": "61295a5ece317803ad470d5fa6d28e921dcc7ccd7a4bd8db841d10a1588e9c85",
+        "status": "available",
+        "bytes": 10603,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BANUSDT/5m/BANUSDT-5m-2026-10-27.zip",
+        "source_id": "f61c515f4b79d10eb051300b1d85678b7f101b34542fc04964ca0b6461c4f392",
+        "status": "available",
+        "bytes": 10770,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5166333,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

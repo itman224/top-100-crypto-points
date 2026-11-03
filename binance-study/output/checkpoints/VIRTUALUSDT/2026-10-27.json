@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 1,
+    "1d": 1,
+    "1h": 1,
+    "4h": 2,
+    "5m": 1
+  },
+  "event_file": "events/VIRTUALUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 11831,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 11831,
+      "source_id": "5c789cb1078b7295c9d8136232550522966ab68100af3f9020382257a93abc29",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/VIRTUALUSDT/5m/VIRTUALUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "VIRTUALUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

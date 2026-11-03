@@ -1,0 +1,46 @@
+{
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 41,
+    "1d": 20,
+    "1h": 63,
+    "4h": 48,
+    "5m": 28
+  },
+  "event_file": "events/SOLUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 369992,
+    "expected_5m_bars": 8928,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "sources": [
+    {
+      "bytes": 369992,
+      "source_id": "6b76954cd77098098341c453f7949b75567595cf21c16954e89e50556f021e18",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SOLUSDT/5m/SOLUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "SOLUSDT",
+  "version": 1
+}

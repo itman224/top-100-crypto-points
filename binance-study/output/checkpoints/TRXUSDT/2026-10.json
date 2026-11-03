@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 0,
+    "1d": 1,
+    "1h": 1,
+    "4h": 2,
+    "5m": 0
+  },
+  "event_file": "events/TRXUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 290379,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "9c2daae3e1d682bfc20f71a4c817229b324ee2ffb3f372bdb0b2ded55bd9e898",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11526,
+      "source_id": "36cdc1af4bcde8531084ce2db714b9bea8bb79f9c819e86a7d9ab77336105cca",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11285,
+      "source_id": "323a64e0e9ffc8a994a101c3fa0264042d466ff45a27e2f50a3bef587be49e5a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11150,
+      "source_id": "ec8ac5898302fe09e3147835207a32d40a2dca68870f7e4ebe2a9c4cee7c79c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10783,
+      "source_id": "c62659d835decdf40f59764ac76f890726c52bb3c161f5be2e7a005a00ddbcbd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11154,
+      "source_id": "5f54f0c7512d9d023a5720dbe3c4616bf39ba48c2b70c2cc5a8ed62e45a3f264",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11016,
+      "source_id": "fe89b3b82cf871c85681d385138005bf233cf5da7ca488347929de3ae8c305a3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11388,
+      "source_id": "aeacdde5f1bac9f86c5ae05bd7492b5906218f4500123ba4e28d87274a2870e1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11401,
+      "source_id": "ccac5f6ab56b0244ed8bf288e6c5ebab54a9d4a4ef6718f259a689a665d4b958",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11052,
+      "source_id": "06bb7b37aed2b9760ed04af830cbd1d7c352a1898582721c0a3b718e3f66cd96",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10845,
+      "source_id": "714054a0db532c907a637a215437382281bb2f9e8f7e0539705ed82ecb3fc04f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10868,
+      "source_id": "e4b039a60edfae532242fdcc99297c23a2e7152742f70a969e760067a86997ce",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11140,
+      "source_id": "eb3f90e9fbe95f0c3c406922e55dec1269f704c18a62879999fa172226a67ec9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11405,
+      "source_id": "091d1a72c0ea0b920f0710eaf0d017ee1336bd6b8247d777bd6363ba7e1428dc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11631,
+      "source_id": "548dd8bd4cb8f0d7387b438c62ee56fdf352aff4405dfbba38cfa1422f81df22",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11479,
+      "source_id": "53089ab7532f767422d03a40fd09b03671a5f98bb670f2219dd5af3d974bc6a3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11485,
+      "source_id": "cba7ff07302b0a52ae3e320dbe507bfa936ed2abed20a2166e0e46ce63c33f35",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11139,
+      "source_id": "82a4b53ce1712bb73891edd0cd3a74b1937a04575f22ac6e9ef2f0a700f73f7d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11017,
+      "source_id": "32d8995e91fb52ee6078fae95ac89b1183e71905de3c07ae0dd8fb6bdb5262b4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11160,
+      "source_id": "9e2210d76464f167521b1b303e18b7d0664841cc83dd80c28e35fc99f078010d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11209,
+      "source_id": "ef5ce2f6a45b970ec1a83f158839dcfdae1ecd0e37723b07ce43f3e80a71ea05",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11083,
+      "source_id": "eebfe291076ce690e586751d0ae947077b5193df3764869e9c1f7347b452d243",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11217,
+      "source_id": "aeafd60e123509d62f99d80598e896b43af0f758dde573575be9d4d55e8be790",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11145,
+      "source_id": "867bc5ce3a9fd4f2d2dc1c674d3635fba012c537097cdbcabba0691762f400be",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10835,
+      "source_id": "743b8a37d0d395b086682bab5ed2984ed1027859e9a6b4b3a0f69fae949dff2c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10863,
+      "source_id": "2b321702e5e22bdf0c1a3719b6f921c4240b09021e4242c33c6b38363d2aad8d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11103,
+      "source_id": "d6ea4f17a4b603ea614caf7a9ba17a447527b594e178c290b004ea0afd3dd6a5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "TRXUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

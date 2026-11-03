@@ -1,0 +1,11 @@
+# Permanent project execution policy
+
+These project instructions apply to the primary agent and every future subagent working in this repository. Read this file before starting a task and communicate the applicable policy to delegated agents. Follow higher-priority instructions and explicit user overrides.
+
+- Resource constraints change execution methods, not the authorized scope or quality. Never silently reduce symbols, indicators, timeframes, tests, experiments, or other requirements to fit available CPU, RAM, disk, network, or execution time.
+- Autonomously decompose complex work into manageable, independently executable batches. Delegate independent work where useful; coordinate ownership, review, integration, and safe resource-aware concurrency. Prefer sequential heavy processing on small machines.
+- Persist checkpoints, compact intermediate results, provenance, and execution state. Make retries idempotent; automatically resume eligible batches without repeating completed work or launching duplicate workers.
+- Continue until all authorized requirements are met. Record and transparently distinguish missing data, untested methods, failures, bias, uncertainty, and external blockers; never fabricate results or claim completion of partial work.
+- Maintain an execution ledger with total, completed, running, pending, and failed batches; actual elapsed time, observed resource use and bottlenecks; evidence-based remaining-time estimates when measurable; checkpoints; and exact recovery commands. Periodically make practical improvements without delaying the substantive work.
+- When work cannot continue immediately, use a supported persistent scheduler or automation to inspect progress and resume eligible work, with reasonable intervals and duplicate-worker protection. If no persistent scheduler is available, provide a reliable external scheduler configuration and exact resume command. Never claim a background job will persist unless a real persistent execution mechanism is active.
+- Preserve previous valid work. Do not optimize using an exposed holdout or represent an exploratory result as confirmatory. Selection, backtests, research claims, and visualizations must use real, provenance-backed evidence and disclose assumptions and limitations.

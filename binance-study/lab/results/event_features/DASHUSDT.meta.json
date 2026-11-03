@@ -1,0 +1,352 @@
+{
+  "symbol": "DASHUSDT",
+  "event_count": 4316,
+  "quality_counts": {
+    "complete": 4316
+  },
+  "source_event_files": [
+    "output/events/DASHUSDT/2026-04.jsonl.gz",
+    "output/events/DASHUSDT/2026-05.jsonl.gz",
+    "output/events/DASHUSDT/2026-06.jsonl.gz",
+    "output/events/DASHUSDT/2026-07.jsonl.gz",
+    "output/events/DASHUSDT/2026-08.jsonl.gz",
+    "output/events/DASHUSDT/2026-09.jsonl.gz",
+    "output/events/DASHUSDT/2026-10-27.jsonl.gz",
+    "output/events/DASHUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/DASHUSDT/2026-04.jsonl.gz": "7c89af5929416131911a9d5a297692ec2fe27fab7e4efae9dbd855c9c1c8b71c",
+    "output/events/DASHUSDT/2026-05.jsonl.gz": "512e25f0d2b8a10a8499e9375bcd9c0d5626b57f9dcb48e395ad287b3d0e1823",
+    "output/events/DASHUSDT/2026-06.jsonl.gz": "b88c680bb77806e0d6cbe57ad46ad3fb8dca4fbda3110d45b3f62e78c7ad32c2",
+    "output/events/DASHUSDT/2026-07.jsonl.gz": "1aefa4821ecb2847d32dae4974bf37a1c74c62a5209da06873cca24853380ce9",
+    "output/events/DASHUSDT/2026-08.jsonl.gz": "5aaa6529131b46cbf3935beb2ef9bd1f56da1231dd513d3befbffa97f7a67132",
+    "output/events/DASHUSDT/2026-09.jsonl.gz": "06fea2741f7bc1d332b1986437ac22e3c367195d45c1c5d7a0a48bb513591fc3",
+    "output/events/DASHUSDT/2026-10-27.jsonl.gz": "cbc51ebabdaa5e23dc20e08dae41b5210182b441187a544fe5ccbca38993b166",
+    "output/events/DASHUSDT/2026-10.jsonl.gz": "152b344088bd162704c9cacbf4f3d7f16fda6ef5a65269e8574b2cbc1d03fe6b"
+  },
+  "market_data_quality": {
+    "symbol": "DASHUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-07.zip",
+        "source_id": "f2567a515ac0e92842bc3bdac4609233fa842bff826cc7f124bb277158cd1db9",
+        "status": "available",
+        "bytes": 314463,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-08.zip",
+        "source_id": "569083319aa38472580e0854361bc17ac562ebed0840ccf1f2e3801913a63b68",
+        "status": "available",
+        "bytes": 315571,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-09.zip",
+        "source_id": "0135d90e46b03d4a50cca9d43ea5c85850a7c154ac870d14cd51b5663d63d92b",
+        "status": "available",
+        "bytes": 303271,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-10.zip",
+        "source_id": "dbd1a27f34815e71b12093c979a44e58bae4a95f61fb86d4b68cd0d186bacbbe",
+        "status": "available",
+        "bytes": 359176,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-11.zip",
+        "source_id": "aea44228369943338b46ac8aef1ab29ef89bbfb3f3a9e06ccf3af21cc8b49e98",
+        "status": "available",
+        "bytes": 364823,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2025-12.zip",
+        "source_id": "5cdc01132a3acdb20b8eb6337bd5be1f92c2d47915ce634faec71ef53f5aab2e",
+        "status": "available",
+        "bytes": 348222,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-01.zip",
+        "source_id": "5762888e33d3555dc1f95179279c005425b682e282a7b5fa7348083b49612c7a",
+        "status": "available",
+        "bytes": 363648,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-02.zip",
+        "source_id": "645680b86f28ce4e2a308a5ad41216c333b2d37912df72d4b2ac1714464a8f5c",
+        "status": "available",
+        "bytes": 315233,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-03.zip",
+        "source_id": "7341d45d356e02135de4db3b93d2edffd7cffcd2d227254b8843066cc5b465c2",
+        "status": "available",
+        "bytes": 336135,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-04.zip",
+        "source_id": "18c54af00908d8f2869084ec8770e8b39bbca7acff03df9da98c99c124249fab",
+        "status": "available",
+        "bytes": 328723,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-05.zip",
+        "source_id": "8edb7c8b06fae4578203ccb6dfb81190a404604e23664fbd0c9c8b9ad39cb4ae",
+        "status": "available",
+        "bytes": 350227,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-06.zip",
+        "source_id": "d5a03b851213605caffd97dec1250d99a5432a5b06ee2b51949da7a970684cc6",
+        "status": "available",
+        "bytes": 329098,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-07.zip",
+        "source_id": "e9d6206ec45d498d6ca007de47c133f694e76cfb5c951776c8395d5489a91cec",
+        "status": "available",
+        "bytes": 326130,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-08.zip",
+        "source_id": "6a49a0d3426419d3a86574319a5e5948c9a5883e27dd569f35b450da765fb4ee",
+        "status": "available",
+        "bytes": 329519,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-09.zip",
+        "source_id": "097503e44e60331a3b97bc351a8b422069fbbdad9178347dc3bf98f8bdad8cb6",
+        "status": "available",
+        "bytes": 348719,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10.zip",
+        "source_id": "b638684113696b82d2c64d0b3c5b390a8979cfa067db969d1e1a734ef3ec9dce",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-01.zip",
+        "source_id": "698f3a20315f56f63bd05bb8f3c5897c728201345eccc5cd9b30f16507618107",
+        "status": "available",
+        "bytes": 11823,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-02.zip",
+        "source_id": "52b429570a6071efb15418216c5b57148a18ef1384c7837426faf252d4d9f39a",
+        "status": "available",
+        "bytes": 11961,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-03.zip",
+        "source_id": "28183ea07e2b3d4f6c7024b787ed2757d93cda5948048da16d22cda5c12ef92b",
+        "status": "available",
+        "bytes": 11478,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-04.zip",
+        "source_id": "b56303877273777ad04e8d514e2c82b09b7adb9e4dc2fc1b4cb81c98600fd3c8",
+        "status": "available",
+        "bytes": 11318,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-05.zip",
+        "source_id": "598f99c6627998aff27fc9d14a6f6d8e99f61bfe9e6b72b839858bcf548d62c0",
+        "status": "available",
+        "bytes": 11719,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-06.zip",
+        "source_id": "a07e960a44ec985830d946496c522b9ddaf92dbe698d84ae55470c6c93d22290",
+        "status": "available",
+        "bytes": 11716,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-07.zip",
+        "source_id": "52e5856f74771373d1bf25166ebee27e7835c6d1d3bd98012dc84366f2e06a1d",
+        "status": "available",
+        "bytes": 11679,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-08.zip",
+        "source_id": "1db05fa98e8d25764c20e05ad888d3ee5f953a84091d856d4fbfd652cbf9cf4c",
+        "status": "available",
+        "bytes": 11839,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-09.zip",
+        "source_id": "1d106ab553fddfa2440f4127a1382c03e8f88ae6924fa74d53fa7d80f58c003d",
+        "status": "available",
+        "bytes": 11447,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-10.zip",
+        "source_id": "18034d7023fc5eb4060d58612ce3e00a065a4390188a158dc1d32916e882fdc6",
+        "status": "available",
+        "bytes": 11191,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-11.zip",
+        "source_id": "1b6f3a5cca0b731c242a621e6750df112d0205f46d6d4fcd41be5c860b10b637",
+        "status": "available",
+        "bytes": 11343,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-12.zip",
+        "source_id": "bddd046bf4709466f0008c81e2a87f72998e45569fe14f4ef9360112be8a0b50",
+        "status": "available",
+        "bytes": 11822,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-13.zip",
+        "source_id": "09b02a2218340d5e66e8b9815128f94639609e6aec995fc3903f78f6b32a533a",
+        "status": "available",
+        "bytes": 11620,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-14.zip",
+        "source_id": "10c9ef1fc26e520e446cac5f9c54db63bbd67b272caec98646adf9f47c591ee4",
+        "status": "available",
+        "bytes": 11521,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-15.zip",
+        "source_id": "9ad36f96676420e3ff96782f5f735f16d6d5cf130da2c1d8b59e7bcd60846777",
+        "status": "available",
+        "bytes": 11798,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-16.zip",
+        "source_id": "8c69357000a3f0fb8237c974ab3f81e21c17a319316d8d8d2970aa584959d313",
+        "status": "available",
+        "bytes": 11478,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-17.zip",
+        "source_id": "c72acf62ce8321c6b456cab9bd22e398acfeb0c745d5515ee76b1c879c247bb2",
+        "status": "available",
+        "bytes": 11318,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-18.zip",
+        "source_id": "7e6891060ebfe760ecd7d2b8c293607f64843292d9c493c8c40192eda3418ca4",
+        "status": "available",
+        "bytes": 11519,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-19.zip",
+        "source_id": "4e58ebdada78feed711b72db6dd4496c6ee47fb2d983d7903df6ff513a5c931a",
+        "status": "available",
+        "bytes": 11529,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-20.zip",
+        "source_id": "8b93bdb4ac8f3e50fad2286041d467de98715975e9d25a09f2f11b493720b4cd",
+        "status": "available",
+        "bytes": 11637,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-21.zip",
+        "source_id": "b3e0a2686c8c554ad69ee8a5ea6cbb570b24b369187f1e26737fbecad8920344",
+        "status": "available",
+        "bytes": 11747,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-22.zip",
+        "source_id": "1cef8e18d73eaf4f806647eb76b318509e614fd51483559eb52531196fb3dc43",
+        "status": "available",
+        "bytes": 12022,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-23.zip",
+        "source_id": "45bbe81857160668e5e2bd6de2af072b5a543dd26a7e67651d17fcd365c63d62",
+        "status": "available",
+        "bytes": 12152,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-24.zip",
+        "source_id": "028c70f73a4e43354ae4abd5606e0cd561271e9fca7be4c45a1ba12c444b09c2",
+        "status": "available",
+        "bytes": 11939,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-25.zip",
+        "source_id": "b08bbc7f3fda57e405b4d4d3be7a9cd6fd300e6f425a4e58e555d2198d5c6413",
+        "status": "available",
+        "bytes": 11731,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-26.zip",
+        "source_id": "ec8d288c87d133b796722b691fe07298dd04dac852c80512901750aed8834fa0",
+        "status": "available",
+        "bytes": 11808,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/DASHUSDT/5m/DASHUSDT-5m-2026-10-27.zip",
+        "source_id": "f9a1922e8bde05f9fadb125aa3b3ec134ae1a6f3f8232f8e52e562e85df2a947",
+        "status": "available",
+        "bytes": 11837,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5347950,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

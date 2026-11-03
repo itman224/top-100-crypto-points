@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 283,
+    "1d": 22,
+    "1h": 210,
+    "4h": 108,
+    "5m": 210
+  },
+  "event_file": "events/ICPUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 298224,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 298224,
+      "source_id": "5bbd7ad47a1878b6a998eb1e5bf825843c8d536560043c09a41621e03e61be8f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ICPUSDT/5m/ICPUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "ICPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

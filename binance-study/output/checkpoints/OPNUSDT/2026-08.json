@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 221,
+    "1d": 25,
+    "1h": 173,
+    "4h": 103,
+    "5m": 132
+  },
+  "event_file": "events/OPNUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 335704,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 335704,
+      "source_id": "85401b73cb5f83e96676106383b3ec59f8e1f344058d2b99f37fc5bc6fa12920",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/OPNUSDT/5m/OPNUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "OPNUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

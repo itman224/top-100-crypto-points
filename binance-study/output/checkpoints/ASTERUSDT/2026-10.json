@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 21,
+    "1d": 13,
+    "1h": 37,
+    "4h": 42,
+    "5m": 13
+  },
+  "event_file": "events/ASTERUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 295400,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "71410276f76818482e8badf50a3d2212309661f8abe9e4bcbcd9dfbec296cc01",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11620,
+      "source_id": "29fb2fec099734070be4a10d8f61ded5502e939eef5f7613c2ecdbfcc7b51aa4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 11792,
+      "source_id": "0e689748b438c7024cd18cd1bc5f3036759992dfb4f76bcbe41c56797d72b8e2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11235,
+      "source_id": "766e28d3eb0cac2cd48d05e73254176d849fbb1bdc5a8d6a6bca5baa2129a02e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11098,
+      "source_id": "7079ea45b6e1107279c2b200a00ac6d48a83aba81cc7e9c6fa2a8e827535139a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11629,
+      "source_id": "887664f1dafc1038f16522a0c09388c3933795dfcf88726169060b19b6423aec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11532,
+      "source_id": "6d478bc9183103d57068f6ac36d5c0dcf590a8d08d48ad1026e8e4dd9693bdfc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11527,
+      "source_id": "379426b020fb0e1f245311fc15ab32313140f40b9c3db0578d5d850ba6a1a3a4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 11752,
+      "source_id": "3c30834a80df15e9e7cbca385b31e672a8fd2d025867d558ac847c6239239fe9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11397,
+      "source_id": "6f7679228b84aa388072ba4b66265875af2603ab5f74a7c441c0755c9ef8773f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11059,
+      "source_id": "f28b38bfd9c4bb84bd2dfac8f95f011ae70564e047eeeb75d49dd5147c280a1d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11108,
+      "source_id": "dec7a94be390f66d4d2130f27b661820ab3515b23a1921da6a20bb2d527c04bb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11416,
+      "source_id": "88e89239e59542755c9e908f3ded33966ea476e582f96fb3a4841f29e7be7e64",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11572,
+      "source_id": "8a9e09d01e84f43ba3214926341744a9583a6ef12ab3dc69ee45b35faa8f677a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11336,
+      "source_id": "e3e81fc36c42838dfb868c92755eb5f74bd71cd24128039018f93ab06bd22371",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11554,
+      "source_id": "11cf54a3d319f28b17d39ff2a8c9bfb2cdaea0af46dcd3c5da272e1c26334f22",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11354,
+      "source_id": "7b23d7aa354f9dbda8b8cbe0cda64440c4e7bcc2dfd6bf01b830cd5991884284",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11135,
+      "source_id": "dbb0cf1e05c1f999a400f77972f34dc0b1184d917166b9d28aad41719375504f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11423,
+      "source_id": "1209c46fd21451bc48006918dbdc88cc914a32ad79765482a57a6a32b2c47317",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11295,
+      "source_id": "3a70ccd9cbe24fef30b86c9db5d2c4b900dc799a2917689c1f1ff6ff6abf90ce",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11323,
+      "source_id": "56c7a5575ca833a6d3c1d62db79bdc3ec03b4ff220d49b2667ad5cf71e476682",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11190,
+      "source_id": "bccaa39f9f433fb6d11d5e04029b7a5347d465b113eae4933139ae5a0d98a0cf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11375,
+      "source_id": "93fd825ba1c0fd88c88a8c1e5082c03366b1dfd36bfc193e4173e2659732bde5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11191,
+      "source_id": "3bd0fb3ec270a624da10cc3f61d5e359db2ae036bd67f133cdb5aaaeb63942cd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11285,
+      "source_id": "bbc3f7c2ac1fccd267a87eed9b547414bfcf62765277fe9db5ad641c3886ab3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11020,
+      "source_id": "e71144650598f4d0bae6e97d479258d82208d396c0e62c573332f6edf6adcecc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11182,
+      "source_id": "9d8577d016ebf58076baec1d00d446ba561ea75fcdbe4ace09d709e7a6aa57ba",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ASTERUSDT/5m/ASTERUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ASTERUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

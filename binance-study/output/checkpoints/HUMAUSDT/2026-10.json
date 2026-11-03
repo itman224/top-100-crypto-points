@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 286,
+    "1d": 23,
+    "1h": 203,
+    "4h": 99,
+    "5m": 289
+  },
+  "event_file": "events/HUMAUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 327277,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "23d38f74f82522e329714ce5d7286400343701a4057d80062a4c2169b3c08ab0",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12967,
+      "source_id": "3aca76948ab61f6c18c6007be8ad7369bc7dd2e36c40d5b45aeeeed8b202aece",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12698,
+      "source_id": "eb47c1836ee48dfb99cb5467de165bbff61bddc2ad4a950b8a2aff58383193e8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12289,
+      "source_id": "fd6e7619e9628c313aecfa1032c72cbc5fd80198c168f2dc94f1d9dfd48c6237",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12409,
+      "source_id": "dc56fc2de7c684a4250325382ff6e2f08c05122445061484cae65d3f2045fa4f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12709,
+      "source_id": "a8493880ba1a233ff8860865ce951107e7807ff40e08df80327dc489114d147e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12957,
+      "source_id": "ce77d74a5e235d9e549abefeedb41edfc7c939dcee3040379220e52e8afb2126",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12575,
+      "source_id": "dc5dbc213a5ef54095398abb596dbe2c17e6889f64a6462a1fee8b7e4fa1d07b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12398,
+      "source_id": "ae56a74c8a823d71e78bf88c8277f30a1c9422554b1087d1cc0154792eeeaa1b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12816,
+      "source_id": "7650fc07a8848d17c9d0865f52d7a7c9f361f27f0fdd22068233055195f19cfc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12639,
+      "source_id": "f17134db261a8da2dc07c0b02fda516acb8b67794b58bfd1849db5295c10b52c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12536,
+      "source_id": "336f9fa3e993d782bccad1f58180e455ad4c16c529f6be10dd8514a58fa28113",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12449,
+      "source_id": "321ad9955a5097e3f9d1e952251b2f8864f36ebd69a8693c3def53ae849f694f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12513,
+      "source_id": "23fa32fd478b8cbbe6b317364b78038f11ce3108949c7b418964be7446f7ddde",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12519,
+      "source_id": "cffade1ed2949911e9adc78672bd95511f54c6c2688b5f3a3dc651e2463e4867",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12376,
+      "source_id": "e533ef1906db8a4d6ffbf7172f5fc92072c293e514d84819aa807d8c06d798c1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12848,
+      "source_id": "a49318c0496334883efe91cffc9f6698b9d1ed6adf3c6c0b89f7f61f0c1dde8e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12423,
+      "source_id": "21ec53a176d4d05850c803b609f7055d0b9cf80d694f5074036a3c35bd9f3894",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12262,
+      "source_id": "5283c2a0c27ace0c38a33ab51ed12e5af36b85da3ed2d93a1dfb562a479cf97e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12561,
+      "source_id": "30cfc873a7af122bb337dc7406e821a7bfe825c2edf271e23a509b53fe3b6536",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12294,
+      "source_id": "ee7913d5aed1c7b5915e19210aa86a607d954230bd2dd7f0cd98047ade127e21",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12624,
+      "source_id": "7fba31e3522d3d401ada9491462507c9a1ca7d6b15cb43558b983a82608c1129",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12686,
+      "source_id": "67c62896182c7b4eec7ebae05b533bc315e108de38032e63f5e52e81f3bbce22",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12624,
+      "source_id": "0a79c34d7d2dd032093b142b751f88a8e0d554378a73259ac0e551436402a44f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12393,
+      "source_id": "ddd3edb583c30091bc1c78d58aec4108093863e2955ffad58d383cfe152bcf5c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12263,
+      "source_id": "9ac37f4f98ed6aeeaded9c589ee784edccdfbd837bb59da42062f6b9db1d1964",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13449,
+      "source_id": "2578df93c8e345daebdcdce3551cca6c91f4ada0c395f1ed1b47c32c1758ddc1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "HUMAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

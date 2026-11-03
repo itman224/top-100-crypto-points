@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-05-31",
+  "event_counts": {
+    "15m": 389,
+    "1d": 26,
+    "1h": 320,
+    "4h": 132,
+    "5m": 248
+  },
+  "event_file": "events/CFGUSDT/2026-05.jsonl.gz",
+  "month": "2026-05",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 331005,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 331005,
+      "source_id": "3f76821f41e0502491b3ddf18d105c7a14ce8bc7d234b2aa9cbd11d62f2f38c9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/CFGUSDT/5m/CFGUSDT-5m-2026-05.zip"
+    }
+  ],
+  "start": "2026-05-01",
+  "symbol": "CFGUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

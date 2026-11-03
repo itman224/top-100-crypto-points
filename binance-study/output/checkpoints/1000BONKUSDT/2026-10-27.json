@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-27",
+  "event_counts": {
+    "15m": 2,
+    "1d": 0,
+    "1h": 3,
+    "4h": 2,
+    "5m": 1
+  },
+  "event_file": "events/1000BONKUSDT/2026-10-27.jsonl.gz",
+  "month": "2026-10-27",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 96,
+      "1d": 1,
+      "1h": 24,
+      "4h": 6,
+      "5m": 288
+    },
+    "downloaded_bytes": 12171,
+    "expected_5m_bars": 288,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 288
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 12171,
+      "source_id": "41e2d826d9eb8aeb8fb652d359b3472249a9e51e2a4216078842f00b504e0b78",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/1000BONKUSDT/5m/1000BONKUSDT-5m-2026-10-27.zip"
+    }
+  ],
+  "start": "2026-10-27",
+  "symbol": "1000BONKUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

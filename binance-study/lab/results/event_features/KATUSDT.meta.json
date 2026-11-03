@@ -1,0 +1,1891 @@
+{
+  "symbol": "KATUSDT",
+  "event_count": 4615,
+  "quality_counts": {
+    "complete": 4597,
+    "warmup_incomplete": 18
+  },
+  "source_event_files": [
+    "output/events/KATUSDT/2026-04.jsonl.gz",
+    "output/events/KATUSDT/2026-05.jsonl.gz",
+    "output/events/KATUSDT/2026-06.jsonl.gz",
+    "output/events/KATUSDT/2026-07.jsonl.gz",
+    "output/events/KATUSDT/2026-08.jsonl.gz",
+    "output/events/KATUSDT/2026-09.jsonl.gz",
+    "output/events/KATUSDT/2026-10-27.jsonl.gz",
+    "output/events/KATUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/KATUSDT/2026-04.jsonl.gz": "a023a07b8511786e08ccdadf74db04d16da00c6ed9a8bc8d442be9c2da9fcfa5",
+    "output/events/KATUSDT/2026-05.jsonl.gz": "8e66dab53c4fd0a060f0aabb63db514c161d7c3e070ec4477275392f9b552aa4",
+    "output/events/KATUSDT/2026-06.jsonl.gz": "86244f57f86e08781056808c925bea5f27c131dce5bab28d12cad1d7b91d64d8",
+    "output/events/KATUSDT/2026-07.jsonl.gz": "5be07b52e7656dc4a6fc28e91e601c41d5dd089b9711b02e841de15b49a1b429",
+    "output/events/KATUSDT/2026-08.jsonl.gz": "162446be3810b971bbd90afc030585613064a4518bcedb9697bdb9a9107606cf",
+    "output/events/KATUSDT/2026-09.jsonl.gz": "90db805a92d965fc369514cec787f50380165192bf728785370ffad63de06fbf",
+    "output/events/KATUSDT/2026-10-27.jsonl.gz": "15aa72a7e63e470bef0ab60443a5e58a2f60159f6b66016fbca51ddbb1c73733",
+    "output/events/KATUSDT/2026-10.jsonl.gz": "11267ad6eab13731d93600ae8802c5084db5ecc5935a709c391043ea3bf05724"
+  },
+  "market_data_quality": {
+    "symbol": "KATUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 69060,
+    "missing_5m": 63420,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2026-03-02T05:00:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-07.zip",
+        "source_id": "7e3e9422a1c6c4c762feecc52c179a290dbd3c16764a6e8b27ab3615c2fcd74d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-25.zip",
+        "source_id": "daf780cfe6d0e7b67b1c244fc8ecbc78c953aa7f12fcfb2811171cfb38f8664e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-26.zip",
+        "source_id": "a0fb2b8dd75dfdff53409b9575a18acb51ee8477e37aebd84c2fab65b2722001",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-27.zip",
+        "source_id": "c49cb51422bc0f0e13d5053d939979341bbe26b9799098feaad433835877df9c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-28.zip",
+        "source_id": "5340d35c1238409f0514ce84d9a23bbf0b1a6cdb98e8f87bbc04ed5f247a0463",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-29.zip",
+        "source_id": "638c5d0483142bf0e20fd663894ff5f94e72aeb887233be5da6aed5b0ba9897b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-30.zip",
+        "source_id": "8a4f1325ea05a16d78abf50327753e68a8a3005aecb1f89bdd769e6f8bc68896",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-07-31.zip",
+        "source_id": "5293795c1f359ea892eeedea1d719c3805b43ecf876c7470d5b3bd31812f53c9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-08.zip",
+        "source_id": "8f8889538e5d48e071f98b32e09c2cdcdee422d3561edce7127d96325a54e0e4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-01.zip",
+        "source_id": "d4b31012a087af4d4943c2d4e6fba6b9a5cfd07edceefac932dc01c8ea41afbc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-02.zip",
+        "source_id": "1379eefd0edcb1f0aec45d4bf799f897a9f26cc6081e24a6b39706d1e641f954",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-03.zip",
+        "source_id": "353e86b599e967a59950aa15a1d2c6e15c4e40990e9fedc3cf699ca9ccbc5a2d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-04.zip",
+        "source_id": "862527196c7b6449ee151149dac89930b0582191c575b879c9a1c41a42784326",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-05.zip",
+        "source_id": "548adce8fedb6618830d666f1e1b6665b7bb1966513dd5799b7170cbfac49c78",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-06.zip",
+        "source_id": "03ac16b0cbd325954ab085923480484af6a68f733e53b950feb60c1bb013a156",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-07.zip",
+        "source_id": "8d7ff942c40be3ade3f8b5e0a5a69ccf751357c4307a9380dbd98e7c135114ab",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-08.zip",
+        "source_id": "2ed513e7009fb87bae119bb31ec4db8a6a9876eb62594136e0a628b8a0acacd2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-09.zip",
+        "source_id": "ac46ca138fbb3f7956a518da3f7b6a2e3277e1ec618c312e5090f98fed0f2168",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-10.zip",
+        "source_id": "874c5354b9fda84eda6c8cdc33b4e09e73e6e880e5ed4ee1a71956e84696de1a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-11.zip",
+        "source_id": "4bd0b89cd330fef97613cb07fc689227b39e1c32d618c22abf68a0cb906145e6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-12.zip",
+        "source_id": "891505d179a855459bed14f309e39addefdf483e97d53218eccb240a87366490",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-13.zip",
+        "source_id": "074cd79164d9a880d827c82963b2a392997c95273063c29b520a138eca86ed94",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-14.zip",
+        "source_id": "ce78d9f38c23e4851399e9313750b48ad63f58192173a1a166f3d4919610f3ce",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-15.zip",
+        "source_id": "0b6d70b140391946bc915782f0c3c4cd989c315092b8d001926c100a6a2c6b85",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-16.zip",
+        "source_id": "ebb4c3a11488935d1cad61ab8ca5591dae2cc2afa08f2f8cc59fdee37bf3dbeb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-17.zip",
+        "source_id": "d0177f7a283ccb0008f46c31f5aece22ea84652bac782caee53b64be9210c428",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-18.zip",
+        "source_id": "d7fc4dab6a1900b3ced2d03f419aeff26d01d5c44bd34bb15bf1d8b095c92d84",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-19.zip",
+        "source_id": "2961996b5b832ead5cf6a679bea5f533c66f291f262aa8d138da6a3e4c3a83cd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-20.zip",
+        "source_id": "01f309492ae4f21729b216b58983998d75af1d1188856c97a9dab4923268c0e0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-21.zip",
+        "source_id": "b2b6fae4caf5e6b33721510936a04ea798020e64601bb55a772d68dcfe821a0d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-22.zip",
+        "source_id": "4f0143850493bd31d86c13e81f23e7088776b0b27eccb35d41222a887452b5a6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-23.zip",
+        "source_id": "b19574b9c9ac28540749af07bbbc507d270567043d7c85c66c0b69bd62b94abd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-24.zip",
+        "source_id": "f1ac64fb419f2fdc3689a4bb0200c5279e627cca956afc172446c3b4ee688f60",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-25.zip",
+        "source_id": "7cc5b4e1fb1b65ec30e0533ec4ad24b19305818ddd0e78e0c7f0dfe74e7dc3ee",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-26.zip",
+        "source_id": "84068172a8c35f536ee58d21acc4bc79bb9bed4364d2ac464725a0c97f670256",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-27.zip",
+        "source_id": "18e5a0f05993d0a5cef245628e6a83207c12c84495078bc53b635aeab0588d8a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-28.zip",
+        "source_id": "634d213a14837d9b2b3456b570249cff4c6bbcdb7f4d91a26dc20b7b596526ca",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-29.zip",
+        "source_id": "097dbc293483ff642ee7dd6859bc25f37a65a82dfde2c9113db1a4efb4ad4376",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-30.zip",
+        "source_id": "8948a38a3e691d1738f380a326b7df4abf3bb51f44689adf68edfa05488973ce",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-08-31.zip",
+        "source_id": "4eb04ca6bf9dd7378bc11697cba1378cb47b888fe385b0d53244192d8e1c7d2f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-09.zip",
+        "source_id": "de1f4afadffbdaaf90f97193640f6be326802567f3391896d09f2e9a95e71a93",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-01.zip",
+        "source_id": "77f15014b3e9c5265e01608963576c4cb3348517544f8e139d65050bd669ec9c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-02.zip",
+        "source_id": "f799bdd6d15384e48d12d29707a9f10c9543ed794b3e3155d6549e25ced60da1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-03.zip",
+        "source_id": "a2efc41bf8b303c92ebe51247f8e2364e79d03ea6d07d1f369be77efc2adaecf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-04.zip",
+        "source_id": "71e8acf8138909531f50fc382577be728906fa1e0dcfb0449b06b4499557447e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-05.zip",
+        "source_id": "7a0fa701b275cc60f3e7fe3e5b373992f5472ea9985b275357e75c08b08356cc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-06.zip",
+        "source_id": "7bef7309d05a7a810dfff39559e8157a212816029b661aa29187dcbf203ca020",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-07.zip",
+        "source_id": "400d56129d4c5d0bb09ac0e625088a21eade378bd8adf8fc63f3461f2c6c1075",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-08.zip",
+        "source_id": "b4daafa6522c6872cd903feae4a310bcad162202f456bb087276cc7b61882b6d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-09.zip",
+        "source_id": "de248650bbe6c4b121e72634d6939a0926d7020a108d2c2e7ab9f02734eb7919",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-10.zip",
+        "source_id": "afcd4ed993a1eed805744375d61d3ef827e0379b1ecff659c0e28a532a45d945",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-11.zip",
+        "source_id": "a6d7454202c5cf171c6fc71564ea67843ff7353ba31fd44fbe6458a17fc54f23",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-12.zip",
+        "source_id": "9d5754625b88b2517146f7ea4097dd98304248bbf196147337f55955e4d5c7ce",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-13.zip",
+        "source_id": "8864fb015834a0c7797a1d77137c3c1f2f2a2c57e944ba0bc74179755bd0568a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-14.zip",
+        "source_id": "bef3b86bdb55f3a917934e3db4a3533b850a9266dcce47537e5403757d5425f8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-15.zip",
+        "source_id": "063d09170828edecd15139c29e059b20ecc09eb7c5e903f60117e98db5026ed0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-16.zip",
+        "source_id": "3a3c44c2d4af4dee4eb93fee92a22f9fe854618a06470d14f6c1517b7e157183",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-17.zip",
+        "source_id": "28e40f2cc0b5c841fb75adca7592fbdf9a6b34170ff3a299fe74b92a73c0826b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-18.zip",
+        "source_id": "3c012d0ab170c8330be794668fce9d63578c0e560c1a1ab6bfc6366e56ba0db4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-19.zip",
+        "source_id": "e4508af9394c9e6246f495bcb2000c975c56e853cc70fe6b72865b781be43e2e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-20.zip",
+        "source_id": "b7ab0104304c994810abfb2206e2815a4d91938e22bbce2d8a20f778f04725a3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-21.zip",
+        "source_id": "dee09487cb946d0442bf43561f8a477cd4563497bfdbc45aed11c6739a63a925",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-22.zip",
+        "source_id": "4d7edb62f7c7b0ed0cce3937b718710628cd0635cd4a6400577d7201f3cebad4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-23.zip",
+        "source_id": "67254edbf3e4033075cec57790c2a35df67bef43b349d3f6383efbb164c5eba3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-24.zip",
+        "source_id": "85b94cb872f7d59031787bfe07778fa797199679060db4027fd1244b028a1639",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-25.zip",
+        "source_id": "4337cba6637bc7407ab9b1dcb628a54be4ea90a7ecbe71ac707fe0836c127811",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-26.zip",
+        "source_id": "b3b0588844ca3ee80843be4ae60f9488139e4b367930c525b680f99a728bdc74",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-27.zip",
+        "source_id": "ab53cfe7184be5e4e5c82be7bf88df9652da924ae3f1bc7c924720cf80c091db",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-28.zip",
+        "source_id": "93aeceb0765c36b537a6cad86d5210d539e592d63448c6e1e0960634e1cb1b57",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-29.zip",
+        "source_id": "bba897a311206b9d11ca784318b6219e89cf287689ff1227b0eb92a87d61bf35",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-09-30.zip",
+        "source_id": "1c40c17c913ea68d0f2847ffd4eaea11b8abeb34c7945087008b09b029373688",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-10.zip",
+        "source_id": "d1df086527e2d79cd0b9af7ae92473b3f8e08b33dd010f88403a8a4b4d43e1fa",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-01.zip",
+        "source_id": "9d41cb5cae4f2510a7b1c4d70fcff458ae6593d03c284bf58b4917e096bd3205",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-02.zip",
+        "source_id": "292bc0c6cac43533d151fa69f925c0730e6e1a478d22f7ebb424f906bd183247",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-03.zip",
+        "source_id": "b05bb5a67070def9e9b1a9264e3ba18f65d7d42223f63110baae226b835fcc4b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-04.zip",
+        "source_id": "a2d6214a3b9051ccfc13ec4832eed8a99581fb3143840b3ea79f3e918887bc77",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-05.zip",
+        "source_id": "c904a7c5b7263f62329da86f88d40db00f6a7931f066c35014e60993c9646112",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-06.zip",
+        "source_id": "9b895629bf75a3bfd9ae622897979203f28af742b3e01c76730f2d0ddafb1247",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-07.zip",
+        "source_id": "1f5b066aa35b93f961b4f4a013a0d44be511c1ea340fc3091f0be94d81201135",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-08.zip",
+        "source_id": "b7cdf72e8397c050dfdf86a6d9eb01fed4ef703a932ea9be81d2afc6754292ca",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-09.zip",
+        "source_id": "94f59951244549910910e4fbb119ab874cb1f4edba456f8f01988002ee40d28f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-10.zip",
+        "source_id": "2afafe9c2c1cc10110f3b08641bc685d167bf947ee0b5eafc8fa8d1c2f9df744",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-11.zip",
+        "source_id": "0e5c3fc66c712d7a2e8af27c595bf10c535c367ef08dfba855f785ba0dcf42a9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-12.zip",
+        "source_id": "bbf1b22a7d1f9cdfb685ea426dd65e627cd941919179795c687733992d7f567d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-13.zip",
+        "source_id": "2e00a29de8274b6e115767432018ebd9b30ca87e6a6168ceb31ab3286fba13f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-14.zip",
+        "source_id": "fdcbdd162c27be1b1234262346a3a70687bd40ddaeb04af0543fbf216472d30f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-15.zip",
+        "source_id": "3ad36944c506db93af1e33349d8ddefbc1def611383731ad2728b2c87da2c8f4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-16.zip",
+        "source_id": "65a10dc8b8edfff74a69dd9fb5e04f74a48bc90a553a1701bfa7476c508a4f6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-17.zip",
+        "source_id": "f18a232cc91b4511557a39e0b8fe08c87141fac28c0f867ff71c002ca94afd46",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-18.zip",
+        "source_id": "60fba80160a5f2ff0c9c04ca4781d637224c68b459ee4ae2b252718b5358d26d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-19.zip",
+        "source_id": "189452c59c8498cf3919d145dd2fe4eeca967198fc5e28e2fd0a04e953fa6898",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-20.zip",
+        "source_id": "c2b12a2862ff372ae66e2dc8e60cb71f8dc58e3b196e408d39b62c58584df05b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-21.zip",
+        "source_id": "5831b5fe428a94fdafd02ee9b9ff77c4cb451bdab0e042732dff6301c779d2f5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-22.zip",
+        "source_id": "c97fb0f362474b5c592dec6bfde32e877d7a6c0abd7c1cf1a475b944c2c26c25",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-23.zip",
+        "source_id": "18e663988878decd7ab18e284fac06cc32a2aae5e60810f9406f32ced79f88e7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-24.zip",
+        "source_id": "1e46532aa27b07e60e2ff3fb8adf68c9c6b975a286877f7c4f1027cbcfb22b4d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-25.zip",
+        "source_id": "cb9e83d080688dec18812b42b204a80ad084e2aed6f83f5c20c03b903c29fb12",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-26.zip",
+        "source_id": "716acd627d337e9faf7aae336deeae086396eea3400302d518060238ae0e9285",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-27.zip",
+        "source_id": "46ec9ec72026724bc3b8949474821d7491cca641fb2ea8a00f967f2ef5e2b446",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-28.zip",
+        "source_id": "6492be4d2557da9e49b2b8869cd1890fcf57692e31c0b30a59bd5d645b23fa9a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-29.zip",
+        "source_id": "87be1179e3aed703a07f737b114b33e2b325d9ad686938e27672c0fe221a979e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-30.zip",
+        "source_id": "19b4df3f9c219d55cfc84531d8083d417db0ca139bd56a99a595afa0b9ffad8a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-10-31.zip",
+        "source_id": "5a295f133fa7931601d5370157153a5720d9e1b769722997096a39aeb61a6e20",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-11.zip",
+        "source_id": "158dfb23356c6c36852dff3db1c820aa19bdf3cd1c48e6c4ef024125446e6f70",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-01.zip",
+        "source_id": "8e17f9d946c02d073755a5315641df39b3c432d63ae0a1e466d3ba54124a05c0",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-02.zip",
+        "source_id": "195a103cd41a39fe17a69267c7ab828eb667145a146c1e7407e5a2e60182714e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-03.zip",
+        "source_id": "33cc79628cfc8f9f9f2d8d78548db1a83a44867f5f15dafe59537a7b3e710644",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-04.zip",
+        "source_id": "6531d893e47842532c0c38056d309370f8e418966eade9bf9791a1e7ac5cc57f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-05.zip",
+        "source_id": "df1ae2d918c3c15ce038ab2090a65e39b66d967230d06d95cd4dd57318fbec5b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-06.zip",
+        "source_id": "91847c6524e0a642b7d1cd09eefd9e05ff385d71821b6e13b18a41fd7e390749",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-07.zip",
+        "source_id": "8a1a31c189d61a7f39abc49c11bd0a3a2be9080c5533eceb21c32505ea8d315b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-08.zip",
+        "source_id": "6a38013ed403ca24b22434bd36edd80fc631d8d77e5d7757cfc15fc3b0dea6d3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-09.zip",
+        "source_id": "9aa97aa873ae7cd834fb0d28dbff0129cf8b1663b758c03db827fe4e636c1451",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-10.zip",
+        "source_id": "b3b1a56373a637dc619ab149f33e3c246cd6a6f475657851f45266bc45b6ad96",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-11.zip",
+        "source_id": "6afc4f541b56eba7c6074991464908ab5e82b8bc5da0f93e3b1b3b978bc5cfa4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-12.zip",
+        "source_id": "baf902fcd8742ad23e2534db084142133b09c410b76f98bc1a2775758ea1e47f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-13.zip",
+        "source_id": "6de621f79db58a3490174731835a43bb9f4c5b70c93113310806bdf794e1c947",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-14.zip",
+        "source_id": "79b117720f4254be982fed391ca70f944060e1d49e6f84557ff2de34007e9d6e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-15.zip",
+        "source_id": "43f8694a49c868d0eda009750e0bea2b1c2b85399a67fb3755531653e62d235a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-16.zip",
+        "source_id": "c3d32fd172ca0e983135c98b94f77fb990db2f7ba282954e1741b615ce869e45",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-17.zip",
+        "source_id": "054b512060738e72b144133a3bc2878a5b7007878cf2cef683140f0217e49518",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-18.zip",
+        "source_id": "bf9720b6c2bc07be5f9c8c1042f04fb5ea2978cdaaf34f0d1668239e8061427a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-19.zip",
+        "source_id": "5418a2a0b44e7eb6940b2572be87455e2b2dd5d45d052d6c549f0ba6e3a917d6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-20.zip",
+        "source_id": "e301b3f9b2f9c6c02f27a26ab4f38cc92c708259b437f091d1d1b9ebed584f63",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-21.zip",
+        "source_id": "3c1742820751f20652cd2c4ffca554ef8f702edde7ff714a395f6b104111e7cb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-22.zip",
+        "source_id": "b6039ecda3835be412cdf2685fc739d58a5431ad83bbfa323c6bf32086f2be20",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-23.zip",
+        "source_id": "cfcee77260f628bff5b3ba742a4827b65688020b80024fca136d82c45e59bc3c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-24.zip",
+        "source_id": "416bf1afa17855255be194f51c4468e0c8826dca3ecb4a1547f351d0a743d7c2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-25.zip",
+        "source_id": "a37ac956008c359664eb71e4209a2ce384339e7de0207620ad7a7ab0b240f834",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-26.zip",
+        "source_id": "c1d56f023146bea5c22162555ed2abd94682601c11ab9dc686bf8b091eb38724",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-27.zip",
+        "source_id": "53ca128bd5d92a66afb3c4dc6a5a143acb7bea944e45b0dbf2baccce547c884e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-28.zip",
+        "source_id": "bf50483880858dc2e1265a8dacc0095d26ea62361026c5f2dab227aafdee294e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-29.zip",
+        "source_id": "a59b8ecd4b2fd8fea9e3f9684a780ca0b927075ebd24da05b3a51ed86b045ab1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-11-30.zip",
+        "source_id": "6477f41208c0af6964c0602ab4f222886661b4557e9c11ba62ab9f483b017861",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2025-12.zip",
+        "source_id": "d95ff2e98267053050253003047a60891a39b583cedb225a021b515393acf788",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-01.zip",
+        "source_id": "5067c13d08ea72a4d35726ae8e05fcf3948d81f82c25a5b2697fc55fc13b2013",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-02.zip",
+        "source_id": "6cc39e69b2c4b8df8127e29610879642231ffde8722b1734f724f2547c29bd6b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-03.zip",
+        "source_id": "d9d61b8bfeb59bb9a63c69122a2d592c4825ceae7f35d07f008a3462dc4a60d7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-04.zip",
+        "source_id": "9f516666ba6d153e0e81077c21506e5a4c8df2862cd5d892a90491265406b44d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-05.zip",
+        "source_id": "4b0e56ae9f3c4eb4f67c7e3aaefabf66108f3995cfdc73ace176d450377c0bd5",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-06.zip",
+        "source_id": "ae988a90b1ed2fae571450117bdf556ab283e4ce74d97d21af0c45231a941ae8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-07.zip",
+        "source_id": "bc9697f946e199bbd3139ba62c62033d74f574374b8e78eef6403a122d9201aa",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-08.zip",
+        "source_id": "c356d048d998ac2e54f8e90ddf89475abfd610f3921a51cfae5add257a688e54",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-09.zip",
+        "source_id": "ed0537d3278c5131b19ed7311821b08db95c05997305fe5f1fba3187b327fe92",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-10.zip",
+        "source_id": "e489cec2b0701daf7b89853ee11431026240d230dbf03bee2b57100aa180114c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-11.zip",
+        "source_id": "3883d8fc1e766fdde34893ebf6979bd9b434a314731f5d153bbdcc9fa77cbc31",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-12.zip",
+        "source_id": "8976dee7983690394dff51a556d01cc6bef2833ae3cc5549634e10c4ba0ed73e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-13.zip",
+        "source_id": "862367277e8d61edb6e2b4102d25550bffcab985b6f088d49bb2045ccaf5c67f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-14.zip",
+        "source_id": "958ca7625cf98ce85a9f81a8110bbac304d985b734a26a072a37a8e13d56cceb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-15.zip",
+        "source_id": "68f095ab55d9d13faea4e230ab09ed74b08e9103a7761d1ea1cea4a256217c85",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-16.zip",
+        "source_id": "ee0ec639c3b4d80232b272981bd95461ae89bfaeeda3bbe1459331d56cdd5973",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-17.zip",
+        "source_id": "12561c8009b0682fe4935c663fd955e1ac4dd417345932e2ce9f9375690f3487",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-18.zip",
+        "source_id": "1308fc5bfd3749b006ebdc09c2e70971d2c40bb2e7cd8f9f26d75186fb74b256",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-19.zip",
+        "source_id": "1c44362da3e86e47539630106f6eaf42e368f8af23aefd5016026bd04a59ba5b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-20.zip",
+        "source_id": "fcc8df04ab06c47b696c2c84380b8504c3aba6b906546361ed96e87b60dcc57e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-21.zip",
+        "source_id": "aa5c5ec5f28b08772a2eeba2aa1c85992101655409f29fe5803f73909f7523f9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-22.zip",
+        "source_id": "a9004e55b4a3015df5fe7c85a409980bc9c6a20853e839242f11e85f1c738b94",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-23.zip",
+        "source_id": "8487f321cde76b4f1d04272ee85ffb9afbd6d9e0c15e6e9b00a80282a0ec030a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-24.zip",
+        "source_id": "35b80f70a963ad973c6d109ae4f9368c05b586d8c2dab9b9f41e0b99876f9e4a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-25.zip",
+        "source_id": "f72749014f61a8f5f02615ae908f962bec131776478153fa41802ab8de407359",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-26.zip",
+        "source_id": "1f11a292a7532f0421ecfdc859e58effc75c6aba35f91776cdc09131625bc727",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-27.zip",
+        "source_id": "67fe15a5b3a354f9d05fcb7ab4b54b5446bc73b06d17e1372a717a9c3100330c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-28.zip",
+        "source_id": "128db90f46f41829db476bbb9f950f2ddd6389d94c7d04b3c22157cb7563d2dd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-29.zip",
+        "source_id": "a70999825eb064b30980ca170f9920f45a3382c37eb963843c29fdabf0b5405e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-30.zip",
+        "source_id": "803bb6a040b8fc022ee5bbfb856392375f90722f2dc4900ad3c6046534aa2300",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2025-12-31.zip",
+        "source_id": "273ce1c59f557df3f421f29bb36288517b70045cade4a902a21dab30045ff59b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-01.zip",
+        "source_id": "062dc2b14afeb204a8a7889d614744b50cce4c04e323ade20301e4bfb9bc53cd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-01.zip",
+        "source_id": "6edc9a933a79af60d62c929461d46d5a327a9668256fd2d30f8a36027ec3e499",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-02.zip",
+        "source_id": "9573a69d9ad8716fcbb23326e89c8c7f6b3d14d9a9735297e545275215b5161c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-03.zip",
+        "source_id": "ba7e3b3c284deefa611b3c9a4d4adf930c42458bac98958f5d95c108d7c26789",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-04.zip",
+        "source_id": "203d2ee82d3ad530535afbccb7865b04d1f3e89c6d5eb07e3897de7ea49db661",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-05.zip",
+        "source_id": "6d59195142f165bc47cf9d599e2b7afd3a2763b22809fc82413a149edbb08026",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-06.zip",
+        "source_id": "8f152f54014ae535d3e085523f3bf249253067ffb00a4c5577b5a9192465e735",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-07.zip",
+        "source_id": "25798840255188cf38d43e44ae4077c004b3a5e85788e91dd9bf7bbe3877e2d4",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-08.zip",
+        "source_id": "e9fecb74dd5fac57d854eaa3c602b33e24902c9b39eabdcf715870f0973aa04a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-09.zip",
+        "source_id": "8b34722dd0d4a4ee71ef748efe333f3a25df1e0f453a1550f9675c8f524c791e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-10.zip",
+        "source_id": "a438fd460ffb370a70ee98fcd1c340bc5019bb70bacceec8d85b58c0111fc754",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-11.zip",
+        "source_id": "cda276b2960940dbce857df9782cbd1f625ec276120c23628b7f145b51e6b4b7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-12.zip",
+        "source_id": "8fd6377635e26484b06afc230a59fd043bf7f28d9c73086c0979cb24b19b7e64",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-13.zip",
+        "source_id": "d61b426f786f6ef8b55a0a39ac8c6840667ccd26a0593784ccb19b80fd6584b3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-14.zip",
+        "source_id": "95f9e33c972ab9dc41ad51e970b0cc6344538b5dfa1fbbf2d043b56232d94e3f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-15.zip",
+        "source_id": "1e28df21fa2031662232c2dc87f1478145e66f8ec5010fd3d488846f1bf3f565",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-16.zip",
+        "source_id": "36fbc978c199c1e38ad42bacb3843c02a18ad5c6640fb9ac19a3e634d150babf",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-17.zip",
+        "source_id": "75cc905563077d147faf09c1512078e09b93a8b478c8ad68637e70cad2d857d6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-18.zip",
+        "source_id": "c135f0bc23dc7302409ac3629abfe2261cb395166240d4c6213f97254b09703a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-19.zip",
+        "source_id": "c22f17d0f1f0e6d78e521dbb4b7d250120cc8cb9e627628c461dcd5008606ec1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-20.zip",
+        "source_id": "bb0aea720176d2cbd6b2b9e619ee8275baa4014a1c96940176f6625c9e640541",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-21.zip",
+        "source_id": "4f529b0ac7f24803697833b0a084e600443d0f4ccd09078e4f2f90ed72fe5a3e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-22.zip",
+        "source_id": "0c352e35de910c3ba2d879e1c788ae75cf51cc0779617b86b5dd0c5919272978",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-23.zip",
+        "source_id": "d9c3ca4fde00fd0484aac7246a236ff9906a22772a79b2a9126bc6a4ab53c733",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-24.zip",
+        "source_id": "90523033e2c19793777955795516eaccce1fcc613d3d28b3770385e0d98972be",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-25.zip",
+        "source_id": "d005e0810a0cd5cc068386da756bd0253c9fb29a8df2ef21fbcab33095d2d8ef",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-26.zip",
+        "source_id": "9789e0842e76c47363583c0871b587c4af3564f13c2fd6e6c83d8e1209e615bb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-27.zip",
+        "source_id": "f69e8b70621dde550a5c558d22fb41b9824f7f1b3e5f5f9659de95b00cb60eff",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-28.zip",
+        "source_id": "a3c37c2ddd0cf1079107ea1a88c0fc7fe8237dda22f82af35b2491021bcaba2c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-29.zip",
+        "source_id": "a3ac71442864e5cb00931c383a66eeb5af2bc6f147a21e3d6e0d3ea8a0adff47",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-30.zip",
+        "source_id": "a04b0bf08e63211bd396957b97307a96603c0f539248c15198c118c25e74507a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-01-31.zip",
+        "source_id": "0a7bae876e63e5823d6f258c6f56778d05d50550f23ec54be29ff944f9222f44",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-02.zip",
+        "source_id": "6dadef088986509f2f6d723a1399803ee99d944af5fc627de2d5d95bafe33992",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-01.zip",
+        "source_id": "eb07f49042700f6a55623cff3bdc433ef0f5d37cae1da98f3156c91b0d863f6d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-02.zip",
+        "source_id": "e0d45f2ffb25bc06aecca77a87a524639f4f6a31a5b399bda5c1c7d0b42a40fe",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-03.zip",
+        "source_id": "550afca2e4fd4a1fdd7ad8d76cf48e227a58d258795685631c36519237d23452",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-04.zip",
+        "source_id": "39c57c30d18c2bda99eef7b839d77bb1cdee75ea704244fc0deebd3ccfa6815f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-05.zip",
+        "source_id": "cbb8be2e71a37cf7333c855b4afcb352148ec0850498b03648cde03b692ea8c9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-06.zip",
+        "source_id": "d1e3290dddd6e7dc77ab0752a14f609453d0f48143cdf3aece5408f55c00033f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-07.zip",
+        "source_id": "77597cda00fa646040c47359df0bbfd19d60d233fa7cf3f2c68723649a3ca1fe",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-08.zip",
+        "source_id": "75d5133229740cf768eca010b87fc0f6ac3ce14a69e7dae4b0911d5ed6ff58f3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-09.zip",
+        "source_id": "702fb729191e942c9da00c8d949c80b203dd1a34a76df6cdd6626c5f79cb9d90",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-10.zip",
+        "source_id": "eda0c826e2d2065fecdee9e4c1c34047b632b431476c355d8c43a4a728c59b2f",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-11.zip",
+        "source_id": "1188352454afa34cb26372238a74834f0b79040baef7caf76040cba5c68d9e5b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-12.zip",
+        "source_id": "09b02db9c8303c1a1912a60770c67f07730bd59fc0e19c3de4fc1fe939474e7d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-13.zip",
+        "source_id": "36d3e20a418a20ff488fea2e650def21d8107e6b6a778ab317a26661390bbbd1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-14.zip",
+        "source_id": "5d61e8fe92bff8e7536348611a9827a4fc36d2bfc6bcb4cb7c7f48ef1a4ce1d1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-15.zip",
+        "source_id": "4125aba147819c172dc8a5b4bb2728f3b34512d209a634c92835e975a93e11b3",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-16.zip",
+        "source_id": "d0c736d80c5c645431b4d2160c270b7a7f80491716956d5c55b4548fd41b7db6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-17.zip",
+        "source_id": "f10a974009a53d527c3c3b48cdcf3b9898a4bf6b1ce27fa3d92c0ae2c918a425",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-18.zip",
+        "source_id": "22f759dca81243c444455d5f406386335e74070dcb66f832737fee1101ea64ce",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-19.zip",
+        "source_id": "d06a3fae1528ca4142621fd208a6fa48ef835460f3836c11cede35e0e21ea733",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-20.zip",
+        "source_id": "d236832d994d3de2d2b6061547df7fe2e99b201c189340d7cdfea68cc1420a87",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-21.zip",
+        "source_id": "153f16b632cabd6756f4c22ca52dfac8ef418518fd591ec1f2abbe08541ac4c6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-22.zip",
+        "source_id": "0c08a3aa382491b076ee80982e99b701af11d651e61e87f06643260f1be3385c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-23.zip",
+        "source_id": "cd708adc23070db61433d4d4a5cf2642dae962a4ebe0709d3201818dfd4c48cd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-24.zip",
+        "source_id": "616799129025311bdc1f42a03c7537e90c22b85aa4739060c94a6ffaa4ad1cca",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-25.zip",
+        "source_id": "6527ed8506b2cc23851c887fccebd82803d3a4418ce17476fbcbc4ff725b1931",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-26.zip",
+        "source_id": "c9fb0f95efbaa57ae3eba1ed5ab2c5622126bc6e581f992d3f52924cb5b9a760",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-27.zip",
+        "source_id": "637b63097fbaa0dd4aafd095c39f7ff2e8756f75fdfdd20e138a70b991467ed6",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-02-28.zip",
+        "source_id": "90b836b90bf5733d68cba700848d7f4abee8d216be6f7f0b3c51ae6e04e85a0c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-03.zip",
+        "source_id": "14698d1c5a9bb11e678b68650c036f6dcdc7e8783d463522941f219141c51da4",
+        "status": "available",
+        "bytes": 337105,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-04.zip",
+        "source_id": "63cdfacbcdc7482319694a91924e27b6248e5fc0207bc7aa136e95f2f564b4c1",
+        "status": "available",
+        "bytes": 331989,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-05.zip",
+        "source_id": "925b09992db065c96370878e594b9542e4f6b13d496dd9fcafa5664f3feaf945",
+        "status": "available",
+        "bytes": 323688,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-06.zip",
+        "source_id": "234bfc29bfbc2786737ce486304277fb2386d6726fae0086b9b5270ce0c99aad",
+        "status": "available",
+        "bytes": 344762,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-07.zip",
+        "source_id": "4f32a74a51fa81cc0a78313e0d593c09ff6e20ded094fa08511eaad4a46fc3e9",
+        "status": "available",
+        "bytes": 343869,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-08.zip",
+        "source_id": "3295b0ad2bac595f38f0d3e41866a1aa4dff4aeb4c5d6d139a80d97ddf04eea0",
+        "status": "available",
+        "bytes": 331579,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-09.zip",
+        "source_id": "c629c6e5e769f43dd6bc33d2f84b19f9477c00b7ee70960883684de32af35963",
+        "status": "available",
+        "bytes": 336621,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/KATUSDT/5m/KATUSDT-5m-2026-10.zip",
+        "source_id": "ad50b916ec271286c13793e13d5b4fd9ec4c3d439410d567488a0db7976d393d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-01.zip",
+        "source_id": "23874002fd74a0eaa2131753ae85f8df3bd3237e34f9fcf7a9c528d5ce00dbc3",
+        "status": "available",
+        "bytes": 11521,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-02.zip",
+        "source_id": "ff3e7e7dfef03e7c99b3439a8589d76f08eb34c1293019a8773e90b7611658c3",
+        "status": "available",
+        "bytes": 11577,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-03.zip",
+        "source_id": "1c23665202256b4949306bc05d83ad59b7582bb6148d531a4100cbdf7b32e56c",
+        "status": "available",
+        "bytes": 11001,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-04.zip",
+        "source_id": "16137f23f693d9fd9e11912c501b167acfc58c2292345ffdfa81deaf042c361e",
+        "status": "available",
+        "bytes": 11023,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-05.zip",
+        "source_id": "b24351d488822cb7bbec7f0d4bb8606af9a39a8937d2a05ea5d9568ef3a9cfaf",
+        "status": "available",
+        "bytes": 11392,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-06.zip",
+        "source_id": "8aae3ba06ce803e2c2be5d53dffadb17330fd120f9de3a8a490e90b120556d04",
+        "status": "available",
+        "bytes": 11377,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-07.zip",
+        "source_id": "0849ec8e7e64e2fc14d0f37d5c1bdaf6d62bad30a3e67b252514647e13497732",
+        "status": "available",
+        "bytes": 11461,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-08.zip",
+        "source_id": "2dda1922b8680bc1cd587c8d86f60b14b1ffd3f02971a672af21139bbe572e77",
+        "status": "available",
+        "bytes": 11618,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-09.zip",
+        "source_id": "3a2158ae06a92637c757e8c936856c1314a5f7b772914a8c3b693f0df9727ab5",
+        "status": "available",
+        "bytes": 11345,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-10.zip",
+        "source_id": "10eff30d728772cbe3e89175e4c683a2d9ba10f4757a8608316c42efb8154022",
+        "status": "available",
+        "bytes": 10930,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-11.zip",
+        "source_id": "578fffc9b9aa8d6982c3f16dfb4748edbfb0d73c781ef6143758b6618b71cd0f",
+        "status": "available",
+        "bytes": 10893,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-12.zip",
+        "source_id": "c46f39ad3bac75f2f49135ad8f5e44e174a29eaa21e74b34744d45fc4bef1869",
+        "status": "available",
+        "bytes": 11326,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-13.zip",
+        "source_id": "efe2f07f47fc01f0b9140894a770872e5fd6cd3425ff6e2cc9a5a0a64cf3f37f",
+        "status": "available",
+        "bytes": 11425,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-14.zip",
+        "source_id": "51b0ed489d9b0a4757ba9b285e480ee5d5fe0883ae1ac41e5b8a247f459fd0e5",
+        "status": "available",
+        "bytes": 11281,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-15.zip",
+        "source_id": "01f1f8a4d804fec306cc85d02d9637488955e0a61f60ce18597d5a3f1fee0a02",
+        "status": "available",
+        "bytes": 11510,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-16.zip",
+        "source_id": "ecc781899feba731521345e976a4d24c87bc2c34e6c7221639ea695927751839",
+        "status": "available",
+        "bytes": 11152,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-17.zip",
+        "source_id": "af8915d438e92443e7f2c6640cbe8aa525a64621e77ca777854cfb5e59b5e717",
+        "status": "available",
+        "bytes": 11059,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-18.zip",
+        "source_id": "dfbf2f720dd4e4bd4de11a3f0e5f0aff40068569875e7142d4b2bcdd30cb6bd9",
+        "status": "available",
+        "bytes": 11400,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-19.zip",
+        "source_id": "5bdd16c279fd822725a783ff4adab9c2ee13370cf0b45a90038971295a36d556",
+        "status": "available",
+        "bytes": 11920,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-20.zip",
+        "source_id": "d5130b7fa8488199769a2b5d5e4ce9c29262a3d31df0c337605e0fe221720838",
+        "status": "available",
+        "bytes": 11726,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-21.zip",
+        "source_id": "258e25269c43acf5dd0da610369926514f9fe4d84d09b8a2b8838fdfe7c7c3fe",
+        "status": "available",
+        "bytes": 11302,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-22.zip",
+        "source_id": "052b8ca85077262a00952ffe641f414b0787f6eb4e94ef667dfb32d5718da9f8",
+        "status": "available",
+        "bytes": 11271,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-23.zip",
+        "source_id": "656f4a522a11de211727ce84b9103e0aeb012d88e288e15b8aca35c38bd6ce47",
+        "status": "available",
+        "bytes": 11435,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-24.zip",
+        "source_id": "125b91aec26c51b983b0b61cb551effe91a7ea494e751ac7bb432832bf1d4d3e",
+        "status": "available",
+        "bytes": 13219,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-25.zip",
+        "source_id": "527372af1119ed254b002acbce431e42a7f926cd21ca498b097b985115a0ebc3",
+        "status": "available",
+        "bytes": 12366,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-26.zip",
+        "source_id": "30d836592ce5d8d46c429040a232e6cdb3ea613e2a4ee87ea05efea9c42c1505",
+        "status": "available",
+        "bytes": 12944,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/KATUSDT/5m/KATUSDT-5m-2026-10-27.zip",
+        "source_id": "e21ceb8f0173aafb895b09df8818d011c23b9af6d9abb4d39bd8e414a0aa3401",
+        "status": "available",
+        "bytes": 12416,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 2661503,
+    "frame_counts": {
+      "5m": 69060,
+      "15m": 23020,
+      "1h": 5755,
+      "4h": 1438,
+      "1d": 239
+    }
+  }
+}

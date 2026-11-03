@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 1,
+    "1d": 3,
+    "1h": 0,
+    "4h": 2,
+    "5m": 0
+  },
+  "event_file": "events/PAXGUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 308738,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "7460c80dfc9963cb3a9324c3da0b9dfb918cd76bef6d46aef180b51bf9b6d255",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12471,
+      "source_id": "4c8d9ee65b4700f1cddd3051d1a1c30ba882db911e4d5f59b73c614f13ab6927",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12666,
+      "source_id": "167589fb123fe4d0ebccaeb34abaa608a261aabf11932ebe1ad28be05ec12e18",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10415,
+      "source_id": "37e4507491c9a5634483da51fdc7cf33f51b5c538338b0468963cb5f9575cb91",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10484,
+      "source_id": "de35de8339c27e896511124a6840818e160c071016d001f7294c2fe99ca8ea10",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12436,
+      "source_id": "2c3430cf16c6e2049f75c21cb5acc27ababe3906e1d04d6290b7708f08f75a0c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12503,
+      "source_id": "eb6562d8d0eeefad7e8e9213b364ab77cb1f5bcd9b05ba1494581e0106d8f8a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 12612,
+      "source_id": "72623bf91d8262c350a222ac100cf7695cbde81f85c19699bea8b5a10ac197b6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12474,
+      "source_id": "b4f27c9f5d7653900bc4733aefaf7378bb0701a50bc6510e8279720f70c6cc87",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 12370,
+      "source_id": "c11dc21ef5f53f8c6770e22b819b10ac51ecb0ddbb49510bbd8d24a3a22c7252",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 9758,
+      "source_id": "626113828f168885fdf5eba910c223f547ec64e84235b8070b106fda0a1b8953",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10655,
+      "source_id": "7dd2fab53681062310a2a004d13faff672fba806dc191a65e1533cfe602ea8b8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12337,
+      "source_id": "a597b0c6c3ad2b5f95d5bcd5f7886bda452a71328edf5fc69bc66fb2456eb2d9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 12305,
+      "source_id": "b7eccc83e583d415c92a2854c8edf8a2dbdcfa08d1385cbc8480e6c392df18e3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12636,
+      "source_id": "76b8e683ba6d9810c5bac57290088b772001882892bc415a1b4f5d63c4200de9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12552,
+      "source_id": "e5e9b08fba1566e210d760176122df11a425c8346aa88796165389fa84775bc0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 12414,
+      "source_id": "966e3d18ec6b484d073ccad0c99dbba38b4b86be0fe850e4e07effd0d542017d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 10444,
+      "source_id": "0f41a43a7d51f611b6547777e6efbfeeb06267a100457e4c230d6e6f47a2412d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 10710,
+      "source_id": "d585f64d2808647943d4c3981f30fe29092e8ed715fbc8d7611ab8e9624414a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12361,
+      "source_id": "0351e8911df734271c33be098ad638e162abfbcac27737ff7a6e3e09c76cd00e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12501,
+      "source_id": "a1140bb25c5c0600e20cc2f08ac94bf0476e2890ee21c2550a6eb8d96e13941f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12345,
+      "source_id": "b545dcdf1913bbe02868b1f38dc7e172de733af147bae35e8cbeb0e23bcbe3a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12776,
+      "source_id": "ea3ca5dfe420747a929d1825b130602bc080056e2ce17c42e6f3e542f52ff3dd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12521,
+      "source_id": "6a21ececa2f59dd3a08706883ad6bd1435d5da9d7ae7fd26a8aae64efee9e844",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 10926,
+      "source_id": "a5cd5aa2fda4ad5ceb8323bba7014c2ef67a5db8640cb5a8132e4c2f625389c1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 10698,
+      "source_id": "2242014a27cab4daa97b3397eb027a7de03019dff7f714fbb9610a943ccbb4c8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12368,
+      "source_id": "61ca0192a59a96870a56f92380891d5eb749b5bd34dad8e1ee3b442712e101c4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/PAXGUSDT/5m/PAXGUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "PAXGUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

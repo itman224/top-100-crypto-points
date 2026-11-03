@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 331,
+    "1d": 19,
+    "1h": 174,
+    "4h": 81,
+    "5m": 450
+  },
+  "event_file": "events/SIRENUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 295810,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "146258c89bc1d44be4d8882a136d1dca4e9115d317bee1c9394e0d0958d16579",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 10947,
+      "source_id": "e6666bb384053981f5741990db413f010448ab5b4ab43d1b7b8838f0180c2bac",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 10680,
+      "source_id": "97b20d2b611463bbe73c0d763206e16e09f606a016da33dd720295d0edd12918",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 10400,
+      "source_id": "8817ef3b0d0af64ab293ee4df24ac7806f2c5984edae080ef1a6ef80c7051391",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 10645,
+      "source_id": "7430336b9c24113e81232adec8c4084ab3312516472091c7245f4e0876c48f7d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 10558,
+      "source_id": "4505cd44a3d0b859e780a7f1505edd81260bb47add1354c39c8abdab6edcf4af",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11124,
+      "source_id": "65b73ca211855382cafd41ccff9b024e8adc3eec83da5ac9bbd002870c45f5d4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 10718,
+      "source_id": "5b08889b3a5c3a79546c644a0331242e7c994a6083c88f361f1c316d4e74bf04",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 10914,
+      "source_id": "7b8d7d66068a66695b389aa347a42304de09dc8b99409facfa83ecba0a7e0ba7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 10642,
+      "source_id": "4e07f7f06a7b4be368778389dadd7d8c69b7ed267c78b318199315cc4ff12107",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 10243,
+      "source_id": "a0f50b5e1defc34db62fe082bbedc7ed0e1584274c2cb3d8ac2e646a12a7ac82",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 10341,
+      "source_id": "827b681a663178cb2f54b1eb88a5a43c2ee7a6229ae710a88d79e3d92f1d61ec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 10699,
+      "source_id": "15411f9d853fbe68d428b24db82824c8dcda78f3ebd398e27698df6d9ea50349",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 10865,
+      "source_id": "11cdef127f5a43cd103e4e13c32eb6157995f9e632745894758a5c2ad78ae67a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11066,
+      "source_id": "398985329af5bed2707ac84c5b8cf42d6b83d5d8c2b2713d1a229c916ccf309a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 12566,
+      "source_id": "3a5aa3e052520c84707f8b37b763c3825d4d5820e060d36997a986d531885d0a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13166,
+      "source_id": "77f93acb3cfc0d83fadeacb4051563e47812effe8b04b68713cfc06725699778",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12903,
+      "source_id": "f532f3ea90ba07b02980b0037beeb75d0519134712ffed0d2af23246e61ae9ff",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12361,
+      "source_id": "ab1d693dfe15c7882e123ec89b45de621fa2bd9578feb74e1e974204c108da99",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12761,
+      "source_id": "6efa2a1b0314a96a62ba6edfaac71c8d6d9b82a42c4b1576f5ac044687a6d650",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 12349,
+      "source_id": "149fdb846d79295beb5ccec8485e21e948366d62842e668d881008a035c30348",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11747,
+      "source_id": "c039c4ac3e8d8f8aadca9d9303cf7d698f8b6b1aee1aea390a081ca69efce80f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11459,
+      "source_id": "92eb62668a69625ff9168f9c2ebbe23412b3d0c1e83adf3325bdac598a4bebca",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11643,
+      "source_id": "9803b44a5fe30050d76d3564c5f19e3ec7295978f0a254abefc25f4cbbc705d6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11680,
+      "source_id": "547642cd78a585cf08c66b8124ff9ffa4a906241b4b0fffb440974cc1d15ca1f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11657,
+      "source_id": "5a17a76d294be5ff8c3d8f90786729a595c3eb9fef32e94016006ea4f279997d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11676,
+      "source_id": "44d02708ca458307719b785d723d527d637bf0699462708711671daa528bf3f0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/SIRENUSDT/5m/SIRENUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "SIRENUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

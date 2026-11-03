@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 107,
+    "1d": 23,
+    "1h": 156,
+    "4h": 83,
+    "5m": 67
+  },
+  "event_file": "events/ARBUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 348447,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "c0ca3222ce1a12bb84e0167f64b16a3a773a643e91a8d6b913b239b612e2fa95",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13451,
+      "source_id": "d21e94738cfb1d3170f4698c6b08d150553dc1d5181fe46f57fef747ace0c297",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13543,
+      "source_id": "8416f7c1712e009e8a24dbf0726ea2ffc0f4583d2d4adc4627bb7656455332f8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13119,
+      "source_id": "7dfcebee18ffa737610e10a267bd64401e4335d074d251f9d3231c3137d0a66c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13044,
+      "source_id": "90c0164d56bccfc4b3b66ab283b9214ef0d5d9c412294e48f5754f131455f099",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13399,
+      "source_id": "ca2063a67dd7994e497bc0d85b534e4aabff8e03e040d396bdd666e40516c936",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13292,
+      "source_id": "75bb706cd5da5f6e2317e05d200a57499991c9f275dc70ba4e3836c5b668dfd9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13425,
+      "source_id": "ec07e4e858ae74c9bac267737c515a4776915373392b7f9c033c8e7a343a6515",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13645,
+      "source_id": "bbea3ed6aa8da884f1bdc237b953f90d7cbbe75829ad75edfbbf58e8f1b54556",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13320,
+      "source_id": "9bd92ee2b09caddcba1e2a4a0d653d4551fbe01ac0f9ae0b00e7f8aca5d92bfa",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 13084,
+      "source_id": "f5b2107f5ba32b14279f056ca00023fec94ce6546a3ffdfb3b7826d7fe57ac53",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 13555,
+      "source_id": "4eecd3c0e2339f3fd1eb8b3be9f14034abfae542d4c23b9023baa95dc7f24a7c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13520,
+      "source_id": "98071ff294bbd2e59a6c8bfb6c7991f11499a220247a6dd079a827b55415c5c6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13509,
+      "source_id": "8e97927844a1151fa36fc72a33f5b97b95e9d5886894aee368fb0a738bfa3746",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 13349,
+      "source_id": "482e33424b5eaa239e5a8bf53526a9c36f5aa005b5f6666aa5799ed15ecf92a9",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 13666,
+      "source_id": "3e6e4080bbd9b7418212858333041ecfe8cc5ce0e46d2b6da7f8eba7a39d6ffd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13551,
+      "source_id": "4d8e7ccceae57e2bca103eb44e53e259b60a9ddfea847226e8e54ed882ae6874",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 13256,
+      "source_id": "1b8421d6879c5a7b33e8fe5c731f790524014e95d5547d1c7074fac5f380bc64",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13270,
+      "source_id": "2559bd43a3c53ad19fbfb36a7354ef0a7afcdfb578f7d9c0a3de4d69e31d7a66",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 13701,
+      "source_id": "4c1f84530e64fc5d991fed100737e426adaa2219c5185ca92cf6c1a024a2effb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13710,
+      "source_id": "f966824a2caf3bc47f05e0fda6f8a42653b10007e6c5cc42bb6d4de5da1948f4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 13598,
+      "source_id": "b8dff4715da041286d8af82c395d5325c5f679ed04550d380ecd210ef3d5307f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 13498,
+      "source_id": "f1c992dde62a6b36113a807724c2f42e5cf05374f0a3e3b96310b37323981b01",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13305,
+      "source_id": "f8d6f3a7c7451c1d5a23b7e120da2d01087e6a1e8d7b093a40b0f6b02907f605",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13225,
+      "source_id": "d66f78e743de9b6ec12b08462ed5e8971c80f08345401271aad9067820b11767",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 13095,
+      "source_id": "9786e37bb850c4700d505556c0ae0c221a4930fdfc3576cead47562c0d79650e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13317,
+      "source_id": "836ac22ef72e941f92ba2efd155efebfcdd8b6e56e012c0ed875096082623656",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ARBUSDT/5m/ARBUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ARBUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

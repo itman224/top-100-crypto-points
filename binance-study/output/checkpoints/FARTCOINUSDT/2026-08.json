@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 277,
+    "1d": 25,
+    "1h": 222,
+    "4h": 111,
+    "5m": 237
+  },
+  "event_file": "events/FARTCOINUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 353490,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 353490,
+      "source_id": "0b399906c5096dc203cf75c7a3a4fa83ac9d16dfe3d8eb80f6e929e0a34ae5d2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/FARTCOINUSDT/5m/FARTCOINUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "FARTCOINUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

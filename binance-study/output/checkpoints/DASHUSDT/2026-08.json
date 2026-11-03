@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 169,
+    "1d": 21,
+    "1h": 112,
+    "4h": 64,
+    "5m": 146
+  },
+  "event_file": "events/DASHUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 329519,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 329519,
+      "source_id": "6a49a0d3426419d3a86574319a5e5948c9a5883e27dd569f35b450da765fb4ee",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/DASHUSDT/5m/DASHUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "DASHUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

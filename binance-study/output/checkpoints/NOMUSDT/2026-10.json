@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 228,
+    "1d": 23,
+    "1h": 172,
+    "4h": 88,
+    "5m": 242
+  },
+  "event_file": "events/NOMUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 305929,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "3b9f21ef034d85c474a73340b73d5619645d16f05f7dab0407f07521150c0159",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13395,
+      "source_id": "8be995f319e9cee92852a150d4fe33d045051713f0e8ee36133dc8b6a9cdd4a1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12770,
+      "source_id": "fc20d3af1e942d6cc72d95bbdf0ba9b88448e0d72319c312eda259cce34db02f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12253,
+      "source_id": "fd5bc45a87ac352cbf069f334f8c9b6971d9a4c0d583e34b092b4c9480018cf0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12688,
+      "source_id": "1c3c80d8e5906b0e24c1d5586e601f340686cc5c76295f19b82564302d417261",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12194,
+      "source_id": "b0dc89c15e9088d682a461919e07e65bc9d8bc23450438dfe28261cd3328cdfc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11826,
+      "source_id": "d9973817de3b22359a79580c1da1a0d8f9398ef7e4a30a4f44c4565f8c3eb4ef",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11996,
+      "source_id": "16f1b598b6b84e6c7dda16a7db58d413a302cf2f0d42631739c5086c02cc4011",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12110,
+      "source_id": "1763c03a668357a432f259a74f396b9035e6454c32a1497eb6d4e0821bcd28a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11623,
+      "source_id": "e7d5a1379486c2bbec8b826f7946c5a9f806a829b25b17ab657cf78ef6765e54",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11305,
+      "source_id": "fd1cb7687c76051803ccc9be73d1090dd4f3098b95e638a3e6c63db6044f8a20",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11461,
+      "source_id": "4bc1e4f39906a81f1c5a49f7a81c468a9ece4aef4b6f96eccf9dd91eb991b3c6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11822,
+      "source_id": "b025749f0e9f1ee6a1ffa02a3534633e1ffb551e32883c60fc51304a26068853",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11741,
+      "source_id": "92f800a7eb29d9c312067c2db6ee710195bc5938a4d3e69e3ed6baaedaacccab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11579,
+      "source_id": "9bdf53204b2ffcb0484ba80a647d63d03ade554c55fa3cbc554cf763e1514710",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11880,
+      "source_id": "8c7eb94c320cdeb30d519734b1c740b603b47db3bc7500a2247c3c6d74f7e5a0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11317,
+      "source_id": "b6e98166cefa3e565f1055363d48f86d341c525a8a03217c09cee99a741c4101",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11188,
+      "source_id": "f0ee398e6a4b70e3bd32919cc64f3bfc49726b634c405e4c7ff657e3bf09f093",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11390,
+      "source_id": "6a644eaad0cfa32946454cfc855fde9b1afa3f8f17a5f5a56c5ff552658c1a3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11368,
+      "source_id": "37318008262c6c7c0aaea237b74dae450a988b267c23b07556dfe2f6a52ba573",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11378,
+      "source_id": "f5bcd12c591236e5f85e865c5ce4abf30a7dddf7ba41f689d43ce41e4e725f69",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11351,
+      "source_id": "b6dcc06f609c0c44e570ced4fe5dc5af95a922302cbd2d1e49d1b844df875988",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11284,
+      "source_id": "0fb2f2498203969ac65268db94cc60a05ceca312e77507aec5427353301f9f9f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11488,
+      "source_id": "386c750b1d8074e9df9ecee4154bc186450b6226ca4a8cc4cafd46effd4deb1d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11373,
+      "source_id": "8e38a0a4c0004fd50f4e24fb2f0620aa11ad505d154e38486074c68004aed402",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11179,
+      "source_id": "f8db724e5f55b0e1e8f455b89b94d7a12254cb1f02bf0daee18e6c7aa1cd5bb8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11970,
+      "source_id": "0517ae3f073b22abf3dacac5eaebb073a92251f0495435b557dc363665ec5129",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NOMUSDT/5m/NOMUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "NOMUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

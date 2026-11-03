@@ -1,0 +1,202 @@
+{
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 6,
+    "1d": 11,
+    "1h": 9,
+    "4h": 16,
+    "5m": 2
+  },
+  "event_file": "events/BTCUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 352414,
+    "expected_5m_bars": 7488,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "valid_5m_bars": 7488
+  },
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "2921d51859e97e27abb1a969f5cdf40374f0946ed9ff63b7b72a0b28b4dc519d",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13773,
+      "source_id": "e8bdf4391518cf272fb2c53aca085bc5708803259fcbabb6fb413ae091e606f6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 14036,
+      "source_id": "764ec96160c307760063d97c852af560d6ec68ce657a5a194a87be96c0d37beb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12836,
+      "source_id": "ae1d5307d37bf86157465d04db50d6d8407469166881ad77c9baf0c14305e9be",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 13035,
+      "source_id": "bc6e74488a392f7140612965e74b8a2b8a1760e8a3712a0ee1df3696aff34ae4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13863,
+      "source_id": "3bbb1b21177bd041625110c4c1a7235dd7e78f667c58e846844ce836eb74eaf2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13652,
+      "source_id": "40b08f371445400af1c7194c41c8ab259abf7d45b3f58c3c001f0ceb11fdfa75",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13783,
+      "source_id": "68cb9cbc7f28384b371ec95dfcd9e574dc77752dd55f1937cee74be4ec875a96",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13926,
+      "source_id": "3f6226018c0e418f6e5584a3b91307fb16d5324c35724a74b1a17d25243f2a2a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13561,
+      "source_id": "13fdc6cff646b8737d7a2420683dc3f7318eacdb57d0ab0c8ebf331d436b6b32",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12785,
+      "source_id": "5d2c414ff18aa2f2893a7ab39a781d4faac28e43f04cbf426c6d4a4816792a6a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12967,
+      "source_id": "3ab2c896ac0cecc3e737e2c96cda4dc82e0d286e9b031fac96b87e1067d2b21e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13753,
+      "source_id": "254caf219317aeafef8a5a1f6890e10f9a966983b9acbdeb89e54324474074f3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13759,
+      "source_id": "452a761b22c0e45b1aa4c497f2b7419e797c68ced112f6a8b9e000f08690262c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 13795,
+      "source_id": "fc3fae5df9e767ea1058ac85e2e6998559240634ebba53383d190ca4ebb99739",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 13947,
+      "source_id": "8f3a4bce5d7ce9d56c26309a9c8235297b6e2f501223d6de1fa00e6f0b0f0bac",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13623,
+      "source_id": "f203ea32d8b87187fb763e84bc9df699341697ad437875628d7280eb2af74b72",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12879,
+      "source_id": "edaf08b8a0d7b7b9e3e404d8623096663f6964ada7f5093fc89c69e5b94a5e48",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 13487,
+      "source_id": "a433fb1543bc0a43cd00092a76175877de4d131134e6f8045c9155d092b9b7ab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 13665,
+      "source_id": "92ad66174d09d2aa21bbf65c09d2b8163e2b0d11bb9db88d0058ab302cdacb5d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13743,
+      "source_id": "e6bf673de47ccf242dacd2eb8d2c9e043b3ffce23c21c6c7e8cd12d92bee431c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 13741,
+      "source_id": "78dbb03e354c3e0b53c4d2478598066a503a3982acbec55cd4a5e68bc1fcdc77",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 13845,
+      "source_id": "4a3f5e6921d305bc8808440a38e4215df99c55bb38de65253a6697bfb94e441f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 13558,
+      "source_id": "14da1778b638b5578804a32df3878e4abe720c587889099e27594305982c18fd",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 13417,
+      "source_id": "bc1c354a072f10b1228e91b7953c74ec1627b3e038af4b6b415f8284391852bf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 13254,
+      "source_id": "b0e8040d10d0bb1f1161de454cc9c910b3de09bbe984a67452dd847745b8d77c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 13731,
+      "source_id": "bbae204b0bb5bb055d459a5a323a59622c5ee39f8f3eb6f6a364d4ae7c630513",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "BTCUSDT",
+  "version": 1
+}

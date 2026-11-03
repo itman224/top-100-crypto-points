@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 237,
+    "1d": 28,
+    "1h": 189,
+    "4h": 98,
+    "5m": 204
+  },
+  "event_file": "events/TRUMPUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 350099,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 350099,
+      "source_id": "ba57a4b3a9eeb650ac6535213c0bfadda40f92657139b1fdf8027e521f864474",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/TRUMPUSDT/5m/TRUMPUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "TRUMPUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

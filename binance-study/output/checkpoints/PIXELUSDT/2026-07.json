@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 88,
+    "1d": 25,
+    "1h": 107,
+    "4h": 83,
+    "5m": 61
+  },
+  "event_file": "events/PIXELUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 338001,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 338001,
+      "source_id": "c4057b96b870d866013bdf354ac9b43efee64fb012703f5938e1dcfb21641def",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/PIXELUSDT/5m/PIXELUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "PIXELUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

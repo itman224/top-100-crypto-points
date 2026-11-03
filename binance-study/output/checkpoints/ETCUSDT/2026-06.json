@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-06-30",
+  "event_counts": {
+    "15m": 80,
+    "1d": 21,
+    "1h": 94,
+    "4h": 67,
+    "5m": 53
+  },
+  "event_file": "events/ETCUSDT/2026-06.jsonl.gz",
+  "month": "2026-06",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2880,
+      "1d": 30,
+      "1h": 720,
+      "4h": 180,
+      "5m": 8640
+    },
+    "downloaded_bytes": 325721,
+    "expected_5m_bars": 8640,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8640
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 325721,
+      "source_id": "09f31371bf92ea3d91afb3f155a14ad636ff276f6c7129b7c04f4e156d60bb53",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETCUSDT/5m/ETCUSDT-5m-2026-06.zip"
+    }
+  ],
+  "start": "2026-06-01",
+  "symbol": "ETCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,352 @@
+{
+  "symbol": "LINKUSDT",
+  "event_count": 1511,
+  "quality_counts": {
+    "complete": 1511
+  },
+  "source_event_files": [
+    "output/events/LINKUSDT/2026-04.jsonl.gz",
+    "output/events/LINKUSDT/2026-05.jsonl.gz",
+    "output/events/LINKUSDT/2026-06.jsonl.gz",
+    "output/events/LINKUSDT/2026-07.jsonl.gz",
+    "output/events/LINKUSDT/2026-08.jsonl.gz",
+    "output/events/LINKUSDT/2026-09.jsonl.gz",
+    "output/events/LINKUSDT/2026-10-27.jsonl.gz",
+    "output/events/LINKUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/LINKUSDT/2026-04.jsonl.gz": "8549e2b30496593308e450977c85dc5542f527648dddc8450e009b99da95b7bc",
+    "output/events/LINKUSDT/2026-05.jsonl.gz": "88b4177f71968a9b4fc1cb5bee195f30569b7b3e004d29d5434a0011d6477a64",
+    "output/events/LINKUSDT/2026-06.jsonl.gz": "636f77921a0a69082b235a6bf699346b01e499a10143f0c45f12d15d4995704a",
+    "output/events/LINKUSDT/2026-07.jsonl.gz": "9be839f5fe14825edd4eb09cdd4a164d9812f0108a3950312e19516dd7c51b69",
+    "output/events/LINKUSDT/2026-08.jsonl.gz": "84cdbc3ff747f16dd52db4ccd7242515e2af7cac4e380469e3c8a1567fa26720",
+    "output/events/LINKUSDT/2026-09.jsonl.gz": "297d3e794268852219c7743c2d6839cdc3077ed952ec156a494e5085a8ecd7c6",
+    "output/events/LINKUSDT/2026-10-27.jsonl.gz": "9b6de35a5577366237fbcc98cdc487f0e7e16aa93970e2542a74696e84ac7c53",
+    "output/events/LINKUSDT/2026-10.jsonl.gz": "48e9760e32cfd71a73d8dcdd79e28b26bcd2e920ee7d7751248cc7ced43481dc"
+  },
+  "market_data_quality": {
+    "symbol": "LINKUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 132480,
+    "missing_5m": 0,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-07.zip",
+        "source_id": "a9be3f05a0f87e13807e0268e0eeaa8796aa1ec8a2b28ab77b49cf6823783f8f",
+        "status": "available",
+        "bytes": 376086,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-08.zip",
+        "source_id": "32b6f02a49350e9e301606b6138c2c50ed8564b1432fa8cbb63614c2cd2185b0",
+        "status": "available",
+        "bytes": 387256,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-09.zip",
+        "source_id": "c28a3d2f67fac61e74e6066303df31f061cf6e31ce74ee3e6b05bda1ecc0a5f1",
+        "status": "available",
+        "bytes": 365478,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-10.zip",
+        "source_id": "085fc8e30a32b1be65c93aaaa39305fb045dc2752f0476ebe0a0b747163fa0d0",
+        "status": "available",
+        "bytes": 380267,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-11.zip",
+        "source_id": "3ce3117d6b397fcb175503255e5a0c32fd301c3e2627edbe94f7e80c20e44b57",
+        "status": "available",
+        "bytes": 363257,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2025-12.zip",
+        "source_id": "a3fbdb66b0ff8e31e7a5641cfd14c7ade3e6466d7a562651d5c6933459e9e9dc",
+        "status": "available",
+        "bytes": 365594,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-01.zip",
+        "source_id": "4e15bea128ccf20704914ae7867137b27cb1e38ab41228d9274fd067772c3107",
+        "status": "available",
+        "bytes": 362316,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-02.zip",
+        "source_id": "d5e3efbd5eae7b5021a2e1d972e27d27283972e1c38eec515adec858cbf083bb",
+        "status": "available",
+        "bytes": 326404,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-03.zip",
+        "source_id": "e30c791d4c07c0d0ffa605874e37e4f0560ba71593b17494f00b28e8591fe10e",
+        "status": "available",
+        "bytes": 355199,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-04.zip",
+        "source_id": "4127f974a6fc7ecf2cb547c9cba9a20512e151726fb2d91be99c5e4a9068a43d",
+        "status": "available",
+        "bytes": 338838,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-05.zip",
+        "source_id": "be8b5c4141cb48f6f3cee56901af40b10d8a13c6e70764eda3cb9301a13eb0fe",
+        "status": "available",
+        "bytes": 354129,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip",
+        "source_id": "6ad95a0d5da196f860fcf2727ac00e7b86f97409717a8e4f3492668c4f763426",
+        "status": "available",
+        "bytes": 340968,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-07.zip",
+        "source_id": "406d859278ae92854334f98085ddfb0742111ae4b55f711c98dbd6d7b84f6bce",
+        "status": "available",
+        "bytes": 345805,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-08.zip",
+        "source_id": "21b10ec6d986c26ef02b6ed4a91d3bec18d56d03cff525f7891442433735b250",
+        "status": "available",
+        "bytes": 355978,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-09.zip",
+        "source_id": "8ec60997e5d4d81dfe6cde9142c12ed951366c7f722ba97c1887274edca84539",
+        "status": "available",
+        "bytes": 356467,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10.zip",
+        "source_id": "5ab7f73cd02b1060607fa2694e569d19c29aa8384625042eed6ecb41f38780a7",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-01.zip",
+        "source_id": "5b2b4f170f6bea6f146be452e95009b053e0c1277ab86ba33ecc1babcc5c0afe",
+        "status": "available",
+        "bytes": 12411,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-02.zip",
+        "source_id": "0c720a3870cc2cde165e8d68e2f9428b9531e2b21abba5b9100e59bd386a9419",
+        "status": "available",
+        "bytes": 12614,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-03.zip",
+        "source_id": "0ba364c3c59d00d2b5484946c528a4abdcf6a42a74adbb23bf98832f001394a1",
+        "status": "available",
+        "bytes": 12155,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-04.zip",
+        "source_id": "c821b2ef01606816bf0434eddf7013f0d78409e68eb22f3f8c6743086c073dbb",
+        "status": "available",
+        "bytes": 12068,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-05.zip",
+        "source_id": "c330383e9dfd6286cd29d32b6a40679e8300f7c8d287a00aa20fdc1f69661df2",
+        "status": "available",
+        "bytes": 12249,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-06.zip",
+        "source_id": "72a070c67be30a93688bdd928c046a47a669b48e552c4fed85cbe87b0159ed75",
+        "status": "available",
+        "bytes": 12093,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-07.zip",
+        "source_id": "c968c6a8e7d872ac4c070f3fcb5e70c2315f6c08bcd8bbb4c76b77f2255fbd5e",
+        "status": "available",
+        "bytes": 12439,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-08.zip",
+        "source_id": "66b6fa1608ad65b2bf24a9f90e5db8b532f729632f9c918265cb19b84ee9ca3a",
+        "status": "available",
+        "bytes": 12647,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-09.zip",
+        "source_id": "77be16307d5c9e9096f5e55e1c0feafecce2ad26de0fc34744fdbc4fbe31eacd",
+        "status": "available",
+        "bytes": 12054,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-10.zip",
+        "source_id": "2ff9f79f26ee92dac420d3356431e53c99d4eed21e8c11650420ca475f866189",
+        "status": "available",
+        "bytes": 11961,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-11.zip",
+        "source_id": "8700e4a9e81b5498daa3275ba3a3b8c105821cfe65b6b2694f59ce1e5778dcc5",
+        "status": "available",
+        "bytes": 12147,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-12.zip",
+        "source_id": "498a7790415658616760ca6d6c70a7d420f48382033f973cf1fbe22643b5e3f6",
+        "status": "available",
+        "bytes": 12409,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-13.zip",
+        "source_id": "b91610deb6ab1482b6980d2c9f514b208cc9f0d17cc359dd5e9fc2b852db8518",
+        "status": "available",
+        "bytes": 12384,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-14.zip",
+        "source_id": "beceea9f126a36f48e560a77e0a7aad09369ee8bbc5bbed6e038e9442d39da35",
+        "status": "available",
+        "bytes": 12265,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-15.zip",
+        "source_id": "47ae53658812232877ae8240a31d554fa9f2ce6a55b4b9db5c88a359aafb3d79",
+        "status": "available",
+        "bytes": 12474,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-16.zip",
+        "source_id": "0fcf0039cc62387f95b31fc15f556d80956cd1a0bac2192099d762ffab3a63a1",
+        "status": "available",
+        "bytes": 12272,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-17.zip",
+        "source_id": "c91a6765408f79c1378ca3f7035ab75486467b025deb8a2098c06f25358fbd75",
+        "status": "available",
+        "bytes": 11966,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-18.zip",
+        "source_id": "20f183949de73d2165d1bf33e7937647f49e7fc6a1f0cbb1f532445b26d21ac1",
+        "status": "available",
+        "bytes": 12078,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-19.zip",
+        "source_id": "13c3ad609058ded9ebbf069bc96fc987590ea6a2ec323dfe31f2415516112ea7",
+        "status": "available",
+        "bytes": 12209,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-20.zip",
+        "source_id": "30064858a1474849aaedffa035d835bbf0013582b2b0f4c3c27c29303bbd0305",
+        "status": "available",
+        "bytes": 12217,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-21.zip",
+        "source_id": "988bcec3d83f3d0d0c549eee233bd8c6ff9cd5741bbbe02f1a7855797be41280",
+        "status": "available",
+        "bytes": 12199,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-22.zip",
+        "source_id": "39b8b09411a20ccad5118a1041c12ffecdb03479eb9c06db8d16a20cb3061a54",
+        "status": "available",
+        "bytes": 12191,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-23.zip",
+        "source_id": "2529272dcd7c85a1b4a91c3c0f2e0fcb8cd57f2eb791946e46f2bd8d62855196",
+        "status": "available",
+        "bytes": 12160,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-24.zip",
+        "source_id": "73ae2f2445dfa325f68a2c0aa12e1a914e467e2a9f885dd8f39eeda81b46aa43",
+        "status": "available",
+        "bytes": 12107,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-25.zip",
+        "source_id": "84febaef7216fe802c0489667f9c44ad6a4dc9aaefca1068a85b4c76ae433b0f",
+        "status": "available",
+        "bytes": 11948,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-26.zip",
+        "source_id": "f9f5d31ac7fd6c899db8f9727f2545ac170a2b529b7b51184eb835c510ea808f",
+        "status": "available",
+        "bytes": 12164,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2026-10-27.zip",
+        "source_id": "ef64ffac8c5fb3787325235940604d749dcab6c56d5d365418dcc1c8f548fa75",
+        "status": "available",
+        "bytes": 11987,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 5703910,
+    "frame_counts": {
+      "5m": 132480,
+      "15m": 44160,
+      "1h": 11040,
+      "4h": 2760,
+      "1d": 460
+    }
+  }
+}

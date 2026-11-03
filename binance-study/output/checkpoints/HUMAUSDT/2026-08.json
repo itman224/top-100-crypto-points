@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-08-31",
+  "event_counts": {
+    "15m": 165,
+    "1d": 23,
+    "1h": 141,
+    "4h": 81,
+    "5m": 153
+  },
+  "event_file": "events/HUMAUSDT/2026-08.jsonl.gz",
+  "month": "2026-08",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 357222,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 357222,
+      "source_id": "1fac99ee8aba68a73921562928f1b10b220fe4ffe1b8dd222b7470f4bbe22b43",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/HUMAUSDT/5m/HUMAUSDT-5m-2026-08.zip"
+    }
+  ],
+  "start": "2026-08-01",
+  "symbol": "HUMAUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

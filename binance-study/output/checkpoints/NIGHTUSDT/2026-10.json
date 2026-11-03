@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 289,
+    "1d": 23,
+    "1h": 211,
+    "4h": 101,
+    "5m": 228
+  },
+  "event_file": "events/NIGHTUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 308864,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "0a1ef5b0bbffb4e336ff74a9dcbe76a60880ca3929300016f657ba30c95c06f9",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 12956,
+      "source_id": "d6b01af7a0cc0acfdd7cb8a6ee1b69fe3f7bc5ddf0fa5db654d743eb19bbce43",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12856,
+      "source_id": "d009568abc6f0bce0764e917cc0557ad101d7e09cadbb3b3f67cb3fb7acd7443",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 12839,
+      "source_id": "8479a5a9a0713aab37d817d8632eb2a3d628e2eca7e61239f904dcbc2a6bef68",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12263,
+      "source_id": "cae7cbe4cafae18d377ccb4daee8ed454cf18efeb657daaccde1478b9d5966b5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 12305,
+      "source_id": "84b42e6f6b83fba5f0ea78a86d09ca6bb78f4eaded28cf9e947f340506a20428",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 12086,
+      "source_id": "cd4e80566feecad624f0cac48edea85c929beed7825772b019cfd3b6b158f639",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11901,
+      "source_id": "1b22db86ba3e3b66409f5d6aa64a17e750aacec246551b2d28f719044ead99b0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12013,
+      "source_id": "9e777118e743c0f8033355a2736363bbf091fb66ea194ed668a15c153ad7703c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11658,
+      "source_id": "3b0db79b7ef0dd2ea3377ae0d53586aabb88c38bf23fffd2c4d67d1d6a4974bf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12236,
+      "source_id": "556f122f6dbcd10a2d53a57f05e3a86e76119932263418061699061752ce8e74",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11733,
+      "source_id": "52e2c37625b28efd7cac0e928dfa0cb06c8b9f7e40d365b10d7f8f464146a79e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 11874,
+      "source_id": "3dbcdc8cd651b9cb7479a761f468f05a3e36be3976b312d4d8813b55611786de",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11775,
+      "source_id": "31e8a711c0ebc63853bad529177b138f9c4ea25b3fc1df4e109ca1c7ca9666a6",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11618,
+      "source_id": "954521bbe8cf8e5565e40a5ba3024568dc09f10df4db658f73f5e211a336f67a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11750,
+      "source_id": "80a049ebdaa14b57f09e83487a79e602f734ab440dd2511670171eea4778f788",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11905,
+      "source_id": "3348e2d66d86a36c7fc000635e5e91d9f6daadce568ca7ce5d094dba85e09ebc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11715,
+      "source_id": "604d50ed09944fdfe964ac338372286f5950bab5cd6c72e93095663f873b872e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11446,
+      "source_id": "08701f5ac8cf1f16806f1deb2ae2a3e97e7667e7b2b08ab80308302730380175",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11282,
+      "source_id": "403cb421a4ab565fb6b70d64d642d448cbfb61786cd849ec57d383f57d9db05e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11529,
+      "source_id": "8e09d0323143c9258ddeaef6a87ddac5ca03331b03cd61274eb36a02966c6f81",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11675,
+      "source_id": "2628dd580db4e0a535812378c4bf89dc7d155f9929dec60215062865b8bfa5fc",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11496,
+      "source_id": "778b7673d0fc49bac9036454c567715feec2ce919a073436ef075b17123cefe0",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11487,
+      "source_id": "3d11cbc7a9b931d403036e0847fa8a31e73f134d8c4ac953f4df98c415acfeec",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11425,
+      "source_id": "a5092195efbe68f3464290d9e169d4fd4e21176381a17bad9391011355483ce3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11288,
+      "source_id": "33c1e5924fdb1170ca3863fa77e458d42bca25a3e9a808b3d54e973344db263c",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11753,
+      "source_id": "d98a77d06f5d2131e96af1a47736d3f9101e1ae7a9f6473782859215a2d8ec68",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/NIGHTUSDT/5m/NIGHTUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "NIGHTUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "sources": [{
+    "name": "linxy/USDT-M_Perpetual_Futures",
+    "tree_url": "https://huggingface.co/api/datasets/linxy/USDT-M_Perpetual_Futures/tree/main?recursive=false&expand=false&limit=1000",
+    "readme_url": "https://huggingface.co/datasets/linxy/USDT-M_Perpetual_Futures/raw/main/README.md",
+    "observed_utc": "2026-10-28",
+    "description": "530 USDT-named directories; dataset README says Binance USDT-M perpetual, last updated 2026-10-24. Third-party assertion, not official contract metadata.",
+    "scope_limitation": "A current snapshot may omit delisted or missing contracts and includes symbols launched after March. Official historical archives are used to verify historical presence and rank.",
+    "snapshot_file": "hf_tree_snapshot.json"
+  }],
+  "github_search": "GitHub repository search for Binance futures symbols succeeded but did not identify a verifiable historical symbol inventory before proxy failures; no GitHub symbols added."
+}

@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 28,
+    "1d": 14,
+    "1h": 51,
+    "4h": 52,
+    "5m": 14
+  },
+  "event_file": "events/LTCUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 306925,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "751228528fd810edbf9625fb3a3a9d762aabfd54d7048058078381fbfd73f2f9",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 11917,
+      "source_id": "771a8404a27c4df2dad52bbfe7217534dba7048e0a9e53a63b407c82f3ef7e4e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 12313,
+      "source_id": "a9f9841ab5d6639fec29c713963e80572a1a902f3fd140a69ddfcf1552d99e0f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 11946,
+      "source_id": "f33788e254c319d9ff59d213ce341a12d97582c962da8a03fce275f97a6b8a56",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 11862,
+      "source_id": "3a8829e47e0e22f91b9121368ba18b24f340289f10b95ddb7310ae71d697775e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 11944,
+      "source_id": "ac3b3fecb4b7a9358eb6e6b23e050ee3b5d674d4cf19be18dd1a362d609d8345",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 11787,
+      "source_id": "49af5b4d4278da03f9d3c60610d98f5375d333f8c3495db802abf400fe92b821",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 11937,
+      "source_id": "f873416fd10872f8cac1dcdeed339cb5dbf722a4165a76133bc5d91247d3cb41",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 12168,
+      "source_id": "b2c8d4b6053236c42651d1a398d675fdcd8372af09486ac4976a55ad5d90a913",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 11675,
+      "source_id": "328a69e5e7bdbc94b60d65250e63318aff5811e7c31c69ebb6d23d522f5a32c5",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 11376,
+      "source_id": "0b9d23c2cd4728fe46b780a07168a6688ad84794b0e7a41482c292757ef384e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 11554,
+      "source_id": "2ce69e6f07302f156c01b4437e4bb3a432b1312da5887e26986497db6613af11",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 12045,
+      "source_id": "612dc85b792034ceb58f5c47e67a5fe1fb227602d0ea4da5e9e63daeed847e85",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 11947,
+      "source_id": "2a63741fb7670f9b1cbc2374efe0028d1e99f4e5cebfd54d7edd4890426b8d78",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 11809,
+      "source_id": "4ab87e8b21ef8913dccd8f5592877c42d2140159e35dfc049de7dd920c78a6ed",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 11981,
+      "source_id": "4b6d833faf4aab57422cfebbeaf25aee8c9f4104e34552b8556b156ee65d2f78",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 11630,
+      "source_id": "ac757a8e476615bb6f46533da1c116189233fad4e4935993e791e8f4353c47e3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 11484,
+      "source_id": "1c65d45bfb8b7f7e7945a962e8db7966c8269a5b9ccccd713524731f6ad495c2",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 11752,
+      "source_id": "620aebc56113c89948fdfc42202a20f458a21dbc42d174fa00eb47c5638e1316",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 11695,
+      "source_id": "c71755e7007a8b54f3df6901db9ba9ea8458a16bfa912b1cd35651c6946b10ab",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 11903,
+      "source_id": "1d63231ad2d3c357493d494ad95243b7f57a032edba350085421924958765550",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 11720,
+      "source_id": "9086b9c1dcbe31554817fe2452c94b63507d66873814bb24b58ee2208f4754f4",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 11874,
+      "source_id": "501e1cac88dd37335b0aa36aa51ef6b89ba3b1e269cbc2fc38ecf3f8761a3c3e",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 11801,
+      "source_id": "074dcda10435ba3d7cc8b06ef4e18d6306309b788334df55fe3310f8fa919e66",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 11715,
+      "source_id": "3feb9c7ea94dce8de285ebb9b3f43ca3634859b01a6274e7965eb80f30a631d8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 11438,
+      "source_id": "52589efa7b80896fd9975c74d26e3fadcecb8015ffcb651d0d21791619ede5db",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 11652,
+      "source_id": "28dbe6c531fba4983620cdda7fa30481b3ed261e8c44665827fc919d0de2f3e7",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "LTCUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

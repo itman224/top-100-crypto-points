@@ -1,0 +1,53 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-07-31",
+  "event_counts": {
+    "15m": 92,
+    "1d": 16,
+    "1h": 106,
+    "4h": 73,
+    "5m": 75
+  },
+  "event_file": "events/BANUSDT/2026-07.jsonl.gz",
+  "month": "2026-07",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2976,
+      "1d": 31,
+      "1h": 744,
+      "4h": 186,
+      "5m": 8928
+    },
+    "downloaded_bytes": 313023,
+    "expected_5m_bars": 8928,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 0,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 8928
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 313023,
+      "source_id": "54e66e24b3cc7d46b279ef2fe0807863a540b2402da5f94c245da7c72772ad50",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/BANUSDT/5m/BANUSDT-5m-2026-07.zip"
+    }
+  ],
+  "start": "2026-07-01",
+  "symbol": "BANUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

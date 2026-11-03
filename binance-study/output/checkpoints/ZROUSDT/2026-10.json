@@ -1,0 +1,209 @@
+{
+  "close_time_validation": {
+    "status": "verified"
+  },
+  "end": "2026-10-26",
+  "event_counts": {
+    "15m": 396,
+    "1d": 23,
+    "1h": 267,
+    "4h": 107,
+    "5m": 343
+  },
+  "event_file": "events/ZROUSDT/2026-10.jsonl.gz",
+  "month": "2026-10",
+  "previous": {},
+  "quality": {
+    "complete_buckets": {
+      "15m": 2496,
+      "1d": 26,
+      "1h": 624,
+      "4h": 156,
+      "5m": 7488
+    },
+    "downloaded_bytes": 337206,
+    "expected_5m_bars": 7488,
+    "fallback_failure": null,
+    "incomplete_buckets": {
+      "15m": 0,
+      "1d": 0,
+      "1h": 0,
+      "4h": 0,
+      "5m": 0
+    },
+    "missing_5m_bars": 0,
+    "missing_5m_ranges": [],
+    "missing_archives": 1,
+    "unavailable_archives": 0,
+    "valid_5m_bars": 7488
+  },
+  "selected_source": "binance",
+  "sources": [
+    {
+      "bytes": 0,
+      "source_id": "4b9a2220c5808f6f8db9620d6de4f80d11ebb937c03b7088b8afbf7e45bb743b",
+      "status": "missing",
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10.zip"
+    },
+    {
+      "bytes": 13093,
+      "source_id": "ed2b8df1754583bfbbd079d7850969c97c687caa70114bfdd8d8b3e9ff886053",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-01.zip"
+    },
+    {
+      "bytes": 13213,
+      "source_id": "0cdb5864787f75b951b9f19fa3b37fc737978435ac861f3f5fd57787ca2cea1d",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-02.zip"
+    },
+    {
+      "bytes": 13223,
+      "source_id": "711e25be9ebd025fbf459f480e779a137f75b02c430979ef1f3c68e421f79440",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-03.zip"
+    },
+    {
+      "bytes": 12916,
+      "source_id": "8dfd2d601edddf802cdde126a27fe9b15aa686e48a960a0122a48c775def26a8",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-04.zip"
+    },
+    {
+      "bytes": 13082,
+      "source_id": "d6d57df6c1c86c254910b11f71105b05b93e6cad405a19dacfde070e2b247986",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-05.zip"
+    },
+    {
+      "bytes": 13209,
+      "source_id": "c1f2f145318e5aaf2c1209da47b6cb7cd2cd04018c83cdc3bff527a0b5b477c1",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-06.zip"
+    },
+    {
+      "bytes": 13114,
+      "source_id": "7005bbfd5b0c122bd60ef60f2df6bc5def73ca276ad0a6df9cb345a091163c63",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-07.zip"
+    },
+    {
+      "bytes": 13138,
+      "source_id": "920024a93f59290446f3468ea1bf084b2e726c691e7385b363a3fbbe6c4172ef",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-08.zip"
+    },
+    {
+      "bytes": 13089,
+      "source_id": "5a186079a9581718ad519a41688ebddf7e5044204a75aed64d91cf8793e04b2b",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-09.zip"
+    },
+    {
+      "bytes": 12600,
+      "source_id": "55dc8894c48215f16c05eb5df5474489c742b563593e97704da82b09f0ac6e95",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-10.zip"
+    },
+    {
+      "bytes": 12745,
+      "source_id": "a56c16908310371af60e4734c8d6b371d1d5ef4cadea7a2f62a74cfef496939a",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-11.zip"
+    },
+    {
+      "bytes": 13563,
+      "source_id": "aabbe1968e93f12e59f9d5c769041b065628ca4d8de5cb22ee239893d7129914",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-12.zip"
+    },
+    {
+      "bytes": 13050,
+      "source_id": "ea03171a944873d812fc8fccec9a2df1ccfb30d2d3536c8edeaddaea5e7dd666",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-13.zip"
+    },
+    {
+      "bytes": 12919,
+      "source_id": "fdc23f345167264dee8908a0161f67f74b3e279eccf65f98f55764d2e1f8174f",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-14.zip"
+    },
+    {
+      "bytes": 13165,
+      "source_id": "fd8b53a8dc4357a75930ec96379ca9c1bfb1373b8143f795ace5561bfba87039",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-15.zip"
+    },
+    {
+      "bytes": 13300,
+      "source_id": "9f203a60ac4df87fa123f11c0393dc76a9675b2cf8e4943b4449106cdda030e3",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-16.zip"
+    },
+    {
+      "bytes": 12736,
+      "source_id": "ee91ff199d4db2131532b6732d946573258593a2b50359635fca55412d66ef38",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-17.zip"
+    },
+    {
+      "bytes": 12835,
+      "source_id": "faa6c9109efbe1b9b3376860b9debd22adc614a7f750f8fba41ef056af02c752",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-18.zip"
+    },
+    {
+      "bytes": 12896,
+      "source_id": "e888a0af33921c56cd92198cc2c0dae2e2e0843ee1ca9bf2e9fcc2770aa9eb69",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-19.zip"
+    },
+    {
+      "bytes": 13076,
+      "source_id": "10be893c9cfc40c426b7aa57ef0e853c603e8de3212d538ce6a744f3def47299",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-20.zip"
+    },
+    {
+      "bytes": 12886,
+      "source_id": "c312d5245cbdf4f9b026d2e8649346e0155d1045737817973df8f779d2b3a476",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-21.zip"
+    },
+    {
+      "bytes": 12828,
+      "source_id": "bc1fdf029cf23132cd1458032e15d146a822083156e9baf33aa64c785d709afb",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-22.zip"
+    },
+    {
+      "bytes": 12820,
+      "source_id": "9385c07f75e3427ae05aef84ef0a3eae4b99eafc42790a9cbdf9c1a87461fcaf",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-23.zip"
+    },
+    {
+      "bytes": 12561,
+      "source_id": "a1104deffc1da1178b931e4a313107cfeee1e542a892c986bc6280e5eaa98837",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-24.zip"
+    },
+    {
+      "bytes": 12450,
+      "source_id": "1eb721dfb42d353376ba832d2f5fe82fe0bebd092af8084bd995ebaac2fb9c06",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-25.zip"
+    },
+    {
+      "bytes": 12699,
+      "source_id": "2fc8a75eee51a65e75882ce0b1de66c3b77e8b419065a566a95c7ea217193982",
+      "status": "available",
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ZROUSDT/5m/ZROUSDT-5m-2026-10-26.zip"
+    }
+  ],
+  "start": "2026-10-01",
+  "symbol": "ZROUSDT",
+  "verification_status": "official_archive",
+  "version": 1
+}

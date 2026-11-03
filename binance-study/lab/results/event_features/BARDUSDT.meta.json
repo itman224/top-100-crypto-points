@@ -1,0 +1,623 @@
+{
+  "symbol": "BARDUSDT",
+  "event_count": 2678,
+  "quality_counts": {
+    "complete": 2678
+  },
+  "source_event_files": [
+    "output/events/BARDUSDT/2026-04.jsonl.gz",
+    "output/events/BARDUSDT/2026-05.jsonl.gz",
+    "output/events/BARDUSDT/2026-06.jsonl.gz",
+    "output/events/BARDUSDT/2026-07.jsonl.gz",
+    "output/events/BARDUSDT/2026-08.jsonl.gz",
+    "output/events/BARDUSDT/2026-09.jsonl.gz",
+    "output/events/BARDUSDT/2026-10-27.jsonl.gz",
+    "output/events/BARDUSDT/2026-10.jsonl.gz"
+  ],
+  "feature_definition": "signals at close of immediately preceding complete candle, decision at event open; gap resets; no future data",
+  "experiment_hash": "a3493af6d57b533af736b30fff2ea1f2fd87abddb7b2829c4686e2ee0d14c92c",
+  "pandas_ta_classic_version": "0.9.0",
+  "event_file_sha256": {
+    "output/events/BARDUSDT/2026-04.jsonl.gz": "2b05c81df77b14e0c7a7b8f5ff773107035cbf0f89038ccdf70c463683434fd4",
+    "output/events/BARDUSDT/2026-05.jsonl.gz": "23bd27a766c1a1c4117c13350cbf3d8dd8c3ebe3dbbafbaadc950ec0b7f8e7e4",
+    "output/events/BARDUSDT/2026-06.jsonl.gz": "38b9b6cfc2e98dbda1891a1f0da3d39037f04c121304f2f7c1500669b3413be2",
+    "output/events/BARDUSDT/2026-07.jsonl.gz": "7f9d06a06b059b55bc2375638ec78fcae7c693d966c83f6520fcf34ea51dc73a",
+    "output/events/BARDUSDT/2026-08.jsonl.gz": "ee6a0f4c03730439f7e1679886cb40041cff785447fbd8a0943d720029eaa3ce",
+    "output/events/BARDUSDT/2026-09.jsonl.gz": "7ee91ab1f8e1de7df274eda942e7b80e62885e9a7489ae0a20003beb3c2dfb8e",
+    "output/events/BARDUSDT/2026-10-27.jsonl.gz": "b0c6c4e625a3f86bc1abcdfa1a4ca9ac497e4f0d4bc0cc30686b9b74262b5cf5",
+    "output/events/BARDUSDT/2026-10.jsonl.gz": "1f39e3ef02ce4a8bf31cd9ca4addae8d38b39387993d240fe45af5fa1c0df33a"
+  },
+  "market_data_quality": {
+    "symbol": "BARDUSDT",
+    "start_utc": "2025-07-25",
+    "end_inclusive_utc": "2026-10-27",
+    "expected_5m": 132480,
+    "valid_5m": 116508,
+    "missing_5m": 15972,
+    "invalid_rows": 0,
+    "duplicate_rows": 0,
+    "missing_ranges": [
+      [
+        "2025-07-25T00:00:00+00:00",
+        "2025-09-18T11:00:00+00:00"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07.zip",
+        "source_id": "4d689b5b40a493a4e25da709a14196261d392dc1ed08d839a6bc3fc9de6ac989",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-25.zip",
+        "source_id": "c1cd3cbf4fb7c760e1978f4ce325b7506cb292f745654f00215cc0cbc0480d09",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-26.zip",
+        "source_id": "2238c64191425920e0ebd780085bdcd83262f97c4ee9f962700e4324d38dc791",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-27.zip",
+        "source_id": "5de25cd5094ac37e06e92bfa75b8d6a051bd63026ea8824b4127187c09dbae7b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-28.zip",
+        "source_id": "0612ee691e731826ca31f1ef90b9ab90da8c437205f76ad927d1e3e05396fa7d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-29.zip",
+        "source_id": "ba94c865258d80e323a962e6c7f4dd77b11d5cfafd34222cf0df74ae90a283f2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-30.zip",
+        "source_id": "b6bedcd969ea99a58b832f8640179f6665a4daf3ffef74f22881ba0a8155a311",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-07-31.zip",
+        "source_id": "6528295bdb1d3705f024e5d9c376a073dad2b9e52c22c7190cc3aa6e76f2ff4a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08.zip",
+        "source_id": "ca86dda5264e66cdf66123fdbb07c010e5d696dca78238ea7c690a5bbe3268b2",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-01.zip",
+        "source_id": "9ecfb882aabeffe7a084d57c531852c8e3041e87c69570539bd9fbab1b2ce3de",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-02.zip",
+        "source_id": "1f77a9d0bb2bc1ad8257c553f15a048fb570d5b1c13fd0cf0f5a87565828c3ee",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-03.zip",
+        "source_id": "32cb3ad0d0fdd4d29db3edfc54219aec77cf46529fc2a6b9d354ea3fd14c5adc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-04.zip",
+        "source_id": "f4a2ffe88ee4ebb3cb49af69aadc1559db0e1d615e12f73163ec059355ae65db",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-05.zip",
+        "source_id": "494a650f0e30e6fc50c53633f017f619140cb652a5432508a31622b9e30c2f5e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-06.zip",
+        "source_id": "7f3e49291f787bc376a4639569ae2d94e23645342b03243f100a40c936e41c2a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-07.zip",
+        "source_id": "90f43392584a5c9a14eb4b7297a14f7cfe1e847a630d21f2a7ae96b4f704147e",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-08.zip",
+        "source_id": "039d58438a4bddaf4cb9edea202c50ccf964df3f508d43c0214cd7feafda504a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-09.zip",
+        "source_id": "c98e25ed4c64d0df823c171422f37d9bdbec03322c177ca0b1efef44827f5971",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-10.zip",
+        "source_id": "74ab33e4c4fc4ac70d449b6335b89b2e3654e9e56b1fc8d9b3e49e67d1792acd",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-11.zip",
+        "source_id": "47f79e463cffab409f6f18ead52e769629fb82282790f4b5749b7126a84961fc",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-12.zip",
+        "source_id": "060597f2bb56cccc9cb154a29dc5c4dc016f4b3bc3fa28ff24a657ea2e220d0c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-13.zip",
+        "source_id": "dc68455edd9f1a11a182e5ad7fc50ab198247661cf61c038ad4d2d4987deeaa1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-14.zip",
+        "source_id": "3dc451cc39bbab205a513f2bfe4092fa234d850cf3eb49b527a95dfd54d6f3ec",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-15.zip",
+        "source_id": "5fa4053578c2d2907e66efe07131b5054842ba0dfddf45c0d449530438691464",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-16.zip",
+        "source_id": "9d50c536410de49b287dc59f61542e8574d37227faadd576e01fad43bcc0c1b8",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-17.zip",
+        "source_id": "19d1d757f4975a8fb60eb1ac14805fc3df811c8be49d337d0d6645ba6a5d53c9",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-18.zip",
+        "source_id": "e46aacf79f0256d4e9b8f7f19f9e061d6a4c7a0198d23ea468ba70e28f568621",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-19.zip",
+        "source_id": "8a8c84010fe35c10be0e9195513622f5572d5d4701824366fae17f5c5714407d",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-20.zip",
+        "source_id": "b24834c40db2d65b0b57c3e1fcd1155b2d0fcfaf8f3bc2d514c7cbc03e2ab378",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-21.zip",
+        "source_id": "8146dea1ac2ed91d47de1c41a10d70cec0fc9db2deb21201794cf78d32387bec",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-22.zip",
+        "source_id": "7de367f785c80385802eea86498fe0568e5f8602f9abe659191c356e07f144a1",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-23.zip",
+        "source_id": "c6d951d8870c3aa1ba886903d1f94572ce7bafa4db35469e1400a0cb15e6b6fe",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-24.zip",
+        "source_id": "1f2a9b869751bc6d02898cd7f3477e77e64d41c127a807b4bbb541884ea4410b",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-25.zip",
+        "source_id": "d15d9722a75674a1b28a705d42d3ae2682c1e3506a2a24bfe5383ae2f3887a54",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-26.zip",
+        "source_id": "2b35bca6035ab6355f301c9194641a574d767d9e70acce83c4b36dbf00a16def",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-27.zip",
+        "source_id": "926431a4ae324c1f1fe8513cf25ce300ed7d36aefba29dcb67b9851d33eeac9a",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-28.zip",
+        "source_id": "d63b5e348509d2a985521ca012bf6a0dd0f817c39f57902515bab7daffda6355",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-29.zip",
+        "source_id": "2b03b6cb258a2dbcacbe731fdaf154ec42f123bb6422a467e0aa6d833358eb17",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-30.zip",
+        "source_id": "bf7c36ad6068408750b75d2bd9d14927e72857cba7db64d23ffef515bfd50f14",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2025-08-31.zip",
+        "source_id": "797232d33caafddc0447f9a87511f77d4964d89329b8580c0b0babc96eaa47fb",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-09.zip",
+        "source_id": "6c5e6e134ac1479da4d60ad738c90d881f9889f18a1b5da89c91aeac70d2fc9b",
+        "status": "available",
+        "bytes": 152594,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-10.zip",
+        "source_id": "6999e78a193972047de3ed46235fbdc091168f00074358e2976fcfb741efe102",
+        "status": "available",
+        "bytes": 338045,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-11.zip",
+        "source_id": "0acc649ef49676ad6bf1191da18a1e0e183df0680da245a3d4447fe1caaa904a",
+        "status": "available",
+        "bytes": 313402,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2025-12.zip",
+        "source_id": "26f838193830b9e7a5d18af983ebb578b5ec72dc4b1c3254a366a7a778af4b81",
+        "status": "available",
+        "bytes": 330188,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-01.zip",
+        "source_id": "0dcb32f067a0d6543560878e2dddd7a8146ed3664d959994c4d4f88b57d52b90",
+        "status": "available",
+        "bytes": 324412,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-02.zip",
+        "source_id": "99dc0d6b83c63739cfdfe8b4a1f3c5f4535fdca5a92f0e3a5164d705769f224b",
+        "status": "available",
+        "bytes": 294671,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-03.zip",
+        "source_id": "34e3e80cd311a1204c47b2e6e95f4af71bd65b5018e4239353218ae1d31e0436",
+        "status": "available",
+        "bytes": 346399,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-04.zip",
+        "source_id": "de5fc212c94ace369f484c25fcdacda396919417b8aabfdb59efe1760cb2602c",
+        "status": "available",
+        "bytes": 319041,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-05.zip",
+        "source_id": "f987e83f5d462918001407d07e5f4e5f8968f4ec95f0dcad42b44b5aad335ac2",
+        "status": "available",
+        "bytes": 304674,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-06.zip",
+        "source_id": "5e7b75139f86c5204a06dd252e2dab935d5ad7ccfadf464e4962697c839e662b",
+        "status": "available",
+        "bytes": 292177,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-07.zip",
+        "source_id": "a1cd407fc75af5edecd7896611b7db38ffac432ea1577b6aab860bd16cc791b2",
+        "status": "available",
+        "bytes": 289850,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-08.zip",
+        "source_id": "9f313f6f6d1faf92359c04eddd62e52380d337d0a598fcdaa8f58680d6a8b63f",
+        "status": "available",
+        "bytes": 288039,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-09.zip",
+        "source_id": "9bd092193214b67d4969dc9abfe38418e92b2568de17403fca460421432252d8",
+        "status": "available",
+        "bytes": 279402,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10.zip",
+        "source_id": "6f186514d28fe9ddc77624e151d227a678b1e43deaf2928d48d1be987131344c",
+        "status": "missing",
+        "bytes": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-01.zip",
+        "source_id": "3c417f5c7ec4dc4724da92b1c59744f7154efeefc090c48860865bfc18114fe4",
+        "status": "available",
+        "bytes": 9785,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-02.zip",
+        "source_id": "714204da2a2968f18aa3a2dbcf0f8b4448c93a670c1f263a900ec5132d1160a9",
+        "status": "available",
+        "bytes": 9911,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-03.zip",
+        "source_id": "491d57f063f238a88b5b6270b8bae7785866b0ed29c813421c7bcb8beb97d928",
+        "status": "available",
+        "bytes": 9452,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-04.zip",
+        "source_id": "a8106a0fe8f9d76fb34c5f630dafeacfb992c622fac20cb98a2017e6b74bd362",
+        "status": "available",
+        "bytes": 9255,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-05.zip",
+        "source_id": "de2b21bbd916ffc36c733850fefaa30f0794459ac07b5c7d70479b2e1394d9d8",
+        "status": "available",
+        "bytes": 9675,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-06.zip",
+        "source_id": "13c78ba77fe6530e8554ec19ba3e26d8f8872cea407f7f4d60798a74e0dbe7dd",
+        "status": "available",
+        "bytes": 9837,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-07.zip",
+        "source_id": "0229f85dbe146bded397e87022ef9ff655b13095b008299f5161f32dfbce35f6",
+        "status": "available",
+        "bytes": 9814,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-08.zip",
+        "source_id": "b4bc3465302a4a46974845629c21dbb3bf1ee345de5805f5ea7bb7e435e74668",
+        "status": "available",
+        "bytes": 9953,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-09.zip",
+        "source_id": "1f734294d9572bc5577700fcd14571aa50c3e1bcf0ebd7ceaf3db23a9e4acccc",
+        "status": "available",
+        "bytes": 9588,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-10.zip",
+        "source_id": "92b604120ffec5acfe370024cd928e4d1a2bafb75992d71a4014b58ef2589453",
+        "status": "available",
+        "bytes": 9163,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-11.zip",
+        "source_id": "75b27fa08c30ba7dfa97080e061b15c78ae4473823febae4909c7e9b71d1f250",
+        "status": "available",
+        "bytes": 9507,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-12.zip",
+        "source_id": "1d63632aa624e0fa709c3a244b8938f4a0adf3483ceb9785ef9e941908f6d211",
+        "status": "available",
+        "bytes": 9640,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-13.zip",
+        "source_id": "0b42bfa82664e54daeb6abf441a3ca476c1ffdbfa4ba1be3ba5848a891cded46",
+        "status": "available",
+        "bytes": 9805,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-14.zip",
+        "source_id": "a57310461518e3626ee1c338112ca2f7fbac9d225ade5cfe9cd7be56cdf433a7",
+        "status": "available",
+        "bytes": 9430,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-15.zip",
+        "source_id": "c4459c1ebe2b7f65c5d3752502d231cfbe5fa3f4e5dd7df24a5dbadb3ef13c3a",
+        "status": "available",
+        "bytes": 9801,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-16.zip",
+        "source_id": "da29e3b25257e40b7bf27d31aeaaa6850b587875b1b823a79c715efc1e21384f",
+        "status": "available",
+        "bytes": 9425,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-17.zip",
+        "source_id": "81b6dcfc63f885c77a8221b6611399a91f0a0cd6dbff50919fa71f062926c8e0",
+        "status": "available",
+        "bytes": 9632,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-18.zip",
+        "source_id": "71e4789a6a50c92c1ed4447a04970832bd459e4b8ed04bd0e9ab0b6cd70d06bb",
+        "status": "available",
+        "bytes": 9551,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-19.zip",
+        "source_id": "7b083969ac3d6c51a403dfdf4cb609ed6d3742869ff300c60d6b0ee3a9b9fc62",
+        "status": "available",
+        "bytes": 9412,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-20.zip",
+        "source_id": "228d890f6e6956cc73d8d44e9d0ccfac80a32f8d61dcd606577a07be85313953",
+        "status": "available",
+        "bytes": 9562,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-21.zip",
+        "source_id": "ebdd59ee53d7bf03ab085b46015a87c9ad154524ddbcdde6ac5f7962cb334685",
+        "status": "available",
+        "bytes": 9350,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-22.zip",
+        "source_id": "8785f6eb3849f8974786ecd2fc2b5b0497d9da6e4c8255d51418660f266b720a",
+        "status": "available",
+        "bytes": 9397,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-23.zip",
+        "source_id": "ecf978298bc1db4a8743acaab751ca99680e4b76ec67c5bc8b4605735deec189",
+        "status": "available",
+        "bytes": 9719,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-24.zip",
+        "source_id": "1b37f2ba716234288be8e8fea626085f2f22b4f7dd50e0f7d24ffc7704184bb2",
+        "status": "available",
+        "bytes": 10352,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-25.zip",
+        "source_id": "527c4ce1876d3cd4909a46f185b5619ac6bf232987acc0a5b3c297cc0b0bf405",
+        "status": "available",
+        "bytes": 10060,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-26.zip",
+        "source_id": "8bf23ca4b1483eeaa9e845c4c7fe69683ae7b74242d941412f095a8d8663e92d",
+        "status": "available",
+        "bytes": 9624,
+        "error": null
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/BARDUSDT/5m/BARDUSDT-5m-2026-10-27.zip",
+        "source_id": "1f11c78dc47809a395d323116589af9b4e40c7117bc141b7fa5767d98c3ca83b",
+        "status": "available",
+        "bytes": 9403,
+        "error": null
+      }
+    ],
+    "downloaded_bytes": 4132997,
+    "frame_counts": {
+      "5m": 116508,
+      "15m": 38836,
+      "1h": 9709,
+      "4h": 2427,
+      "1d": 404
+    }
+  }
+}
